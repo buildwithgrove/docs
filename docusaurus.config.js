@@ -13,10 +13,17 @@ const config = {
   markdown: {
     mermaid: true,
   },
-  themes: ['@docusaurus/theme-mermaid'],
-
-  // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  themes: [
+      '@docusaurus/theme-mermaid',
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      ({
+        hashed: false,
+        indexBlog: false,
+      }),
+    ],
+  ],
+    url: 'https://your-docusaurus-test-site.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -50,16 +57,6 @@ const config = {
           customCss: require.resolve('./src/css/custom.css'),
         },
       }),
-    ],
-  ],
-
-  plugins: [
-    [
-      require.resolve("@cmfcmf/docusaurus-search-local"),
-      {
-        indexBlog: false,
-        indexDocSidebarParentCategories: 0,
-      },
     ],
   ],
   themeConfig:
