@@ -13,10 +13,20 @@ const config = {
   markdown: {
     mermaid: true,
   },
-  themes: ['@docusaurus/theme-mermaid'],
-
-  // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  themes: [
+      '@docusaurus/theme-mermaid',
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      ({
+        docsRouteBasePath: '/',
+        hashed: false,
+        indexBlog: false,
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+      }),
+    ],
+  ],
+    url: 'https://your-docusaurus-test-site.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -52,16 +62,6 @@ const config = {
       }),
     ],
   ],
-
-  plugins: [
-    [
-      require.resolve("@cmfcmf/docusaurus-search-local"),
-      {
-        indexBlog: false,
-        indexDocSidebarParentCategories: 0,
-      },
-    ],
-  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -73,21 +73,22 @@ const config = {
           hideable: true,
         }
       },
-      image: 'img/poktlogo.png',
+      image: 'img/logo.svg',
       navbar: {
         title: 'Pocket Network',
         logo: {
           alt: 'Pocket Network Logo',
-          src: 'img/poktlogo.png',
+          src: 'img/logo.svg',
+          srcDark: 'img/logo_dark.svg'
         },
-        // items: [
-        //   {
-        //     type: 'docSidebar',
-        //     sidebarId: 'docsSidebar',
-        //     position: 'left',
-        //     label: 'Portal Docs',
-        //   },
-        // ],
+        items: [
+          {
+            type: 'docSidebar',
+            sidebarId: 'docsSidebar',
+            position: 'left',
+            label: 'Portal Docs',
+          },
+        ],
       },
       footer: {
         style: 'dark',
