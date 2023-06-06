@@ -1,6 +1,3 @@
----
-sidebar_position: 1
----
 # Add a Portal endpoint to your wallet
 
 Want to change the RPC provider in your MetaMask wallet? Here's how you do it:

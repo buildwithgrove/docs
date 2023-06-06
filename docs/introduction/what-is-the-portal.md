@@ -1,6 +1,3 @@
----
-sidebar_position: 1
----
 # What is the Portal?
 
 The Portal acts as a gateway to [Pocket Network's](https://www.pokt.network/) decentralized RPC protocol, allowing developers to easily leverage Pocket's tens of thousands of globally distributed nodes for reliable RPC service.
