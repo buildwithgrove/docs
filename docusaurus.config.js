@@ -17,13 +17,14 @@ const config = {
       '@docusaurus/theme-mermaid',
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
-      ({
+      /** @type {import('@easyops-cn/docusaurus-search-local').PluginOptions} **/
+      {
         docsRouteBasePath: '/',
         hashed: false,
         indexBlog: false,
         highlightSearchTermsOnTargetPage: true,
         explicitSearchResultPath: true,
-      }),
+      },
     ],
   ],
     url: 'https://your-docusaurus-test-site.com',
