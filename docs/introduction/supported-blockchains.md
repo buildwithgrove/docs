@@ -50,6 +50,7 @@ The following table shows the full list of supported, reward-generating RelayCha
 
 ## Pocket Testnet RelayChains
 The following table shows the full list of currently-supported blockchains on the Pocket Testnet.
+
 | Name                                 | Portal API Prefix         | RelayChainID | EVM Chain ID |
 | ------------------------------------ | ------------------------- | ------------ | ------------ |
 | Ethereum Goerli                         | goerli              | 0020         |              |
