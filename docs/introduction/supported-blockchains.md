@@ -12,7 +12,7 @@ The following table shows the full list of supported, reward-generating RelayCha
 | Celo Mainnet                         | celo-mainnet              | 0065         |              |
 | DFKchain Subnet                      | avax-dfk                  | 03DF         |              |
 | Dogechain Mainnet                    | dogechain-mainnet         | 0059         |              |
-| Ethereum Mainnet                     | eth-mainnet               | 0021         |              |
+| Ethereum Mainnet                     | eth-mainnet               | 0021         |    0001          |
 | Ethereum Mainnet Archival            | eth-archival              | 0022         |              |
 | Ethereum Mainnet Archival with trace calls | eth-trace          | 0028         |              |
 | Ethereum Mainnet High Gas            | ethereum-mainnet-high-gas | 0062         |              |
