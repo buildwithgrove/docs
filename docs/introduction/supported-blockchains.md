@@ -1,11 +1,5 @@
 # Supported Blockchains
 The following table shows the full list of supported, reward-generating RelayChains
-| Chain | Chain ID | Type |
-| ------ | ------ | ------ |
-| Arbitrum   | Cell   | Cell   |
-| Cell   | Cell   | Cell   |
-| Cell   | Cell   | Cell   |
-| Cell   | Cell   | Cell   |
 
 | Name                                 | Portal API Prefix         | RelayChainID | EVM Chain ID |
 | ------------------------------------ | ------------------------- | ------------ | ------------ |
