@@ -6,10 +6,3 @@ Developers can create (“mint”) blockchain network endpoints for use in their
 
 In this way, the Portal provides similar functionality to more centralized API services, all while delivering [reliable, optimized performance](https://www.blog.pokt.network/rpc-service-and-the-rpc-trilemma/) and retaining the [decentralization](https://www.blog.pokt.network/demystifying-rpc-nodes-why-decentralization-matters/) that Pocket Network is built on.
 
-```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
-```
