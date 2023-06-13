@@ -55,5 +55,5 @@ The following table shows the full list of currently-supported blockchains on th
 | Ethereum Rinkeby                        | rinkeby             | 0022         |   004        |
 | Polygon Mumbai                       | polygon-mumbai            | 000F         |  80001       |
 | Pocket Network Testnet                |                           | 0002         |            |
-| Scroll Testnet                       | scroll-testnet            | 0075         |  534353      |
+| Scroll Testnet                       | scroll-testnet-alpha       | 0075         |  534353      |
 | Starknet Testnet                     | starknet-testnet          | 0061         |              |
