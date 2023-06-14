@@ -26,16 +26,17 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Navigating the Portal',
-      collapsed: false,
-      items: ['navigating-the-portal/app-overview', 'navigating-the-portal/application-security', 'navigating-the-portal/team-management', 'navigating-the-portal/plan-details', 'navigating-the-portal/requests', 'navigating-the-portal/notifications'],
-    },
-    {
-      type: 'category',
       label: 'Quickstart',
       collapsed: false,
       items: ['quick-start/wallet-rpc', 'quick-start/how-to-use-the-endpoint', 'quick-start/get-support'],
     },
+    {
+      type: 'category',
+      label: 'Navigating the Portal',
+      collapsed: false,
+      items: ['navigating-the-portal/app-overview', 'navigating-the-portal/application-security', 'navigating-the-portal/team-management', 'navigating-the-portal/plan-details', 'navigating-the-portal/requests', 'navigating-the-portal/notifications'],
+    },
+    'powered-by-pokt'
   ],
 
 };
