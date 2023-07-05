@@ -76,7 +76,7 @@ const config = {
       },
       image: 'img/logo.svg',
       navbar: {
-        title: 'Pocket Network',
+        title: '',
         logo: {
           alt: 'Pocket Network Logo',
           src: 'img/logo.svg',
@@ -87,41 +87,56 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'docsSidebar',
             position: 'left',
-            label: 'Portal Docs',
+            label: 'DOCS',
           },
         ],
       },
       footer: {
         style: 'dark',
-        // links: [
-        //   {
-        //     title: 'Docs',
-        //     items: [
-        //       {
-        //         label: 'Tutorial',
-        //         to: '/docs/intro',
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: 'Community',
-        //     items: [
-        //       {
-        //         label: 'Stack Overflow',
-        //         href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-        //       },
-        //       {
-        //         label: 'Discord',
-        //         href: 'https://discordapp.com/invite/docusaurus',
-        //       },
-        //       {
-        //         label: 'Twitter',
-        //         href: 'https://twitter.com/docusaurus',
-        //       },
-        //     ],
-        //   },
-        // ],
-        copyright: `Copyright © ${new Date().getFullYear()} Pocket Network Inc.`,
+        links: [{
+          title: 'Docs',
+          items: [{
+            label: 'Introduction',
+            to: 'introduction/what-is-the-portal',
+          }, {
+            label: 'Quick Start',
+            to: 'quick-start/wallet-rpc',
+          }, {
+            label: 'Navigation',
+            to: 'navigating-the-portal/app-overview',
+          }],
+        }, {
+          title: 'Community',
+          items: [{
+            label: 'Blog',
+            href: 'https://www.blog.pokt.network/',
+          }, {
+            label: 'Discord',
+            href: 'https://discord.gg/portal-rpc',
+          }, {
+            label: 'Twitter',
+            href: 'https://twitter.com/poktnetwork',
+          }],
+        }, {
+          title: 'Company',
+          items: [{
+            label: 'About',
+            href: 'https://www.portal.pokt.network/about-us',
+          }, {
+            label: 'Terms of Service',
+            href: 'https://www.portal.pokt.network/terms-and-conditions',
+          }, {
+            label: 'Privacy Policy',
+            href: 'https://www.portal.pokt.network/privacy-policy',
+          }],
+        }],
+        logo: {
+          alt: 'Pocket Network Portal Logo',
+          width: 120,
+          src: 'img/logo_dark.svg',
+          href: 'https://www.portal.pokt.network/'
+        },
+        copyright: `© ${new Date().getFullYear()} Pocket Network Inc.`,
       },
       prism: {
         theme: lightCodeTheme,
