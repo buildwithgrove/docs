@@ -98,7 +98,6 @@ position: relative;
 }
 
 .footer {
-  padding: 56px 72px;
   --ifm-footer-background-color: #1B242F;
   background-color: var(--ifm-footer-background-color)
 }
@@ -130,5 +129,11 @@ position: relative;
 
   .footer__links {
     padding-left: 16px;
+  }
+}
+
+@media (max-width: 450px) {
+  .footer__copyright:before {
+    width: auto;
   }
 }
