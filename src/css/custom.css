@@ -4,36 +4,47 @@
  * work well for content-centric websites.
  */
 
-/* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
+  --ifm-color-primary: #4589df;
+  --ifm-color-primary-dark: #2c79db;
+  --ifm-color-primary-darker: #2472d4;
+  --ifm-color-primary-darkest: #1e5eae;
+  --ifm-color-primary-light: #5e99e3;
+  --ifm-color-primary-lighter: #6aa1e5;
+  --ifm-color-primary-lightest: #90b8ec;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-
   /*!* Search style var *!*/
-  --ifm-navbar-search-input-placeholder-color: var(--ifm-color-emphasis-800)
+  --ifm-navbar-search-input-placeholder-color: var(--ifm-color-emphasis-800);
 
+  --ifm-menu-color-background-active: #E9ECEF;
+  /* Pocket Custom */
+  --pokt-header-vertical-devider: #353A40;
+}
+
+@media (min-width: 996px) {
+  :root {
+  --ifm-menu-link-padding-vertical: 15px;
+  }
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #339af0;
+  --ifm-color-primary-dark: #188dee;
+  --ifm-color-primary-darker: #1185e6;
+  --ifm-color-primary-darkest: #0e6ebe;
+  --ifm-color-primary-light: #4ea7f2;
+  --ifm-color-primary-lighter: #5caef3;
+  --ifm-color-primary-lightest: #84c2f6;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-navbar-background-color: #1B242F;
+  --ifm-menu-color-background-active: #1B242F;
 
   /*!* Search style var *!*/
   --ifm-navbar-search-input-icon: url('data:image/svg+xml;utf8,<svg fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" height="16px" width="16px"><path d="M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z" /></svg>');
+
+  /* Pocket Custom */
+  --pokt-header-vertical-devider: #CED4DA;
 }
 
 .navbar__search-input {
@@ -43,4 +54,91 @@
 
 .navbar__search-input:hover {
   border-color: var(--ifm-color-primary);
+}
+
+.theme-doc-sidebar-container .button.button--secondary {
+  margin: 16px 8px;
+  border: 0;
+  border-radius: 4px;
+  background-color: var(--ifm-menu-color-background-active);
+}
+
+.menu__link.menu__link--active, .menu__caret{
+font-weight: 600;
+}
+
+.navbar__items a:nth-child(3) {
+position: relative;
+}
+
+.navbar__items a:nth-child(3):before {
+  content: "";
+  position: absolute;
+  height: 40px;
+  border-left: 1px solid var(--pokt-header-vertical-devider);
+  left: 0;
+  top: -3px;
+}
+
+.navbar__brand {
+  margin-right: 0
+}
+
+.footer__copyright {
+  text-align: left;
+}
+
+.footer__copyright:before {
+  content: "Read and write to over 40 blockchains utilizing the only decentralized RPC infrastructure network on the planet.";
+  position: relative;
+  display: block;
+  margin: 15px 0;
+  font-size: 15px;
+  width: 400px;
+}
+
+.footer {
+  --ifm-footer-background-color: #1B242F;
+  background-color: var(--ifm-footer-background-color)
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.footer__links {
+  flex: 3;
+}
+
+.footer__bottom{
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@media (max-width: 996px) {
+  .footer .container {
+    flex-direction: column;
+  }
+
+  .footer__bottom{
+    align-items: center;
+  }
+
+  .footer__links {
+    padding-left: 16px;
+  }
+}
+
+@media (max-width: 450px) {
+  .footer__copyright:before {
+    width: auto;
+  }
+}
+
+.team-mgmt-table-container table {
+  display: table;
+  width: 100%;
 }
