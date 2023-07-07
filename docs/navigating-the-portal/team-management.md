@@ -2,7 +2,25 @@
 
 The Team Management feature enables teams to work on the same application without having to share Portal credentials.
 
-![Docs Version Dropdown](https://pocket-network.directus.app/assets/f4193c60-eeff-479b-9fcb-d48f374ff175)
+## Team Access Management
+Roles and permissions
+
+<div class="team-mgmt-table-container">
+
+| Permitted action   | Owner |    Admin    | Member  |
+|--------------------|:-----:|:-----------:|:-------:|
+| Security features  |   ✅   |      ✅    |    ✅   |
+| View team members  |   ✅   |      ✅    |    ✅   |
+| Remove team member |   ✅   |      ✅    |         |
+| Invite new user    |   ✅   |      ✅    |         |
+| Billing            |   ✅   |      ✅    |         |
+| Manage user role   |   ✅   | ⚠️ Limited*|         |
+| Delete app         |   ✅   |            |         |
+| Leave the team     |       |      ✅     |    ✅   |
+
+</div>
+
+<sub> * Change user roles only for members and admins, excluding owners.</sub>
 
 ## Add a user
 1. Select "Team" in the app navigation menu.

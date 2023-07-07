@@ -37,7 +37,7 @@
   --ifm-color-primary-lighter: #5caef3;
   --ifm-color-primary-lightest: #84c2f6;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-
+  --ifm-navbar-background-color: #1B242F;
   --ifm-menu-color-background-active: #1B242F;
 
   /*!* Search style var *!*/
@@ -63,7 +63,7 @@
   background-color: var(--ifm-menu-color-background-active);
 }
 
-.menu__link, .menu__caret{
+.menu__link.menu__link--active, .menu__caret{
 font-weight: 600;
 }
 
@@ -136,4 +136,9 @@ position: relative;
   .footer__copyright:before {
     width: auto;
   }
+}
+
+.team-mgmt-table-container table {
+  display: table;
+  width: 100%;
 }
