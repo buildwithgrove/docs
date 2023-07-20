@@ -65,7 +65,8 @@ const sidebars = {
         'supported-methods/solana',
         'supported-methods/starknet',
         'supported-methods/sui',
-        'supported-methods/velas'],
+        'supported-methods/velas'
+      ],
     },
     {
       type: 'category',
