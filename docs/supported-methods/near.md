@@ -1,6 +1,6 @@
 # Near
 
-NEAR is a decentralized application platform designed to make apps usable on the web. The NEAR Supported Methods allow developers to engage with the NEAR network in a variety of ways including querying balances, executing transactions, and interacting with smart contracts.
+NEAR is a decentralized application platform designed to make apps usable on the web. The NEAR supported methods allow developers to engage with the NEAR network in a variety of ways including querying balances, executing transactions, and interacting with smart contracts.
 
 | Methods | Description |
 | --- | --- |

@@ -1,6 +1,6 @@
 # SUI
 
-SUI is a robust blockchain designed to support complex financial applications. It provides a suite of on-chain features, tools, and services. The SUI Supported Methods offer a wide range of functionalities for developers to integrate with the SUI network, such as querying balances, executing transactions, interacting with SUI-based smart contracts, and more.
+SUI is a robust blockchain designed to support complex financial applications. It provides a suite of on-chain features, tools, and services. The SUI supported methods offer a wide range of functionalities for developers to integrate with the SUI network, such as querying balances, executing transactions, interacting with SUI-based smart contracts, and more.
 
 | Methods | Description |
 | --- | --- |

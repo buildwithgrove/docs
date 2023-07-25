@@ -1,6 +1,6 @@
 # IoTeX
 
-IoTeX is a decentralized network designed to empower the Internet of Things (IoT), aiming to provide scalability and privacy for device communication. The IoTeX Supported Methods empower developers to interact with the IoTeX chain, providing functions such as querying account balances, executing transactions, estimating gas costs, and interacting with smart contracts.
+IoTeX is a decentralized network designed to empower the Internet of Things (IoT), aiming to provide scalability and privacy for device communication. The IoTeX supported methods empower developers to interact with the IoTeX chain, providing functions such as querying account balances, executing transactions, estimating gas costs, and interacting with smart contracts.
 
 | Methods | Description |
 | --- | --- |

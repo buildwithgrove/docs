@@ -1,6 +1,6 @@
 # Metis
 
-Metis is a Layer 2 Ethereum scaling solution aiming to make building Decentralized Autonomous Companies (DACs) easy and cheap. By leveraging the Metis Supported Methods, developers can harness this scalable infrastructure with actions such as querying balances, executing transactions, and interacting with smart contracts on the Metis network.
+Metis is a Layer 2 Ethereum scaling solution aiming to make building Decentralized Autonomous Companies (DACs) easy and cheap. By leveraging the Metis supported methods, developers can harness this scalable infrastructure with actions such as querying balances, executing transactions, and interacting with smart contracts on the Metis network.
 
 | Methods | Description |
 | --- | --- |

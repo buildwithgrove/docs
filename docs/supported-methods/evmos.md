@@ -1,6 +1,6 @@
 # EVMOS
 
-Evmos is an EVM-compatible, Proof-of-Stake blockchain built using the Cosmos SDK. It allows developers to deploy Ethereum smart contracts in a scalable and interoperable environment. Using the Evmos Supported Methods, developers can query balances, execute transactions, interact with smart contracts, and more on the Evmos network.
+Evmos is an EVM-compatible, Proof-of-Stake blockchain built using the Cosmos SDK. It allows developers to deploy Ethereum smart contracts in a scalable and interoperable environment. Using the Evmos supported methods, developers can query balances, execute transactions, interact with smart contracts, and more on the Evmos network.
 
 | Methods | Description |
 | --- | --- |

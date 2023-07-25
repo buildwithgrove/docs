@@ -1,6 +1,6 @@
 # DFKchain Subnet
 
-With the DeFi Kingdoms: Crystalvale expansion, DeFi Kingdoms introduced its own blockchain, known as the DFK Chain. The DFK Chain handles gameplay transactions in Crystalvale and hosts the Crystalvale DEX. The DFK Chain's Supported Methods allow developers to interact with the network in various ways. These methods include functionalities such as querying account balances, executing transactions, estimating gas costs, and more.
+With the DeFi Kingdoms: Crystalvale expansion, DeFi Kingdoms introduced its own blockchain, known as the DFK Chain. The DFK Chain handles gameplay transactions in Crystalvale and hosts the Crystalvale DEX. The DFK Chain's supported methods allow developers to interact with the network in various ways. These methods include functionalities such as querying account balances, executing transactions, estimating gas costs, and more.
 
 | Methods | Description |
 |---------|-------------|

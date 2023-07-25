@@ -1,6 +1,6 @@
 # Kava
 
-Kava is a DeFi platform which offers its users the ability to mint stablecoins, earn interest on deposits, and access synthetic assets. By using Kava's Supported Methods, developers can engage with this multi-chain DeFi platform in several ways including querying balances, executing transactions, and interacting with smart contracts.
+Kava is a DeFi platform which offers its users the ability to mint stablecoins, earn interest on deposits, and access synthetic assets. By using Kava's supported methods, developers can engage with this multi-chain DeFi platform in several ways including querying balances, executing transactions, and interacting with smart contracts.
 
 For Kava we maintain an Archival network. If you are accessing data from 128 blocks ago or earlier, please ensure to use Archival. This allows you to query historical data while also ensuring optimal performance. The supported methods for the archival chains are identical to their non-archival counterparts.
 
@@ -9,7 +9,7 @@ For Kava we maintain an Archival network. If you are accessing data from 128 blo
 | `Kava Mainnet` | kava-mainnet | 0071 | Latest - 127 blocks |
 | `Kava Mainnet Archival` | kava-mainnet-archival | 0072 | 128 blocks + |
 
-
+The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:
 
 | Methods | Description |
 | --- | --- |

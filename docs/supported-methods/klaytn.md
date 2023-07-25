@@ -1,6 +1,6 @@
 # Klaytn
 
-Klaytn is a public blockchain platform developed by Ground X, a subsidiary of the South Korean messaging giant Kakao. Offering a user-friendly blockchain experience, Klaytn Supported Methods allow developers to easily engage with the network, performing functions like querying account balances, executing transactions, and interacting with smart contracts.
+Klaytn is a public blockchain platform developed by Ground X, a subsidiary of the South Korean messaging giant Kakao. Offering a user-friendly blockchain experience, Klaytn supported methods allow developers to easily engage with the network, performing functions like querying account balances, executing transactions, and interacting with smart contracts.
 
 | Methods | Description |
 | --- | --- |

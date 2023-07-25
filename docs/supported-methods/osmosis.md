@@ -1,6 +1,6 @@
 # Osmosis
 
-Osmosis is a self-evolving, customizable, and interoperable DeFi hub built on the Cosmos network. With Osmosis's Supported Methods, developers can effectively interact with the Osmosis chain, executing transactions, querying balances, and leveraging other functionalities to build and optimize their decentralized applications.
+Osmosis is a self-evolving, customizable, and interoperable DeFi hub built on the Cosmos network. With Osmosis's supported methods, developers can effectively interact with the Osmosis chain, executing transactions, querying balances, and leveraging other functionalities to build and optimize their decentralized applications.
 
 | Methods                      | Description                                                                                                                                                                                                           |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

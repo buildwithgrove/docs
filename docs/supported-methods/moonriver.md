@@ -1,6 +1,6 @@
 # Moonriver
 
-Moonriver is a companion network to Moonbeam and provides a permanently incentivized canary network. The Moonriver Supported Methods allow developers to interact with this Ethereum-compatible smart contract platform with functionalities such as querying balances, executing transactions, and interacting with smart contracts.
+Moonriver is a companion network to Moonbeam and provides a permanently incentivized canary network. The Moonriver supported methods allow developers to interact with this Ethereum-compatible smart contract platform with functionalities such as querying balances, executing transactions, and interacting with smart contracts.
 
 
 

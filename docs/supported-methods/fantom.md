@@ -1,6 +1,6 @@
 # Fantom
 
-Fantom is a high-performance, scalable, and secure smart-contract platform. It is designed to overcome the limitations of previous generation blockchain platforms. Fantom's Supported Methods offer developers a wide array of functions to interact with the network, such as executing transactions, querying balances, and more.
+Fantom is a high-performance, scalable, and secure smart-contract platform. It is designed to overcome the limitations of previous generation blockchain platforms. Fantom's supported methods offer developers a wide array of functions to interact with the network, such as executing transactions, querying balances, and more.
 
 | Methods | Description |
 | --- | --- |

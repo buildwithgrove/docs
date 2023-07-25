@@ -1,6 +1,6 @@
 # Ethereum Trace
 
-Eth-Trace is a specialized toolset for interacting with the Ethereum blockchain, enabling developers to trace and explore transaction history. With Eth-Trace's Supported Methods, developers can delve into the Ethereum network's historical data, querying transactional details, account balances, and more.
+Eth-Trace is a specialized toolset for interacting with the Ethereum blockchain, enabling developers to trace and explore transaction history. With Eth-Trace's supported methods, developers can delve into the Ethereum network's historical data, querying transactional details, account balances, and more.
 
 | Methods | Description |
 |---------|-------------|

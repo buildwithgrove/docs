@@ -1,6 +1,6 @@
 # Moonbeam
 
-Moonbeam provides a developer-friendly, Ethereum-compatible smart contract platform that makes it easy to build natively interoperable blockchain applications. The Moonbeam Supported Methods offer developers a range of capabilities, from querying account balances and executing transactions, to estimating gas costs and interacting with smart contracts on the Moonbeam network.
+Moonbeam provides a developer-friendly, Ethereum-compatible smart contract platform that makes it easy to build natively interoperable blockchain applications. The Moonbeam supported methods offer developers a range of capabilities, from querying account balances and executing transactions, to estimating gas costs and interacting with smart contracts on the Moonbeam network.
 
 
 | Methods | Description |

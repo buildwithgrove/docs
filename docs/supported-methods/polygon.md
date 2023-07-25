@@ -1,6 +1,6 @@
 # Polygon
 
-Polygon is a Layer 2 scaling solution for Ethereum, offering a framework for building and connecting Ethereum-compatible blockchain networks. The Polygon Supported Methods provide developers with powerful tools to engage with the network, including querying balances, executing transactions, and interacting with smart contracts, thus facilitating seamless app development.
+Polygon is a Layer 2 scaling solution for Ethereum, offering a framework for building and connecting Ethereum-compatible blockchain networks. The Polygon supported methods provide developers with powerful tools to engage with the network, including querying balances, executing transactions, and interacting with smart contracts, thus facilitating seamless app development.
 
 For Polygon we maintain an Archival network. If you are accessing data from 128 blocks ago or earlier, please ensure to use Archival. This allows you to query historical data while also ensuring optimal performance. The supported methods for the archival chains are identical to their non-archival counterparts.
 
@@ -10,6 +10,8 @@ For Polygon we maintain an Archival network. If you are accessing data from 128 
 | `Polygon Archival` | poly-archival | 000B | 128 blocks + |
 | `Polygon Mumbai (Testnet)` | poly-mumbai | 000F | -- |
 | `Polygon zkEVM Mainnet` | polygon-zkevm-mainnet | 0074 | -- |
+
+The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:
 
 | Methods | Description |
 | --- | --- |

@@ -1,6 +1,6 @@
 # Velas
 
-Velas is a self-learning and optimized blockchain platform for secure, interoperable, extremely scalable transactions, and smart contracts. The Velas Supported Methods provide developers with tools to build on the Velas network, such as functionalities for querying balances, executing transactions, and interacting with VLX-based smart contracts.
+Velas is a self-learning and optimized blockchain platform for secure, interoperable, extremely scalable transactions, and smart contracts. The Velas supported methods provide developers with tools to build on the Velas network, such as functionalities for querying balances, executing transactions, and interacting with VLX-based smart contracts.
 
 For Velas we maintain an Archival network. If you are accessing data from 128 blocks ago or earlier, please ensure to use Archival. This allows you to query historical data while also ensuring optimal performance. The supported methods for the archival chains are identical to their non-archival counterparts.
 
@@ -8,6 +8,8 @@ For Velas we maintain an Archival network. If you are accessing data from 128 bl
 |---------|-------------|-------------|-------------|
 | `Velas Mainnet` | velas-mainnet | 0067 | Latest - 127 blocks |
 | `Velas Mainnet Archival` | velas-mainnet-archival | 0068 | 128 blocks + |
+
+The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:
 
 
 | Methods                             | Description   |

@@ -1,6 +1,6 @@
 # Binance Smart Chain
 
-Binance Smart Chain is a blockchain network built for running smart contract-based applications and digital assets. Designed to run in parallel with Binance Chain, BSC provides high-speed transactions while maintaining a rich and growing ecosystem of dApps. The BSC Supported Methods are designed to provide developers with the tools necessary to integrate BSC functionalities into their applications, including querying balances, executing transactions, and interacting with BSC-based smart contracts.
+Binance Smart Chain is a blockchain network built for running smart contract-based applications and digital assets. Designed to run in parallel with Binance Chain, BSC provides high-speed transactions while maintaining a rich and growing ecosystem of dApps. The BSC supported methods are designed to provide developers with the tools necessary to integrate BSC functionalities into their applications, including querying balances, executing transactions, and interacting with BSC-based smart contracts.
 
 For Binance Smart Chain we maintain an Archival Network. If you are accessing data from 128 blocks ago or earlier, please ensure to use Archival. This allows you to query historical data while also ensuring optimal performance. The supported methods for the archival chains are identical to their non-archival counterparts.
 

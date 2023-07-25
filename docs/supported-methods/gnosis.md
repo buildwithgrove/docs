@@ -1,6 +1,6 @@
 # Gnosis
 
-Gnosis is a decentralized platform on Ethereum that allows for the creation and execution of prediction market contracts. The Gnosis Supported Methods allow developers to query balances, execute transactions, and interact with smart contracts on the Gnosis platform.
+Gnosis is a decentralized platform on Ethereum that allows for the creation and execution of prediction market contracts. The Gnosis supported methods allow developers to query balances, execute transactions, and interact with smart contracts on the Gnosis platform.
 
 For Gnosis we maintain an Archival network. If you are accessing data from 128 blocks ago or earlier, please ensure to use Archival. This allows you to query historical data while also ensuring optimal performance. The supported methods for the archival chains are identical to their non-archival counterparts.
 
@@ -8,6 +8,8 @@ For Gnosis we maintain an Archival network. If you are accessing data from 128 b
 |---------|-------------|-------------|-------------|
 | `Gnosis Chain Mainnet` | gnosischain-mainnet | 0027 | Latest - 127 blocks |
 | `Gnosis Chain Archival` | gnosischain-archival | 000C | 128 blocks + |
+
+The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:
 
 | Methods | Description |
 | --- | --- |

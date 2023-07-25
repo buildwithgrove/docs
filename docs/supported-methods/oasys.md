@@ -1,6 +1,6 @@
 # Oasys
 
-Oasys is a blockchain-based platform that allows developers to build and run decentralized applications. The Oasys Supported Methods offer developers the opportunity to engage with the Oasys network, performing functions like querying account balances, executing transactions, estimating gas costs, and interacting with smart contracts.
+Oasys is a blockchain-based platform that allows developers to build and run decentralized applications. The Oasys supported methods offer developers the opportunity to engage with the Oasys network, performing functions like querying account balances, executing transactions, estimating gas costs, and interacting with smart contracts.
 
 For Oasys we maintain an Archival network. If you are accessing data from 128 blocks ago or earlier, please ensure to use Archival. This allows you to query historical data while also ensuring optimal performance. The supported methods for the archival chains are identical to their non-archival counterparts.
 
@@ -8,6 +8,8 @@ For Oasys we maintain an Archival network. If you are accessing data from 128 bl
 |---------|-------------|-------------|-------------|
 | `Oasys Mainnet` | oasys-mainnet | 0070 | Latest - 127 blocks |
 | `Binance Mainnet Archival` | oasys-mainnet-archival | 0069 | 128 blocks + |
+
+The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:
 
 | Methods                              | Description                                                                               |
 |--------------------------------------|-------------------------------------------------------------------------------------------|

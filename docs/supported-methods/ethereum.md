@@ -1,6 +1,6 @@
 # Ethereum
 
-Ethereum is an open-source, blockchain-based platform that enables developers to build and deploy decentralized applications (dApps). Ethereum's core innovation, the Ethereum Virtual Machine (EVM), allows for the execution of smart contracts across the Ethereum network. The ETH Supported Methods provide developers with functionalities such as querying account balances, estimating gas costs, executing transactions, subscribing to events, and interacting with smart contracts on the Ethereum network.
+Ethereum is an open-source, blockchain-based platform that enables developers to build and deploy decentralized applications (dApps). Ethereum's core innovation, the Ethereum Virtual Machine (EVM), allows for the execution of smart contracts across the Ethereum network. The ETH supported methods provide developers with functionalities such as querying account balances, estimating gas costs, executing transactions, subscribing to events, and interacting with smart contracts on the Ethereum network.
 
 For Ethereum we maintain a mainnet, several testnets and an Archival Network. If you are accessing data from 128 blocks ago or earlier, please ensure to use Archival. This allows you to query historical data while also ensuring optimal performance. The supported methods for the archival chains are identical to their non-archival counterparts.
 

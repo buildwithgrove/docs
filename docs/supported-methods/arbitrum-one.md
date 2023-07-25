@@ -1,6 +1,6 @@
 # Arbitrum
 
-Arbitrum Supported Methods are a list of functions provided by our API, which allow developers to interact with the Arbitrum blockchain in various ways. These methods include functionalities such as getting account balances, estimating gas costs, executing transactions, querying block and transaction data, subscribing to events, and more.
+Supported methods for Arbitrum allow developers to interact with the Arbitrum blockchain in various ways. These methods include functionalities such as getting account balances, estimating gas costs, executing transactions, querying block and transaction data, subscribing to events, and more.
 
 
 | Methods                                | Description                                                                                                                                                     |
@@ -50,3 +50,5 @@ Arbitrum Supported Methods are a list of functions provided by our API, which al
 | `net_peerCount`                         | Returns number of peers connected to the client                                                                                                                 |
 | `web3_clientVersion`                    | Returns the current client version                                                                                                                              |
 | `web3_sha3`                             | Returns Keccak-256 (not the standardized SHA3-256) of the given data                                                                                            
+
+
