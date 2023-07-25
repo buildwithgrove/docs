@@ -1,6 +1,16 @@
-# Harmony
+# Harmony Shard 0
 
 Harmony is a fast and secure blockchain for decentralized applications. Its high-throughput, low-latency, and low-fee consensus platform is designed to power the decentralized economy of the future. With Harmony's Supported Methods, developers can easily interact with the Harmony network, executing transactions, querying balances, estimating gas costs, and more.
+
+### Chain Relay IDs for Supported Methods
+Each blockchain we support has a specific Portal API prefix and RelayChainID, which are integral parts of our supported methods functionality. These are used to correctly route and process requests.
+
+| Blockchain | Portal API Prefix | RelayChainID |
+|---------|-------------|-------------|
+| Harmony Shard 0 | `harmony-0`	 | 0040 |
+
+### Supported Methods
+Supported methods are API functions specific to a given blockchain, enabling interaction with its distinct features. The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:
 
 | Methods | Description |
 | --- | --- |

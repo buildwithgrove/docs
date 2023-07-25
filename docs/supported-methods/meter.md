@@ -2,6 +2,16 @@
 
 Meter is a high-performance infrastructure that allows smart contracts to scale and travel across different blockchains. It leverages a unique hybrid consensus protocol that combines proof-of-work and proof-of-stake. The Meter Supported Methods allow developers to engage with the network, with capabilities like querying account balances, executing transactions, estimating gas costs, and interacting with smart contracts.
 
+### Chain Relay IDs for Supported Methods
+Each blockchain we support has a specific Portal API prefix and RelayChainID, which are integral parts of our supported methods functionality. These are used to correctly route and process requests.
+
+| Blockchain | Portal API Prefix | RelayChainID |
+|---------|-------------|-------------|
+| Meter Mainnet | `meter-mainnet` | 0057 |
+
+### Supported Methods
+Supported methods are API functions specific to a given blockchain, enabling interaction with its distinct features. The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:
+
 | Methods | Description |
 | --- | --- |
 | `eth_accounts` | returns list of addresses owned by the client |

@@ -2,6 +2,16 @@
 
 With the DeFi Kingdoms: Crystalvale expansion, DeFi Kingdoms introduced its own blockchain, known as the DFK Chain. The DFK Chain handles gameplay transactions in Crystalvale and hosts the Crystalvale DEX. The DFK Chain's supported methods allow developers to interact with the network in various ways. These methods include functionalities such as querying account balances, executing transactions, estimating gas costs, and more.
 
+### Chain Relay IDs for Supported Methods
+Each blockchain we support has a specific Portal API prefix and RelayChainID, which are integral parts of our supported methods functionality. These are used to correctly route and process requests.
+
+| Blockchain | Portal API Prefix | RelayChainID |
+|---------|-------------|-------------|
+| DFKchain Subnet | `avax-dfk` | 03DF |
+
+### Supported Methods
+Supported methods are API functions specific to a given blockchain, enabling interaction with its distinct features. The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:
+
 | Methods | Description |
 |---------|-------------|
 | `eth_accounts` | Returns list of addresses owned by the client |

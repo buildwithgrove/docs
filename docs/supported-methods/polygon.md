@@ -4,6 +4,9 @@ Polygon is a Layer 2 scaling solution for Ethereum, offering a framework for bui
 
 For Polygon we maintain an Archival network. If you are accessing data from 128 blocks ago or earlier, please ensure to use Archival. This allows you to query historical data while also ensuring optimal performance. The supported methods for the archival chains are identical to their non-archival counterparts.
 
+### Chain Relay IDs for Supported Methods
+Each blockchain we support has a specific Portal API prefix and RelayChainID, which are integral parts of our supported methods functionality. These are used to correctly route and process requests.
+
 | Blockchain | Portal API Prefix | RelayChainID | Blockheight |
 |---------|-------------|-------------|-------------|
 | `Polygon Matic` | poly-mainnet | 0009 | Latest - 127 blocks |
@@ -11,7 +14,11 @@ For Polygon we maintain an Archival network. If you are accessing data from 128 
 | `Polygon Mumbai (Testnet)` | poly-mumbai | 000F | -- |
 | `Polygon zkEVM Mainnet` | polygon-zkevm-mainnet | 0074 | -- |
 
-The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:
+### Archive Data
+For Polygon we support Archival nodes. If you are accessing data from 128 blocks ago or earlier, please ensure to use Archival chain. This allows you to query historical data while also ensuring optimal performance. The supported methods for the archival chains are identical to their non-archival counterparts.
+
+### Supported Methods
+Supported methods are API functions specific to a given blockchain, enabling interaction with its distinct features. The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:
 
 | Methods | Description |
 | --- | --- |

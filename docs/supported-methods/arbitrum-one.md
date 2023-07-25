@@ -1,7 +1,16 @@
 # Arbitrum
 
-Supported methods for Arbitrum allow developers to interact with the Arbitrum blockchain in various ways. These methods include functionalities such as getting account balances, estimating gas costs, executing transactions, querying block and transaction data, subscribing to events, and more.
+Supported methods for Arbitrum allow developers to interact with the Arbitrum blockchain in various ways. These methods include functionalities such as getting account balances, estimating gas costs, executing transactions, querying block and transaction data, subscribing to events, and more. For a deeper understanding of the specific methods for the Arbitrum chain, refer to their official documentation [here](https://developer.arbitrum.io/).
 
+### Chain Relay IDs for Supported Methods
+Each blockchain we support has a specific Portal API prefix and RelayChainID, which are integral parts of our supported methods functionality. These are used to correctly route and process requests.
+
+| Blockchain | Portal API Prefix | RelayChainID |
+|---------|-------------|-------------|
+| Arbitrum One | `arbitrum-one`	| 0066 |
+
+### Supported Methods
+Supported methods are API functions specific to a given blockchain, enabling interaction with its distinct features. The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:
 
 | Methods                                | Description                                                                                                                                                     |
 |----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|

@@ -2,10 +2,18 @@
 
 StarkNet is a decentralized, permissionless, zk-STARK-based Layer 2 solution by StarkWare. It's designed to improve the scalability and privacy of Ethereum. The StarkNet Supported Methods give developers access to a variety of functions such as querying account balances, executing transactions, and interacting with smart contracts on the StarkNet network.
 
+### Chain Relay IDs for Supported Methods
+Each blockchain we support has a specific Portal API prefix and RelayChainID, which are integral parts of our supported methods functionality. These are used to correctly route and process requests.
+
 | Blockchain | Portal API Prefix | RelayChainID |
 |---------|-------------|-------------|
-| `Starknet Mainnet` | starknet-mainnet | 0060 |
-| `Starknet Testnet` | starknet-testnet | 0061 |
+| Starknet Mainnet | `starknet-mainnet` | 0060 |
+| Starknet Testnet | `starknet-testnet` | 0061 |
+
+
+### Supported Methods
+Supported methods are API functions specific to a given blockchain, enabling interaction with its distinct features. The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:
+
 
 | Methods | Description |
 | --- | --- |

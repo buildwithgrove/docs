@@ -2,6 +2,16 @@
 
 IoTeX is a decentralized network designed to empower the Internet of Things (IoT), aiming to provide scalability and privacy for device communication. The IoTeX supported methods empower developers to interact with the IoTeX chain, providing functions such as querying account balances, executing transactions, estimating gas costs, and interacting with smart contracts.
 
+### Chain Relay IDs for Supported Methods
+Each blockchain we support has a specific Portal API prefix and RelayChainID, which are integral parts of our supported methods functionality. These are used to correctly route and process requests.
+
+| Blockchain | Portal API Prefix | RelayChainID |
+|---------|-------------|-------------|
+| IoTeX Mainnet | `iotex-mainnet` | 0044 |
+
+### Supported Methods
+Supported methods are API functions specific to a given blockchain, enabling interaction with its distinct features. The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:
+
 | Methods | Description |
 | --- | --- |
 | `eth_accounts` | returns list of addresses owned by the client |

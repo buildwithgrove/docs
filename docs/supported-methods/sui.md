@@ -2,6 +2,16 @@
 
 SUI is a robust blockchain designed to support complex financial applications. It provides a suite of on-chain features, tools, and services. The SUI supported methods offer a wide range of functionalities for developers to integrate with the SUI network, such as querying balances, executing transactions, interacting with SUI-based smart contracts, and more.
 
+### Chain Relay IDs for Supported Methods
+Each blockchain we support has a specific Portal API prefix and RelayChainID, which are integral parts of our supported methods functionality. These are used to correctly route and process requests.
+
+| Blockchain | Portal API Prefix | RelayChainID |
+|---------|-------------|-------------|
+| Sui Mainnet | `sui-mainnet` | 0076 |
+
+### Supported Methods
+Supported methods are API functions specific to a given blockchain, enabling interaction with its distinct features. The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:
+
 | Methods | Description |
 | --- | --- |
 | `sui_devInspectTransactionBlock` | Runs the transaction in dev-inspect mode. Detailed results are provided, including both the transaction effects and any return values. |

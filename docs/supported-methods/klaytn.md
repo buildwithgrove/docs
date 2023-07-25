@@ -2,6 +2,16 @@
 
 Klaytn is a public blockchain platform developed by Ground X, a subsidiary of the South Korean messaging giant Kakao. Offering a user-friendly blockchain experience, Klaytn supported methods allow developers to easily engage with the network, performing functions like querying account balances, executing transactions, and interacting with smart contracts.
 
+### Chain Relay IDs for Supported Methods
+Each blockchain we support has a specific Portal API prefix and RelayChainID, which are integral parts of our supported methods functionality. These are used to correctly route and process requests.
+
+| Blockchain | Portal API Prefix | RelayChainID |
+|---------|-------------|-------------|
+| Klaytn Mainnet | `klaytn-mainnet` | 0056 |
+
+### Supported Methods
+Supported methods are API functions specific to a given blockchain, enabling interaction with its distinct features. The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:
+
 | Methods | Description |
 | --- | --- |
 | `eth_accounts` | returns list of addresses owned by the client |

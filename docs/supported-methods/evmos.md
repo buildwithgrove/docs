@@ -2,6 +2,16 @@
 
 Evmos is an EVM-compatible, Proof-of-Stake blockchain built using the Cosmos SDK. It allows developers to deploy Ethereum smart contracts in a scalable and interoperable environment. Using the Evmos supported methods, developers can query balances, execute transactions, interact with smart contracts, and more on the Evmos network.
 
+### Chain Relay IDs for Supported Methods
+Each blockchain we support has a specific Portal API prefix and RelayChainID, which are integral parts of our supported methods functionality. These are used to correctly route and process requests.
+
+| Blockchain | Portal API Prefix | RelayChainID |
+|---------|-------------|-------------|
+| Evmos Mainnet | `evmos-mainnet` | 0046 |
+
+### Supported Methods
+Supported methods are API functions specific to a given blockchain, enabling interaction with its distinct features. The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:
+
 | Methods | Description |
 | --- | --- |
 | `eth_blocknumber` | returns the most recent block |

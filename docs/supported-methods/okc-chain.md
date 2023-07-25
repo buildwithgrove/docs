@@ -4,6 +4,16 @@ OKC Chain is an advanced public chain developed by OKCoin, an established crypto
 
 OKC Chain supported methods are the various functions provided by our API to enable developers to interact effectively with the OKC Chain. These include functionalities such as retrieving account balances, estimating gas costs, processing transactions, querying block and transaction information, subscribing to network events, and many others. These methods offer developers a comprehensive toolkit for building and managing decentralized applications on the OKC Chain.
 
+### Chain Relay IDs for Supported Methods
+Each blockchain we support has a specific Portal API prefix and RelayChainID, which are integral parts of our supported methods functionality. These are used to correctly route and process requests.
+
+| Blockchain | Portal API Prefix | RelayChainID |
+|---------|-------------|-------------|
+| OKC Mainnet | `oKc-mainnet` | 0047 |
+
+### Supported Methods
+Supported methods are API functions specific to a given blockchain, enabling interaction with its distinct features. The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:
+
 | Methods | Description |
 | --- | --- |
 | `eth_accounts` | Returns list of addresses owned by the client |

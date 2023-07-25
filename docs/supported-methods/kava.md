@@ -2,14 +2,19 @@
 
 Kava is a DeFi platform which offers its users the ability to mint stablecoins, earn interest on deposits, and access synthetic assets. By using Kava's supported methods, developers can engage with this multi-chain DeFi platform in several ways including querying balances, executing transactions, and interacting with smart contracts.
 
-For Kava we maintain an Archival network. If you are accessing data from 128 blocks ago or earlier, please ensure to use Archival. This allows you to query historical data while also ensuring optimal performance. The supported methods for the archival chains are identical to their non-archival counterparts.
+### Chain Relay IDs for Supported Methods
+Each blockchain we support has a specific Portal API prefix and RelayChainID, which are integral parts of our supported methods functionality. These are used to correctly route and process requests.
 
 | Blockchain | Portal API Prefix | RelayChainID | Blockheight |
 |---------|-------------|-------------|-------------|
-| `Kava Mainnet` | kava-mainnet | 0071 | Latest - 127 blocks |
-| `Kava Mainnet Archival` | kava-mainnet-archival | 0072 | 128 blocks + |
+| Kava Mainnet | `kava-mainnet` | 0071 | Latest - 127 blocks |
+| Kava Mainnet Archival | `kava-mainnet-archival` | 0072 | 128 blocks + |
 
-The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:
+### Archival Data
+For Kava we maintain a mainnet, several testnets and archival nodes. If you are accessing data from 128 blocks ago or earlier, please ensure to use Archival chain. This allows you to query historical data while also ensuring optimal performance. The supported methods for the archival chains are identical to their non-archival counterparts.
+
+### Supported Methods
+Supported methods are API functions specific to a given blockchain, enabling interaction with its distinct features. The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:
 
 | Methods | Description |
 | --- | --- |

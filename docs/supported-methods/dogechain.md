@@ -2,6 +2,16 @@
 
 DogeChain is the underlying blockchain for Dogecoin (DOGE), a cryptocurrency featuring a likeness of the Shiba Inu dog from the "Doge" meme as its logo. It's known for its fast block time and low transaction fees. The DogeChain Supported Methods allow developers to interact with the DogeChain in various ways, including querying account balances, executing transactions, and more.
 
+### Chain Relay IDs for Supported Methods
+Each blockchain we support has a specific Portal API prefix and RelayChainID, which are integral parts of our supported methods functionality. These are used to correctly route and process requests.
+
+| Blockchain | Portal API Prefix | RelayChainID |
+|---------|-------------|-------------|
+| Dogechain Mainnet | `dogechain-mainnet` | 0059 |
+
+### Supported Methods
+Supported methods are API functions specific to a given blockchain, enabling interaction with its distinct features. The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:
+
 | Methods | Description |
 |---------|-------------|
 | `eth_blocknumber` | Returns the most recent block |

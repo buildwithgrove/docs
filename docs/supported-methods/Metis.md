@@ -2,6 +2,16 @@
 
 Metis is a Layer 2 Ethereum scaling solution aiming to make building Decentralized Autonomous Companies (DACs) easy and cheap. By leveraging the Metis supported methods, developers can harness this scalable infrastructure with actions such as querying balances, executing transactions, and interacting with smart contracts on the Metis network.
 
+### Chain Relay IDs for Supported Methods
+Each blockchain we support has a specific Portal API prefix and RelayChainID, which are integral parts of our supported methods functionality. These are used to correctly route and process requests.
+
+| Blockchain | Portal API Prefix | RelayChainID |
+|---------|-------------|-------------|
+| Metis Mainnet | `metis-mainnet` | 0058 |
+
+### Supported Methods
+Supported methods are API functions specific to a given blockchain, enabling interaction with its distinct features. The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:
+
 | Methods | Description |
 | --- | --- |
 | `eth_accounts` | returns list of addresses owned by the client |

@@ -2,7 +2,15 @@
 
 Moonriver is a companion network to Moonbeam and provides a permanently incentivized canary network. The Moonriver supported methods allow developers to interact with this Ethereum-compatible smart contract platform with functionalities such as querying balances, executing transactions, and interacting with smart contracts.
 
+### Chain Relay IDs for Supported Methods
+Each blockchain we support has a specific Portal API prefix and RelayChainID, which are integral parts of our supported methods functionality. These are used to correctly route and process requests.
 
+| Blockchain | Portal API Prefix | RelayChainID |
+|---------|-------------|-------------|
+| Moonriver Mainnet | `moonriver-mainnet` | 0051 |
+
+### Supported Methods
+Supported methods are API functions specific to a given blockchain, enabling interaction with its distinct features. The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:
 
 | Methods | Description |
 | --- | --- |

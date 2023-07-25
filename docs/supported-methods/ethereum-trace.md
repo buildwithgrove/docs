@@ -2,6 +2,9 @@
 
 Eth-Trace is a specialized toolset for interacting with the Ethereum blockchain, enabling developers to trace and explore transaction history. With Eth-Trace's supported methods, developers can delve into the Ethereum network's historical data, querying transactional details, account balances, and more.
 
+### Supported Methods
+Supported methods are API functions specific to a given blockchain, enabling interaction with its distinct features. The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:
+
 | Methods | Description |
 |---------|-------------|
 | `trace_block` | Returns traces created at given block (OpenEthereum or Parity only) |

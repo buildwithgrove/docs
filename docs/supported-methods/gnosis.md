@@ -4,12 +4,19 @@ Gnosis is a decentralized platform on Ethereum that allows for the creation and 
 
 For Gnosis we maintain an Archival network. If you are accessing data from 128 blocks ago or earlier, please ensure to use Archival. This allows you to query historical data while also ensuring optimal performance. The supported methods for the archival chains are identical to their non-archival counterparts.
 
+### Chain Relay IDs for Supported Methods
+Each blockchain we support has a specific Portal API prefix and RelayChainID, which are integral parts of our supported methods functionality. These are used to correctly route and process requests.
+
 | Blockchain | Portal API Prefix | RelayChainID | Blockheight |
 |---------|-------------|-------------|-------------|
-| `Gnosis Chain Mainnet` | gnosischain-mainnet | 0027 | Latest - 127 blocks |
-| `Gnosis Chain Archival` | gnosischain-archival | 000C | 128 blocks + |
+| Gnosis Chain Mainnet | `gnosischain-mainnet` | 0027 | Latest - 127 blocks |
+| Gnosis Chain Archival | `gnosischain-archival` | 000C | 128 blocks + |
 
-The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:
+### Archive Data
+For Gnosis we support Archival nodes. If you are accessing data from 128 blocks ago or earlier, please ensure to use Archival chain. This allows you to query historical data while also ensuring optimal performance. The supported methods for the archival chains are identical to their non-archival counterparts.
+
+### Supported Methods
+Supported methods are API functions specific to a given blockchain, enabling interaction with its distinct features. The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:
 
 | Methods | Description |
 | --- | --- |

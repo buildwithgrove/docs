@@ -2,15 +2,21 @@
 
 Binance Smart Chain is a blockchain network built for running smart contract-based applications and digital assets. Designed to run in parallel with Binance Chain, BSC provides high-speed transactions while maintaining a rich and growing ecosystem of dApps. The BSC supported methods are designed to provide developers with the tools necessary to integrate BSC functionalities into their applications, including querying balances, executing transactions, and interacting with BSC-based smart contracts.
 
-For Binance Smart Chain we maintain an Archival Network. If you are accessing data from 128 blocks ago or earlier, please ensure to use Archival. This allows you to query historical data while also ensuring optimal performance. The supported methods for the archival chains are identical to their non-archival counterparts.
+### Chain Relay IDs for Supported Methods
+Each blockchain we support has a specific Portal API prefix and RelayChainID, which are integral parts of our supported methods functionality. These are used to correctly route and process requests.
 
 | Blockchain | Portal API Prefix | RelayChainID | Blockheight |
 |---------|-------------|-------------|-------------|
-| `Binance Smart Chain` | bsc-mainnet | 0004 | Latest - 127 blocks |
-| `Binance Smart Chain (Archival)` | bsc-archival | 0010 | 128 blocks + |
+| Binance Smart Chain | `bsc-mainnet` | 0004 | Latest - 127 blocks |
+| Binance Smart Chain (Archival) | `bsc-archival` | 0010 | 128 blocks + |
+
+### Archive Nodes
+
+For Binance Smart Chain we support Archival nodes. If you are accessing data from 128 blocks ago or earlier, please ensure to use Archival. This allows you to query historical data while also ensuring optimal performance. The supported methods for the archival chains are identical to their non-archival counterparts.
 
 
-The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:
+### Supported Methods
+Supported methods are API functions specific to a given blockchain, enabling interaction with its distinct features. The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:
 
 | Methods | Description |
 |---------|-------------|

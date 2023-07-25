@@ -2,6 +2,16 @@
 
 Fantom is a high-performance, scalable, and secure smart-contract platform. It is designed to overcome the limitations of previous generation blockchain platforms. Fantom's supported methods offer developers a wide array of functions to interact with the network, such as executing transactions, querying balances, and more.
 
+### Chain Relay IDs for Supported Methods
+Each blockchain we support has a specific Portal API prefix and RelayChainID, which are integral parts of our supported methods functionality. These are used to correctly route and process requests.
+
+| Blockchain | Portal API Prefix | RelayChainID |
+|---------|-------------|-------------|
+| Fantom Mainnet | `fantom-mainnet` | 0049 |
+
+### Supported Methods
+Supported methods are API functions specific to a given blockchain, enabling interaction with its distinct features. The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:
+
 | Methods | Description |
 | --- | --- |
 | `eth_accounts` | returns list of addresses owned by the client |

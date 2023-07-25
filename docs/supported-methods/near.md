@@ -2,6 +2,16 @@
 
 NEAR is a decentralized application platform designed to make apps usable on the web. The NEAR supported methods allow developers to engage with the NEAR network in a variety of ways including querying balances, executing transactions, and interacting with smart contracts.
 
+### Chain Relay IDs for Supported Methods
+Each blockchain we support has a specific Portal API prefix and RelayChainID, which are integral parts of our supported methods functionality. These are used to correctly route and process requests.
+
+| Blockchain | Portal API Prefix | RelayChainID |
+|---------|-------------|-------------|
+| NEAR Mainnet | `near-mainnet` | 0052 |
+
+### Supported Methods
+Supported methods are API functions specific to a given blockchain, enabling interaction with its distinct features. The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:
+
 | Methods | Description |
 | --- | --- |
 | `View access key` | retrieves information about a single access key for a given account. |

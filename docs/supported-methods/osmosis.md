@@ -2,6 +2,16 @@
 
 Osmosis is a self-evolving, customizable, and interoperable DeFi hub built on the Cosmos network. With Osmosis's supported methods, developers can effectively interact with the Osmosis chain, executing transactions, querying balances, and leveraging other functionalities to build and optimize their decentralized applications.
 
+### Chain Relay IDs for Supported Methods
+Each blockchain we support has a specific Portal API prefix and RelayChainID, which are integral parts of our supported methods functionality. These are used to correctly route and process requests.
+
+| Blockchain | Portal API Prefix | RelayChainID |
+|---------|-------------|-------------|
+| Osmosis Mainnet | `osmosis-mainnet` | 0054 |
+
+### Supported Methods
+Supported methods are API functions specific to a given blockchain, enabling interaction with its distinct features. The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:
+
 | Methods                      | Description                                                                                                                                                                                                           |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `health`                     | Get node health. Returns empty result (200 OK) on success, no response - in case of an error.                                                                                                                         |

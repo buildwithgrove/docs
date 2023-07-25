@@ -2,6 +2,16 @@
 
 Optimism is a Layer 2 scaling solution for Ethereum, aiming to enable high-speed, low-cost transactions while maintaining a strong connection with the Ethereum network. The Optimism Supported Methods give developers the ability to interact with the Optimism network in a range of ways, including querying balances, executing transactions, and interacting with smart contracts.
 
+### Chain Relay IDs for Supported Methods
+Each blockchain we support has a specific Portal API prefix and RelayChainID, which are integral parts of our supported methods functionality. These are used to correctly route and process requests.
+
+| Blockchain | Portal API Prefix | RelayChainID |
+|---------|-------------|-------------|
+| Optimism Mainnet | `optimism-mainnet` | 0053 |
+
+### Supported Methods
+Supported methods are API functions specific to a given blockchain, enabling interaction with its distinct features. The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:
+
 | Methods                              | Description                                                                                                                                                                                                                         |
 |--------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `eth_accounts`                       | Returns list of addresses owned by the client                                                                                                                                                                                       |
