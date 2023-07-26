@@ -18,16 +18,11 @@ const sidebars = {
 
   // But you can create a sidebar manually
   docsSidebar: [
-    {
-      type: 'category',
-      label: 'Introduction',
-      collapsed: false,
-      items: ['introduction/what-is-the-portal', 'introduction/supported-blockchains'],
-    },
+    'what-is-the-portal', 'supported-blockchains',
     {
       type: 'category',
       label: 'Quickstart',
-      collapsed: false,
+      collapsed: true,
       items: ['quick-start/wallet-rpc', 'quick-start/how-to-use-the-endpoint', 'quick-start/get-support'],
     },
     {
@@ -44,7 +39,6 @@ const sidebars = {
         'supported-methods/dogechain',
         'supported-methods/ethereum',
         'supported-methods/evmos',
-        'supported-methods/ethereum-trace',
         'supported-methods/fantom',
         'supported-methods/fuse',
         'supported-methods/gnosis',
@@ -71,7 +65,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Navigating the Portal',
-      collapsed: false,
+      collapsed: true,
       items: ['navigating-the-portal/app-overview', 'navigating-the-portal/application-security', 'navigating-the-portal/team-management', 'navigating-the-portal/plan-details', 'navigating-the-portal/requests', 'navigating-the-portal/notifications'],
     },
     'powered-by-pokt'
