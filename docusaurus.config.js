@@ -97,7 +97,7 @@ const config = {
           title: 'Docs',
           items: [{
             label: 'Introduction',
-            to: 'introduction/what-is-the-portal',
+            to: 'what-is-the-portal',
           }, {
             label: 'Quick Start',
             to: 'quick-start/wallet-rpc',
