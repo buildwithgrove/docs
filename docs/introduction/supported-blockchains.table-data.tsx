@@ -234,18 +234,6 @@ export const supportedBlockchains = [
         "portalApiPrefix": "sui-mainnet",
         "relayChainID": "0076",
         "evmChainID": ""
-    },
-    {
-        "name": "Velas Mainnet",
-        "portalApiPrefix": "velas-mainnet",
-        "relayChainID": "0067",
-        "evmChainID": "106"
-    },
-    {
-        "name": "Velas Mainnet Archival",
-        "portalApiPrefix": "velas-mainnet-archival",
-        "relayChainID": "0068",
-        "evmChainID": "106"
     }
 ]
 
