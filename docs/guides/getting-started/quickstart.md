@@ -6,7 +6,7 @@ Welcome to the Quickstart Guide for Portal. This guide will walk you through the
 
 The first step to getting started with Portal is to sign up for the Portal, create an application, and get the endpoint for the chain(s) that you need access to.
 
-For full details of this process, please refer to the [Get an Endpoint](url) page.
+For full details of this process, please refer to the [Get an Endpoint](get-an-endpoint) page.
 
 ## Step 2 – Plug it into your Application
 
