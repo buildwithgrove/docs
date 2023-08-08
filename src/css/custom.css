@@ -5,46 +5,55 @@
  */
 
 :root {
-  --ifm-color-primary: #4589df;
-  --ifm-color-primary-dark: #2c79db;
-  --ifm-color-primary-darker: #2472d4;
-  --ifm-color-primary-darkest: #1e5eae;
-  --ifm-color-primary-light: #5e99e3;
-  --ifm-color-primary-lighter: #6aa1e5;
-  --ifm-color-primary-lightest: #90b8ec;
+  --ifm-color-primary: #1f2327;
+  --ifm-color-primary-dark: #1c2023;
+  --ifm-color-primary-darker: #191c1f;
+  --ifm-color-primary-darkest: #16191b;
+  /*--ifm-color-primary-light: #5e99e3;*/
+  /*--ifm-color-primary-lighter: #6aa1e5;*/
+  /*--ifm-color-primary-lightest: #90b8ec;*/
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
   /*!* Search style var *!*/
   --ifm-navbar-search-input-placeholder-color: var(--ifm-color-emphasis-800);
 
   --ifm-menu-color-background-active: #E9ECEF;
   /* Pocket Custom */
   --pokt-header-vertical-devider: #353A40;
-}
 
-@media (min-width: 996px) {
-  :root {
-  --ifm-menu-link-padding-vertical: 15px;
-  }
+  /* Pocket Custom */
+  --pokt-nav-borders: #E3E8ED;
+  --pokt-nav-selected-border: #27292F;
+
+  /* Disable nav boxshadow in light mode */
+  --ifm-navbar-shadow: 0;
+
+  /* Disable nav nested items padding */
+--ifm-menu-color: var(--ifm-color-primary)
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #339af0;
-  --ifm-color-primary-dark: #188dee;
-  --ifm-color-primary-darker: #1185e6;
-  --ifm-color-primary-darkest: #0e6ebe;
-  --ifm-color-primary-light: #4ea7f2;
-  --ifm-color-primary-lighter: #5caef3;
-  --ifm-color-primary-lightest: #84c2f6;
+  --ifm-color-primary: #e6edf3;
+  --ifm-color-primary-dark: #cfd5db;
+  --ifm-color-primary-darker: #b8bec2;
+  --ifm-color-primary-darkest: #a1a6aa;
+  /*--ifm-color-primary-light: #4ea7f2;*/
+  /*--ifm-color-primary-lighter: #5caef3;*/
+  /*--ifm-color-primary-lightest: #84c2f6;*/
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-  --ifm-navbar-background-color: #1B242F;
-  --ifm-menu-color-background-active: #1B242F;
+  --ifm-navbar-background-color: #1A1B1E;
+  --ifm-menu-color-background-active: #27292F;
 
   /*!* Search style var *!*/
   --ifm-navbar-search-input-icon: url('data:image/svg+xml;utf8,<svg fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" height="16px" width="16px"><path d="M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z" /></svg>');
 
   /* Pocket Custom */
   --pokt-header-vertical-devider: #CED4DA;
+
+  /* Pocket Custom */
+  --pokt-nav-borders: #343438;
+  --pokt-nav-selected-border: #EBEAEF;
 }
 
 .navbar__search-input {
@@ -54,30 +63,6 @@
 
 .navbar__search-input:hover {
   border-color: var(--ifm-color-primary);
-}
-
-.theme-doc-sidebar-container .button.button--secondary {
-  margin: 16px 8px;
-  border: 0;
-  border-radius: 4px;
-  background-color: var(--ifm-menu-color-background-active);
-}
-
-.menu__link.menu__link--active, .menu__caret{
-font-weight: 600;
-}
-
-.navbar__items a:nth-child(3) {
-position: relative;
-}
-
-.navbar__items a:nth-child(3):before {
-  content: "";
-  position: absolute;
-  height: 40px;
-  border-left: 1px solid var(--pokt-header-vertical-devider);
-  left: 0;
-  top: -3px;
 }
 
 .navbar__brand {
@@ -141,4 +126,112 @@ position: relative;
 .team-mgmt-table-container table {
   display: table;
   width: 100%;
+}
+
+
+/* Header navbar styling and layout */
+
+.navbar.navbar--fixed-top {
+  height: 140px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar__inner {
+  flex-direction: column-reverse;
+}
+
+.navbar__logo {
+  position: absolute;
+  top: 26px;
+  left: 48px;
+  height: auto;
+}
+
+.navbar__items:not(.navbar__items--right) a:nth-child(3) {
+  margin-left: 30px;
+}
+
+.navbar__items.navbar__items--right {
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+}
+
+.navbar__items {
+  border-bottom: 1px solid var(--pokt-nav-borders);
+  padding-left: 8px;
+  padding-right: 8px;
+  height: 62px
+}
+
+.navbar__item.navbar__link.navbar__link--active {
+  position: relative;
+}
+
+.navbar__item.navbar__link.navbar__link--active:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  border-bottom: 2px solid var(--pokt-nav-selected-border);
+  left: 0;
+  bottom: -15px;
+}
+
+/* Nav menu styling and spacing */
+
+.theme-doc-sidebar-item-category:not(:first-child) {
+  margin-top: 24px;
+}
+
+nav.menu {
+  padding: 24px 16px;
+}
+
+.menu__list {
+  padding-left: 0 !important;
+}
+
+li > .menu__link:not(.menu__link--active) {
+  font-weight: 400;
+}
+
+/* Disable collapsible list items hover effect and apply other styles */
+
+.menu__list-item-collapsible {
+  pointer-events: none;
+}
+
+li > .menu__list-item-collapsible {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+li > .menu__list-item-collapsible > a {
+  color: #808B95 !important;
+}
+
+/* Navbar right section search styling */
+
+.navbar__search {
+  border: 1px solid var(--pokt-nav-borders);
+  border-radius: 4px;
+  padding: 3px;
+  margin-right: 20px;
+}
+
+.navbar__search-input {
+  background-color: transparent;
+  outline-color: transparent;
+}
+
+.navbar__search-input:hover {
+  border-color: transparent;
+}
+
+/* Color toggle button spacing */
+
+div[class*='colorModeToggle']{
+  margin-right: 6px;
 }

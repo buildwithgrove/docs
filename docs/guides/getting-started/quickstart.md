@@ -17,11 +17,17 @@ There are many different reasons why a developer would need to access a blockcha
 If you're building an interface to blockchain applications, a collection of examples of how to use your Portal endpoint is available under [Popular Libraries](https://docs.pokt.network/api-docs/).
 
 &rarr; [.NET – web3](url)
+
 &rarr; [Go – ethclient](url)
+
 &rarr; [Java – web3j](url)
+
 &rarr; [JavaScript – ethers.js](url)
+
 &rarr; [JavaScript – web3.js](url)
+
 &rarr; [Python – web3.py](url)
+
 &rarr; [Rust – web3](url)
 
 
@@ -30,8 +36,11 @@ If you're building an interface to blockchain applications, a collection of exam
 If you're a smart contract developer needing access to live chains in your development environment, a collection of examples of how to leverage your Portal endpoint can be found under [Smart Contract Environments](url).
 
 &rarr; [Solidity & Vyper – Apeworx](url)
+
 &rarr; [Solidity & Vyper – Brownie](url)
+
 &rarr; [Solidity & Vyper – Hardhat](url)
+
 &rarr; [Solidity & Vyper – Truffle](url)
 
 ### Interacting Directly with the Chain
