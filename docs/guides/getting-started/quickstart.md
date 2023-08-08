@@ -33,7 +33,7 @@ If you're building an interface to blockchain applications, a collection of exam
 
 ### Smart Contract Developers
 
-If you're a smart contract developer needing access to live chains in your development environment, a collection of examples of how to leverage your Portal endpoint can be found under [Smart Contract Environments](url).
+If you're a smart contract developer needing access to live chains in your development environment, a collection of examples of how to leverage your Portal endpoint can be found under `Smart Contract Environments`.
 
 &rarr; [Solidity & Vyper – Apeworx](/guides/smart-contract-environments/apeworx)
 
