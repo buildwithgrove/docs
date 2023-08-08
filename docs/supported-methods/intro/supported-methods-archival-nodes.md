@@ -36,14 +36,14 @@ Here's a comparison of the two:
 
 We support archival nodes for the following blockchains:
 
-- [AVAX Archival](url)
-- [Binance Smart Chain (Archival)](url)
-- [Ethereum Mainnet Archival](https://docs.portal.pokt.network/introduction/supported-blockchains#eth-archival)
-- [Fuse Archival](url)
-- [Gnosis Chain Archival](url)
-- [Kava Mainnet Archival](url)
-- [Oasys Mainnet Archival](url)
-- [Polygon Matic Archival](url)
+- [AVAX Archival](/supported-methods/supported-methods/avax)
+- [Binance Smart Chain (Archival)](/supported-methods/supported-methods/binance-smart-chain)
+- [Ethereum Mainnet Archival](/supported-methods/supported-methods/ethereum)
+- [Fuse Archival](/supported-methods/supported-methods/fuse)
+- [Gnosis Chain Archival](/supported-methods/supported-methods/gnosis)
+- [Kava Mainnet Archival](/supported-methods/supported-methods/kava)
+- [Oasys Mainnet Archival](/supported-methods/supported-methods/oasys)
+- [Polygon Matic Archival](/supported-methods/supported-methods/polygon)
 
 Each page provides a comprehensive list of supported methods for the respective blockchain, along with brief descriptions to understand their purpose and functionality. You will also find the specific Portal API prefix and RelayChainID for each blockchain, which are integral parts of our supported methods functionality.
 

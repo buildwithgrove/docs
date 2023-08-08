@@ -16,32 +16,32 @@ There are many different reasons why a developer would need to access a blockcha
 
 If you're building an interface to blockchain applications, a collection of examples of how to use your Portal endpoint is available under [Popular Libraries](https://docs.pokt.network/api-docs/).
 
-&rarr; [.NET – web3](url)
+&rarr; [.NET – web3](/guides/popular-libraries/net–web3)
 
-&rarr; [Go – ethclient](url)
+&rarr; [Go – ethclient](/guides/popular-libraries/ethclient-go)
 
-&rarr; [Java – web3j](url)
+&rarr; [Java – web3j](/guides/popular-libraries/web3j-java)
 
-&rarr; [JavaScript – ethers.js](url)
+&rarr; [JavaScript – ethers.js](/guides/popular-libraries/ethers-js)
 
-&rarr; [JavaScript – web3.js](url)
+&rarr; [JavaScript – web3.js](/guides/popular-libraries/web3-js)
 
-&rarr; [Python – web3.py](url)
+&rarr; [Python – web3.py](/guides/popular-libraries/web3-py)
 
-&rarr; [Rust – web3](url)
+&rarr; [Rust – web3](/guides/popular-libraries/rust-web3)
 
 
 ### Smart Contract Developers
 
 If you're a smart contract developer needing access to live chains in your development environment, a collection of examples of how to leverage your Portal endpoint can be found under [Smart Contract Environments](url).
 
-&rarr; [Solidity & Vyper – Apeworx](url)
+&rarr; [Solidity & Vyper – Apeworx](/guides/smart-contract-environments/apeworx)
 
-&rarr; [Solidity & Vyper – Brownie](url)
+&rarr; [Solidity & Vyper – Brownie](/guides/smart-contract-environments/brownie)
 
-&rarr; [Solidity & Vyper – Hardhat](url)
+&rarr; [Solidity & Vyper – Hardhat](/guides/smart-contract-environments/hardhat)
 
-&rarr; [Solidity & Vyper – Truffle](url)
+&rarr; [Solidity & Vyper – Truffle](/guides/smart-contract-environments/truffle)
 
 ### Interacting Directly with the Chain
 
