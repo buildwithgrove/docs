@@ -91,7 +91,7 @@ const config = {
           },
           {
             type: 'docSidebar',
-            label: 'Supported Blockchains',
+            label: 'Supported Methods',
             sidebarId: 'supportedBlockchainsSidebar',
             position: 'left',
           },
