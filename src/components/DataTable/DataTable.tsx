@@ -51,9 +51,6 @@ const DataTable = ({columns, data}) => {
             {headerGroups.map(headerGroup => (
                 <tr {...headerGroup.getHeaderGroupProps()}>
                     {headerGroup.headers.map(column => {
-
-                        console.log("column")
-                        console.log(column)
                         return (
                         <th
                             {...column.getHeaderProps([
