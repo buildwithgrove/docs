@@ -4,7 +4,7 @@ Welcome to the Quickstart Guide for Portal. This guide will walk you through the
 
 ## Step 1 – Get an Endpoint
 
-The first step to getting started with Portal is to sign up for the Portal, create an application, and get the endpoint for the chain(s) that you need access to.
+The first step to getting started is to sign up for the Portal, create an application, and mint an endpoint for the chain(s) that you need access to.
 
 For full details of this process, please refer to the [Get an Endpoint](get-an-endpoint) page.
 
@@ -45,6 +45,6 @@ If you're a smart contract developer needing access to live chains in your devel
 
 ### Interacting Directly with the Chain
 
-If you're looking to access blockchain data directly, but aren't using a framework or library, head over to our interactive [API Documentation](https://docs.pokt.network/api-docs/) to see how to interact directly with the underlying blockchain API, either directly in your browser with your Portal endpoint, or through the code samples provided for each of the different supported requests.
+If you're looking to access blockchain data directly, but aren't using a framework or library, head over to Pocket Network's interactive [API Documentation](https://docs.pokt.network/api-docs/) to see how to interact directly with the underlying blockchain API, either directly in your browser with your Portal endpoint, or through the code samples provided for each of the different supported requests.
 
 With these steps, you're now ready to start using Portal in your application. Happy building!
