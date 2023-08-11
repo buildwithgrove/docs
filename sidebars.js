@@ -19,9 +19,22 @@ const sidebars = {
                 "guides/getting-started/metamask-portal",
             ],
         },
+         {
+            type: "category",
+            label: "Navigating the Portal",
+            collapsible: false,
+            items: [
+                "navigating-the-portal/app-overview",
+                "navigating-the-portal/application-security",
+                "navigating-the-portal/team-management",
+                "navigating-the-portal/plan-details",
+                "navigating-the-portal/requests",
+                "navigating-the-portal/notifications",
+            ],
+        },
         {
             type: "category",
-            label: "POPULAR LIBRARIES",
+            label: "Popular Libraries",
             collapsible: false,
             items: [
                 "guides/popular-libraries/ethers-js",
@@ -36,26 +49,13 @@ const sidebars = {
         },
         {
             type: "category",
-            label: "SMART CONTRACT ENVIRONMENTS",
+            label: "Smart Contract Environments",
             collapsible: false,
             items: [
                 "guides/smart-contract-environments/apeworx",
                 "guides/smart-contract-environments/brownie",
                 "guides/smart-contract-environments/hardhat",
                 "guides/smart-contract-environments/truffle",
-            ],
-        },
-        {
-            type: "category",
-            label: "Navigating the Portal",
-            collapsible: false,
-            items: [
-                "navigating-the-portal/app-overview",
-                "navigating-the-portal/application-security",
-                "navigating-the-portal/team-management",
-                "navigating-the-portal/plan-details",
-                "navigating-the-portal/requests",
-                "navigating-the-portal/notifications",
             ],
         },
     ],
