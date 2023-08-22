@@ -14,6 +14,11 @@ Supported methods are API functions specific to a given blockchain, enabling int
 | `trace_replayBlockTransactions` | Replays all transactions in a block returning the requested traces for each transaction |
 | `trace_replayTransaction` | Replays a transaction, returning the traces |
 | `trace_transaction` | Returns all traces of given transaction (OpenEthereum or Parity only) |
+
+> Due to the permissionless, decentralized nature of the node network, not all nodes are configured the same. The following methods may be supported by some nodes but not others. It is possible to return an error if a node is hit that does not support these methods.
+
+| Methods                                | Description                                                                                                                                                     |
+|----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `debug_traceTransaction` | Attempts to run the transaction in the exact same manner as it was executed on the network |
 | `debug_traceCall` | Runs an eth_call within the context of the given block execution using the final state of parent block as the base |
 | `debug_traceBlockByNumber` | Replays the block that is already present in the database |
