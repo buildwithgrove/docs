@@ -78,6 +78,7 @@ const sidebars = {
             items: [
                 "supported-methods/supported-methods/arbitrum-one",
                 "supported-methods/supported-methods/avax",
+                "supported-methods/supported-methods/base",
                 "supported-methods/supported-methods/binance-smart-chain",
                 "supported-methods/supported-methods/boba",
                 "supported-methods/supported-methods/celo",
