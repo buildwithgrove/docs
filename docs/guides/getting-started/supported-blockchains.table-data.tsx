@@ -20,6 +20,18 @@ export const supportedBlockchains = [
         "evmChainID": "43114"
     },
     {
+        "name": "Base Mainnet",
+        "portalApiPrefix": "base-mainnet",
+        "relayChainID": "0079",
+        "evmChainID": "8453"
+    },
+    {
+        "name": "Base Testnet",
+        "portalApiPrefix": "base-testnet",
+        "relayChainID": "0080",
+        "evmChainID": "84531"
+    },
+    {
         "name": "BOBA Mainnet",
         "portalApiPrefix": "boba-mainnet",
         "relayChainID": "0048",
