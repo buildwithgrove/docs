@@ -6,8 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Pocket Network - Portal',
-  tagline: 'Dinosaurs are cool',
+  title: 'Grove Portal',
   favicon: 'img/favicon.ico',
   // Enable mermaid diagrams support
   markdown: {
@@ -78,7 +77,7 @@ const config = {
       navbar: {
         title: '',
         logo: {
-          alt: 'Pocket Network Logo',
+          alt: 'Grove Portal Logo',
           src: 'img/logo.svg',
           srcDark: 'img/logo_dark.svg'
         },
