@@ -2,6 +2,8 @@
 
 Grove Portal is your powerful gateway to the decentralized world, designed to provide seamless access across multiple blockchains. This ensures you have the freedom and flexibility to interact with the decentralized ecosystem tailored to your needs.
 
+At its core, Grove Portal is an RPC (Remote Procedure Call) service, enabling developers to send requests and receive responses to interact with blockchains. This RPC framework is the backbone that allows for the creation of dynamic web3 applications, bridging the gap between decentralized networks and user interfaces.
+
 Built on the core principles of decentralization, reliability, and scalability, Grove Portal taps into a global, decentralized network of nodes, granting users access to a myriad of blockchains.
 
 ## What Makes Grove Portal Unique?
@@ -32,4 +34,4 @@ Our decentralized node network offers a cost-efficient gateway to blockchain net
 
 ## Ready to Get Started?
 
-Equipped with insights into Grove Portal's uniqueness and its potential to revolutionize your blockchain interactions, it's time to delve in. Our Quickstart Guide is your roadmap, offering detailed instructions on endpoint usage, application integration, and more. Whether you're a blockchain veteran or a newcomer, our guide equips you with the requisite knowledge and tools. Let's embark on this decentralized odyssey together. Dive into the [Quickstart Guide](quickstart) to commence.
+Equipped with insights into Grove Portal's RPC framework and its potential to revolutionize your blockchain interactions, it's time to delve in. Developers can harness the power of Grove Portal to build cutting-edge web3 applications, bringing decentralized solutions to the forefront of the digital age. Our Quickstart Guide is your roadmap, offering detailed instructions on endpoint usage, application integration, and more. Whether you're a blockchain veteran or a newcomer, our guide equips you with the requisite knowledge and tools. Let's embark on this decentralized odyssey together. Dive into the [Quickstart Guide](quickstart) to commence.
