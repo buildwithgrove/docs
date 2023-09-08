@@ -4,7 +4,7 @@ export default function Home(): JSX.Element {
 
     useEffect(() => {
         // window.location.href = '/category/introduction';
-        window.location.href = 'guides/getting-started/why-portal';
+        window.location.href = 'guides/getting-started/welcome';
 
     }, []);
 

@@ -70,7 +70,7 @@ const config = {
       },
       docs: {
         sidebar: {
-          hideable: true,
+          hideable: false,
         }
       },
       image: 'img/logo.svg',
