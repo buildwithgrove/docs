@@ -16,7 +16,6 @@ const sidebars = {
                 "guides/getting-started/supported-blockchains",
                 "guides/getting-started/quickstart",
                 "guides/getting-started/get-an-endpoint",
-                "guides/getting-started/metamask-portal",
             ],
         },
         {
@@ -85,7 +84,6 @@ const sidebars = {
                 "supported-methods/supported-methods/dfk-chain-subnet",
                 "supported-methods/supported-methods/dogechain",
                 "supported-methods/supported-methods/ethereum",
-                "supported-methods/supported-methods/ethereum-trace",
                 "supported-methods/supported-methods/evmos",
                 "supported-methods/supported-methods/fantom",
                 "supported-methods/supported-methods/fuse",
