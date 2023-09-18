@@ -4,7 +4,7 @@ Welcome to the "Get an Endpoint" guide for Grove. This guide will walk you throu
 
 ## Step 1: Sign Up for the Grove Portal
 
-The first step to getting an endpoint is to sign up for the Grove Portal. You can do this by visiting the [Sign Up Page](https://www.grove.city/api/auth/auth0). Fill in the required information, including your email address and a strong password. Once you've filled in the information, click on the "Sign Up" button to create your account.
+The first step to getting an endpoint is to sign up for the Grove Portal. You can do this by visiting the [Sign Up Page](https://portal.grove.city/api/auth/auth0?signup=true). Fill in the required information, including your email address and a strong password. Once you've filled in the information, click on the "Sign Up" button to create your account.
 
 ## Step 2: Verify Your Email Address
 
@@ -12,7 +12,7 @@ After signing up, you'll receive an email from us to verify your email address. 
 
 ## Step 3: Log In to the Grove Portal
 
-Once you've verified your email address, you can log in to the Grove Portal using the email address and password you provided during sign up. Visit the [Login Page](https://www.grove.city/api/auth/auth0) and enter your credentials to log in.
+Once you've verified your email address, you can log in to the Grove Portal using the email address and password you provided during sign up. Visit the [Login Page](https://portal.grove.city/api/auth/auth0) and enter your credentials to log in.
 
 ## Step 4: Create an Application
 
