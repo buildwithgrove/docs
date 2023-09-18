@@ -11,6 +11,8 @@ Each blockchain we support has a specific Portal API prefix and RelayChainID, wh
 | Ethereum Mainnet Archival | `eth-archival` | 0022 | 128 blocks + |
 | Ethereum Goerli | `eth-goerli` | 0026 | - |
 | Ethereum Rinkeby | `rinkeby` | 0022 | - |
+| Ethereum Holešky | `holesky-fullnode-testnet` | 0081 | - |
+
 
 ### Archival Data
 

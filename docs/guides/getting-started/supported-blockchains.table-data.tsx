@@ -269,6 +269,12 @@ export const supportedTestnetRelayChains = [
         "evmChainID": "004"
     },
     {
+        "name": "Ethereum Holešky",
+        "portalApiPrefix": "holesky-fullnode-testnet",
+        "relayChainID": "0081",
+        "evmChainID": "17000"
+    },
+    {
         "name": "Polygon Mumbai",
         "portalApiPrefix": "polygon-mumbai",
         "relayChainID": "000F",
