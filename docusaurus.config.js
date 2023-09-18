@@ -106,13 +106,13 @@ const config = {
             'aria-label': 'GitHub repository',
           },
           {
-            href: 'https://discord.gg/portal-rpc',
+            href: 'https://discord.gg/build-with-grove',
             position: 'right',
             className: 'header-link-icon header-discord-link',
             'aria-label': 'Discord',
           },
           {
-            href: 'https://twitter.com/poktnetwork',
+            href: 'https://twitter.com/BuildWithGrove',
             position: 'right',
             className: 'header-link-icon header-twitter-link',
             'aria-label': 'Twitter Account',
