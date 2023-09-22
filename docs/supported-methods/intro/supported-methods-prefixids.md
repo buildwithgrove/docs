@@ -24,6 +24,6 @@ For the ChainID, you'll include this in the transaction data when you're signing
 
 Remember, it's crucial to use the correct API Prefix and ChainID for the blockchain you're interacting with. Using the incorrect API Prefix or ChainID can result in your relays being routed to the wrong blockchain or your transactions not being processed correctly.
 
-For a list of the API Prefix and ChainID for each blockchain the network supports, please refer to our [Supported Blockchains](https://docs.portal.pokt.network/introduction/supported-blockchains) page.
+For a list of the API Prefix and ChainID for each blockchain the network supports, please refer to our [Supported Blockchains](https://docs.grove.city/introduction/supported-blockchains) page.
 
 If you have any questions or need further assistance, feel free to reach out to our support team.
