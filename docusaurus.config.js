@@ -100,6 +100,13 @@ const config = {
             position: 'left',
           },
           {
+            href: 'https://www.portal.grove.city/api/auth/auth0',
+            position: 'right',
+            className: 'header-link-button header-portal-link',
+            label: 'Launch Portal',
+            'aria-label': 'Launch Grove Portal',
+          },
+          {
             href: 'https://github.com/pokt-foundation',
             position: 'right',
             className: 'header-link-icon header-github-link',
