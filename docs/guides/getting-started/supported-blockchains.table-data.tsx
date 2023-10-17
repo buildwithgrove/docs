@@ -231,7 +231,7 @@ export const supportedBlockchains = [
     },
     {
         "name": "Scroll Mainnet",
-        "portalApiPrefix": "scroll-fullnode-mainnet",
+        "portalApiPrefix": "scroll-mainnet",
         "relayChainID": "0082",
         "evmChainID": "534352"
     },

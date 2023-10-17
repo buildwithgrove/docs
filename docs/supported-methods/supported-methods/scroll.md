@@ -5,9 +5,9 @@ Scroll is an innovative blockchain platform designed to offer scalable, fast, an
 ### Chain Relay IDs for Supported Methods
 Each blockchain we support has a specific Portal API prefix and RelayChainID, which are integral parts of our supported methods functionality. These are used to correctly route and process requests.
 
-| Blockchain     | Portal API Prefix | RelayChainID |
-|----------------|-------------|-------------|
-| Scroll Mainnet | `scroll-fullnode-mainnet` | 0082 |
+| Blockchain     | Portal API Prefix     | RelayChainID |
+|----------------|-----------------------|-------------|
+| Scroll Mainnet | `scroll-mainnet`      | 0082 |
 | Scroll Testnet | `scroll-testnet-alpha` | 0075 |
 
 ### Supported Methods
