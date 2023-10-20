@@ -8,7 +8,7 @@ Portal supports a wide range of blockchains, including but not limited to Ethere
 
 ## API Prefix & ChainIDs
 
-Each blockchain we support has a specific Portal API prefix and RelayChainID. These identifiers are crucial for the correct routing and processing of requests. The API prefix is a unique identifier for each blockchain, while the RelayChainID is used to identify the specific chain for relaying requests. It's important to use the correct API prefix and RelayChainID when making requests to ensure accurate and efficient processing. For more information, please refer to our [API Prefix & ChainIDs](https://docs.grove.city/api-prefix-chainids) page.
+Each blockchain we support has a specific Portal API prefix and RelayChainID. These identifiers are crucial for the correct routing and processing of requests. The API prefix is a unique identifier for each blockchain, while the RelayChainID is used to identify the specific chain for relaying requests. It's important to use the correct API prefix and RelayChainID when making requests to ensure accurate and efficient processing. For more information, please refer to our [API Prefix & ChainIDs](https://docs.grove.city/supported-methods/intro/supported-methods-prefixids) page.
 
 ## Archival Data
 
