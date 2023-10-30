@@ -14,12 +14,6 @@ export const supportedBlockchains = [
         "evmChainID": "43114"
     },
     {
-        "name": "AVAX Archival",
-        "portalApiPrefix": "avax-archival",
-        "relayChainID": "00A3",
-        "evmChainID": "43114"
-    },
-    {
         "name": "Base Mainnet",
         "portalApiPrefix": "base-mainnet",
         "relayChainID": "0079",
@@ -242,12 +236,6 @@ export const supportedBlockchains = [
         "evmChainID": ""
     },
     {
-        "name": "Starknet Mainnet",
-        "portalApiPrefix": "starknet-mainnet",
-        "relayChainID": "0060",
-        "evmChainID": ""
-    },
-    {
         "name": "Sui Mainnet",
         "portalApiPrefix": "sui-mainnet",
         "relayChainID": "0076",
@@ -298,12 +286,6 @@ export const supportedTestnetRelayChains = [
         "relayChainID": "0075",
         "evmChainID": "534353"
     },
-    {
-        "name": "Starknet Testnet",
-        "portalApiPrefix": "starknet-testnet",
-        "relayChainID": "0061",
-        "evmChainID": ""
-    }
 ]
 
 // ----------------------------------------------------------------------------
