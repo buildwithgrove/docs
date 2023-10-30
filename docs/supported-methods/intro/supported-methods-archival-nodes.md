@@ -36,7 +36,6 @@ Here's a comparison of the two:
 
 We support archival nodes for the following blockchains:
 
-- [AVAX Archival](/supported-methods/supported-methods/avax)
 - [Binance Smart Chain (Archival)](/supported-methods/supported-methods/binance-smart-chain)
 - [Ethereum Mainnet Archival](/supported-methods/supported-methods/ethereum)
 - [Fuse Archival](/supported-methods/supported-methods/fuse)
