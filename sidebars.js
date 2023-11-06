@@ -10,7 +10,7 @@ const sidebars = {
         {
             type: "category",
             label: "Getting Started",
-            collapsible: false,
+            collapsed: true,
             items: [
                 "guides/getting-started/welcome",
                 "guides/getting-started/supported-blockchains",
@@ -21,7 +21,7 @@ const sidebars = {
         {
             type: "category",
             label: "Popular Libraries",
-            collapsible: false,
+            collapsed: true,
             items: [
                 "guides/popular-libraries/ethers-js",
                 "guides/popular-libraries/web3-js",
@@ -36,7 +36,7 @@ const sidebars = {
         {
             type: "category",
             label: "Smart Contract Environments",
-            collapsible: false,
+            collapsed: true,
             items: [
                 "guides/smart-contract-environments/apeworx",
                 "guides/smart-contract-environments/brownie",
@@ -47,7 +47,7 @@ const sidebars = {
         {
             type: "category",
             label: "Navigating the Portal",
-            collapsible: false,
+            collapsed: true,
             items: [
                 "navigating-the-portal/app-overview",
                 "navigating-the-portal/application-security",
@@ -62,7 +62,7 @@ const sidebars = {
         {
             type: "category",
             label: "Introduction",
-            collapsible: false,
+            collapsed: true,
             items: [
                 "supported-methods/intro/supported-methods-introduction",
                 "supported-methods/intro/supported-methods-prefixids",
@@ -73,7 +73,7 @@ const sidebars = {
         {
             type: "category",
             label: "Supported Methods",
-            collapsible: false,
+            collapsed: true,
             items: [
                 "supported-methods/supported-methods/arbitrum-one",
                 "supported-methods/supported-methods/avax",
@@ -104,6 +104,7 @@ const sidebars = {
                 "supported-methods/supported-methods/polygon",
                 "supported-methods/supported-methods/scroll",
                 "supported-methods/supported-methods/solana",
+                "supported-methods/supported-methods/solana-custom",
                 "supported-methods/supported-methods/sui",
             ],
         },
