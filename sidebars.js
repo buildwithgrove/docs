@@ -10,7 +10,7 @@ const sidebars = {
         {
             type: "category",
             label: "Getting Started",
-            collapsed: true,
+            collapsible: false,
             items: [
                 "guides/getting-started/welcome",
                 "guides/getting-started/supported-blockchains",
@@ -21,7 +21,7 @@ const sidebars = {
         {
             type: "category",
             label: "Popular Libraries",
-            collapsed: true,
+            collapsible: false,
             items: [
                 "guides/popular-libraries/ethers-js",
                 "guides/popular-libraries/web3-js",
@@ -36,7 +36,7 @@ const sidebars = {
         {
             type: "category",
             label: "Smart Contract Environments",
-            collapsed: true,
+            collapsible: false,
             items: [
                 "guides/smart-contract-environments/apeworx",
                 "guides/smart-contract-environments/brownie",
@@ -47,7 +47,7 @@ const sidebars = {
         {
             type: "category",
             label: "Navigating the Portal",
-            collapsed: true,
+            collapsible: false,
             items: [
                 "navigating-the-portal/app-overview",
                 "navigating-the-portal/application-security",
@@ -62,7 +62,7 @@ const sidebars = {
         {
             type: "category",
             label: "Introduction",
-            collapsed: true,
+            collapsible: false,
             items: [
                 "supported-methods/intro/supported-methods-introduction",
                 "supported-methods/intro/supported-methods-prefixids",
@@ -73,7 +73,7 @@ const sidebars = {
         {
             type: "category",
             label: "Supported Methods",
-            collapsed: true,
+            collapsible: false,
             items: [
                 "supported-methods/supported-methods/arbitrum-one",
                 "supported-methods/supported-methods/avax",
