@@ -2,7 +2,7 @@ import type { MantineThemeOverride } from "@mantine/core"
 
 export const portalTheme: MantineThemeOverride = {
   primaryColor: "green",
-  primaryShade: { light: 4, dark: 7 },
+  primaryShade: { light: 5, dark: 6 },
   headings: {
     fontWeight: "600",
     sizes: {

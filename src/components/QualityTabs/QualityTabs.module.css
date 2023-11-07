@@ -13,7 +13,9 @@
   border-radius: var(--mantine-radius-sm);
   text-align: center;
   padding: var(--mantine-spacing-lg) !important;
+  flex-grow: 1;
 }
 .tab[data-active="true"] {
-  border: 1px solid var(--mantine-color-orange-6);
+  border: 1px solid var(--mantine-color-orange-filled);
+  background-color: var(--mantine-color-orange-light);
 }

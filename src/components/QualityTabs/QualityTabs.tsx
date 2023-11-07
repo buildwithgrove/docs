@@ -55,8 +55,7 @@ export default function Partners() {
             <Stack align="center" justify="center">
               <Image
                 src={colorMode === "light" ? tab.light : tab.dark}
-                alt={`${tab.id} drawing`}
-                // style={{ maxWidth: "600px" }}
+                alt={`${tab.label} drawing`}
               />
               <Text ta="center">{tab.text}</Text>
             </Stack>

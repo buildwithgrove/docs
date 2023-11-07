@@ -1,17 +1,5 @@
-import "@mantine/core/styles.css"
 import React from "react"
-import {
-  Box,
-  Button,
-  Container,
-  Group,
-  Grid,
-  Stack,
-  SimpleGrid,
-  Text,
-  Title,
-  Image,
-} from "@mantine/core"
+import { Box, Button, Container, Grid, Stack, Text, Title } from "@mantine/core"
 import { RiArrowRightLine } from "react-icons/ri"
 import Layout from "@theme/Layout"
 import Lottie from "lottie-react"
@@ -169,21 +157,102 @@ export default function Home(): JSX.Element {
               </Text>
             </Grid.Col>
           </Grid>
-          <Grid>
+          <Grid align="stretch">
             <Grid.Col span={{ base: 12, lg: 8 }}>
-              <Card color="blue" p="xl"></Card>
+              <Card color="blue" p="xl" h="100%">
+                <Title order={3} size="h4" mb="md">
+                  Gateways
+                </Title>
+                <Text mb="xl">
+                  We've partnered with leading RPC providers and other web3 projects to
+                  expand their chain offerings, and minimize their infrastructure cost.
+                  Our goal is to enable projects to build their own gateways and offer new
+                  services on top of Pocket Network.
+                </Text>
+                <Button
+                  component="a"
+                  href="/enterprise"
+                  target="_blank"
+                  variant="transparent"
+                  c="inherit"
+                  rightSection={<RiArrowRightLine />}
+                  p={0}
+                  w="fit-content"
+                >
+                  Become a partner
+                </Button>
+              </Card>
             </Grid.Col>
             <Grid.Col span={{ base: 12, sm: 6, lg: 4 }}>
-              <Card color="green-light" p="xl"></Card>
+              <Card color="green-light" p="xl" h="100%">
+                <Title order={3} size="h4" mb="md">
+                  Games
+                </Title>
+                <Text mb="xl">
+                  Offering seamless multi-chain integrations across 40+ blockchain
+                  networks, our RPC elevates the gaming experience in the decentralized
+                  realm.
+                </Text>
+                <Button
+                  component="a"
+                  href="/blog/defi-kingdoms"
+                  target="_blank"
+                  variant="transparent"
+                  c="inherit"
+                  rightSection={<RiArrowRightLine />}
+                  p={0}
+                  w="fit-content"
+                >
+                  DeFi Kingdoms Case Study
+                </Button>
+              </Card>
             </Grid.Col>
             <Grid.Col span={{ base: 12, sm: 6, lg: 4 }}>
-              <Card color="green" p="xl"></Card>
+              <Card color="green" p="xl" h="100%">
+                <Title order={3} size="h4" mb="md">
+                  Wallets & Exchanges
+                </Title>
+                <Text mb="xl">
+                  Web3 wallets need to be able to provide their users with security, great
+                  UX, and fast transactions. Grove always delivers.
+                </Text>
+                <Button
+                  component="a"
+                  href="/blog/omni-wallet"
+                  target="_blank"
+                  variant="transparent"
+                  c="inherit"
+                  rightSection={<RiArrowRightLine />}
+                  p={0}
+                  w="fit-content"
+                >
+                  Omni Wallet Case Study
+                </Button>
+              </Card>
             </Grid.Col>
             <Grid.Col span={{ base: 12, sm: 6, lg: 4 }}>
-              <Card color="gray" p="xl"></Card>
+              <Card color="gray" p="xl" h="100%">
+                <Title order={3} size="h4" mb="md">
+                  Decentralized Finance
+                </Title>
+                <Text mb="xl">
+                  Seamlessly integrate with the DeFi ecosystem, from lending platforms to
+                  yield farming. Grove ensures reliable and fast data access, empowering
+                  your DeFi solutions.
+                </Text>
+              </Card>
             </Grid.Col>
             <Grid.Col span={{ base: 12, sm: 6, lg: 4 }}>
-              <Card color="blue-light" p="xl"></Card>
+              <Card color="blue-light" p="xl" h="100%">
+                <Title order={3} size="h4" mb="md">
+                  Developer Tooling
+                </Title>
+                <Text mb="xl">
+                  We get developers want tools that help them solve the tough challenges,
+                  we know because we are them. Grove removes the need for node management
+                  while opening access to a larger community of builders.
+                </Text>
+              </Card>
             </Grid.Col>
           </Grid>
         </Section>

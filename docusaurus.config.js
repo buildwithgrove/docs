@@ -7,7 +7,7 @@ const darkTheme = themes.dracula
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Grove Portal",
+  title: "Grove: Web3 Infrastructure",
   favicon: "img/favicon.ico",
   // Enable mermaid diagrams support
   markdown: {
@@ -127,68 +127,6 @@ const config = {
             "aria-label": "Launch Grove Portal",
           },
         ],
-      },
-      footer: {
-        links: [
-          {
-            title: "Docs",
-            items: [
-              {
-                label: "Introduction",
-                to: "introduction/what-is-the-portal",
-              },
-              {
-                label: "Quick Start",
-                to: "quick-start/wallet-rpc",
-              },
-              {
-                label: "Navigation",
-                to: "navigating-the-portal/app-overview",
-              },
-            ],
-          },
-          {
-            title: "Community",
-            items: [
-              {
-                label: "Blog",
-                href: "https://www.blog.pokt.network/",
-              },
-              {
-                label: "Discord",
-                href: "https://discord.gg/portal-rpc",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/poktnetwork",
-              },
-            ],
-          },
-          {
-            title: "Company",
-            items: [
-              {
-                label: "About",
-                href: "https://www.portal.pokt.network/about-us",
-              },
-              {
-                label: "Terms of Service",
-                href: "https://www.portal.pokt.network/terms-and-conditions",
-              },
-              {
-                label: "Privacy Policy",
-                href: "https://www.portal.pokt.network/privacy-policy",
-              },
-            ],
-          },
-        ],
-        logo: {
-          alt: "Grove",
-          width: 120,
-          src: "img/logo_dark.svg",
-          href: "https://www.grove.city",
-        },
-        copyright: `© ${new Date().getFullYear()} Grove`,
       },
       prism: {
         theme: lightTheme,
