@@ -1,0 +1,6 @@
+.subnav {
+  padding: 16px 32px;
+  background-color: var(--ifm-navbar-background-color);
+  border-bottom: 1px solid var(--ifm-toc-border-color);
+  z-index: 1;
+}
