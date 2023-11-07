@@ -104,6 +104,7 @@ const sidebars = {
                 "supported-methods/supported-methods/polygon",
                 "supported-methods/supported-methods/scroll",
                 "supported-methods/supported-methods/solana",
+                "supported-methods/supported-methods/solana-custom",
                 "supported-methods/supported-methods/sui",
             ],
         },
