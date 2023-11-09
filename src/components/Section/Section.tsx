@@ -9,10 +9,14 @@ type SectionProps = {
 export default function Section({ size = "2x", children }: SectionProps) {
   let py: MantineSpacing = size
   if (size === "2x") {
-    py = "4rem"
+    py = "3.5rem"
   }
   if (size === "3x") {
-    py = "8rem"
+    py = "7rem"
   }
-  return <Box py={py}>{children}</Box>
+  return (
+    <Box component="section" py={py}>
+      {children}
+    </Box>
+  )
 }

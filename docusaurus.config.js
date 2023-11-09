@@ -1,5 +1,6 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
+import "dotenv/config"
 
 const { themes } = require("prism-react-renderer")
 const lightTheme = themes.github
@@ -10,6 +11,10 @@ const config = {
   title: "Grove: Web3 Infrastructure",
   favicon: "img/favicon.ico",
   // Enable mermaid diagrams support
+  customFields: {
+    // Put your custom environment here
+    mailjetKey: process.env.MJKEY,
+  },
   markdown: {
     mermaid: true,
   },
@@ -114,7 +119,7 @@ const config = {
                 href: "https://status.grove.city",
               },
               {
-                label: "Enterprise",
+                label: "Contact",
                 to: "enterprise",
               },
             ],
