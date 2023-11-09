@@ -77,3 +77,10 @@ Supported methods are API functions specific to a given blockchain, enabling int
 - Solana [Kin Program](https://solana.com/ecosystem/kin)
 - [Token Program](https://spl.solana.com/token) with Indexing
 - [Associated Token Account Program](https://spl.solana.com/associated-token-account)
+
+### Node Configuration
+
+**Solana Custom** uses a unique configuration. In addition to custom pruning logic to retain at least the previous 6 epochs, our recommended configuration flags are: 
+```
+--account-index program-id spl-token-owner spl-token-mint
+```
