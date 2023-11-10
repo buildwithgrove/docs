@@ -26,23 +26,23 @@ The main difference between an archival node and a full node lies in the amount 
 
 Here's a comparison of the two:
 
-| | Archival Node | Full Node |
-|---|---|---|
-| **Data Stored** | Entire history of the blockchain, including all past states. | Most recent state of the blockchain (last 128 blocks for Ethereum). |
-| **Storage Requirements** | High (over 7TB for Ethereum as of 2023). | Moderate (around 1TB for Ethereum as of 2023). |
-| **Use Cases** | Accessing historical data, audit and compliance, network support. | General use, wallet services, smart contract interaction. |
+|                          | Archival Node                                                     | Full Node                                                           |
+| ------------------------ | ----------------------------------------------------------------- | ------------------------------------------------------------------- |
+| **Data Stored**          | Entire history of the blockchain, including all past states.      | Most recent state of the blockchain (last 128 blocks for Ethereum). |
+| **Storage Requirements** | High (over 7TB for Ethereum as of 2023).                          | Moderate (around 1TB for Ethereum as of 2023).                      |
+| **Use Cases**            | Accessing historical data, audit and compliance, network support. | General use, wallet services, smart contract interaction.           |
 
 ## Supported Blockchains for Archival Nodes
 
 We support archival nodes for the following blockchains:
 
-- [Binance Smart Chain (Archival)](/supported-methods/supported-methods/binance-smart-chain)
+<!-- - [Binance Smart Chain (Archival)](/supported-methods/supported-methods/binance-smart-chain)
 - [Ethereum Mainnet Archival](/supported-methods/supported-methods/ethereum)
 - [Fuse Archival](/supported-methods/supported-methods/fuse)
 - [Gnosis Chain Archival](/supported-methods/supported-methods/gnosis)
 - [Kava Mainnet Archival](/supported-methods/supported-methods/kava)
 - [Oasys Mainnet Archival](/supported-methods/supported-methods/oasys)
-- [Polygon Matic Archival](/supported-methods/supported-methods/polygon)
+- [Polygon Matic Archival](/supported-methods/supported-methods/polygon) -->
 
 Each page provides a comprehensive list of supported methods for the respective blockchain, along with brief descriptions to understand their purpose and functionality. You will also find the specific Portal API prefix and RelayChainID for each blockchain, which are integral parts of our supported methods functionality.
 

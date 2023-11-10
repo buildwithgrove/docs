@@ -10,7 +10,7 @@ export default function Schema({ methodName }: SchemaProps) {
   const method = spec.methods.find((method) => method.name === methodName)
   //   const typings = new OpenRPCTypings(spec as any)
   //   console.log(typings)
-  console.log(spec)
+  // console.log(spec)
   let result = method.result
 
   if (result.$ref) {

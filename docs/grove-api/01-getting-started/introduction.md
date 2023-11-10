@@ -9,19 +9,19 @@ Welcome to the Supported Methods section of our documentation. This section is d
 
 ## Supported Blockchains
 
-Portal supports a wide range of blockchains, including but not limited to Ethereum, Binance Smart Chain, BOBA Mainnet, and many more. Each of these blockchains has unique features and capabilities, and our Portal provides the necessary tools and methods to interact with them effectively. For a detailed list of supported blockchains and their respective methods, please refer to our [Supported Blockchains](/guides/getting-started/supported-blockchains) page.
+Portal supports a wide range of blockchains, including but not limited to Ethereum, Binance Smart Chain, BOBA Mainnet, and many more. Each of these blockchains has unique features and capabilities, and our Portal provides the necessary tools and methods to interact with them effectively. For a detailed list of supported blockchains and their respective methods, please refer to our [Supported Blockchains](./supported-blockchains) page.
 
 ## API Prefix & ChainIDs
 
-Each blockchain we support has a specific Portal API prefix and RelayChainID. These identifiers are crucial for the correct routing and processing of requests. The API prefix is a unique identifier for each blockchain, while the RelayChainID is used to identify the specific chain for relaying requests. It's important to use the correct API prefix and RelayChainID when making requests to ensure accurate and efficient processing. For more information, please refer to our [API Prefix & ChainIDs](/supported-methods/intro/supported-methods-prefixids) page.
+<!-- Each blockchain we support has a specific Portal API prefix and RelayChainID. These identifiers are crucial for the correct routing and processing of requests. The API prefix is a unique identifier for each blockchain, while the RelayChainID is used to identify the specific chain for relaying requests. It's important to use the correct API prefix and RelayChainID when making requests to ensure accurate and efficient processing. For more information, please refer to our [API Prefix & ChainIDs](/supported-methods/intro/supported-methods-prefixids) page. -->
 
 ## Archival Data
 
-For some blockchains, we support Archival nodes. These nodes store the entire history of the blockchain, allowing you to query historical data. This is particularly useful for developers who need to access past states of the blockchain or businesses that need to comply with data retention regulations. If you are accessing data from a certain number of blocks or earlier, you may need to use the archival version of the blockchain. For more information, please refer to our [Archival Nodes Overview](/supported-methods/intro/supported-methods-archival-nodes) page.
+<!-- For some blockchains, we support Archival nodes. These nodes store the entire history of the blockchain, allowing you to query historical data. This is particularly useful for developers who need to access past states of the blockchain or businesses that need to comply with data retention regulations. If you are accessing data from a certain number of blocks or earlier, you may need to use the archival version of the blockchain. For more information, please refer to our [Archival Nodes Overview](/supported-methods/intro/supported-methods-archival-nodes) page. -->
 
 ## Ethereum Trace Methods
 
-We also support a variety of Ethereum Trace methods, which are used to retrieve internal transaction details. These methods are particularly useful for understanding the internal workings of complex transactions, such as those involving smart contracts. For more details, please visit our [Ethereum Trace Overview](/supported-methods/intro/supported-methods-ethtrace) page.
+<!-- We also support a variety of Ethereum Trace methods, which are used to retrieve internal transaction details. These methods are particularly useful for understanding the internal workings of complex transactions, such as those involving smart contracts. For more details, please visit our [Ethereum Trace Overview](/supported-methods/intro/supported-methods-ethtrace) page. -->
 
 ## Summary
 
