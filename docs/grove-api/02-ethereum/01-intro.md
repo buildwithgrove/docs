@@ -1,6 +1,6 @@
-# Supported Methods Overview
+# Intro
 
-Welcome to the Supported Methods section of our documentation. This section is designed to provide you with a comprehensive understanding of the various methods we support across different blockchains. Each blockchain has its unique set of supported methods, which are API functions that enable interaction with its distinct features. 
+Welcome to the Supported Methods section of our documentation. This section is designed to provide you with a comprehensive understanding of the various methods we support across different blockchains. Each blockchain has its unique set of supported methods, which are API functions that enable interaction with its distinct features.
 
 ## Supported Blockchains
 

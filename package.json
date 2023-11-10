@@ -24,6 +24,7 @@
     "@mantine/form": "^7.2.1",
     "@mantine/hooks": "^7.2.0",
     "@mdx-js/react": "^3.0.0",
+    "@open-rpc/typings": "^1.12.3",
     "clsx": "^1.2.1",
     "dotenv": "^16.3.1",
     "lottie-react": "^2.4.0",

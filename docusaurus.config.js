@@ -10,11 +10,11 @@ const darkTheme = themes.dracula
 const config = {
   title: "Grove: Web3 Infrastructure",
   favicon: "img/favicon.ico",
+  // customFields: {
+  //   // Put your custom environment here
+  //   mailjet: process.env.MJKEY,
+  // },
   // Enable mermaid diagrams support
-  customFields: {
-    // Put your custom environment here
-    mailjetKey: process.env.MJKEY,
-  },
   markdown: {
     mermaid: true,
   },
