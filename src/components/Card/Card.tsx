@@ -36,11 +36,11 @@ export default function Card({
       break
     case "green-light":
       bg = "--mantine-color-green-5"
-      tc = "--mantine-color-dark-8"
+      tc = "--mantine-color-gray-1"
       break
     case "green-dark":
       bg = "--mantine-color-green-9"
-      tc = "--mantine-color-dark-8"
+      tc = "--mantine-color-gray-1"
       break
     case "blue":
       bg = "--mantine-color-blue-6"

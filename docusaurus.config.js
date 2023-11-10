@@ -58,8 +58,9 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          path: "docs",
           routeBasePath: "docs",
-          sidebarPath: require.resolve("./sidebars.js"),
+          sidebarPath: "./sidebars.js",
         },
         blog: {
           routeBasePath: "blog",
@@ -94,9 +95,25 @@ const config = {
         },
         items: [
           {
+            to: "about-grove",
+            label: "About",
+            position: "left",
+          },
+          {
+            type: "dropdown",
             to: "/docs/guides/getting-started/welcome",
             label: "Docs",
             position: "left",
+            items: [
+              {
+                to: "/docs/guides/getting-started/welcome",
+                label: "Guides",
+              },
+              {
+                to: "/docs/grove-api/getting-started/introduction",
+                label: "Grove API",
+              },
+            ],
           },
           {
             to: "blog",
@@ -109,27 +126,13 @@ const config = {
             position: "left",
           },
           {
-            type: "dropdown",
-            to: "about-grove",
-            label: "About",
-            position: "left",
-            items: [
-              {
-                label: "Status",
-                href: "https://status.grove.city",
-              },
-              {
-                label: "Contact",
-                to: "enterprise",
-              },
-            ],
-          },
-          {
             href: "https://www.portal.grove.city/api/auth/auth0",
             position: "right",
-            className: "header-link-button header-portal-link",
+            // custom theme extension based on className = "buttonLink"
+            className: "buttonLink",
             label: "Launch Portal",
             "aria-label": "Launch Grove Portal",
+            ml: "sm",
           },
         ],
       },

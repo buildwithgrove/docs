@@ -37,6 +37,8 @@
 
   /* Disable nav nested items padding */
   --ifm-menu-color: var(--ifm-color-primary);
+
+  --ifm-navbar-height: 113px;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -91,7 +93,8 @@ body {
 .navbar__item:hover {
   color: var(--mantine-primary-color-filled);
 }
-.navbar__item.navbar__link--active:after {
+.navbar__item.navbar__link--active:before,
+.navbar__item .navbar__link.active:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -220,4 +223,9 @@ li > .menu__list-item-collapsible {
 #__docusaurus
   .mainWrapper_node_modules-\@docusaurus-theme-classic-lib-theme-Layout-styles-module {
   display: block;
+}
+
+a.mantine-Button-root:hover {
+  color: var(--_button-color, var(--button-color, var(--mantine-color-white)));
+  text-decoration: none;
 }
