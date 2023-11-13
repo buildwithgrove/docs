@@ -262,3 +262,19 @@ li > .menu__list-item-collapsible > a {
 div[class*='colorModeToggle']{
   margin-right: 6px;
 }
+
+h1 {
+  font-size: 2rem; /* Adjust the size as needed */
+}
+
+h2 {
+  font-size: 1.5rem; /* Adjust the size as needed */
+}
+
+h3 {
+  font-size: 1.25rem; /* Adjust the size as needed */
+}
+
+.breadcrumbs {
+  display: none !important;
+}

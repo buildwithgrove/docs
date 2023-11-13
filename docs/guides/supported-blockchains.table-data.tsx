@@ -236,12 +236,6 @@ export const supportedBlockchains = [
         "evmChainID": ""
     },
     {
-        "name": "Solana Custom",
-        "portalApiPrefix": "solana-mainnet-custom",
-        "relayChainID": "C006",
-        "evmChainID": ""
-    },
-    {
         "name": "Sui Mainnet",
         "portalApiPrefix": "sui-mainnet",
         "relayChainID": "0076",
