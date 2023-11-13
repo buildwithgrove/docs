@@ -101,12 +101,12 @@ const config = {
           },
           {
             type: "dropdown",
-            to: "/docs/guides/getting-started/welcome",
+            to: "/docs/guides/getting-started/welcome-to-grove",
             label: "Docs",
             position: "left",
             items: [
               {
-                to: "/docs/guides/getting-started/welcome",
+                to: "/docs/guides/getting-started/welcome-to-grove",
                 label: "Guides",
               },
               {

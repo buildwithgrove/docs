@@ -1,49 +1,48 @@
-# Quickstart Guide
+---
+sidebar_position: 3
+---
 
-Welcome to the Quickstart Guide for Grove. This guide will walk you through the simple two-step process to get started with using Grove in your application.
+# Quickstart guide
 
-## Step 1 – Get an Endpoint
+Welcome to Grove - your entry point into seamless blockchain interaction. Follow these simple steps to get started:
 
-The first step to getting started is to sign up for Grove via the Portal, create an application, and mint an endpoint for the chain(s) that you need access to.
+---
 
-For full details of this process, please refer to the [Get an Endpoint](get-an-endpoint) page.
+## Step 1: Sign Up
 
-## Step 2 – Plug it into your Application
+[Create your Grove account](https://portal.grove.city/api/auth/auth0?signup=true) to begin your journey in the decentralized world.
 
-There are many different reasons why a developer would need to access a blockchain in their application. Your endpoint URL is designed to work directly in some of the existing frameworks and libraries that different developers would be interacting with.
+---
 
-### UI and Interface Developers
+## Step 2: Account Customization
 
-If you're building an interface to blockchain applications, a collection of examples of how to use your Grove endpoint is available under `Popular Libraries`.
+Personalize your account with an unique account name for a better experience.
 
-&rarr; [.NET – web3](../popular-libraries/net–web3)
+---
 
-&rarr; [Go – ethclient](../popular-libraries/ethclient-go)
+## Step 3: Create Your First Application
 
-&rarr; [Java – web3j](../popular-libraries/web3j-java)
+Set up your application to start interacting with blockchains.
 
-&rarr; [JavaScript – ethers.js](../popular-libraries/ethers-js)
+- Click on the 'Create Application' button.
+- Name your application to distinguish it within your account.
+- Select an Appmoji for a visual representation of your application.
+- Provide a brief description to outline the application's functionality.
 
-&rarr; [JavaScript – web3.js](../popular-libraries/web3-js)
+---
 
-&rarr; [Python – web3.py](../popular-libraries/web3-py)
+## Step 4: Access Endpoints
 
-&rarr; [Rust – web3](../popular-libraries/rust-web3)
+Utilize endpoints to make RPC calls and interact with various blockchains.
 
-### Smart Contract Developers
+- Locate the ‘Endpoints’ section in your application.
+- Choose the endpoint corresponding to the blockchain you wish to interact with.
+- Copy the endpoint URL for use in your RPC calls.
 
-If you're a smart contract developer needing access to live chains in your development environment, a collection of examples of how to leverage your endpoint can be found under `Smart Contract Environments`.
+---
 
-&rarr; [Solidity & Vyper – Apeworx](../smart-contract-environments/apeworx)
+## Step 5: Make Your First RPC Call
 
-&rarr; [Solidity & Vyper – Brownie](../smart-contract-environments/brownie)
+Congratulations! You've successfully set up your Grove account and application.
 
-&rarr; [Solidity & Vyper – Hardhat](../smart-contract-environments/hardhat)
-
-&rarr; [Solidity & Vyper – Truffle](../smart-contract-environments/truffle)
-
-### Interacting Directly with the Chain
-
-If you're looking to access blockchain data directly, but aren't using a framework or library, head over to Pocket Network's interactive [API Documentation](https://docs.pokt.network/api-docs/ethereum/#/) to see how to interact directly with the underlying blockchain API, either directly in your browser with your Grove endpoint, or through the code samples provided for each of the different supported requests.
-
-With these steps, you're now ready to start using Grove in your application. Happy building!
+- Explore the [Grove API](/groveapi/intro/api-intro1) for detailed documentation on making specific RPC calls.

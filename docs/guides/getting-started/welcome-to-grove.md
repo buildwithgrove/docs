@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Welcome to Grove
 
 Grove is your powerful gateway to the decentralized world, designed to provide seamless access across multiple blockchains. This ensures you have the freedom and flexibility to interact with the decentralized ecosystem tailored to your needs.
@@ -34,4 +38,4 @@ Our decentralized node network offers a cost-efficient gateway to blockchain net
 
 ## Ready to Get Started?
 
-Equipped with insights into Grove's RPC framework and its potential to revolutionize your blockchain interactions, it's time to delve in. Developers can harness the power of Grove to build cutting-edge web3 applications, bringing decentralized solutions to the forefront of the digital age. Our Quickstart Guide is your roadmap, offering detailed instructions on endpoint usage, application integration, and more. Whether you're a blockchain veteran or a newcomer, our guide equips you with the requisite knowledge and tools. Let's embark on this decentralized odyssey together. Dive into the [Quickstart Guide](quickstart) to commence.
+Equipped with insights into Grove's RPC framework and its potential to revolutionize your blockchain interactions, it's time to delve in. Developers can harness the power of Grove to build cutting-edge web3 applications, bringing decentralized solutions to the forefront of the digital age. Our Quickstart Guide is your roadmap, offering detailed instructions on endpoint usage, application integration, and more. Whether you're a blockchain veteran or a newcomer, our guide equips you with the requisite knowledge and tools. Let's embark on this decentralized odyssey together.
