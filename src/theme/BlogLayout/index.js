@@ -5,9 +5,6 @@ import BlogSidebar from "@theme/BlogSidebar"
 import { TypographyStylesProvider } from "@mantine/core"
 export default function BlogLayout(props) {
   const { sidebar, toc, children, ...layoutProps } = props
-
-  console.log({ layoutProps })
-
   const hasSidebar = sidebar && sidebar.items.length > 0
 
   return (

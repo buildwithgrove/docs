@@ -1,5 +1,6 @@
 import clsx from "clsx"
 import React, { useMemo } from "react"
+import useIsBrowser from "@docusaurus/useIsBrowser"
 import Layout from "@theme-original/DocRoot/Layout"
 import { Anchor, Box, Container, Group } from "@mantine/core"
 import styles from "./DocRootLayout.module.css"
@@ -7,11 +8,13 @@ import sidebars from "@site/sidebars"
 import ChainSelect from "@site/src/components/ChainSelect/ChainSelect"
 
 export default function LayoutWrapper(props) {
+  const isBrowser = useIsBrowser()
   const path = useMemo(() => {
-    const paths = window.location.pathname.split("/")
-    console.log(paths)
-    return paths[2]
-  }, [window.location])
+    if (isBrowser) {
+      const paths = window.location.pathname.split("/")
+      return paths[2]
+    }
+  }, [isBrowser])
 
   const mainLinks = Object.entries(sidebars).filter(
     ([key]) => key === "guides" || key === "groveApi",
