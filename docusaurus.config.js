@@ -64,6 +64,7 @@ const config = {
         },
         blog: {
           routeBasePath: "blog",
+          blogSidebarCount: 10,
         },
         theme: {
           customCss: [
@@ -116,9 +117,20 @@ const config = {
             ],
           },
           {
+            type: "dropdown",
             to: "blog",
             label: "Blog",
             position: "left",
+            items: [
+              {
+                to: "/blog/tags/news",
+                label: "News",
+              },
+              {
+                to: "/blog/tags/case-studies",
+                label: "Case Studies",
+              },
+            ],
           },
           {
             to: "pricing",

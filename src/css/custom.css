@@ -38,7 +38,7 @@
   /* Disable nav nested items padding */
   --ifm-menu-color: var(--ifm-color-primary);
 
-  --ifm-navbar-height: 113px;
+  --ifm-navbar-height: 81px;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -76,15 +76,15 @@ body {
   background-color: var(--ifm-navbar-background-color) !important;
 }
 
-.team-mgmt-table-container table {
-  display: table;
-  width: 100%;
+a.mantine-Button-root:hover {
+  color: var(--_button-color, var(--button-color, var(--mantine-color-white)));
+  text-decoration: none;
 }
 
 /* Header navbar styling and layout */
 .navbar {
   border-bottom: 1px solid var(--mantine-color-default-border);
-  padding: 32px;
+  padding: 1rem;
   height: auto;
 }
 .navbar__item {
@@ -100,48 +100,11 @@ body {
   width: 100%;
   border-bottom: 2px solid var(--mantine-primary-color-filled);
   left: 0;
-  bottom: -15px;
+  bottom: -8px;
 }
 .navbar__items.navbar__items--right {
   flex-direction: row-reverse;
 }
-
-/* Nav menu styling and spacing */
-.theme-doc-sidebar-item-category:not(:first-child) {
-  margin-top: 24px;
-}
-
-nav.menu {
-  padding: 24px 16px;
-  overflow: hidden;
-}
-
-nav.menu:hover {
-  overflow-y: auto;
-}
-
-.menu__list {
-  padding-left: 0 !important;
-}
-
-li > .menu__link {
-  font-size: 14px;
-}
-
-li > .menu__link:not(.menu__link--active) {
-  font-weight: 400;
-}
-
-li > .menu__list-item-collapsible {
-  font-size: 12px;
-  font-weight: 600;
-  line-height: 24px;
-  text-transform: uppercase;
-}
-
-/* li > .menu__list-item-collapsible > a {
-  color: #808b95 !important;
-} */
 
 /* Navbar right section search styling */
 .navbar__search {
@@ -165,67 +128,48 @@ li > .menu__list-item-collapsible {
   color: var(--mantine-color-gray-0);
 }
 
-/* Footer */
-.footer {
-  background-color: var(--ifm-navbar-background-color);
-  border-top: 1px solid var(--mantine-color-default-border);
+/* sidebar nav menu styling and spacing */
+.theme-doc-sidebar-item-category:not(:first-child) {
+  margin-top: 2rem;
 }
 
-.footer__copyright {
-  text-align: left;
+nav.menu {
+  padding: 2rem 1rem;
+  overflow: hidden;
 }
 
-.footer__copyright:before {
-  content: "Read and write to over 40 blockchains utilizing the only decentralized RPC infrastructure network on the planet.";
-  position: relative;
-  display: block;
-  margin: 15px 0;
-  font-size: 15px;
-  width: 400px;
+nav.menu:hover {
+  overflow-y: auto;
 }
 
-.footer .container {
-  display: flex;
-  flex-direction: row-reverse;
+nav.menu .menu__list {
+  padding-left: 0;
 }
 
-.footer__links {
-  flex: 3;
+nav.menu li > .menu__link {
+  font-size: 14px;
 }
 
-.footer__bottom {
-  flex: 1.5;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+nav.menu li > .menu__link:not(.menu__link--active) {
+  font-weight: 400;
+}
+nav.menu li > .menu__link.menu__link--active {
+  font-weight: 600;
 }
 
-@media (max-width: 996px) {
-  .footer .container {
-    flex-direction: column;
-  }
-
-  .footer__bottom {
-    align-items: center;
-  }
-
-  .footer__links {
-    padding-left: 16px;
-  }
+nav.menu li > .menu__list-item-collapsible {
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
-@media (max-width: 450px) {
-  .footer__copyright:before {
-    width: auto;
-  }
-}
-
-#__docusaurus
-  .mainWrapper_node_modules-\@docusaurus-theme-classic-lib-theme-Layout-styles-module {
-  display: block;
-}
-
-a.mantine-Button-root:hover {
-  color: var(--_button-color, var(--button-color, var(--mantine-color-white)));
-  text-decoration: none;
+/* blog sidebar */
+.blog-layout nav {
+  border-right: 1px solid var(--mantine-color-default-border);
+  height: 100%;
+  margin: 0;
+  top: var(--ifm-navbar-height);
+  padding: 2rem 1rem;
+  overflow: hidden;
 }

@@ -1,0 +1,12 @@
+.input {
+  position: relative;
+}
+
+.inputActive:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  border-bottom: 2px solid var(--mantine-primary-color-filled);
+  left: 0;
+  bottom: -12px;
+}

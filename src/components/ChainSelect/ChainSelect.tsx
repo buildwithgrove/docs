@@ -1,5 +1,7 @@
-import { Anchor, Combobox, Input, InputBase, useCombobox } from "@mantine/core"
-import { useState } from "react"
+import { Anchor, Combobox, Group, useCombobox, Text } from "@mantine/core"
+import clsx from "clsx"
+import { useEffect, useState } from "react"
+import styles from "./ChainSelect.module.css"
 
 type ChainsSelectProps = {
   chains: {
@@ -7,18 +9,30 @@ type ChainsSelectProps = {
     label: string
     link: string
   }[]
+  path: string
 }
 
-export default function ChainSelect({ chains }: ChainsSelectProps) {
+export default function ChainSelect({ chains, path }: ChainsSelectProps) {
+  const [isActive, setIsActive] = useState(false)
+  useEffect(() => {
+    const isChain = chains.find((chain) => chain.id === path)
+    if (isChain) {
+      setValue(isChain.label)
+      setIsActive(true)
+    }
+  }, [path])
+
   const [value, setValue] = useState<string | null>(null)
   const combobox = useCombobox({
     onDropdownClose: () => combobox.resetSelectedOption(),
   })
 
   const options = chains.map((chain) => (
-    <Combobox.Option value={chain.label} key={chain.id}>
-      <Anchor href={chain.link}>{chain.label}</Anchor>
-    </Combobox.Option>
+    <Anchor href={chain.link}>
+      <Combobox.Option value={chain.label} key={chain.id}>
+        {chain.label}
+      </Combobox.Option>
+    </Anchor>
   ))
 
   return (
@@ -30,14 +44,16 @@ export default function ChainSelect({ chains }: ChainsSelectProps) {
       }}
     >
       <Combobox.Target>
-        <InputBase
-          component="button"
-          pointer
-          rightSection={<Combobox.Chevron />}
+        <Text
           onClick={() => combobox.toggleDropdown()}
+          className={clsx(styles.input, isActive && styles.inputActive)}
+          px="xs"
         >
-          {value || <Input.Placeholder>Chain APIs</Input.Placeholder>}
-        </InputBase>
+          <Group justify="space-between">
+            {value || "Chain APIs"}
+            <Combobox.Chevron />
+          </Group>
+        </Text>
       </Combobox.Target>
 
       <Combobox.Dropdown>

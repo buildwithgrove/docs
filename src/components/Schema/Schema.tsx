@@ -6,8 +6,9 @@ type SchemaProps = {
   methodName: string
 }
 
-export default function Schema({ methodName }: SchemaProps) {
-  const method = spec.methods.find((method) => method.name === methodName)
+export default function Schema({ methodName, specImport }: SchemaProps) {
+  const specification = specImport ?? spec
+  const method = specification.methods.find((method) => method.name === methodName)
   //   const typings = new OpenRPCTypings(spec as any)
   //   console.log(typings)
   // console.log(spec)
