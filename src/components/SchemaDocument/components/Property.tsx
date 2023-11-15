@@ -1,9 +1,9 @@
-import { Accordion, Box, Group, Title, Text } from "@mantine/core"
+import { Accordion, Box, Group, Title, Text, Stack } from "@mantine/core"
 import Ref from "./Ref"
-import { SchemaType } from "../types"
+import { PropertyType } from "../types"
 
 type Props = {
-  property: SchemaType
+  property: PropertyType
 }
 
 export default function Property({ property }: Props) {
@@ -12,25 +12,19 @@ export default function Property({ property }: Props) {
   }
 
   return (
-    <Box p="xs">
+    <Box p="xs" w="100%">
       {property.title ? (
-        <Accordion>
-          <Accordion.Item value="property">
-            <Accordion.Control>
-              <Title order={6} m={0}>
-                {property.title}
-              </Title>
-            </Accordion.Control>
-            <Accordion.Panel>
-              {property.description && (
-                <Text fs="italic" size="sm">
-                  {property.description}
-                </Text>
-              )}
-              {property.$ref && <Ref $ref={property.$ref} />}
-            </Accordion.Panel>
-          </Accordion.Item>
-        </Accordion>
+        <Stack>
+          <Title order={6} m={0}>
+            {property.title}
+          </Title>
+          {property.description && (
+            <Text fs="italic" size="sm">
+              {property.description}
+            </Text>
+          )}
+          {property.$ref && <Ref $ref={property.$ref} />}
+        </Stack>
       ) : (
         <Ref $ref={property.$ref} />
       )}

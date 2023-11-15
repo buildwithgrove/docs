@@ -41,7 +41,12 @@ export default function SchemaDocument({ methodName, specImport }: SchemaProps) 
         </Box>
       )}
 
-      {method.result && <Result result={method.result} />}
+      {method.result && (
+        <Box mb="xl">
+          <Title order={3}>Result</Title>
+          <Result result={method.result} />
+        </Box>
+      )}
 
       {/* <Box mt="xl">
         <Title order={3}>Console Log</Title>

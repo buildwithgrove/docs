@@ -13,6 +13,7 @@ import OneOf from "./OneOf"
 import Property from "./Property"
 import Ref from "./Ref"
 import { SchemaType } from "../types"
+import Properties from "./Properties"
 
 type Props = {
   schema: SchemaType
@@ -20,8 +21,8 @@ type Props = {
 }
 
 export default function Schema({ schema, order = 5 }: Props) {
-  const Header = ({ mr = 0 }: { mr?: MantineSpacing }) => (
-    <Group align="center" justify="space-between" mr={mr}>
+  const Header = () => (
+    <Group align="center">
       <Title order={order} m={0}>
         {schema.title}
       </Title>
@@ -48,13 +49,7 @@ export default function Schema({ schema, order = 5 }: Props) {
           <Code>{schema.pattern}</Code>
         </Group>
       )}
-      {schema.properties && (
-        <Box mt="xl" p="xs">
-          {Object.values(schema.properties).map((property) => (
-            <Property property={property} />
-          ))}
-        </Box>
-      )}
+      {schema.properties && <Properties properties={Object.values(schema.properties)} />}
     </Stack>
   )
 
@@ -65,6 +60,7 @@ export default function Schema({ schema, order = 5 }: Props) {
       ) : (
         <>
           {schema.type === "string" ||
+          schema.type === "boolean" ||
           schema.type === "null" ||
           schema.type === undefined ? (
             <>
@@ -75,7 +71,7 @@ export default function Schema({ schema, order = 5 }: Props) {
             <Accordion>
               <Accordion.Item value="schema">
                 <Accordion.Control>
-                  <Header mr="md" />
+                  <Header />
                 </Accordion.Control>
                 <Accordion.Panel>
                   <Body />
