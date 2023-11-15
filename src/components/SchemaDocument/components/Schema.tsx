@@ -12,7 +12,7 @@ import {
 import OneOf from "./OneOf"
 import Property from "./Property"
 import Ref from "./Ref"
-import { SchemaType } from "./types"
+import { SchemaType } from "../types"
 
 type Props = {
   schema: SchemaType
@@ -20,8 +20,6 @@ type Props = {
 }
 
 export default function Schema({ schema, order = 5 }: Props) {
-  console.log(schema)
-
   const Header = ({ mr = 0 }: { mr?: MantineSpacing }) => (
     <Group align="center" justify="space-between" mr={mr}>
       <Title order={order} m={0}>
@@ -42,7 +40,7 @@ export default function Schema({ schema, order = 5 }: Props) {
           {schema.description}
         </Text>
       )}
-      {schema.items && <Ref $ref={schema.items.$ref} />}
+      {schema.items && schema.items.$ref && <Ref $ref={schema.items.$ref} />}
       {schema.oneOf && schema.oneOf.map((one) => <OneOf oneOf={one} />)}
       {schema.pattern && (
         <Group align="center">

@@ -1,8 +1,8 @@
 import spec from "@site/static/schemas/ethereum-core.json"
 import { Box, Title, Text, Code } from "@mantine/core"
 import React from "react"
-import Param from "./Param"
-import Result from "./Result"
+import Param from "./components/Param"
+import Result from "./components/Result"
 import { SchemaDocumentContext } from "./SchemaDocumentContext"
 
 type SchemaProps = {

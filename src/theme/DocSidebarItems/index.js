@@ -3,7 +3,6 @@ import DocSidebarItems from "@theme-original/DocSidebarItems"
 import { Title } from "@mantine/core"
 
 export default function DocSidebarItemsWrapper(props) {
-  // console.log(props)
   return (
     <>
       {props?.customProps?.label && (

@@ -1,7 +1,7 @@
 import { Box, Group, Title, Text } from "@mantine/core"
 import Ref from "./Ref"
 import Schema from "./Schema"
-import { ResultType } from "./types"
+import { ResultType } from "../types"
 
 type Props = {
   result: ResultType

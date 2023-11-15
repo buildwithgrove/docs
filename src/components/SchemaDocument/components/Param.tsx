@@ -1,14 +1,13 @@
 import { Accordion, Box, Group, Title, Text } from "@mantine/core"
 import Ref from "./Ref"
 import Schema from "./Schema"
-import { ParamType } from "./types"
+import { ParamType } from "../types"
 
 type Props = {
   param: ParamType
 }
 
 export default function Param({ param }: Props) {
-  console.log(param)
   return (
     <Box p="xs">
       {param.$ref ? (

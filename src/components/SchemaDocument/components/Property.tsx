@@ -1,6 +1,6 @@
 import { Accordion, Box, Group, Title, Text } from "@mantine/core"
 import Ref from "./Ref"
-import { SchemaType } from "./types"
+import { SchemaType } from "../types"
 
 type Props = {
   property: SchemaType
