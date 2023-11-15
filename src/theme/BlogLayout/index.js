@@ -21,7 +21,7 @@ export default function BlogLayout(props) {
             itemScope
             itemType="https://schema.org/Blog"
           >
-            <TypographyStylesProvider>{children}</TypographyStylesProvider>
+            <TypographyStylesProvider p={0}>{children}</TypographyStylesProvider>
           </main>
           {toc && <div className="col col--2">{toc}</div>}
         </div>

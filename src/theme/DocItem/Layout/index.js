@@ -48,7 +48,7 @@ export default function DocItemLayout({ children }) {
             {/* <DocBreadcrumbs /> */}
             <DocVersionBadge />
             {docTOC.mobile}
-            <TypographyStylesProvider>
+            <TypographyStylesProvider p={0}>
               <DocItemContent>{children}</DocItemContent>
             </TypographyStylesProvider>
             <DocItemFooter />

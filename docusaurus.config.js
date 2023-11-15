@@ -18,6 +18,7 @@ const config = {
   markdown: {
     mermaid: true,
   },
+  stylesheets: ["https://fonts.googleapis.com/css?family=Inter:regular,500,600,700"],
   themes: [
     "@docusaurus/theme-mermaid",
     [
