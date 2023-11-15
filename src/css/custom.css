@@ -165,11 +165,17 @@ nav.menu li > .menu__list-item-collapsible {
 }
 
 /* blog sidebar */
-.blog-layout nav {
+.blog-layout nav:not(.pagination-nav) {
   border-right: 1px solid var(--mantine-color-default-border);
-  height: 100%;
+  min-height: calc(100vh - var(--ifm-navbar-height));
   margin: 0;
   top: var(--ifm-navbar-height);
   padding: 2rem 1rem;
   overflow: hidden;
+}
+
+/* docs accordion */
+.docs-wrapper .mantine-Accordion-item {
+  border-left: calc(0.0625rem * var(--mantine-scale)) solid var(--_item-border-color);
+  border-bottom: none;
 }
