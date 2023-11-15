@@ -43,10 +43,10 @@ export default function SchemaDocument({ methodName, specImport }: SchemaProps) 
 
       {method.result && <Result result={method.result} />}
 
-      <Box mt="xl">
+      {/* <Box mt="xl">
         <Title order={3}>Console Log</Title>
         <Code block>{JSON.stringify(method, null, 2)}</Code>
-      </Box>
+      </Box> */}
     </SchemaDocumentContext.Provider>
   )
 }
