@@ -44,6 +44,9 @@
   --ifm-font-family-base: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
     Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+  /* Search highlight color */
+  --search-local-highlight-color: var(--mantine-primary-color-filled);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
