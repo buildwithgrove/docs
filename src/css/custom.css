@@ -204,6 +204,7 @@
 nav.menu {
   padding: 24px 16px;
   overflow: hidden;
+  padding-bottom: 96px;
 }
 
 nav.menu:hover {

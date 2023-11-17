@@ -93,13 +93,8 @@ const config = {
           },
           {
             type: 'docSidebar',
-            label: 'Supported Methods',
+            label: 'Grove API',
             sidebarId: 'supportedBlockchainsSidebar',
-            position: 'left',
-          },
-          {
-            href: 'https://docs.pokt.network/api-docs/pokt/',
-            label: 'API References',
             position: 'left',
           },
           {

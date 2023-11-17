@@ -1,15 +1,21 @@
-# Dogechain Mainnet
+# Dogechain
 
-DogeChain is the underlying blockchain for Dogecoin (DOGE), a cryptocurrency featuring a likeness of the Shiba Inu dog from the "Doge" meme as its logo. It's known for its fast block time and low transaction fees. The DogeChain Supported Methods allow developers to interact with the DogeChain in various ways, including querying account balances, executing transactions, and more.
+DogeChain is a distinctive, community-driven, open-source, and decentralized blockchain platform utilizing the Proof of Work (PoW) consensus mechanism. Originating as a fork of the Ethereum blockchain, DogeChain offers seamless compatibility with Ethereum-based decentralized applications (DApps) and smart contracts. It is specifically designed to overcome the limitations of the Dogecoin blockchain, such as slow transaction speeds and high fees, while preserving its fundamental characteristics and meme-centric culture.
 
-### Chain Relay IDs for Supported Methods
+#### Developer Resources
+
+- DogeChain Developer Documentation: [DogeChain Docs](https://docs.dogechain.dog/docs/overview)
+- DogeChain Community Forum: [DogeChain Twitter](https://twitter.com/DogeSwap_fans)
+- DogeChain Github Repository: [DogeChain GitHub](https://github.com/dogechain-lab/dogechain)
+
+## Chain Relay IDs for Supported Methods
 Each blockchain we support has a specific Portal API prefix and RelayChainID, which are integral parts of our supported methods functionality. These are used to correctly route and process requests.
 
 | Blockchain | Portal API Prefix | RelayChainID |
 |---------|-------------|-------------|
 | Dogechain Mainnet | `dogechain-mainnet` | 0059 |
 
-### Supported Methods
+## Supported Methods
 Supported methods are API functions specific to a given blockchain, enabling interaction with its distinct features. The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:
 
 | Methods | Description |
@@ -31,16 +37,3 @@ Supported methods are API functions specific to a given blockchain, enabling int
 | `eth_getTransactionReceipt` | Returns the receipt of a transaction by transaction hash |
 | `eth_sendRawTransaction` | Creates new message call transaction or a contract creation for signed transactions |
 | `eth_syncing` | Returns the sync data |
-
-> Due to the permissionless, decentralized nature of the node network, not all nodes are configured the same. The following methods may be supported by some nodes but not others. It is possible to return an error if a node is hit that does not support these methods.
-
-| Methods                                | Description                                                                                                                                                     |
-|----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `net_version` | Returns the ETH Network ID |
-| `net_listening` | Returns true if client is listening for network connections |
-| `net_peerCount` | Returns number of peers connected to the client |
-| `web3_clientVersion` | Returns the current client version |
-| `web3_sha3` | Returns Keccak-256 (not the standardized SHA3-256) of the given data |
-| `txpool_content` | Returns all pending and queued transactions |
-| `txpool_inspect` | Returns a textual summary of all pending and queued transactions |
-| `txpool_status` | Returns the number of transactions in pending and queued states |
