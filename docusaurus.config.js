@@ -10,10 +10,6 @@ const darkTheme = themes.dracula
 const config = {
   title: "Grove: Web3 Infrastructure",
   favicon: "img/favicon.ico",
-  // customFields: {
-  //   // Put your custom environment here
-  //   mailjet: process.env.MJKEY,
-  // },
   // Enable mermaid diagrams support
   markdown: {
     mermaid: true,
@@ -60,12 +56,8 @@ const config = {
       ({
         docs: {
           path: "docs",
-          routeBasePath: "docs",
+          routeBasePath: "/",
           sidebarPath: "./sidebars.js",
-        },
-        blog: {
-          routeBasePath: "blog",
-          blogSidebarCount: 10,
         },
         theme: {
           customCss: [
@@ -92,52 +84,12 @@ const config = {
         title: "",
         logo: {
           alt: "Grove Portal Logo",
-          src: "img/grove-logo-icon-light.svg",
-          srcDark: "img/grove-logo-icon-dark.svg",
+          src: "img/logo.svg",
+          srcDark: "img/logo_dark.svg",
+          // src: "img/grove-logo-icon-light.svg",
+          // srcDark: "img/grove-logo-icon-dark.svg",
         },
         items: [
-          {
-            to: "about-grove",
-            label: "About",
-            position: "left",
-          },
-          {
-            type: "dropdown",
-            to: "/docs/guides/getting-started/welcome-to-grove",
-            label: "Docs",
-            position: "left",
-            items: [
-              {
-                to: "/docs/guides/getting-started/welcome-to-grove",
-                label: "Guides",
-              },
-              {
-                to: "/docs/grove-api/getting-started/introduction",
-                label: "Grove API",
-              },
-            ],
-          },
-          {
-            type: "dropdown",
-            to: "blog",
-            label: "Blog",
-            position: "left",
-            items: [
-              {
-                to: "/blog/tags/news",
-                label: "News",
-              },
-              {
-                to: "/blog/tags/case-studies",
-                label: "Case Studies",
-              },
-            ],
-          },
-          {
-            to: "pricing",
-            label: "Pricing",
-            position: "left",
-          },
           {
             href: "https://www.portal.grove.city/api/auth/auth0",
             position: "right",

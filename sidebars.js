@@ -12,7 +12,7 @@ const sidebars = {
       dirName: "guides",
       customProps: {
         label: "Guides",
-        link: "/docs/guides/getting-started/welcome-to-grove",
+        link: "/guides/getting-started/welcome-to-grove",
       },
     },
   ],
@@ -22,8 +22,25 @@ const sidebars = {
       dirName: "grove-api",
       customProps: {
         label: "Grove API",
-        link: "/docs/grove-api/getting-started/introduction",
+        link: "/grove-api/getting-started/introduction",
       },
+    },
+    {
+      type: "category",
+      label: "Supported Chains",
+      collapsible: false,
+      items: [
+        {
+          type: "link",
+          label: "Ethereum API", // The link label
+          href: "/ethereum-api/intro", // The internal path
+        },
+        {
+          type: "link",
+          label: "Polygon API", // The link label
+          href: "/polygon-api/intro", // The internal path
+        },
+      ],
     },
   ],
   ethereumApi: [
@@ -32,7 +49,7 @@ const sidebars = {
       dirName: "ethereum-api",
       customProps: {
         label: "Ethereum API",
-        link: "/docs/ethereum-api/intro",
+        link: "/ethereum-api/intro",
       },
     },
   ],
@@ -42,7 +59,7 @@ const sidebars = {
       dirName: "polygon-api",
       customProps: {
         label: "Polygon API",
-        link: "/docs/polygon-api/intro",
+        link: "/polygon-api/intro",
       },
     },
   ],

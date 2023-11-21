@@ -3,28 +3,44 @@ sidebar_position: 1
 sidebar_label: Introduction
 ---
 
-# Supported Methods Overview
+# Grove API
 
-Welcome to the Supported Methods section of our documentation. This section is designed to provide you with a comprehensive understanding of the various methods we support across different blockchains. Each blockchain has its unique set of supported methods, which are API functions that enable interaction with its distinct features.
+At its core, the Grove API is a RPC (Remote Procedure Call) service, enabling developers to send requests and receive responses to interact with blockchains. This RPC framework is the backbone that allows for the creation of dynamic web3 applications, bridging the gap between decentralized networks and user interfaces.
 
-## Supported Blockchains
+Built on the core principles of decentralization, reliability, and scalability, Grove taps into a global, decentralized network of nodes, granting users access to a myriad of blockchains.
 
-Portal supports a wide range of blockchains, including but not limited to Ethereum, Binance Smart Chain, BOBA Mainnet, and many more. Each of these blockchains has unique features and capabilities, and our Portal provides the necessary tools and methods to interact with them effectively. For a detailed list of supported blockchains and their respective methods, please refer to our [Supported Blockchains](./supported-blockchains) page.
+More than just a node, the Grove API is built with many features that improve developer experience:
 
-## API Prefix & ChainIDs
+### 🌎 Decentralization
 
-<!-- Each blockchain we support has a specific Portal API prefix and RelayChainID. These identifiers are crucial for the correct routing and processing of requests. The API prefix is a unique identifier for each blockchain, while the RelayChainID is used to identify the specific chain for relaying requests. It's important to use the correct API prefix and RelayChainID when making requests to ensure accurate and efficient processing. For more information, please refer to our [API Prefix & ChainIDs](/supported-methods/intro/supported-methods-prefixids) page. -->
+Grove connects to a vast network of decentralized nodes, ensuring your data remains free from the control of a single entity. This enhances the security and privacy of your interactions.
 
-## Archival Data
+### ⛓ Multi-Chain Support
 
-<!-- For some blockchains, we support Archival nodes. These nodes store the entire history of the blockchain, allowing you to query historical data. This is particularly useful for developers who need to access past states of the blockchain or businesses that need to comply with data retention regulations. If you are accessing data from a certain number of blocks or earlier, you may need to use the archival version of the blockchain. For more information, please refer to our [Archival Nodes Overview](/supported-methods/intro/supported-methods-archival-nodes) page. -->
+With support for multiple blockchains, Grove allows you to engage with various networks through a unified interface. Whether you're crafting a dApp, operating a DeFi protocol, or merely exploring the blockchain, Grove offers the adaptability you seek.
 
-## Ethereum Trace Methods
+### 🎯 Reliability and Redundancy
 
-<!-- We also support a variety of Ethereum Trace methods, which are used to retrieve internal transaction details. These methods are particularly useful for understanding the internal workings of complex transactions, such as those involving smart contracts. For more details, please visit our [Ethereum Trace Overview](/supported-methods/intro/supported-methods-ethtrace) page. -->
+Our robust network of nodes is engineered to manage substantial request volumes, guaranteeing uninterrupted application performance, even under significant load. Additionally, our redundancy ensures that in the rare event a node doesn't respond, your request is automatically rerouted.
 
-## Summary
+### 📈 Scalability
 
-The Supported Methods section of our documentation is designed to provide you with the necessary information to effectively interact with the blockchains of your choice. If you have feedback on additional methods or chains you would like to see Portal support, please reach out to the Portal team in [Discord](https://discord.gg/build-with-grove).
+Addressing the pivotal challenge of scalability in the blockchain domain, Grove is primed for growth. As your application expands, our network is equipped to manage a rising number of relays per second, ensuring consistent performance and reliability.
 
-NOTE: Due to the permissionless, decentralized nature of the node network, not all nodes are configured the same. Some methods may be supported by some nodes but not others. It is possible to return an error if a node is hit that does not support certain methods. If you have any questions or need further assistance, feel free to reach out to the Portal team in [Discord](https://discord.gg/build-with-grove).
+### 🚀 Speed
+
+Optimized for rapid performance, Grove's infrastructure is tailored to meet the rigorous demands of contemporary blockchain applications. From transaction submissions and blockchain queries to intricate smart contract operations, Grove ensures swift, seamless interactions.
+
+### 🪄 Cost-Effective
+
+Our decentralized node network offers a cost-efficient gateway to blockchain networks. Distributing costs across providers, the decentralization model curtails infrastructure expenses. Unlike traditional centralized frameworks, Grove promotes a fair distribution of value and cost. Pay only for your actual usage, devoid of hidden charges. This aligns with the Web3 spirit, paving the way for a sustainable and equitable digital future.
+
+### WebSockets
+
+Coming Soon!
+
+## Ready to get started?
+
+The fastest way to get started is to sign up for a personal [Grove Portal](https://portal.grove.city) account, create an application and selecte your favorite chain endpoint.
+
+If however you want more details on the Grove API and how to interact with one of our many blockchains, then read on!

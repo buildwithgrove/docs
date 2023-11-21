@@ -21,7 +21,8 @@ function useShowAnnouncementBar() {
 }
 export default function DocSidebarDesktopContent({ path, sidebar, className }) {
   const showAnnouncementBar = useShowAnnouncementBar()
-  const label = path.split("/")[2].split("-").join(" ")
+  const activePath = path.split("/")[1]
+  const label = activePath.split("-").join(" ")
   return (
     <nav
       aria-label={translate({
@@ -36,6 +37,8 @@ export default function DocSidebarDesktopContent({ path, sidebar, className }) {
         className,
       )}
     >
+      {/* <ChainSelect activePath={activePath} /> */}
+
       {label && (
         <Title order={2} size="h6" mb="md" tt="uppercase">
           {label}

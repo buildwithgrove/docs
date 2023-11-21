@@ -9,26 +9,21 @@ import ChainSelect from "@site/src/components/ChainSelect/ChainSelect"
 
 export default function LayoutWrapper(props) {
   const isBrowser = useIsBrowser()
+
+  let paths
+
+  if (isBrowser) {
+    paths = window.location.pathname.split("/")
+  }
   const path = useMemo(() => {
-    if (isBrowser) {
-      const paths = window.location.pathname.split("/")
-      return paths[2]
+    if (paths) {
+      return paths[1]
     }
-  }, [isBrowser])
+  }, [paths])
 
   const mainLinks = Object.entries(sidebars).filter(
     ([key]) => key === "guides" || key === "groveApi",
   )
-
-  const chainLinks = Object.entries(sidebars).filter(
-    ([key]) => key !== "guides" && key !== "groveApi",
-  )
-
-  const chains = chainLinks.map(([, sidebar]) => ({
-    id: sidebar[0].dirName,
-    label: sidebar[0].customProps.label,
-    link: sidebar[0].customProps.link,
-  }))
 
   return (
     <>
@@ -48,7 +43,7 @@ export default function LayoutWrapper(props) {
                 {sidebar[0].customProps.label}
               </Anchor>
             ))}
-            <ChainSelect chains={chains} path={path} />
+            <ChainSelect activePath={path} />
           </Group>
         </Container>
       </Box>

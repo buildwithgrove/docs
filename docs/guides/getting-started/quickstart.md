@@ -45,4 +45,4 @@ Utilize endpoints to make RPC calls and interact with various blockchains.
 
 Congratulations! You've successfully set up your Grove account and application.
 
-- Explore the [Grove API](/docs/grove-api/getting-started/introduction.md) for detailed documentation on making specific RPC calls.
+- Explore the [Grove API](/grove-api/getting-started/introduction.md) for detailed documentation on making specific RPC calls.

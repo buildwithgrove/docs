@@ -1,31 +1,37 @@
 import { Anchor, Combobox, Group, useCombobox, Text } from "@mantine/core"
 import clsx from "clsx"
 import { useEffect, useState } from "react"
+import sidebars from "@site/sidebars"
 import styles from "./ChainSelect.module.css"
 
 type ChainsSelectProps = {
-  chains: {
-    id: string
-    label: string
-    link: string
-  }[]
-  path: string
+  activePath: string
 }
 
-export default function ChainSelect({ chains, path }: ChainsSelectProps) {
+export default function ChainSelect({ activePath }: ChainsSelectProps) {
   const [isActive, setIsActive] = useState(false)
   useEffect(() => {
-    const isChain = chains.find((chain) => chain.id === path)
+    const isChain = chains.find((chain) => chain.id === activePath)
     if (isChain) {
       setValue(isChain.label)
       setIsActive(true)
     }
-  }, [path])
+  }, [activePath])
 
   const [value, setValue] = useState<string | null>(null)
   const combobox = useCombobox({
     onDropdownClose: () => combobox.resetSelectedOption(),
   })
+
+  const chainLinks = Object.entries(sidebars).filter(
+    ([key]) => key !== "guides" && key !== "groveApi",
+  )
+
+  const chains = chainLinks.map(([, sidebar]) => ({
+    id: sidebar[0].dirName,
+    label: sidebar[0].customProps.label,
+    link: sidebar[0].customProps.link,
+  }))
 
   const options = chains.map((chain) => (
     <Anchor href={chain.link}>

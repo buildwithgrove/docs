@@ -29,9 +29,15 @@ export default function Footer() {
               <Anchor href="https://status.grove.city" target="_blank">
                 Status
               </Anchor>
-              <Anchor href="/privacy">Privacy</Anchor>
-              <Anchor href="/terms">Terms</Anchor>
-              <Anchor href="/enterprise">Enterprise</Anchor>
+              <Anchor href="https://grove.city/privacy" target="_blank">
+                Privacy
+              </Anchor>
+              <Anchor href="https://grove.city/terms" target="_blank">
+                Terms
+              </Anchor>
+              <Anchor href="https://grove.city/enterprise" target="_blank">
+                Enterprise
+              </Anchor>
             </Group>
           </Grid.Col>
           <Grid.Col span={{ base: 12, xs: 6, sm: 4 }}>
