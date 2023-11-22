@@ -4,11 +4,14 @@
  * work well for content-centric websites.
  */
 
+ 
 :root {
   --ifm-color-primary: #1f2327;
   --ifm-color-primary-dark: #1c2023;
   --ifm-color-primary-darker: #191c1f;
   --ifm-color-primary-darkest: #16191b;
+  --ifm-background-color: #151b1f !important;
+
   /*--ifm-color-primary-light: #5e99e3;*/
   /*--ifm-color-primary-lighter: #6aa1e5;*/
   /*--ifm-color-primary-lightest: #90b8ec;*/
@@ -49,8 +52,8 @@
   /*--ifm-color-primary-lighter: #5caef3;*/
   /*--ifm-color-primary-lightest: #84c2f6;*/
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-  --ifm-navbar-background-color: #1A1B1E;
-  --ifm-menu-color-background-active: #27292F;
+  --ifm-navbar-background-color: #151b1f;
+  --ifm-menu-color-background-active: #232e35;
 
   /* Change collapse button color */
   --docusaurus-collapse-button-bg: #272729 !important;
@@ -66,8 +69,8 @@
   --pokt-header-vertical-devider: #CED4DA;
 
   /* Pocket Custom */
-  --pokt-nav-borders: #343438;
-  --pokt-nav-selected-border: #EBEAEF;
+  --pokt-nav-borders: #25262b;
+  --pokt-nav-selected-border: var(--ifm-menu-color);
 }
 
 .navbar__search-input {
@@ -97,8 +100,8 @@
 }
 
 .footer {
-  --ifm-footer-background-color: #1B242F;
-  background-color: var(--ifm-footer-background-color)
+  --ifm-footer-background-color: #151b1f;
+  background-color: #151b1f
 }
 
 .footer .container {
@@ -158,12 +161,12 @@
 .navbar__logo {
   position: absolute;
   top: 20px;
-  left: 45px;
+  left: 32px;
   height: auto;
 }
 
 .navbar__items:not(.navbar__items--right) a:nth-child(3) {
-  margin-left: 30px;
+  margin-left: 12px;
 }
 
 .navbar__items.navbar__items--right {
@@ -172,7 +175,7 @@
 }
 
 .navbar__items {
-  border-bottom: 1px solid var(--pokt-nav-borders);
+  border-bottom: 1px solid #25262b;
   padding-left: 8px;
   padding-right: 8px;
   height: 62px
@@ -247,6 +250,7 @@ li > .menu__list-item-collapsible > a {
   border-radius: 4px;
   padding: 3px;
   margin-right: 20px;
+  visibility: hidden;
 }
 
 .navbar__search-input {
@@ -262,6 +266,7 @@ li > .menu__list-item-collapsible > a {
 
 div[class*='colorModeToggle']{
   margin-right: 6px;
+  visibility: hidden;
 }
 
 h1 {
@@ -276,6 +281,11 @@ h3 {
   font-size: 1.25rem; /* Adjust the size as needed */
 }
 
+hr {
+  background-color: var(--pokt-nav-borders);
+}
+
 .breadcrumbs {
   display: none !important;
 }
+

@@ -1,23 +1,43 @@
 # DFKchain Subnet
 
-DFK Chain is an innovative open-source, decentralized blockchain platform, specifically tailored for decentralized finance (DeFi) applications. As a fork of the Ethereum Virtual Machine (EVM), DFK Chain maintains compatibility with Ethereum-based DApps. This platform stands out due to its advantages over Ethereum, particularly in terms of faster transaction speeds and lower fees. Moreover, DFK Chain hosts a dynamic ecosystem brimming with DeFi applications, positioning it as a significant resource for users in the DeFi space.
+DFK Chain is a specialized open-source, decentralized blockchain platform, primarily designed for decentralized finance (DeFi) applications. As a fork of the Ethereum Virtual Machine (EVM), it maintains compatibility with Ethereum-based DApps, while offering faster transactions and lower fees. DFK Chain is notable for its vibrant ecosystem of DeFi applications.
 
-#### Developer Resources
+- [DFK Chain Developer Documentation](https://github.com/DefiKingdoms)
+- [DFK Chain Community Forum](https://discord.com/invite/defikingdoms)
+- [DFK Chain Github Repository](https://github.com/DefiKingdoms)
 
-- DFK Chain Developer Documentation: [DFK Chain Docs](https://github.com/DefiKingdoms)
-- DFK Chain Community Forum: [DFK Chain Discord](https://discord.com/invite/defikingdoms)
-- DFK Chain Github Repository: [DFK Chain GitHub](https://github.com/DefiKingdoms)
+---
 
+## DFKchain on Grove
+
+Grove provides a comprehensive and developer-friendly interface to the DFK Chain, catering to the growing needs of the DeFi sector. Our platform facilitates seamless interactions with DFK Chain's EVM-compatible environment, ensuring high-speed transactions and reduced fees. Grove's infrastructure is tailored to the unique requirements of DeFi applications, offering reliable uptime and effective solutions for data indexing and node management.
+
+---
+
+## Supported Chain Variants
+
+Grove supports the DFKchain Subnet, ensuring developers can fully leverage the DeFi capabilities of this network:
+
+### DFKchain Subnet
+
+`avax-dfk`
+
+The DFKchain Subnet is designed for DeFi applications, providing an efficient and cost-effective environment for blockchain transactions.
+
+---
 
 ## Chain Relay IDs for Supported Methods
-Each blockchain we support has a specific Portal API prefix and RelayChainID, which are integral parts of our supported methods functionality. These are used to correctly route and process requests.
 
-| Blockchain | Portal API Prefix | RelayChainID |
-|---------|-------------|-------------|
-| DFKchain Subnet | `avax-dfk` | 03DF |
+| Blockchain      | Portal API Prefix | RelayChainID |
+|-----------------|-------------------|--------------|
+| DFKchain Subnet | `avax-dfk`        | 03DF         |
+
+---
 
 ## Supported Methods
-Supported methods are API functions specific to a given blockchain, enabling interaction with its distinct features. The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:
+
+The following methods are supported on the DFKchain Subnet, offering diverse functionalities:
+
 
 | Methods                                | Description                                                                                                                                                     | Documentation Link |
 |----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|
@@ -55,3 +75,32 @@ Supported methods are API functions specific to a given blockchain, enabling int
 | `eth_sendRawTransaction`               | Creates new message call transaction or a contract creation for signed transactions                                                                            | [View method](#)  |
 | `eth_submitWork`                       | Used for submitting a proof-of-work solution                                                                                                                   | [View method](#)  |
 | `eth_syncing`                          | Returns the sync data                                                                                                                                          | [View method](#)  |
+
+
+---
+
+## Getting Started with DFKchain on Grove
+
+To begin using DFKchain functionalities via Grove, follow these steps:
+
+### 1. Set Up an Account on Grove
+
+Create an account on Grove by [signing up here](#). [Instructions for account setup and management].
+
+### 2. Copy your DFKchain Subnet endpoint URL
+
+Find and copy the endpoint URL specific to the DFKchain Subnet on Grove.
+
+### 3. Integrate API Endpoints
+
+Integrate Grove's API endpoints into your DeFi application as needed.
+
+### Example Code Snippet
+
+A basic JavaScript example to get started with the DFKchain Subnet:
+
+```javascript
+// Example: Interacting with DFKchain Subnet
+const dfkchain_subnet_endpoint = "<Grove_DFKchain_Subnet_API_Endpoint>";
+const apiKey = "<Your_API_Key>";
+// Insert your DFKchain Subnet interaction code here

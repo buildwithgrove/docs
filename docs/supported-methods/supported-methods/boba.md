@@ -1,23 +1,44 @@
 # BOBA Mainnet
 
-Boba Network is a Layer 2 Ethereum rollup, designed to enhance scalability, security, and to offer low transaction fees. It incorporates a unique optimistic rollup technology, which provides faster transaction processing and reduced fees compared to Ethereum's mainnet. An important aspect of Boba Network is its full compatibility with the Ethereum Virtual Machine (EVM), simplifying the process for developers to migrate their existing Ethereum DApps to the Boba Network.
+Boba Network is a Layer 2 Ethereum rollup, designed to enhance scalability, security, and offer low transaction fees. It incorporates a unique optimistic rollup technology, which provides faster transaction processing and reduced fees compared to Ethereum's mainnet. An important aspect of Boba Network is its full compatibility with the Ethereum Virtual Machine (EVM), simplifying the process for developers to migrate their existing Ethereum DApps to the Boba Network.
 
-#### Developer Resources
+- [Boba Network Developer Documentation](https://docs.boba.network/)
+- [Boba Network Community Forum](https://forum.boba.network/)
+- [Boba Network Github Repository](https://github.com/bobanetwork/boba)
 
-- Boba Network Developer Documentation: [Boba Docs](https://docs.boba.network/)
-- Boba Network Community Forum: [Boba Forum](https://forum.boba.network/)
-- Boba Network Github Repository: [Boba GitHub](https://github.com/bobanetwork/boba)
+---
 
+## BOBA on Grove
+
+Grove offers an efficient and developer-friendly interface to the Boba Network, enhancing the capabilities of Ethereum Layer 2 solutions. Our platform provides tools for interacting with Boba's advanced rollup technology, ensuring scalability and reduced transaction costs. Grove's infrastructure is designed to maximize reliability and uptime, addressing common challenges in blockchain interactions, including node management and efficient data processing. We cater to a variety of development needs, from simple queries to complex contract interactions, offering both real-time and historical data access.
+
+---
+
+## Supported Chain Variants
+
+Grove supports the BOBA Mainnet variant, designed to meet the specific requirements of applications built on Boba Network:
+
+
+
+### BOBA Mainnet
+
+`boba-mainnet`
+
+The BOBA Mainnet is the primary network for real-world transactions and DApps built on Boba's Layer 2 solution. It provides up-to-date blockchain data with enhanced transaction processing speed and reduced fees.
+
+---
 
 ## Chain Relay IDs for Supported Methods
-Each blockchain we support has a specific Portal API prefix and RelayChainID, which are integral parts of our supported methods functionality. These are used to correctly route and process requests.
 
-| Blockchain | Portal API Prefix | RelayChainID |
-|---------|-------------|-------------|
-| BOBA Mainnet | `boba-mainnet` | 0048 |
+| Blockchain   | Portal API Prefix | RelayChainID |
+|--------------|-------------------|--------------|
+| BOBA Mainnet | `boba-mainnet`    | 0048         |
+
+---
 
 ## Supported Methods
-Supported methods are API functions specific to a given blockchain, enabling interaction with its distinct features. The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:
+
+Below is a list of supported methods for the BOBA Mainnet, enabling diverse functionalities:
 
 | Methods                                | Description                                                                                                                                                     | Documentation Link |
 |----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|
@@ -55,3 +76,32 @@ Supported methods are API functions specific to a given blockchain, enabling int
 | `eth_sendRawTransaction`               | Creates new message call transaction or a contract creation for signed transactions                                                                            | [View method](#)  |
 | `eth_submitWork`                       | Used for submitting a proof-of-work solution                                                                                                                   | [View method](#)  |
 | `eth_syncing`                          | Returns the sync data                                                                                                                                          | [View method](#)  |
+
+
+---
+
+## Getting Started with BOBA on Grove
+
+To integrate Boba Network functionalities using Grove, follow these steps:
+
+### 1. Set Up an Account on Grove
+
+Begin by [creating an account on Grove](#). [Instructions for account setup and management].
+
+### 2. Copy your BOBA Mainnet endpoint URL
+
+[Instructions on locating and copying the endpoint URL for BOBA Mainnet].
+
+### 3. Integrate API Endpoints
+
+[Guidance on how to integrate Grove's API endpoints with your application].
+
+### Example Code Snippet
+
+Here's a basic example in JavaScript to get started with interacting with the BOBA Mainnet:
+
+```javascript
+// Example: Interacting with BOBA Mainnet
+const boba_mainnet_endpoint = "<Grove_BOBA_Mainnet_API_Endpoint>";
+const apiKey = "<Your_API_Key>";
+// Add your code here to interact with BOBA Mainnet

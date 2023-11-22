@@ -49,8 +49,11 @@
 .header-link-button {
     padding: 8px;
     border: 1px solid var(--pokt-nav-borders);
-    border-radius: 4px;
+    border-radius: 99px;
     margin-left: 20px;
+    margin-right: 32px;
+    margin-bottom: auto;
+    margin-top: auto;
 }
 .header-portal-link {
     padding: 8px 16px;

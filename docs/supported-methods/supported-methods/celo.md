@@ -1,23 +1,43 @@
 # Celo Mainnet
 
-Celo is a distinctive open-source, decentralized blockchain platform, optimized for mobile-first decentralized applications (DApps) and enterprise blockchain deployments. The platform employs a unique Proof-of-Stake (PoS) consensus mechanism, which contributes to rapid transaction processing and minimal fees. A key feature of Celo is its compatibility with the Ethereum Virtual Machine (EVM), allowing for the smooth porting of existing Ethereum DApps to the Celo network. With a mobile-first approach, Celo broadens accessibility, particularly for users without traditional computing devices, thereby promoting DApp usage on smartphones and expanding the blockchain's reach. Remarkably, Celo's scalability enables it to handle up to 4,500 transactions per second, ranking it among the fastest blockchain platforms available.
+Celo is a unique open-source, decentralized blockchain platform, optimized for mobile-first decentralized applications (DApps) and enterprise blockchain deployments. Its distinct Proof-of-Stake (PoS) consensus mechanism allows for rapid transaction processing and minimal fees. Celo's compatibility with the Ethereum Virtual Machine (EVM) enables easy porting of existing Ethereum DApps to the Celo network. Focusing on mobile accessibility, Celo extends the reach of blockchain technology, especially to users without traditional computing devices. Its scalability allows handling up to 4,500 transactions per second, placing it among the fastest blockchain platforms.
 
-#### Developer Resources
+- [Celo Developer Documentation](https://docs.celo.org)
+- [Celo Community Forum](https://forum.celo.org)
+- [Celo Github Repository](https://github.com/celo-org)
 
-- Celo Developer Documentation: [Celo Docs](https://docs.celo.org)
-- Celo Community Forum: [Celo Forum](https://forum.celo.org)
-- Celo Github Repository: [Celo GitHub](https://github.com/celo-org)
+---
 
+## Celo on Grove
+
+Grove provides a streamlined and developer-friendly interface for the Celo blockchain, enhancing the development of mobile-first DApps. Our platform offers tools for efficient interaction with Celo's PoS technology, ensuring swift transactions and low fees. Grove's robust infrastructure ensures consistent uptime and addresses challenges like node management and data processing. We support a range of development activities, from simple queries to complex smart contract interactions, with access to both real-time and historical data.
+
+---
+
+## Supported Chain Variants
+
+Grove supports the Celo Mainnet variant, tailored to the specific requirements of applications built on the Celo platform:
+
+### Celo Mainnet
+
+`celo-mainnet`
+
+The Celo Mainnet is the primary network for actual transactions and DApps on Celo. It offers updated blockchain data, fast transaction processing, and low fees.
+
+---
 
 ## Chain Relay IDs for Supported Methods
-Each blockchain we support has a specific Portal API prefix and RelayChainID, which are integral parts of our supported methods functionality. These are used to correctly route and process requests.
 
-| Blockchain | Portal API Prefix | RelayChainID |
-|---------|-------------|-------------|
-| Celo Mainnet | `celo-mainnet` | 0065 |
+| Blockchain  | Portal API Prefix | RelayChainID |
+|-------------|-------------------|--------------|
+| Celo Mainnet| `celo-mainnet`    | 0065         |
+
+---
 
 ## Supported Methods
-Supported methods are API functions specific to a given blockchain, enabling interaction with its distinct features. The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:
+
+Here is a list of supported methods for the Celo Mainnet, providing various functionalities:
+
 
 | Methods                                | Description                                                                                                                                                     | Documentation Link |
 |----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|
@@ -55,3 +75,32 @@ Supported methods are API functions specific to a given blockchain, enabling int
 | `eth_sendRawTransaction`               | Creates new message call transaction or a contract creation for signed transactions                                                                            | [View method](#)  |
 | `eth_submitWork`                       | Used for submitting a proof-of-work solution                                                                                                                   | [View method](#)  |
 | `eth_syncing`                          | Returns the sync data                                                                                                                                          | [View method](#)  |
+
+
+---
+
+## Getting Started with Celo on Grove
+
+To integrate Celo functionalities using Grove, follow these steps:
+
+### 1. Set Up an Account on Grove
+
+Start by [creating an account on Grove](#). [Instructions for account setup and management].
+
+### 2. Copy your Celo Mainnet endpoint URL
+
+[Directions on finding and copying the endpoint URL for Celo Mainnet].
+
+### 3. Integrate API Endpoints
+
+[Guidelines on integrating Grove's API endpoints into your application].
+
+### Example Code Snippet
+
+Here's a simple JavaScript example to begin interacting with the Celo Mainnet:
+
+```javascript
+// Example: Interacting with Celo Mainnet
+const celo_mainnet_endpoint = "<Grove_Celo_Mainnet_API_Endpoint>";
+const apiKey = "<Your_API_Key>";
+// Add your code here for Celo Mainnet interactions

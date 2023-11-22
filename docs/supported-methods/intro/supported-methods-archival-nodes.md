@@ -1,51 +1,56 @@
-# Archival Nodes
+# Archival & Trace
 
-Archival nodes, also known as archive nodes, are a type of node in a blockchain network that stores the entire history of the blockchain, including all states (balances, contract code, storage, etc.) for every block. They are different from full nodes, which only store the most recent state of the blockchain, and light nodes, which only store a small subset of the blockchain data.
+In the intricate world of blockchain, understanding the past and present of transactions is crucial. Our "Archival and Trace" feature offers a comprehensive view into the depths of blockchain networks. With Archival Nodes, access the entire history of blockchain transactions, including each state change and contract interaction. Simultaneously, Ethereum Trace brings the present into focus, providing detailed insights into the execution of current transactions on the Ethereum Virtual Machine (EVM). Together, these tools empower developers and businesses with complete historical context and real-time analysis, essential for advanced debugging, compliance, and strategic decision-making in the blockchain ecosystem.
 
-## What is an Archival Node?
+---
 
-An archival node is a node that maintains a complete and full record of a blockchain's transaction history. These nodes store every transaction that has ever occurred on the blockchain, as well as the current state of all smart contracts, balances, and data stored in the blockchain. This is in contrast to a full node, which only maintains the state of the blockchain from the most recent 128 blocks.
+## Introduction to Archival Nodes
 
-Archival nodes are essential for developers and businesses that need to access historical blockchain data. For example, if a developer wants to know the state of a contract at a specific block in the past, they would need to query an archival node. Similarly, businesses that need to comply with regulatory requirements for data retention may also rely on archival nodes.
+Archival nodes, or archive nodes, store the complete history of a blockchain, including all states (balances, contract code, storage, etc.) for every block. They offer detailed historical data, unlike full nodes, which store only the latest state, or light nodes, which hold a limited subset of data.
 
-## Why Use an Archival Node?
+#### What is an Archival Node?
+An archival node provides a complete transaction history of a blockchain, including every transaction, the current state of all smart contracts, balances, and on-chain data. This contrasts with a full node, which maintains recent blockchain states (e.g., the last 128 blocks for Ethereum).
 
-Archival nodes provide several benefits:
+Archival nodes are crucial for developers and businesses requiring historical blockchain data, such as for auditing or compliance purposes. Running an archival node, however, demands significant storage (over 7TB for Ethereum as of 2023) and computational resources.
 
-1. **Historical Data Access**: Archival nodes allow for querying the state of the blockchain at any given block height. This is useful for developers who need to debug transactions that occurred in the past or analyze the historical state of a smart contract.
+#### Archival Node vs. Full Node
+Archival nodes store the entire blockchain history, including past states, while full nodes keep only the most recent state. Archival nodes require more storage and support use cases like historical data access and audit compliance.
 
-2. **Audit and Compliance**: For businesses and organizations that need to maintain a complete record of all transactions for audit or compliance purposes, running an archival node is necessary.
+---
 
-3. **Network Support**: By running an archival node, you are supporting the blockchain network by providing a source of historical data for others.
+## Introduction to Ethereum Trace
 
-However, running an archival node also comes with its challenges. They require a significant amount of storage space, as they store every transaction and state change that has ever occurred on the blockchain. As of 2023, an Ethereum archival node requires over 7TB of storage. They also require more computational resources to maintain and query the large amount of data.
+Ethereum Trace provides in-depth insights into Ethereum transaction execution. It details all steps in a transaction's execution on the Ethereum Virtual Machine (EVM), including function calls, state changes, and even failed transactions.
 
-## Archival Nodes vs Full Nodes
+#### Understanding Ethereum Trace
+Ethereum Trace, through a set of APIs, offers detailed information on how the EVM processes transactions, including every operation, the state of the EVM at each step, and gas usage.
 
-The main difference between an archival node and a full node lies in the amount of data they store. While both types of nodes validate and relay transactions, a full node only stores the most recent state of the blockchain, while an archival node stores the entire history of the blockchain.
+#### The Importance of Ethereum Trace
+Ethereum Trace is vital for debugging smart contracts and understanding Ethereum transactions. It helps in identifying and fixing contract issues, optimizing gas usage, and understanding contract interactions with the Ethereum network.
 
-Here's a comparison of the two:
+#### Key Features of Ethereum Trace
+- **Function Calls**: Detailed data on all function calls during a transaction.
+- **State Changes**: Tracks all changes to the EVM's state during a transaction.
+- **Gas Usage**: Information on gas used by each operation.
+- **Error Reporting**: Details on failed transactions, aiding debugging.
+- **Replay Transactions**: Allows stepping through a transaction's execution for debugging.
 
-| | Archival Node | Full Node |
-|---|---|---|
-| **Data Stored** | Entire history of the blockchain, including all past states. | Most recent state of the blockchain (last 128 blocks for Ethereum). |
-| **Storage Requirements** | High (over 7TB for Ethereum as of 2023). | Moderate (around 1TB for Ethereum as of 2023). |
-| **Use Cases** | Accessing historical data, audit and compliance, network support. | General use, wallet services, smart contract interaction. |
+### Supported Methods
+Ethereum Trace supports various methods for extracting trace data from individual transactions, blocks, or block ranges. These methods, such as:
 
-## Supported Blockchains for Archival Nodes
+- `trace_block`: Returns traces created at a given block.
+- `trace_call`: Executes the given call and returns a number of possible traces for it.
+- `trace_get`: Returns trace at a given position.
+- `trace_raw_transaction`: Traces a call to eth_sendRawTransaction without making the call, returning the traces.
+- `trace_replayBlockTransactions`: Replays all transactions in a block returning the requested traces for each transaction.
+- `trace_replayTransaction`: Replays a transaction, returning the traces.
+- `trace_transaction`: Returns all traces of a given transaction.
+- `debug_traceTransaction`: Attempts to run the transaction in the exact same manner as it was executed on the network.
+- `debug_traceCall`: Runs an eth_call within the context of the given block execution using the final state of the parent block as the base.
+- `debug_traceBlockByNumber`: Replays the block that is already present in the database.
+- `debug_traceBlockByHash`: Replays the block that is already present in the database.
 
-We support archival nodes for the following blockchains:
 
-- [Binance Smart Chain (Archival)](/supported-methods/supported-methods/binance-smart-chain)
-- [Ethereum Mainnet Archival](/supported-methods/supported-methods/ethereum)
-- [Fuse Archival](/supported-methods/supported-methods/fuse)
-- [Gnosis Chain Archival](/supported-methods/supported-methods/gnosis)
-- [Kava Mainnet Archival](/supported-methods/supported-methods/kava)
-- [Oasys Mainnet Archival](/supported-methods/supported-methods/oasys)
-- [Polygon Matic Archival](/supported-methods/supported-methods/polygon)
+---
 
-Each page provides a comprehensive list of supported methods for the respective blockchain, along with brief descriptions to understand their purpose and functionality. You will also find the specific Portal API prefix and RelayChainID for each blockchain, which are integral parts of our supported methods functionality.
-
-## Summary
-
-Archival nodes play a crucial role in the blockchain ecosystem by providing access to the complete history of the blockchain. While they require more resources to run than full nodes, they are invaluable for developers needing historical data and businesses requiring audit trails. As blockchain technology continues to evolve, the role of archival nodes will likely become even more important.
+Archival nodes and Ethereum Trace together play crucial roles in the blockchain ecosystem. Archival nodes offer complete historical data, invaluable for specific development and compliance needs. Ethereum Trace, meanwhile, provides detailed insights into Ethereum transaction execution, essential for effective smart contract development and optimization.

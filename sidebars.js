@@ -13,7 +13,6 @@ const sidebars = {
             collapsible: false,
             items: [
                 "guides/welcome-to-grove",
-                "guides/decentralized",
                 "guides/supported-blockchains",
                 "guides/quickstart",
                 
@@ -77,7 +76,7 @@ const sidebars = {
         },
         {
             type: "category",
-            label: "Supported Methods",
+            label: "Grove APIs",
             collapsible: false,
             items: [
                 "supported-methods/supported-methods/arbitrum-one",
@@ -109,7 +108,6 @@ const sidebars = {
                 "supported-methods/supported-methods/polygon",
                 "supported-methods/supported-methods/scroll",
                 "supported-methods/supported-methods/solana",
-                "supported-methods/supported-methods/solana-custom",
                 "supported-methods/supported-methods/sui",
             ],
         },

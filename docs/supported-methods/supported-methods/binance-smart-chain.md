@@ -1,22 +1,46 @@
-# Binance Smart Chain
+# Binance Smart Chain (BSC)
 
-Binance Smart Chain (BSC) is an open-source, decentralized, and highly scalable blockchain platform, tailored for decentralized applications (DApps) and enterprise blockchain deployments. As a fork of the Ethereum Virtual Machine (EVM), BSC is fully compatible with Ethereum-based DApps. This compatibility offers significant advantages, such as faster transaction speeds and lower fees compared to Ethereum. BSC is renowned for its thriving ecosystem, which hosts a diverse range of DApps, positioning it as a valuable resource for users in the blockchain space.
+Binance Smart Chain (BSC), formerly known as Binance Chain, is an open-source, decentralized, and highly scalable blockchain platform designed for decentralized applications (DApps) and enterprise blockchain deployments. It is a fork of the Ethereum Virtual Machine (EVM), making it compatible with Ethereum-based DApps. Launched in 2020 by Binance, the world's largest cryptocurrency exchange, BSC quickly gained popularity due to its fast transaction speeds and low fees.
 
-#### Developer Resources
+BSC's rapid growth can be attributed to its address of Ethereum's limitations, such as high transaction fees and congestion. By leveraging a Proof of Staked Authority (PoSA) consensus mechanism, BSC can process up to 2,000 transactions per second at significantly lower fees compared to Ethereum. This scalability and cost-effectiveness have attracted numerous DApp developers and users, making BSC one of the most active blockchain platforms in the world.
 
-- Binance Smart Chain Developer Documentation: [BSC Developer Docs](https://docs.bnbchain.org/docs/getting-started)
-- Binance Smart Chain Community Forum: [BSC Community Forum](https://www.hottg.com/BinanceDEXchange/index.html)
-- Binance Smart Chain Github Repository: [BSC GitHub](https://github.com/bnb-chain/bsc)
 
+* [BSC Developer Docs](https://docs.bnbchain.org/docs/getting-started)
+* [BSC Community Forum](https://www.hottg.com/BinanceDEXchange/index.html)
+* [BSC GitHub](https://github.com/bnb-chain/bsc)
+
+---
+
+## BSC on Grove
+
+Grove extends robust support to Binance Smart Chain, offering developers a suite of tools and APIs for seamless interaction. Our platform facilitates the integration of BSC's features into various applications, emphasizing efficiency and ease of use. Whether it's handling transactions, smart contract interactions, or data analytics, Grove provides an optimized and reliable interface for BSC's diverse capabilities.
+
+---
+## Supported Chain Variants
+Grove supports a variety of Binance Smart Chain (BSC) variants, catering to diverse development needs and use cases:
+
+### BSC Mainnet
+
+`bsc-mainnet`
+
+As the primary network of Binance Smart Chain, the BSC Mainnet hosts real-world transactions and decentralized applications (DApps). It provides near-head support for the latest blocks, enabling developers to access the most current blockchain data. This variant is particularly suited for applications that demand immediate and accurate blockchain information, offering high transaction throughput and real-time data access.
+
+### BSC Archival
+
+`bsc-archival`
+
+The BSC Archival network provides access to historical blockchain data. This variant is essential for developers who need to query data from older blocks, beyond the most recent 128 blocks. With BSC Archival, users can perform in-depth analyses and retrieve past transactions and states, which is invaluable for various research, auditing, and data retrieval purposes. It's ideal for applications requiring extensive historical data access.
+
+---
 
 ## Chain Relay IDs for Supported Methods
-Each blockchain we support has a specific Portal API prefix and RelayChainID, which are integral parts of our supported methods functionality. These are used to correctly route and process requests. For Binance Smart Chain we support Archival nodes. If you are accessing data from 128 blocks or earlier, please ensure to use `bsc-archival`. This allows you to query historical data while also ensuring optimal performance. The supported methods for the archival chains are identical to their non-archival counterparts.
 
 | Blockchain | Portal API Prefix | RelayChainID | Blockheight |
-|---------|-------------|-------------|-------------|
-| Binance Smart Chain | `bsc-mainnet` | 0004 | Latest - 127 blocks |
-| Binance Smart Chain (Archival) | `bsc-archival` | 0010 | 128 blocks + |
+|------------|-------------------|--------------|-------------|
+| BSC Mainnet | `bsc-mainnet` | 0004 | Latest - 127 blocks |
+| BSC (Archival) | `bsc-archival` | 0010 | 128 blocks + |
 
+---
 
 ## Supported Methods
 Supported methods are API functions specific to a given blockchain, enabling interaction with its distinct features. The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:
@@ -57,3 +81,36 @@ Supported methods are API functions specific to a given blockchain, enabling int
 | `eth_sendRawTransaction`               | Creates new message call transaction or a contract creation for signed transactions                                                                            | [View method](#)  |
 | `eth_submitWork`                       | Used for submitting a proof-of-work solution                                                                                                                   | [View method](#)  |
 | `eth_syncing`                          | Returns the sync data                                                                                                                                          | [View method](#)  |
+
+
+---
+
+## Getting Started with BSC on Grove
+
+To start integrating Binance Smart Chain functionalities into your applications using Grove, follow these straightforward steps:
+
+### 1. Set Up an Account on Grove
+Begin by [creating an account on Grove](#). Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+### 2. Copy your Binance Smart Chain (BSC) endpoint URL
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+### 3. Integrate API Endpoints
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+### Example Code Snippet
+Below is a basic JavaScript example to get you started with interacting with the Ethereum Mainnet:
+
+
+```javascript
+   // Example: Interacting with Binance Smart Chain
+   const bsc_endpoint = "<Grove_BSC_API_Endpoint>";
+   const apiKey = "<Your_API_Key>";
+   // Add your code here to interact with BSC
+   ```
+
+---
+
+## Additional Resources
+
+Join our developer community for support, discussions, and sharing best practices. Connect with us on [Grove Discord](#).

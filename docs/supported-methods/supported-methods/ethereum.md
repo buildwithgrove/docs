@@ -1,11 +1,9 @@
 # Ethereum
 Ethereum, a decentralized blockchain platform, was envisioned by Vitalik Buterin, a programmer and co-founder of Bitcoin Magazine, in late 2013. He envisioned a platform that could go beyond mere financial transactions and facilitate the development of decentralized applications (DApps). In 2014, a successful initial coin offering (ICO) raised over $18 million, solidifying Ethereum's position in the cryptocurrency realm. The platform officially launched in July 2015, introducing its native cryptocurrency, Ether (ETH), and the Ethereum Virtual Machine (EVM), an execution environment for DApps. Ethereum's innovative smart contract technology, which enables self-executing contracts, has fueled the growth of a vibrant ecosystem of DApps, ranging from decentralized finance (DeFi) to non-fungible tokens (NFTs).
 
-- [Ethereum Official Documentation](https://ethereum.org/en/developers/docs/)
-
-- [Ethereum Developer Blog](https://blog.ethereum.org/)
-
-- [Ethereum Developer Forum](https://ethereum.org/en/community/)
+* [Ethereum Official Documentation](https://ethereum.org/en/developers/docs/)
+* [Ethereum Developer Blog](https://blog.ethereum.org/)
+* [Ethereum Developer Forum](https://ethereum.org/en/community/)
 
 
 ---
@@ -61,7 +59,7 @@ Each blockchain we support has a specific Portal API prefix and RelayChainID, wh
 
 ---
 ## Supported Methods
-### Ethereum Trace
+### Ethereum
 Supported methods are API functions specific to a given blockchain, enabling interaction with its distinct features. The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:
 
 | Methods | Description | Documentation |

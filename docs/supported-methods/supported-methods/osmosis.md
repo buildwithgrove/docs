@@ -2,43 +2,96 @@
 
 Osmosis is a self-evolving, customizable, and interoperable DeFi hub built on the Cosmos network. With Osmosis's supported methods, developers can effectively interact with the Osmosis chain, executing transactions, querying balances, and leveraging other functionalities to build and optimize their decentralized applications.
 
-### Chain Relay IDs for Supported Methods
-Each blockchain we support has a specific Portal API prefix and RelayChainID, which are integral parts of our supported methods functionality. These are used to correctly route and process requests.
+- [Osmosis Developer Documentation](https://docs.osmosis.zone/)
+- [Osmosis Community Forum](https://forum.osmosis.zone/)
+- [Osmosis Github Repository](https://github.com/osmosis-labs/osmosis)
 
-| Blockchain | Portal API Prefix | RelayChainID |
-|---------|-------------|-------------|
-| Osmosis Mainnet | `osmosis-mainnet` | 0054 |
+---
 
-### Supported Methods
-Supported methods are API functions specific to a given blockchain, enabling interaction with its distinct features. The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:
+## Osmosis on Grove
 
-| Methods                      | Description                                                                                                                                                                                                           |
-|------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `health`                     | Get node health. Returns empty result (200 OK) on success, no response - in case of an error.                                                                                                                         |
-| `status`                     | Get Tendermint status including node info, pubkey, latest block hash, app hash, block height, current max peer height, and time.                                                                                       |
-| `net_info`                   | Get network info.                                                                                                                                                                                                     |
-| `blockchain`                 | Get block headers for minHeight `<=` height maxHeight. At most 20 items will be returned. Block headers are returned in descending order (highest first).                                                               |
-| `header`                     | Retrieve the block header corresponding to a specified height.                                                                                                                                                        |
-| `header_by_hash`             | Retrieve the block header corresponding to a block hash.                                                                                                                                                              |
-| `block`                      | Get Block.                                                                                                                                                                                                           |
-| `block_by_hash`              | Get block by hash.                                                                                                                                                                                                   |
-| `block_results`              | Get block_results.                                                                                                                                                                                                   |
-| `get_commit`                 | Get Commit.                                                                                                                                                                                                          |
-| `validators`                 | Get Validators. Validators are sorted first by voting power (descending), then by address (ascending).                                                                                                                |
-| `genesis`                    | Get the genesis document.                                                                                                                                                                                            |
-| `genesis_chunked`            | Get genesis document in a paginated/chunked format to make it easier to iterate through larger genesis structures.                                                                                                    |
-| `dump_consensus_state`       | Get consensus state. Not safe to call from inside the ABCI application during a block execution.                                                                                                                      |
-| `consensus_state`            | Get consensus state.                                                                                                                                                                                                 |
-| `consensus_params`           | Get consensus parameters.                                                                                                                                                                                            |
-| `unconfirmed_txs`            | Get list of unconfirmed transactions.                                                                                                                                                                                |
-| `num_unconfirmed_txs`        | Get data about unconfirmed transactions.                                                                                                                                                                             |
-| `tx_search`                  | Search for transactions w/ their results.                                                                                                                                                                            |
-| `block_search`               | Search for blocks by BeginBlock and EndBlock events.                                                                                                                                                                 |
-| `tx`                         | Get a transaction.                                                                                                                                                                                                   |
-| `abci_info`                  | Get some info about the application.                                                                                                                                                                                 |
-| `abci_query`                 | Query the application for some information.                                                                                                                                                                          |
-| `broadcast_evidence`         | Broadcast evidence of the misbehavior.                                                                                                                                                                               |
-| `dial_seeds`                 | Dial a peer, this route in under unsafe, and has to manually enabled to use.                                                                                                                                         |
-| `dial_peers`                 | Set a persistent peer, this route in under unsafe, and has to manually enabled to use.                                                                                                                                |
-| `unsafe_flush_mempool`       | Flush flushes out the mempool. It acquires a read-lock, fetches all the transactions currently in the transaction store and removes each transaction from the store and all indexes and finally resets the cache. |
-| `remove_tx`                  | Removes a transaction from the mempool.                                                                                                                                                                              |
+Grove's integration with Osmosis extends its capabilities to the Cosmos network, offering developers the tools needed to interact with and leverage the Osmosis chain in their projects.
+
+---
+
+## Supported Chain Variants
+
+Grove supports the mainnet of Osmosis:
+
+### Osmosis Mainnet
+`osmosis-mainnet`
+
+This is the primary network of Osmosis, enabling a variety of DeFi operations and cross-chain functionality.
+
+---
+
+## Chain Relay IDs for Supported Methods
+
+| Blockchain     | Portal API Prefix  | RelayChainID |
+|----------------|--------------------|--------------|
+| Osmosis Mainnet| `osmosis-mainnet`  | 0054         |
+
+---
+
+## Supported Methods
+
+The following methods are available on Osmosis:
+
+| Methods                      | Description                                                                                                   | Documentation Link |
+|------------------------------|---------------------------------------------------------------------------------------------------------------|--------------------|
+| `health`                     | Get node health. Returns empty result (200 OK) on success, no response - in case of an error.                 | [View method](#)  |
+| `status`                     | Get Tendermint status including node info, pubkey, latest block hash, app hash, block height, and more.       | [View method](#)  |
+| `net_info`                   | Get network info.                                                                                             | [View method](#)  |
+| `blockchain`                 | Get block headers within a specified height range, in descending order.                                       | [View method](#)  |
+| `header`                     | Retrieve the block header for a specified height.                                                             | [View method](#)  |
+| `header_by_hash`             | Retrieve the block header by block hash.                                                                      | [View method](#)  |
+| `block`                      | Get Block information.                                                                                        | [View method](#)  |
+| `block_by_hash`              | Get block information by hash.                                                                                | [View method](#)  |
+| `block_results`              | Get block_results information.                                                                                | [View method](#)  |
+| `get_commit`                 | Get Commit information.                                                                                       | [View method](#)  |
+| `validators`                 | Get Validators information, sorted by voting power and address.                                               | [View method](#)  |
+| `genesis`                    | Get the genesis document.                                                                                     | [View method](#)  |
+| `genesis_chunked`            | Get genesis document in a paginated format.                                                                   | [View method](#)  |
+| `dump_consensus_state`       | Get consensus state (unsafe to call during block execution).                                                  | [View method](#)  |
+| `consensus_state`            | Get consensus state information.                                                                              | [View method](#)  |
+| `consensus_params`           | Get consensus parameters.                                                                                     | [View method](#)  |
+| `unconfirmed_txs`            | Get list of unconfirmed transactions.                                                                         | [View method](#)  |
+| `num_unconfirmed_txs`        | Get data about unconfirmed transactions.                                                                      | [View method](#)  |
+| `tx_search`                  | Search for transactions with results.                                                                         | [View method](#)  |
+| `block_search`               | Search for blocks by BeginBlock and EndBlock events.                                                          | [View method](#)  |
+| `tx`                         | Get a transaction.                                                                                            | [View method](#)  |
+| `abci_info`                  | Get information about the application.                                                                        | [View method](#)  |
+| `abci_query`                 | Query the application for information.                                                                        | [View method](#)  |
+| `broadcast_evidence`         | Broadcast evidence of misbehavior.                                                                            | [View method](#)  |
+| `dial_seeds`                 | Dial a peer (must be manually enabled for use).                                                               | [View method](#)  |
+| `dial_peers`                 | Set a persistent peer (must be manually enabled for use).                                                     | [View method](#)  |
+| `unsafe_flush_mempool`       | Flushes out the mempool.                                                                                      | [View method](#)  |
+| `remove_tx`                  | Removes a transaction from the mempool.                                                                       | [View method](#)  |
+
+---
+
+## Getting Started with Osmosis on Grove
+
+To start using Osmosis through Grove, follow these steps:
+
+### 1. Set Up an Account on Grove
+
+Create your Grove account [here](#). [Instructions for account setup and management].
+
+### 2. Copy your Osmosis endpoint URL
+
+Locate and copy the Osmosis Mainnet endpoint URL on Grove.
+
+### 3. Integrate API Endpoints
+
+Implement Grove's API endpoints into your application as needed.
+
+### Example Code Snippet
+
+A simple JavaScript example to connect with Osmosis Mainnet:
+
+```javascript
+// Example: Interacting with Osmosis Mainnet
+const osmosis_endpoint = "<Grove_Osmosis_API_Endpoint>";
+const apiKey = "<Your_API_Key>";
+// Insert your Osmosis interaction code here
