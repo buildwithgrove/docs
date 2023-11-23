@@ -5,7 +5,7 @@ sidebar_label: API Structure
 
 # API Structure
 
-### https://**chain-prefix**.rpc.grove.city/v1/**app-id**
+https://**\{chain-prefix\}**.rpc.grove.city/v1/**\{app-id\}**
 
 ### **chain-prefix**
 
@@ -13,4 +13,4 @@ The chain-prefix combines both the specific chain and its configuration. You can
 
 ### app-id
 
-The app-id is your unique application ID created by you when you signed up to the [Grove Portal](https://portal.grove.city)
+The app-id is your unique application ID created by you when you signed up to the [Grove Portal](https://portal.grove.city).
