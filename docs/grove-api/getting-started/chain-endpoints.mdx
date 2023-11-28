@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 sidebar_label: Chain Endpoints
 ---
 
@@ -9,14 +9,20 @@ import Blockchains from "@site/src/components/Blockchains/Blockchains"
 
 At Grove we define chains slightly different than most. Below are terms and definition we think that will be helpful for you in make sure you are interacting with the best node configuration for your application.
 
-## Terms
+## Node Configuration Terms
 
-- **Mainnet** - The standard pruned node coniguration for that specific chain. Sometimes also referred to as near-head and typically supporting the latest 128 blocks.
-- **Archival** - The node configuration with access to the full historical blockchain data.
-- **Trace** - A node configuration that supports the trace methods. See example [eth-trace](/ethereum-api/chain-endpoints/eth-trace)
-- **Debug** -
-- **Net** -
-- **Custom** -
+- **Mainnet** 
+    - The standard pruned node coniguration for that specific chain. Sometimes also referred to as near-head and typically supporting the latest 128 blocks. 
+    - example: [eth-mainnet](/ethereum-api/chain-endpoints/eth-mainnet)
+- **Archival** 
+    - The node configuration with access to the full historical blockchain data. 
+    - example: [eth-archival](/ethereum-api/chain-endpoints/eth-archival)
+- **Trace** 
+    - A node configuration that supports the trace methods. 
+    - example: [eth-trace](/ethereum-api/chain-endpoints/eth-trace)
+- **Custom** 
+    - A custom node configuration specfic to Grove. 
+    - example: [solana-custom](#)
 
 ## Supported Endpoints
 
