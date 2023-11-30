@@ -66,6 +66,7 @@ export const supportedBlockchains = [
     portalApiPrefix: "eth-mainnet",
     relayChainID: "0021",
     evmChainID: "0001",
+    link: "/ethereum-api/intro",
   },
   {
     name: "Ethereum Mainnet Archival",
@@ -210,6 +211,7 @@ export const supportedBlockchains = [
     portalApiPrefix: "poly-mainnet",
     relayChainID: "0009",
     evmChainID: "137",
+    link: "/polygon-api/intro",
   },
   {
     name: "Polygon Matic Archival",

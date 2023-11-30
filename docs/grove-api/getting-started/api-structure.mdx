@@ -3,11 +3,14 @@ sidebar_position: 2
 sidebar_label: API Structure
 ---
 
+import { Alert } from "@mantine/core"
+
 # API Structure
 
 https://**\{chain-prefix\}**.rpc.grove.city/v1/**\{app-id\}**
 
 ### **chain-prefix**
+
 A chain-prefix is made up of two parts, the specific chain and its configuration.
 
 Example: **\{chain\}**-**\{config\}**
@@ -18,8 +21,8 @@ You can learn more about what chains and configuration types we support for each
 
 The app-id is your unique application ID created by you when you signed up to the [Grove Portal](https://portal.grove.city).
 
-
-## Deprecated API
-https://**\{chain-prefix\}**.gateway.pokt.network/v1/lb/**\{app-id\}**
-
-This API will no longer be active starting February 01, 2024.
+<Alert mt="xl" variant="default" title="API `gateway.pokt.network` is being deprecated">
+  Starting February 01, 2024 the `gateway.pokt.network` API will no longer be supported.
+  Please start moving all applications and traffic over to `rpc.grove.city` as soon as you
+  can.
+</Alert>

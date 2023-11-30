@@ -1,4 +1,4 @@
-export default async function evmCoreAPI(context, options) {
+export default async function groveChains(context, options) {
   // ...
   return {
     name: "grove-chains",
