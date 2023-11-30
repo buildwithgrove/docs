@@ -7,7 +7,7 @@ sidebar_label: Latency & Caching
 
 ## Latency
 
-The Grove API has some the industries fastest response times. We are able to achieve this through our proprietary [Node Selector](/grove-api/quality-of-service/node-selector) logic. The Node Selector works in combination with our 17 regions and the decentralized [POKT Network](https://pokt.network). When a request comes in, we actively find the fastest nodes available to your applicaitons location, ensuring your request is the fastest result possible. 
+The Grove API has some the industries fastest response times. We are able to achieve this through our proprietary [Node Selector](/grove-api/quality-of-service/node-selector) logic. The Node Selector works in combination with our 17 regions and the decentralized [POKT Network](https://pokt.network). When a request comes in, we actively find the fastest nodes available to your applications location, ensuring your request is the fastest result possible. 
 
 ## Caching
 

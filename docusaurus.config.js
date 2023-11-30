@@ -29,7 +29,7 @@ const config = {
       },
     ],
   ],
-  url: "https://grove.city",
+  url: "https://docs.grove.city",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -49,6 +49,7 @@ const config = {
     defaultLocale: "en",
     locales: ["en"],
   },
+  plugins: ["./plugins/chain-endpoints"],
   presets: [
     [
       "classic",

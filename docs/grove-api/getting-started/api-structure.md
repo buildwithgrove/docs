@@ -22,4 +22,4 @@ The app-id is your unique application ID created by you when you signed up to th
 ## Deprecated API
 https://**\{chain-prefix\}**.gateway.pokt.network/v1/lb/**\{app-id\}**
 
-This API will no longer be active starting February 01, 2023.
+This API will no longer be active starting February 01, 2024.
