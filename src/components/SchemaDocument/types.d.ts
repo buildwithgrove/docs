@@ -1,3 +1,11 @@
+export type MethodType = {
+  name: string
+  summary?: string
+  description?: string
+  params: ParamType[]
+  result: ResultType
+}
+
 export type ResultType =
   | $Ref
   | {

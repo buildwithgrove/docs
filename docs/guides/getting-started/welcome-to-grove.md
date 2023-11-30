@@ -34,4 +34,4 @@ The decentralized network model minimizes infrastructure expenses by distributin
 
 ## Ready to Get Started?
 
-Check out our [Quickstart Guide](/guides/getting-started/quickstart) or the [Grove API](/grove-api/getting-started/introduction).
+Create a [Grove Portal account](https://portal.grove.city) or check out our [Quickstart Guide](/guides/getting-started/quickstart).

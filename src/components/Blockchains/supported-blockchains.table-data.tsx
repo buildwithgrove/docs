@@ -300,7 +300,7 @@ export const columns = [
     className: "pokt-data-table header left",
   },
   {
-    Header: "Portal API Prefix",
+    Header: "Chain Prefix",
     accessor: "portalApiPrefix",
     className: "pokt-data-table header left",
   },
