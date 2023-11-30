@@ -11,32 +11,20 @@
   },
   "methods": [
     {
-      "name": "trace_block",
-      "description": "Returns traces created at given block (Parity)"
+      "name": "debug_traceBlockByHash",
+      "description": "Replays the block that is already present in the database."
     },
     {
-      "name": "trace_call",
-      "description": "Executes the given call and returns a number of possible traces for it"
+      "name": "debug_traceBlockByNumber",
+      "description": "Replays the block that is already present in the database."
     },
     {
-      "name": "trace_get",
-      "description": "Returns trace at given position (Parity)"
+      "name": "debug_traceTransaction",
+      "description": "Attempts to run the transaction in the exact same manner as it was executed on the network."
     },
     {
-      "name": "trace_raw_transaction",
-      "description": "Traces a call to eth_sendRawTransaction without making the call, returning the traces"
-    },
-    {
-      "name": "trace_replayBlockTransactions",
-      "description": "Replays all transactions in a block returning the requested traces for each transaction"
-    },
-    {
-      "name": "trace_replayTransaction",
-      "description": "Replays a transaction, returning the traces"
-    },
-    {
-      "name": "trace_transaction",
-      "description": "Returns all traces of given transaction (Parity)"
+      "name": "debug_traceCall",
+      "description": "Runs an eth_call within the context of the given block execution using the final state of parent block as the base."
     }
   ],
   "components": {

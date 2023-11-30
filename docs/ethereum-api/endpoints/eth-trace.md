@@ -13,6 +13,7 @@ Eth-Trace is a specialized toolset for interacting with the Ethereum blockchain,
 | --------- | --------------------------------------------------------- | ----------------------------------- |
 | Core API  | The core set of methods supported by all ethereum clients | [view spec](../specs/core-api.mdx)  |
 | Trace API | ...                                                       | [view spec](../specs/trace-api.mdx) |
+| Debug API | ...                                                       | [view spec](../specs/debug-api.mdx) |
 
 ## Supported Methods
 
