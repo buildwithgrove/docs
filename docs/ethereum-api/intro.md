@@ -21,14 +21,14 @@ Grove offers a robust and developer-centric interface to the Ethereum blockchain
 
 ## Supported Chain Endpoints
 
-| Blockchain                                     | Chain Prefix               | RelayChainID | Blockheight         |
-| ---------------------------------------------- | -------------------------- | ------------ | ------------------- |
-| [Ethereum Mainnet]("/endpoints/eth-mainnet")   | `eth-mainnet`              | 0021         | Latest - 127 blocks |
-| [Ethereum Archival]("/endpoints/eth-archival") | `eth-archival`             | 0022         | full node           |
-| [Ethereum Trace]("/endpoints/eth-trace")       | `eth-trace`                | 0028         | full node           |
-| [Ethereum Goerli]("/endpoints/eth-goerli")     | `eth-goerli`               | 0026         | Latest - 127 blocks |
-| [Ethereum Rinkeby]("/endpoints/eth-rinkeby")   | `rinkeby`                  | 0022         | Latest - 127 blocks |
-| [Ethereum Holešky]("/endpoints/eth-holesky")   | `holesky-fullnode-testnet` | 0081         | full node           |
+| Blockchain                                    | Chain Prefix               | RelayChainID | Blockheight         |
+| --------------------------------------------- | -------------------------- | ------------ | ------------------- |
+| [Ethereum Mainnet](./endpoints/eth-mainnet)   | `eth-mainnet`              | 0021         | Latest - 127 blocks |
+| [Ethereum Archival](./endpoints/eth-archival) | `eth-archival`             | 0022         | full node           |
+| [Ethereum Trace](./endpoints/eth-trace)       | `eth-trace`                | 0028         | full node           |
+| [Ethereum Goerli](./endpoints/eth-goerli)     | `eth-goerli`               | 0026         | Latest - 127 blocks |
+| [Ethereum Rinkeby](./endpoints/eth-rinkeby)   | `rinkeby`                  | 0022         | Latest - 127 blocks |
+| [Ethereum Holešky](./endpoints/eth-holesky)   | `holesky-fullnode-testnet` | 0081         | full node           |
 
 ---
 
