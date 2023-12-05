@@ -1,13 +1,13 @@
 ---
-sidebar_position: 6
-sidebar_label: eth-goerli
+sidebar_position: 1
+sidebar_label: poly-mainnet
 ---
 
-# Ethereum Goerli
+# Polygon Mainnet
 
-`eth-goerli`
+`poly-mainnet`
 
-As a testnet, ETH-Goerli allows developers to test and experiment with their DApps in a risk-free environment that mimics the main Ethereum network. This variant is perfect for development, testing, and trial runs before deployment on the mainnet.
+The primary Polygon network offering high-speed and low-cost transactions.
 
 ## Supported APIs
 

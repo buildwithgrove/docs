@@ -1,13 +1,13 @@
 ---
 sidebar_position: 4
-sidebar_label: eth-holesky
+sidebar_label: poly-zkevm
 ---
 
-# Ethereum Holešky
+# olygon zkEVM Mainnet
 
-`holesky-fullnode-testnet`
+`polygon-zkevm-mainnet`
 
-This is a specialized Ethereum testnet designed for specific testing and development purposes. It provides a unique environment for developers to experiment with Ethereum functionalities and test applications under different network conditions and parameters.
+An experimental network implementing zero-knowledge proofs for enhanced privacy and scalability.
 
 ## Supported APIs
 

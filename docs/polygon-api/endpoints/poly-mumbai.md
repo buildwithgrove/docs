@@ -1,13 +1,13 @@
 ---
-sidebar_position: 6
-sidebar_label: eth-goerli
+sidebar_position: 3
+sidebar_label: poly-mumbai
 ---
 
-# Ethereum Goerli
+# Polygon Mumbai
 
-`eth-goerli`
+`poly-mumbai`
 
-As a testnet, ETH-Goerli allows developers to test and experiment with their DApps in a risk-free environment that mimics the main Ethereum network. This variant is perfect for development, testing, and trial runs before deployment on the mainnet.
+A testnet for developers to test and experiment before deploying on the mainnet.
 
 ## Supported APIs
 

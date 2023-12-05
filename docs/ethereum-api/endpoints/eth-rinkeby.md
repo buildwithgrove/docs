@@ -11,6 +11,6 @@ Another testnet variant, Rinkeby offers a sandbox for developers to test Ethereu
 
 ## Supported APIs
 
-| API Spec | Description                                               | Documentation                      |
-| -------- | --------------------------------------------------------- | ---------------------------------- |
-| Core API | The core set of methods supported by all ethereum clients | [view spec](../specs/core-api.mdx) |
+| API Spec | Description                                               | Documentation                  |
+| -------- | --------------------------------------------------------- | ------------------------------ |
+| Core API | The core set of methods supported by all ethereum clients | [view spec](../specs/core-api) |

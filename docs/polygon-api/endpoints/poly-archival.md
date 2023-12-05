@@ -1,13 +1,13 @@
 ---
-sidebar_position: 6
-sidebar_label: eth-goerli
+sidebar_position: 2
+sidebar_label: poly-archival
 ---
 
-# Ethereum Goerli
+# Polygon Archival
 
-`eth-goerli`
+`poly-archival`
 
-As a testnet, ETH-Goerli allows developers to test and experiment with their DApps in a risk-free environment that mimics the main Ethereum network. This variant is perfect for development, testing, and trial runs before deployment on the mainnet.
+An archival network storing complete historical data for deep analytics.
 
 ## Supported APIs
 

@@ -11,6 +11,6 @@ This is the primary Ethereum network where real-world transactions and DApps ope
 
 ## Supported APIs
 
-| API Spec | Description                                               | Documentation                      |
-| -------- | --------------------------------------------------------- | ---------------------------------- |
-| Core API | The core set of methods supported by all ethereum clients | [view spec](../specs/core-api.mdx) |
+| API Spec | Description                                               | Documentation                  |
+| -------- | --------------------------------------------------------- | ------------------------------ |
+| Core API | The core set of methods supported by all ethereum clients | [view spec](../specs/core-api) |
