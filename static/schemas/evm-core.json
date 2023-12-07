@@ -11,6 +11,31 @@
   },
   "methods": [
     {
+      "name": "eth_accounts",
+      "summary": "Returns a list of addresses owned by client.",
+      "params": [],
+      "result": {
+        "description": "Addresses owned by the client.",
+        "schema": {
+          "title": "Addresses (20 Bytes)",
+          "type": "array",
+          "items": {
+            "$ref": "#/components/schemas/Bytes"
+          }
+        }
+      },
+      "examples": [
+        {
+          "name": "addressesExample",
+          "params": [],
+          "result": {
+            "name": "addressesExample",
+            "value": ["0x407d73d8a49eeb85d32cf465507dd71d507100c1"]
+          }
+        }
+      ]
+    },
+    {
       "name": "eth_blockNumber",
       "summary": "Returns the number of most recent block.",
       "params": [],
