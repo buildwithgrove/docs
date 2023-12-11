@@ -40,6 +40,11 @@ let sidebars = {
           label: "Polygon API",
           href: "/polygon-api/intro",
         },
+        {
+          type: "link",
+          label: "Avalanche API",
+          href: "/avalanche-api/intro",
+        },
       ],
     },
   ],
