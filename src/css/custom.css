@@ -187,3 +187,41 @@ nav.menu li > .menu__list-item-collapsible {
   border-left: calc(0.0625rem * var(--mantine-scale)) solid var(--_item-border-color);
   border-bottom: none;
 }
+
+/* TABLE */
+table {
+  display: table;
+  width: 100%;
+}
+
+table thead {
+  background-color: transparent;
+}
+
+table thead tr {
+  border: none;
+}
+
+table tr {
+  border-color: var(--mantine-color-default-border);
+}
+
+table thead tr th {
+  color: var(--mantine-color-text) !important;
+}
+
+table tr td,
+table tr th {
+  border: none;
+  border-color: var(--mantine-color-default-border);
+}
+
+table tr:nth-child(2n) {
+  background-color: transparent;
+}
+
+table tr:last-of-type td {
+  border-bottom: 1px solid;
+  /* border-bottom: calc(0.0625rem * var(--mantine-scale)) solid; */
+  border-color: var(--mantine-color-default-border);
+}
