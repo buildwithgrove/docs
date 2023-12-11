@@ -15,7 +15,7 @@ However, decentralization comes with its own set of challenges, particularly con
 
 We are passionate advocates for an enriching developer experience, aiming to usher in the next generation of developers into the web3 realm.
 
-Curious for More? Delve Deeper into Our Perspective on [Quality of Service](/grove-api/getting-started/quality-of-service).
+Curious for More? Delve Deeper into Our Perspective on [Quality of Service](/grove-api/api-definition/quality-of-service).
 
 ## Envisioning the Future
 
