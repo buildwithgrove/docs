@@ -38,7 +38,6 @@ We support archival nodes for the following blockchains:
 
 - [Binance Smart Chain (Archival)](/supported-methods/supported-methods/binance-smart-chain)
 - [Ethereum Mainnet Archival](/supported-methods/supported-methods/ethereum)
-- [Fuse Archival](/supported-methods/supported-methods/fuse)
 - [Gnosis Chain Archival](/supported-methods/supported-methods/gnosis)
 - [Kava Mainnet Archival](/supported-methods/supported-methods/kava)
 - [Oasys Mainnet Archival](/supported-methods/supported-methods/oasys)
