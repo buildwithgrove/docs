@@ -92,12 +92,6 @@ export const supportedBlockchains = [
         "evmChainID": "122"
     },
     {
-        "name": "Fuse Archival",
-        "portalApiPrefix": "fuse-archival",
-        "relayChainID": "000A",
-        "evmChainID": "122"
-    },
-    {
         "name": "Gnosis Chain Mainnet",
         "portalApiPrefix": "gnosischain-mainnet",
         "relayChainID": "0027",
