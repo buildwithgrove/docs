@@ -34,6 +34,13 @@ A decentralized application (dApp) operating on the Ethereum mainnet, facilitati
 
 ---
 
+- [Binance Smart Chain (Archival)](/supported-methods/supported-methods/binance-smart-chain)
+- [Ethereum Mainnet Archival](/supported-methods/supported-methods/ethereum)
+- [Gnosis Chain Archival](/supported-methods/supported-methods/gnosis)
+- [Kava Mainnet Archival](/supported-methods/supported-methods/kava)
+- [Oasys Mainnet Archival](/supported-methods/supported-methods/oasys)
+- [Polygon Matic Archival](/supported-methods/supported-methods/polygon)
+
 ## Testnet Nodes
 
 Testnet Nodes link to a test blockchain network, providing a sandbox for developers to test and experiment in an environment that simulates the mainnet without risking actual-value transactions. They are invaluable for development and testing before deployment.

@@ -2,6 +2,7 @@
 
 Fuse is a blockchain ecosystem designed to be a platform for the easy creation and operation of community-driven currencies and payment systems. With the Fuse supported methods, developers can perform actions like querying balances, executing transactions, and interacting with smart contracts on the Fuse network.
 
+
 For Fuse, we maintain an Archival network. If you are accessing data from 128 blocks ago or earlier, please ensure to use Archival. This allows you to query historical data while also ensuring optimal performance. The supported methods for the archival chains are identical to their non-archival counterparts.
 
 - [Fuse Developer Documentation](https://docs.fuse.io)
@@ -35,7 +36,6 @@ For accessing historical data beyond 128 blocks, with archival capabilities.
 ---
 
 ## Chain Relay IDs for Supported Methods
-
 | Blockchain       | Portal API Prefix  | RelayChainID | Blockheight         |
 |------------------|--------------------|--------------|---------------------|
 | Fuse             | `fuse-mainnet`     | 0005         | Latest - 127 blocks |
