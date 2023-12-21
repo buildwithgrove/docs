@@ -37,5 +37,3 @@ Utilize endpoints to make RPC calls and interact with various blockchains.
 ## Step 5: Make Your First RPC Call
 Congratulations! You've successfully set up your Grove account and application.
 
-- Explore the [Grove API](/groveapi/intro/api-intro1) for detailed documentation on making specific RPC calls.
-
