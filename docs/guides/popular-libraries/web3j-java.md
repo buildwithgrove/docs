@@ -1,9 +1,11 @@
 # Java – Web3j
 
 ### Overview
+
 Web3j is a Java and Android library for interacting with ethereum nodes.
 
 ### Resources
+
 [Documentation](https://docs.web3j.io/4.8.7/)
 
 [Installation Guide](https://docs.web3j.io/4.8.7/quickstart/)
@@ -26,7 +28,7 @@ class Main
 
     public void GetAccountBalance()
     {
-        String URL = "https://<PREFIX>.gateway.pokt.network/v1/lb/<PORTAL-ID>";
+        String URL = "https://<NETWORK>.rpc.grove.city/v1/<PORTAL_ID>";
         String ACCOUNT = "0xde0b295669a9fd93d5f28d9ec85e40f4cb697bae";
        Web3j web3j = Web3j.build(new HttpService(URL));
 
@@ -53,3 +55,4 @@ class Main
         //GetAccountBalance();
     }
 }
+```
