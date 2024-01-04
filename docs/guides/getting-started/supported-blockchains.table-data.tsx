@@ -218,6 +218,12 @@ export const supportedBlockchains = [
         "evmChainID": "1101"
     },
     {
+        "name": "Radix Mainnet",
+        "portalApiPrefix": "radix-mainnet",
+        "relayChainID": "0083",
+        "evmChainID": ""  // no EVM Chain ID 
+    },
+    {
         "name": "Scroll Mainnet",
         "portalApiPrefix": "scroll-mainnet",
         "relayChainID": "0082",
