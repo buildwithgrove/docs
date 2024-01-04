@@ -24,7 +24,7 @@ You'll be asked to provide some information about your application, including it
 
 Once your application is created, you'll be taken to the application details page. Here, you'll see your application's endpoint. This is the URL you'll use to interact with the blockchain network.
 
-The endpoint will look something like this: `https://<network>.gateway.pokt.network/v1/<portal-id>`
+The endpoint will look something like this: `https://<NETWORK>.rpc.grove.city/v1/<PORTAL_ID>`
 
 - `<network>` is the blockchain network you selected when creating your application.
 - `<portal-id>` is the unique identifier for your application, also referred to as the "Portal ID" on the UI.
