@@ -1,6 +1,6 @@
 # AVAX
 
-Avalanche is a high-performance, scalable, and secure blockchain platform designed for decentralized applications and enterprise blockchain deployments. Avalanche's unique architecture enables millions of validators to participate in the network. The Avalanche supported methods offer functionalities that allow developers to integrate Avalanche's features into their applications, such as querying balances, executing transactions, interacting with AVAX-based smart contracts, and more. For a deeper understanding of the specific methods for the Avalance chain, refer to their official documentation [here](https://docs.avax.network/)
+Avalanche is a high-performance, scalable, and secure blockchain platform designed for decentralized applications and enterprise blockchain deployments. Avalanche's unique architecture enables millions of validators to participate in the network. The Avalanche supported methods offer functionalities that allow developers to integrate Avalanche's features into their applications, such as querying balances, executing transactions, interacting with AVAX-based smart contracts, and more. For a deeper understanding of the specific methods for the Avalanche chain, refer to their official documentation [here](https://docs.avax.network/)
 
 ### Chain Relay IDs for Supported Methods
 Each blockchain we support has a specific Portal API prefix and RelayChainID, which are integral parts of our supported methods functionality. These are used to correctly route and process requests.
@@ -12,7 +12,6 @@ Each blockchain we support has a specific Portal API prefix and RelayChainID, wh
 ### Archive Data
 
 For Avalanche we support Archival nodes. If you are accessing data from 128 blocks or earlier, please ensure to use `avax-archival`. This allows you to query historical data while also ensuring optimal performance. The supported methods for the archival chains are identical to their non-archival counterparts.
-
 
 ### Supported Methods
 Supported methods are API functions specific to a given blockchain, enabling interaction with its distinct features. The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:

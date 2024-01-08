@@ -9,6 +9,10 @@ Each blockchain we support has a specific Portal API prefix and RelayChainID, wh
 |---------|-------------|-------------|
 | Optimism Mainnet | `optimism-mainnet` | 0053 |
 
+### Archive Data
+
+For Optimism we support Archival nodes. If you are accessing data from 128 blocks or earlier, please ensure to use `optimism-archival`. This allows you to query historical data while also ensuring optimal performance. The supported methods for the archival chains are identical to their non-archival counterparts.
+
 ### Supported Methods
 Supported methods are API functions specific to a given blockchain, enabling interaction with its distinct features. The following is a comprehensive list of our supported methods, along with brief descriptions to understand their purpose and functionality:
 

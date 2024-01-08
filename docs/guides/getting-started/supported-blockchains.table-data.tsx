@@ -14,6 +14,12 @@ export const supportedBlockchains = [
         "evmChainID": "43114"
     },
     {
+        "name": "AVAX Mainnet Archival",
+        "portalApiPrefix": "avax-archival",
+        "relayChainID": "0003",
+        "evmChainID": "43114"
+    },
+    {
         "name": "Base Mainnet",
         "portalApiPrefix": "base-mainnet",
         "relayChainID": "0079",
@@ -184,6 +190,12 @@ export const supportedBlockchains = [
     {
         "name": "Optimism Mainnet",
         "portalApiPrefix": "optimism-mainnet",
+        "relayChainID": "0053",
+        "evmChainID": "10"
+    },
+    {
+        "name": "Optimism Mainnet Archival",
+        "portalApiPrefix": "optimism-archival",
         "relayChainID": "0053",
         "evmChainID": "10"
     },
