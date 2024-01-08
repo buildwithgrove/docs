@@ -8,6 +8,7 @@ Each blockchain we support has a specific Portal API prefix and RelayChainID, wh
 | Blockchain | Portal API Prefix | RelayChainID | Blockheight |
 |---------|-------------|-------------|-------------|
 | AVAX | `avax-mainnet` | 0003 | Latest - 127 blocks |
+| AVAX Mainnet Archival | `avax-archival` | A003 | All block heights |
 
 ### Archive Data
 

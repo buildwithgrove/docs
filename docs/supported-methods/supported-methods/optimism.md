@@ -5,9 +5,10 @@ Optimism is a Layer 2 scaling solution for Ethereum, aiming to enable high-speed
 ### Chain Relay IDs for Supported Methods
 Each blockchain we support has a specific Portal API prefix and RelayChainID, which are integral parts of our supported methods functionality. These are used to correctly route and process requests.
 
-| Blockchain | Portal API Prefix | RelayChainID |
+| Blockchain | Portal API Prefix | RelayChainID | Blockheight |
 |---------|-------------|-------------|
-| Optimism Mainnet | `optimism-mainnet` | 0053 |
+| Optimism Mainnet | `optimism-mainnet` | 0053 | Latest - 127 blocks |
+| Optimism Mainnet Archival | `optimism-archival` | A053 | All block heights |
 
 ### Archive Data
 
