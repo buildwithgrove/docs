@@ -26,7 +26,7 @@ Grove extends robust support to Binance Smart Chain, offering developers a suite
 | Blockchain                               | Chain Prefix   | RelayChainID | Blockheight         |
 | ---------------------------------------- | -------------- | ------------ | ------------------- |
 | [BSC Mainnet](./endpoints/bsc-mainnet)   | `bsc-mainnet`  | 0004         | Latest - 127 blocks |
-| [BSC Archival](./endpoints/bsc-archival) | `bsc-archival` | 0010         | Full node           |
+| [BSC Archival](./endpoints/bsc-archival) | `bsc-archival` | 0010         | All block heights   |
 
 ---
 
