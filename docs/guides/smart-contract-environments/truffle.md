@@ -38,7 +38,11 @@ module.exports = {
       network_id: "80001",
     },
   },
+<<<<<<< HEAD
 }
+=======
+};
+>>>>>>> main
 ```
 
 Note, the chainId is not related to the Pocket Relay Chain ID, but rather, the value returned by `eth_chainId`.
