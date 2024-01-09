@@ -1,11 +1,12 @@
 # Solidity & Vyper – Apeworx
 
 ### Overview
+
 Apeworx is an Ethereum development framework targeted at Python developers, data scientists, and security professionals.
 
 ### Resources
-[Documentation](https://docs.apeworx.io/ape/stable/)
 
+[Documentation](https://docs.apeworx.io/ape/stable/)
 
 ### Basic Usage
 
@@ -17,14 +18,14 @@ For our example, let’s specify 2 ecosystems, Ethereum and Polygon, both includ
 geth:
   ethereum:
     mainnet:
-      uri: https://eth-mainnet.gateway.pokt.network/v1/lb/<PORTAL-ID>
+      uri: https://eth-mainnet.rpc.grove.city/v1/<APP_ID>
     goerli:
-      uri: https://eth-goerli.gateway.pokt.network/v1/lb/<PORTAL-ID>
+      uri: https://eth-goerli.rpc.grove.city/v1/<APP_ID>
   polygon:
     mainnet:
-      uri: https://poly-mainnet.gateway.pokt.network/v1/lb/<PORTAL-ID>
+      uri: https://poly-mainnet.rpc.grove.city/v1/<APP_ID>
     mumbai:
-      uri: https://poly-mumbai.gateway.pokt.network/v1/lb/<PORTAL-ID>
+      uri: https://poly-mumbai.rpc.grove.city/v1/<APP_ID>
 ```
 
 You would then be able to connect your Apeworx console to Goerli through Pocket Network as follows:

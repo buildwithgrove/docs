@@ -1,9 +1,11 @@
 # .NET – Web3
 
 ### Overview
+
 Web3 is a simple wrapper for interacting with JSON RPC, and is provided by Nethereum, a suite of .NET Ethereum development tools.
 
 ### Resources
+
 [Documentation](https://docs.nethereum.com/en/latest/introduction/web3/)
 
 [Installation Guide](https://docs.nethereum.com/en/latest/getting-started/)
@@ -27,7 +29,7 @@ namespace NethereumSample
 
         static async Task GetAccountBalance()
         {
-            var URL = "https://<PREFIX>.gateway.pokt.network/v1/lb/<PORTAL-ID>";
+            var URL = "https://<CHAIN_PREFIX>.rpc.grove.city/v1/<APP_ID>";
             var ACCCOUNT = "0xde0b295669a9fd93d5f28d9ec85e40f4cb697bae";
             var web3 = new Web3(URL);
             var balance = await web3.Eth.GetBalance.SendRequestAsync(ACCOUNT);
@@ -38,3 +40,4 @@ namespace NethereumSample
         }
     }
 }
+```

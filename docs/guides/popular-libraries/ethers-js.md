@@ -1,9 +1,11 @@
 # JavaScript – ethers.js
 
 ### Overview
+
 Ethers is a JavaScript library for interacting with Ethereum and the ecosystem that's been built on it, including first class support for Pocket Network.
 
 ### Resources
+
 [Documentation](https://docs.ethers.io/v5/)
 
 [Installation Guide](https://docs.ethers.io/v5/getting-started/)
@@ -11,12 +13,13 @@ Ethers is a JavaScript library for interacting with Ethereum and the ecosystem t
 ### Basic Usage
 
 ```javascript
-import { ethers } from "ethers";
+import { ethers } from "ethers"
 
-const POCKET_URL = "https://<PREFIX>.gateway.pokt.network/v1/lb/<PORTAL-ID>"
+const POCKET_URL = "https://<CHAIN_PREFIX>.rpc.grove.city/v1/<APP_ID>"
 
-const provider = new ethers.providers.JsonRpcProvider(POCKET_URL);
+const provider = new ethers.providers.JsonRpcProvider(POCKET_URL)
 
-const blockNumber = await provider.getBlockNumber();
+const blockNumber = await provider.getBlockNumber()
 
-console.log(blockNumber);
+console.log(blockNumber)
+```

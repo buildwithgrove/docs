@@ -1,9 +1,11 @@
 # Go – ethclient
 
 ### Overview
+
 The ethclient package built to enable remote communication directly to an ethereum mode, including RPC access over HTTP.
 
 ### Resources
+
 [Documentation](https://goethereumbook.org/client-setup/)
 
 ### Basic Usage
@@ -24,7 +26,7 @@ import (
 
 func main() {
     url :=
-    client, err := ethclient.Dial("https://<PREFIX>.gateway.pokt.network/v1/lb/<PORTAL-ID>")
+    client, err := ethclient.Dial("https://<CHAIN_PREFIX>.rpc.grove.city/v1/<APP_ID>")
     if err != nil {
         log.Fatal(err)
     }
@@ -51,3 +53,4 @@ func main() {
     pendingBalance, err := client.PendingBalanceAt(context.Background(), account)
     fmt.Println(pendingBalance)
 }
+```
