@@ -61,6 +61,7 @@ export default function Schema({ schema, order = 5 }: Props) {
         <>
           {schema.type === "string" ||
           schema.type === "boolean" ||
+          schema.type === "number" ||
           schema.type === "null" ||
           schema.type === undefined ? (
             <>

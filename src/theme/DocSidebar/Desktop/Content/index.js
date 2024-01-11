@@ -37,8 +37,6 @@ export default function DocSidebarDesktopContent({ path, sidebar, className }) {
         className,
       )}
     >
-      {/* <ChainSelect activePath={activePath} /> */}
-
       {label && (
         <Title order={2} size="h6" mb="md" tt="uppercase">
           {label}
