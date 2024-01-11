@@ -13,9 +13,9 @@ Solana is a high-performance blockchain supporting builders around the world cre
 
 ## Supported APIs
 
-| API Spec   | Description                                             | Documentation                  |
-| ---------- | ------------------------------------------------------- | ------------------------------ |
-| Solana API | The core set of methods supported by all Solana clients | [view spec](../specs/core-api) |
+| API Spec   | Description                                             | Documentation                                 |
+| ---------- | ------------------------------------------------------- | --------------------------------------------- |
+| Solana API | The core set of methods supported by all Solana clients | [view spec](https://docs.solana.com/api/http) |
 
 ### Additional Capabilities
 
