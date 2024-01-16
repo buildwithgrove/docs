@@ -48,6 +48,7 @@ export default function ChainSelect({ activePath }: ChainsSelectProps) {
         setValue(val)
         combobox.closeDropdown()
       }}
+      width={225}
     >
       <Combobox.Target>
         <Text
@@ -62,7 +63,7 @@ export default function ChainSelect({ activePath }: ChainsSelectProps) {
         </Text>
       </Combobox.Target>
 
-      <Combobox.Dropdown>
+      <Combobox.Dropdown className={styles.dropdown}>
         <Combobox.Options>{options}</Combobox.Options>
       </Combobox.Dropdown>
     </Combobox>

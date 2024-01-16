@@ -11,3 +11,12 @@
   left: 0;
   bottom: -12px;
 }
+
+.combobox {
+  width: 225px;
+}
+
+.dropdown {
+  max-height: 325px;
+  overflow-y: auto;
+}

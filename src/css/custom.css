@@ -171,6 +171,9 @@ nav.menu li > .menu__list-item-collapsible {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+nav.menu li > .menu__list-item-collapsible .menu__link {
+  color: var(--mantine-color-gray-filled);
+}
 
 /* blog sidebar */
 .blog-layout nav:not(.pagination-nav) {
