@@ -1,4 +1,4 @@
-# Python – Web3.py
+# Python – web3.py
 
 ### Overview
 

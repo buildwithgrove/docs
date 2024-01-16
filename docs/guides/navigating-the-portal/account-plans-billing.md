@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+sidebar_label: Account Billing and Plans
 ---
 
 # Account Billing and Plans
