@@ -13,7 +13,7 @@ web3.swift is a Swift API that supports a subset of the Ethereum JSON RPC, as we
 ```swift
 import web3
 
-guard let clientUrl = URL(string: "https://<NETWORK>.rpc.grove.city/v1/<PORTAL_ID>") else { return }
+guard let clientUrl = URL(string: "https://<CHAIN_PREFIX>.rpc.grove.city/v1/<APP_ID>") else { return }
 let client = EthereumClient(url: clientUrl)
 
 client.eth_gasPrice { (error, currentPrice) in

@@ -26,7 +26,7 @@ import (
 
 func main() {
     url :=
-    client, err := ethclient.Dial("https://<NETWORK>.rpc.grove.city/v1/<PORTAL_ID>")
+    client, err := ethclient.Dial("https://<CHAIN_PREFIX>.rpc.grove.city/v1/<APP_ID>")
     if err != nil {
         log.Fatal(err)
     }

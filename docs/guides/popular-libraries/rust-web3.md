@@ -12,7 +12,7 @@ web3-rust is a rust implementation of web3.js.
 
 ```rust
 async fn main() -> web3::Result<()> {
-    let url = "https://<NETWORK>.rpc.grove.city/v1/<PORTAL_ID>";
+    let url = "https://<CHAIN_PREFIX>.rpc.grove.city/v1/<APP_ID>";
     let transport = web3::transports::Http::new(url)?;
     let web3 = web3::Web3::new(transport);
 

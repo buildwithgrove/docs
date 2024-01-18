@@ -1,4 +1,4 @@
-# .NET – Web3
+# .NET – web3
 
 ### Overview
 
@@ -29,7 +29,7 @@ namespace NethereumSample
 
         static async Task GetAccountBalance()
         {
-            var URL = "https://<NETWORK>.rpc.grove.city/v1/<PORTAL_ID>";
+            var URL = "https://<CHAIN_PREFIX>.rpc.grove.city/v1/<APP_ID>";
             var ACCCOUNT = "0xde0b295669a9fd93d5f28d9ec85e40f4cb697bae";
             var web3 = new Web3(URL);
             var balance = await web3.Eth.GetBalance.SendRequestAsync(ACCOUNT);

@@ -1,3 +1,8 @@
+---
+sidebar_position: 3
+sidebar_label: Get an Endpoint
+---
+
 # Get an Endpoint
 
 Welcome to the "Get an Endpoint" guide for Grove. This guide will walk you through the process of obtaining an endpoint from the Grove Portal, which you can then use to interact with the blockchain network of your choice.
@@ -24,10 +29,10 @@ You'll be asked to provide some information about your application, including it
 
 Once your application is created, you'll be taken to the application details page. Here, you'll see your application's endpoint. This is the URL you'll use to interact with the blockchain network.
 
-The endpoint will look something like this: `https://<NETWORK>.rpc.grove.city/v1/<PORTAL_ID>`
+The endpoint will look something like this: `https://<NETWORK>.rpc.grove.city/v1/<APP_ID>`
 
-- `<network>` is the blockchain network you selected when creating your application.
-- `<portal-id>` is the unique identifier for your application, also referred to as the "Portal ID" on the UI.
+- `<NETWORK>` is the blockchain network you selected when creating your application.
+- `<APP_ID>` is the unique identifier for your application, also referred to as the "Portal ID" on the UI.
 
 You can copy the endpoint URL by clicking on the "Copy" button next to it.
 

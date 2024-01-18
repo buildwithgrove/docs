@@ -1,14 +1,10 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from "react"
 
 export default function Home(): JSX.Element {
+  useEffect(() => {
+    // window.location.href = '/category/introduction';
+    window.location.href = "guides/getting-started/welcome-to-grove"
+  }, [])
 
-    useEffect(() => {
-        // window.location.href = '/category/introduction';
-        window.location.href = 'guides/getting-started/welcome';
-
-    }, []);
-
-    return (
-        <></>
-    );
+  return <></>
 }

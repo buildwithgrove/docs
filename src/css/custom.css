@@ -15,32 +15,42 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
   /* Change collapse button color */
-  --docusaurus-collapse-button-bg: #F2F2F2 !important;
+  --docusaurus-collapse-button-bg: #f2f2f2 !important;
   --docusaurus-collapse-button-bg-hover: #dadada !important;
 
   /* Search style var */
   --ifm-navbar-search-input-placeholder-color: var(--ifm-color-emphasis-800);
 
   /* Hyperlinks hover */
-  --ifm-link-color: #389F58;
+  --ifm-link-color: #389f58;
 
-  --ifm-menu-color-background-active: #E9ECEF;
+  --ifm-menu-color-background-active: #e9ecef;
   /* Pocket Custom */
-  --pokt-header-vertical-devider: #353A40;
+  --pokt-header-vertical-devider: #353a40;
 
   /* Pocket Custom */
-  --pokt-nav-borders: #E3E8ED;
-  --pokt-nav-selected-border: #27292F;
+  --pokt-nav-borders: #e3e8ed;
+  --pokt-nav-selected-border: #27292f;
 
   /* Disable nav boxshadow in light mode */
   --ifm-navbar-shadow: 0;
 
   /* Disable nav nested items padding */
---ifm-menu-color: var(--ifm-color-primary)
+  --ifm-menu-color: var(--ifm-color-primary);
+
+  --ifm-navbar-height: 81px;
+
+  /* Font Family */
+  --ifm-font-family-base: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+  /* Search highlight color */
+  --search-local-highlight-color: var(--mantine-primary-color-filled);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+[data-theme="dark"] {
   --ifm-color-primary: #e6edf3;
   --ifm-color-primary-dark: #cfd5db;
   --ifm-color-primary-darker: #b8bec2;
@@ -49,8 +59,8 @@
   /*--ifm-color-primary-lighter: #5caef3;*/
   /*--ifm-color-primary-lightest: #84c2f6;*/
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-  --ifm-navbar-background-color: #1A1B1E;
-  --ifm-menu-color-background-active: #27292F;
+  --ifm-navbar-background-color: #1a1b1e;
+  --ifm-menu-color-background-active: #27292f;
 
   /* Change collapse button color */
   --docusaurus-collapse-button-bg: #272729 !important;
@@ -63,189 +73,53 @@
   /*--ifm-link-color: #379F58;*/
 
   /* Pocket Custom */
-  --pokt-header-vertical-devider: #CED4DA;
+  --pokt-header-vertical-devider: #ced4da;
 
   /* Pocket Custom */
   --pokt-nav-borders: #343438;
-  --pokt-nav-selected-border: #EBEAEF;
+  --pokt-nav-selected-border: #ebeaef;
 }
 
-.navbar__search-input {
-  outline-color: var(--ifm-color-primary);
-  border: 2px solid transparent;
+body {
+  background-color: var(--ifm-navbar-background-color) !important;
 }
 
-.navbar__search-input:hover {
-  border-color: var(--ifm-color-primary);
+a.mantine-Button-root:hover {
+  color: var(--_button-color, var(--button-color, var(--mantine-color-white)));
+  text-decoration: none;
 }
-
-.navbar__brand {
-  margin-right: 0
-}
-
-.footer__copyright {
-  text-align: left;
-}
-
-.footer__copyright:before {
-  content: "Read and write to over 40 blockchains utilizing the only decentralized RPC infrastructure network on the planet.";
-  position: relative;
-  display: block;
-  margin: 15px 0;
-  font-size: 15px;
-  width: 400px;
-}
-
-.footer {
-  --ifm-footer-background-color: #1B242F;
-  background-color: var(--ifm-footer-background-color)
-}
-
-.footer .container {
-  display: flex;
-  flex-direction: row-reverse;
-}
-
-.footer__links {
-  flex: 3;
-}
-
-.footer__bottom{
-  flex: 1.5;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-@media (max-width: 996px) {
-  .footer .container {
-    flex-direction: column;
-  }
-
-  .footer__bottom{
-    align-items: center;
-  }
-
-  .footer__links {
-    padding-left: 16px;
-  }
-}
-
-@media (max-width: 450px) {
-  .footer__copyright:before {
-    width: auto;
-  }
-}
-
-.team-mgmt-table-container table {
-  display: table;
-  width: 100%;
-}
-
 
 /* Header navbar styling and layout */
-
-.navbar.navbar--fixed-top {
-  height: 140px;
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.navbar__inner {
-  flex-direction: column-reverse;
-}
-
-.navbar__logo {
-  position: absolute;
-  top: 20px;
-  left: 45px;
+.navbar {
+  border-bottom: 1px solid var(--mantine-color-default-border);
+  padding: 1rem;
   height: auto;
 }
-
-.navbar__items:not(.navbar__items--right) a:nth-child(3) {
-  margin-left: 30px;
-}
-
-.navbar__items.navbar__items--right {
-  flex-direction: row-reverse;
-  justify-content: flex-start;
-}
-
-.navbar__items {
-  border-bottom: 1px solid var(--pokt-nav-borders);
-  padding-left: 8px;
-  padding-right: 8px;
-  height: 62px
-}
-
-.navbar__item.navbar__link.navbar__link {
-  font-size: 14px;
-}
-
-.navbar__item.navbar__link.navbar__link--active {
+.navbar__item {
   position: relative;
 }
-
-.navbar__item.navbar__link.navbar__link--active:after {
+.navbar__item:hover {
+  color: var(--mantine-primary-color-filled);
+}
+.navbar__item.navbar__link--active:before,
+.navbar__item .navbar__link.active:before {
   content: "";
   position: absolute;
   width: 100%;
-  border-bottom: 2px solid var(--pokt-nav-selected-border);
+  border-bottom: 2px solid var(--mantine-primary-color-filled);
   left: 0;
-  bottom: -15px;
+  bottom: -8px;
 }
-
-/* Nav menu styling and spacing */
-
-.theme-doc-sidebar-item-category:not(:first-child) {
-  margin-top: 24px;
-}
-
-nav.menu {
-  padding: 24px 16px;
-  overflow: hidden;
-}
-
-nav.menu:hover {
-  overflow-y: auto;
-}
-
-.menu__list {
-  padding-left: 0 !important;
-}
-
-li > .menu__link {
-  font-size: 14px
-}
-
-li > .menu__link:not(.menu__link--active) {
-  font-weight: 400;
-}
-
-/* Disable collapsible list items hover effect and apply other styles */
-
-.menu__list-item-collapsible {
-  pointer-events: none;
-}
-
-li > .menu__list-item-collapsible {
-  font-size: 12px;
-  font-weight: 600;
-  line-height: 24px;
-  text-transform: uppercase;
-}
-
-li > .menu__list-item-collapsible > a {
-  color: #808B95 !important;
+.navbar__items.navbar__items--right {
+  flex-direction: row-reverse;
 }
 
 /* Navbar right section search styling */
-
 .navbar__search {
-  border: 1px solid var(--pokt-nav-borders);
+  border: 1px solid var(--mantine-color-default-border);
   border-radius: 4px;
   padding: 3px;
-  margin-right: 20px;
+  margin-right: 16px;
 }
 
 .navbar__search-input {
@@ -257,8 +131,100 @@ li > .menu__list-item-collapsible > a {
   border-color: transparent;
 }
 
-/* Color toggle button spacing */
+.navbar__item.header-link-button {
+  border-radius: 100px;
+  color: var(--mantine-color-gray-0);
+}
 
-div[class*='colorModeToggle']{
-  margin-right: 6px;
+/* sidebar nav menu styling and spacing */
+.theme-doc-sidebar-item-category:not(:first-child) {
+  margin-top: 2rem;
+}
+
+nav.menu {
+  padding: 2rem 1rem;
+  overflow: hidden;
+}
+
+nav.menu:hover {
+  overflow-y: auto;
+}
+
+nav.menu .menu__list {
+  padding-left: 0;
+}
+
+nav.menu li > .menu__link {
+  font-size: 14px;
+}
+
+nav.menu li > .menu__link:not(.menu__link--active) {
+  font-weight: 400;
+}
+nav.menu li > .menu__link.menu__link--active {
+  font-weight: 600;
+}
+
+nav.menu li > .menu__list-item-collapsible {
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+nav.menu li > .menu__list-item-collapsible .menu__link {
+  color: var(--mantine-color-gray-filled);
+}
+
+/* blog sidebar */
+.blog-layout nav:not(.pagination-nav) {
+  border-right: 1px solid var(--mantine-color-default-border);
+  min-height: calc(100vh - var(--ifm-navbar-height));
+  margin: 0;
+  top: var(--ifm-navbar-height);
+  padding: 2rem 1rem;
+  overflow: hidden;
+}
+
+/* docs accordion */
+.docs-wrapper .mantine-Accordion-item {
+  border-left: calc(0.0625rem * var(--mantine-scale)) solid var(--_item-border-color);
+  border-bottom: none;
+}
+
+/* TABLE */
+table {
+  display: table;
+  width: 100%;
+}
+
+table thead {
+  background-color: transparent;
+}
+
+table thead tr {
+  border: none;
+}
+
+table tr {
+  border-color: var(--mantine-color-default-border);
+}
+
+table thead tr th {
+  color: var(--mantine-color-text) !important;
+}
+
+table tr td,
+table tr th {
+  border: none;
+  border-color: var(--mantine-color-default-border);
+}
+
+table tr:nth-child(2n) {
+  background-color: transparent;
+}
+
+table tr:last-of-type td {
+  border-bottom: 1px solid;
+  /* border-bottom: calc(0.0625rem * var(--mantine-scale)) solid; */
+  border-color: var(--mantine-color-default-border);
 }

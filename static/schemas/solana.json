@@ -1,0 +1,180 @@
+{
+  "openrpc": "1.0.0",
+  "info": {
+    "version": "0.0.1",
+    "title": "Solana JSON-RPC",
+    "description": "Interact with Solana nodes directly with the JSON RPC API via HTTP"
+  },
+  "methods": [
+    {
+      "name": "getAccountInfo",
+      "summary": "Returns all information associated with the account of provided Pubkey",
+      "params": [
+        {
+          "name": "pubkey",
+          "required": true,
+          "description": "Pubkey of account to query, as base-58 encoded string",
+          "type": "string"
+        },
+        {
+          "$ref": "#/components/schemas/Config"
+        }
+      ],
+      "result": {
+        "$ref": "#/components/schemas/GetAccountInfoOrNullResult"
+      },
+      "examples": [
+        {
+          "name": "addressesExample",
+          "params": [],
+          "result": {
+            "name": "addressesExample",
+            "value": ["0x407d73d8a49eeb85d32cf465507dd71d507100c1"]
+          }
+        }
+      ]
+    }
+  ],
+  "components": {
+    "contentDescriptors": {},
+    "schemas": {
+      "Config": {
+        "title": "config",
+        "description": "Configuration object containing the following fields:",
+        "type": "object",
+        "properties": {
+          "commitment": {
+            "$ref": "#/components/schemas/Commitment"
+          },
+          "encoding": {
+            "$ref": "#/components/schemas/Encoding"
+          },
+          "dataSlice": {
+            "$ref": "#/components/schemas/DataSlice"
+          },
+          "minContextSlot": {
+            "$ref": "#/components/schemas/MinContextSlot"
+          }
+        }
+      },
+      "Commitment": {
+        "title": "commitment",
+        "description": "The level of commitment desired when querying state",
+        "type": "string",
+        "enum": ["processed", "confirmed", "finalized"]
+      },
+      "Encoding": {
+        "title": "encoding",
+        "description": "Encoding format for Account data",
+        "type": "string",
+        "enum": ["base58", "base64", "base64+zstd", "jsonParsed"],
+        "info": {
+          "title": "Details",
+          "description": "testing"
+        }
+      },
+      "MinContextSlot": {
+        "title": "minContextSlot",
+        "description": "The minimum slot that the request can be evaluated at",
+        "type": "number"
+      },
+      "DataSlice": {
+        "title": "dataSlice",
+        "description": "Request a slice of the account's data.",
+        "type": "object",
+        "properties": {
+          "length": {
+            "title": "length",
+            "description": "number of bytes to return",
+            "schema": {
+              "$ref": "#/components/schemas/Usize"
+            }
+          },
+          "offset": {
+            "title": "offset",
+            "description": "byte offset from which to start reading",
+            "schema": {
+              "$ref": "#/components/schemas/Usize"
+            }
+          }
+        },
+        "info": "Data slicing is only available for base58, base64, or base64+zstd encodings."
+      },
+      "GetAccountInfoOrNullResult": {
+        "title": "getAccountInfo or null",
+        "description": "The result will be an RpcResponse JSON object with value equal to:",
+        "oneOf": [
+          {
+            "$ref": "#/components/schemas/GetAccountInfo"
+          },
+          {
+            "title": "null",
+            "description": "if the requested account doesn't exist",
+            "$ref": "#/components/schemas/Null"
+          }
+        ]
+      },
+      "GetAccountInfo": {
+        "title": "getAccountInfo",
+        "description": "",
+        "type": "object",
+        "properties": {
+          "lamports": {
+            "title": "lamports",
+            "description": "number of lamports assigned to this account, as a u64",
+            "type": "number"
+          },
+          "owner": {
+            "title": "owner",
+            "description": "base-58 encoded Pubkey of the program this account has been assigned to",
+            "type": "string"
+          },
+          "data": {
+            "title": "data",
+            "description": "data associated with the account, either as encoded binary data or JSON format {<program>: <state>} - depending on encoding parameter",
+            "oneOf": [
+              {
+                "title": "[string, encoding]",
+                "type": "string"
+              },
+              {
+                "title": "JSON format",
+                "type": "object",
+                "properties": {
+                  "program": {
+                    "title": "program",
+                    "type": "string"
+                  }
+                }
+              }
+            ]
+          },
+          "executable": {
+            "title": "executable",
+            "description": "boolean indicating if the account contains a program (and is strictly read-only)",
+            "type": "boolean"
+          },
+          "rentEpoch": {
+            "title": "rentEpoch",
+            "description": "the epoch at which this account will next owe rent, as u64",
+            "type": "number"
+          },
+          "size": {
+            "title": "size",
+            "description": "the data size of the account",
+            "type": "number"
+          }
+        }
+      },
+      "Usize": {
+        "title": "usize",
+        "type": "number"
+      },
+      "Null": {
+        "title": "null",
+        "type": "null",
+        "description": "Null"
+      }
+    }
+  }
+}

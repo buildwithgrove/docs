@@ -1,4 +1,4 @@
-# Java – Web3j
+# Java – web3j
 
 ### Overview
 
@@ -28,7 +28,7 @@ class Main
 
     public void GetAccountBalance()
     {
-        String URL = "https://<NETWORK>.rpc.grove.city/v1/<PORTAL_ID>";
+        String URL = "https://<CHAIN_PREFIX>.rpc.grove.city/v1/<APP_ID>";
         String ACCOUNT = "0xde0b295669a9fd93d5f28d9ec85e40f4cb697bae";
        Web3j web3j = Web3j.build(new HttpService(URL));
 

@@ -1,0 +1,21 @@
+.list {
+  margin-top: var(--mantine-spacing-xl);
+  justify-content: center;
+  gap: var(--mantine-spacing-lg);
+}
+.list:before {
+  content: none;
+  border: none;
+}
+
+.tab {
+  border: 1px dashed var(--mantine-color-default-border);
+  border-radius: var(--mantine-radius-sm);
+  text-align: center;
+  padding: var(--mantine-spacing-lg) !important;
+  flex-grow: 1;
+}
+.tab[data-active="true"] {
+  border: 1px solid var(--mantine-color-orange-filled);
+  background-color: var(--mantine-color-orange-light);
+}

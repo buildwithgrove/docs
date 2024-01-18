@@ -13,13 +13,13 @@ Ethers is a JavaScript library for interacting with Ethereum and the ecosystem t
 ### Basic Usage
 
 ```javascript
-import { ethers } from "ethers";
+import { ethers } from "ethers"
 
-const POCKET_URL = "https://<NETWORK>.rpc.grove.city/v1/<PORTAL_ID>";
+const POCKET_URL = "https://<CHAIN_PREFIX>.rpc.grove.city/v1/<APP_ID>"
 
-const provider = new ethers.providers.JsonRpcProvider(POCKET_URL);
+const provider = new ethers.providers.JsonRpcProvider(POCKET_URL)
 
-const blockNumber = await provider.getBlockNumber();
+const blockNumber = await provider.getBlockNumber()
 
-console.log(blockNumber);
+console.log(blockNumber)
 ```

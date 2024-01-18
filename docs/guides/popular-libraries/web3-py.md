@@ -1,4 +1,4 @@
-# Python – Web3.py
+# Python – web3.py
 
 ### Overview
 
@@ -15,7 +15,7 @@ Web3.py is a Python library for interacting with Ethereum nodes; it originally b
 ```python
 from web3 import Web3
 
-POCKET_URL = "https://<NETWORK>.rpc.grove.city/v1/<PORTAL_ID>"
+POCKET_URL = "https://<CHAIN_PREFIX>.rpc.grove.city/v1/<APP_ID>"
 
 provider = Web3(Web3.HTTPProvider(POCKET_URL))
 
