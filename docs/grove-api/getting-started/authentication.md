@@ -14,7 +14,7 @@ Secret Keys carry many privileges, so be sure to keep them secure! Do not share 
 Use your Secret Key by setting an `Authorization` header.
 
 ```curl
-curl -H "Authorization: {app_secret_key}" https://rpc.grove.city/v1/{app_id}
+curl -H "Authorization: {app_secret_key}" https://rpc.grove.city/v1/{APP_ID}
 ```
 
 [Find your Secret Key](/guides/navigating-the-portal/app-keys)

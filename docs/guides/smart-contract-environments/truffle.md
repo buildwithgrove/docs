@@ -13,27 +13,27 @@ Truffle is a JavaScript based EVM development environment, testing framework, an
 Truffle allows you to configure networks through a `networks` object exported in the `truffler-.config.js` file. Here’s an example of adding networks for Ethereum and Polygon, both mainnet and testnet.
 
 ```javascript
-const PORTAL_ID = "<APP_ID>"
+const APP_ID = "<APP_ID>"
 
 module.exports = {
   networks: {
     mainnet: {
-      host: `https://eth-mainnet.rpc.grove.city/v1/${PORTAL_ID}`,
+      host: `https://eth-mainnet.rpc.grove.city/v1/${APP_ID}`,
       port: 80,
       network_id: "1",
     },
     goerli: {
-      host: `https://eth-goerli.rpc.grove.city/v1/${PORTAL_ID}`,
+      host: `https://eth-goerli.rpc.grove.city/v1/${APP_ID}`,
       port: 80,
       network_id: "5",
     },
     polygon: {
-      host: `https://poly-mainnet.rpc.grove.city/v1/${PORTAL_ID}`,
+      host: `https://poly-mainnet.rpc.grove.city/v1/${APP_ID}`,
       port: 80,
       network_id: "137",
     },
     mumbai: {
-      host: `https://poly-mumbai.rpc.grove.city/v1/${PORTAL_ID}`,
+      host: `https://poly-mumbai.rpc.grove.city/v1/${APP_ID}`,
       port: 80,
       network_id: "80001",
     },

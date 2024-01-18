@@ -15,7 +15,7 @@ Hardhat allows you to configure networks through a ``networks`` object exported 
 
 require("@nomicfoundation/hardhat-toolbox");
 
-const PORTAL_ID = "<APP_ID>";
+const APP_ID = "<APP_ID>";
 
 // Replace these privates key with your respective account private key
 // To export your private key from Metamask, open Metamask and
@@ -31,19 +31,19 @@ module.exports = {
   solidity: "0.8.9",
   networks: {
     mainnet: {
-      url: `https://eth-mainnet.rpc.grove.city/v1/${PORTAL_ID}`,
+      url: `https://eth-mainnet.rpc.grove.city/v1/${APP_ID}`,
       accounts: [MAINNET_PRIVATE_KEY]
     },
     goerli: {
-      url: `https://eth-goerli.rpc.grove.city/v1/${PORTAL_ID}`,
+      url: `https://eth-goerli.rpc.grove.city/v1/${APP_ID}`,
       accounts: [GOERLI_PRIVATE_KEY]
     },
     polygon: {
-      url: `https://poly-mainnet.rpc.grove.city/v1/${PORTAL_ID}`,
+      url: `https://poly-mainnet.rpc.grove.city/v1/${APP_ID}`,
       accounts: [POLYGON_PRIVATE_KEY]
     },
     mumbai: {
-      url: `https://poly-mumbai.rpc.grove.city/v1/${PORTAL_ID}`,
+      url: `https://poly-mumbai.rpc.grove.city/v1/${APP_ID}`,
       accounts: [MUMBAI_PRIVATE_KEY]
     }
   }

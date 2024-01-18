@@ -311,9 +311,9 @@ export const columns = [
     // disableSortBy: true,
     // Filter: ""
   },
-  {
-    Header: "EVM Chain ID",
-    accessor: "evmChainID",
-    className: "pokt-data-table header left",
-  },
+  // {
+  //   Header: "EVM Chain ID",
+  //   accessor: "evmChainID",
+  //   className: "pokt-data-table header left",
+  // },
 ]

@@ -27,29 +27,26 @@ export default function LayoutWrapper(props) {
 
   return (
     <>
-      <Box className={styles.subnav}>
-        <Container size="xl">
-          <Group justify="flex-start">
-            {mainLinks.map(([, sidebar]) => (
-              <Anchor
-                key={sidebar[0].dirName}
-                px="xs"
-                href={sidebar[0].customProps.link}
-                className={clsx(
-                  styles.link,
-                  path === sidebar[0].dirName && styles.linkActive,
-                )}
-              >
-                {sidebar[0].customProps.label}
-              </Anchor>
-            ))}
-            <ChainSelect activePath={path} />
-          </Group>
-        </Container>
+      <Box className={styles.subnav} px="md">
+        <Group justify="flex-start">
+          {mainLinks.map(([, sidebar]) => (
+            <Anchor
+              key={sidebar[0].dirName}
+              px="xs"
+              href={sidebar[0].customProps.link}
+              className={clsx(
+                styles.link,
+                path === sidebar[0].dirName && styles.linkActive,
+              )}
+            >
+              {sidebar[0].customProps.label}
+            </Anchor>
+          ))}
+          <ChainSelect activePath={path} />
+        </Group>
       </Box>
-      <Container size="xl">
-        <Layout {...props} />
-      </Container>
+
+      <Layout {...props} />
     </>
   )
 }
