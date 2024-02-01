@@ -20,4 +20,4 @@ Celestia Archival offers the full blockchain history of [Celestia's Data Availab
 | Celestia Share API | Accessing Extended Shared (related to erasure encoding)   | [view spec](https://node-rpc-docs.celestia.org/?version=v0.12.4#share) |
 | Celestia State API | Access to On-Chain State  | [view spec](https://node-rpc-docs.celestia.org/?version=v0.12.4#state) |
 
-For more information on all of Celestia's API, please consult the [full specification here] (https://node-rpc-docs.celestia.org/?version=v0.12.4).
+For more information on all of Celestia's API, please consult the [full specification here](https://node-rpc-docs.celestia.org/?version=v0.12.4).
