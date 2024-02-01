@@ -5,7 +5,7 @@ sidebar_label: Introduction
 
 # Celestia
 
-Celestia is a modular data availability (DA) network that making transaction data available for anyone to download. Celestia provides high-throughput DA that can be verified easily with a light node. Celestia offers a modular stack designed to allow anyone to launch their own blockchain without needing a validator set.
+Celestia is a modular data availability (DA) network making transaction data available for anyone to download. Celestia provides high-throughput DA that can be verified easily with a light node. Celestia offers a modular stack designed to allow anyone to launch their own blockchain without needing a validator set.
 
 - [Celestia Homepage](https://celestia.org/)
 - [Celestia Node API](https://node-rpc-docs.celestia.org/?version=v0.12.4)
