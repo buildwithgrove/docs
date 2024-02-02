@@ -22,8 +22,8 @@ Grove extends its robust blockchain interface to support Celestia, providing dev
 
 ## Supported Chain Endpoints
 
-| Blockchain                                               | Chain Prefix   | RelayChainID | Blockheight         |
-| -------------------------------------------------------- | -------------- | ------------ | ------------------- |
+| Blockchain                                         | Chain Prefix        | RelayChainID | Blockheight       |
+| -------------------------------------------------- | ------------------- | ------------ | ----------------- |
 | [Celestia Archival](./endpoints/celestia-archival) | `celestia-archival` | A0CA         | All block heights |
 
 ---
