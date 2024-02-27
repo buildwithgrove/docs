@@ -29,6 +29,9 @@ Grove offers a robust and developer-centric interface to the Ethereum blockchain
 | [Ethereum Goerli](./endpoints/eth-goerli)     | `eth-goerli`               | 0026         | Latest - 127 blocks |
 | [Ethereum Rinkeby](./endpoints/eth-rinkeby)   | `rinkeby`                  | 0022         | Latest - 127 blocks |
 | [Ethereum Holešky](./endpoints/eth-holesky)   | `holesky-fullnode-testnet` | 0081         | All block heights   |
+| [Ethereum Sepolia](./endpoints/sepolia)   | `sepolia` | 0077         | Latest - 127 blocks   |
+| [Ethereum Sepolia Archival](./endpoints/sepolia-archival)   | `sepolia-archival` | 0078         | All block heights   |
+
 
 ---
 
