@@ -18,8 +18,7 @@ export default function Blockchains() {
           name: chain.description,
           portalApiPrefix: chain.blockchain,
           relayChainID: chain.id,
-          evmChainID: supportedBlockchains.find((c) => c.relayChainID === chain.id)
-            ?.evmChainID,
+          /// evmChainID: supportedBlockchains.find((c) => c.relayChainID === chain.id) ?.evmChainID,
         }))
         .sort((a, b) => (a.name > b.name ? 1 : -1))}
     />
