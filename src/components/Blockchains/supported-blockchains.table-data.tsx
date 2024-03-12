@@ -250,7 +250,7 @@ export const supportedTestnetRelayChains = [
     name: "Base Testnet",
     portalApiPrefix: "base-testnet",
     relayChainID: "0080",
-    evmChainID: "84531",
+    evmChainID: "84532",
   },
   {
     name: "Ethereum Goerli",
