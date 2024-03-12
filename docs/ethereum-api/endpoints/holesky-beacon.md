@@ -11,7 +11,7 @@ The Holesky Beacon Chain serves as Ethereum's premier testing ground, offering d
 
 ## Supported APIs
 
-| API Spec | Description                                               | Documentation                  |
-| -------- | --------------------------------------------------------- | ------------------------------ |
-| Core API | The core set of methods supported for Holesky Beacon | [view spec](https://ethereum.github.io/beacon-APIs/#/Beacon) |
-| Debug API | The core set of debug methods supported for Holesky Beacon | [view spec](https://ethereum.github.io/beacon-APIs/#/Debug) |
+| API Spec   | Description                                                | Documentation                                                |
+| ---------- | ---------------------------------------------------------- | ------------------------------------------------------------ |
+| Beacon API | The core set of methods supported for Holesky Beacon       | [view spec](https://ethereum.github.io/beacon-APIs/#/Beacon) |
+| Debug API  | The core set of debug methods supported for Holesky Beacon | [view spec](https://ethereum.github.io/beacon-APIs/#/Debug)  |

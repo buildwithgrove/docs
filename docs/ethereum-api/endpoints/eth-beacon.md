@@ -11,7 +11,7 @@ The Beacon Chain serves as the cornerstone of Ethereum 2.0, introducing the proo
 
 ## Supported APIs
 
-| API Spec | Description                                               | Documentation                  |
-| -------- | --------------------------------------------------------- | ------------------------------ |
-| Core API | The core set of methods supported for Ethereum Beacon | [view spec](https://ethereum.github.io/beacon-APIs/#/Beacon) |
-| Debug API | The core set of debug methods supported for Ethereum Beacon | [view spec](https://ethereum.github.io/beacon-APIs/#/Debug) |
+| API Spec   | Description                                                 | Documentation                                                |
+| ---------- | ----------------------------------------------------------- | ------------------------------------------------------------ |
+| Beacon API | The core set of methods supported for Ethereum Beacon       | [view spec](https://ethereum.github.io/beacon-APIs/#/Beacon) |
+| Debug API  | The core set of debug methods supported for Ethereum Beacon | [view spec](https://ethereum.github.io/beacon-APIs/#/Debug)  |
