@@ -20,12 +20,6 @@ export const supportedBlockchains = [
     evmChainID: "8453",
   },
   {
-    name: "Base Testnet",
-    portalApiPrefix: "base-testnet",
-    relayChainID: "0080",
-    evmChainID: "84531",
-  },
-  {
     name: "BOBA Mainnet",
     portalApiPrefix: "boba-mainnet",
     relayChainID: "0048",
@@ -56,12 +50,6 @@ export const supportedBlockchains = [
     evmChainID: "53935",
   },
   {
-    name: "Dogechain Mainnet",
-    portalApiPrefix: "dogechain-mainnet",
-    relayChainID: "0059",
-    evmChainID: "2000",
-  },
-  {
     name: "Ethereum Mainnet",
     portalApiPrefix: "eth-mainnet",
     relayChainID: "0021",
@@ -72,6 +60,18 @@ export const supportedBlockchains = [
     name: "Ethereum Mainnet Archival",
     portalApiPrefix: "eth-archival",
     relayChainID: "0022",
+    evmChainID: "0001",
+  },
+  {
+    name: "Ethereum Beacon",
+    portalApiPrefix: "eth-beacon",
+    relayChainID: "B021",
+    evmChainID: "0001",
+  },
+  {
+    name: "Ethereum Holesky Beacon",
+    portalApiPrefix: "holesky-beacon",
+    relayChainID: "B081",
     evmChainID: "0001",
   },
   {
@@ -246,6 +246,12 @@ export const supportedBlockchains = [
 ]
 
 export const supportedTestnetRelayChains = [
+  {
+    name: "Base Testnet",
+    portalApiPrefix: "base-testnet",
+    relayChainID: "0080",
+    evmChainID: "84531",
+  },
   {
     name: "Ethereum Goerli",
     portalApiPrefix: "eth-goerli",

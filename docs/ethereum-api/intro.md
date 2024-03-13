@@ -15,7 +15,7 @@ Ethereum, a decentralized blockchain platform, was envisioned by Vitalik Buterin
 
 ## Ethereum on Grove
 
-Grove offers a robust and developer-centric interface to the Ethereum blockchain, tailored to accommodate a spectrum of needs from simple transaction queries to intricate smart contract interactions. With multiple Ethereum chain variants, our platform ensures that developers have access to the appropriate tools and data for their specific projects. Designed for enhanced access and reliability, Grove's infrastructure maximizes uptime and mitigates common blockchain interaction challenges, such as node management and data indexing. Our scalable platform dynamically adjusts to workload variations, facilitating smooth, efficient operations even during high network traffic. Recognizing the diverse requirements of Ethereum-based applications, we provide customized solutions including historical data access, real-time transaction tracking, and specialized data endpoints for in-depth analysis. Furthermore, Grove equips developers with advanced tools, comprehensive documentation, and dedicated support, simplifying the Ethereum development process and ensuring a seamless experience.
+Grove offers a robust and developer-centric interface to the Ethereum blockchain, tailored to accommodate a spectrum of needs from simple transaction queries to intricate smart contract interactions. With multiple Ethereum chain variants, our platform ensures that developers have access to the appropriate tools and data for their specific projects.
 
 ---
 
@@ -28,9 +28,11 @@ Grove offers a robust and developer-centric interface to the Ethereum blockchain
 | [Ethereum Trace](./endpoints/eth-trace)       | `eth-trace`                | 0028         | All block heights   |
 | [Ethereum Goerli](./endpoints/eth-goerli)     | `eth-goerli`               | 0026         | Latest - 127 blocks |
 | [Ethereum Rinkeby](./endpoints/eth-rinkeby)   | `rinkeby`                  | 0022         | Latest - 127 blocks |
-| [Ethereum Holešky](./endpoints/eth-holesky)   | `holesky-fullnode-testnet` | 0081         | All block heights   |
+| [Ethereum Holesky](./endpoints/eth-holesky)   | `holesky-fullnode-testnet` | 0081         | All block heights   |
 | [Ethereum Sepolia](./endpoints/sepolia)   | `sepolia` | 0077         | Latest - 127 blocks   |
 | [Ethereum Sepolia Archival](./endpoints/sepolia-archival)   | `sepolia-archival` | 0078         | All block heights   |
+| [Ethereum Beacon](./endpoints/eth-beacon)     | `eth-beacon`               | B021         | Latest - 127 blocks |
+| [Ethereum Beacon Holesky](./endpoints/holesky-beacon)     | `holesky-beacon`               | B081         | Latest - 127 blocks |
 
 
 ---
