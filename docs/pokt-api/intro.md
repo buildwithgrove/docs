@@ -13,7 +13,7 @@ POKT Network is a decentralized infrastructure protocol dedicated to empowering 
 
 | Blockchain                                 | Portal API Prefix | RelayChainID | Blockheight         |
 | ------------------------------------------ | ----------------- | ------------ | ------------------- |
-| [POKT Mainnet](./endpoints/pokt-mainnet) | mainnet     | 0001         | Latest - 127 blocks |
+| [POKT Mainnet](./endpoints/pokt-mainnet) | mainnet     | 0001         | All block heights |
 
 ---
 
