@@ -4,7 +4,7 @@ export default async function groveChains(context, options) {
     name: "grove-chains",
     async loadContent() {
       try {
-        const res = await fetch("https://pub.portal-prd.v2.pokt.network/query", {
+        const res = await fetch("https://pub.portal.grove.city/query", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
