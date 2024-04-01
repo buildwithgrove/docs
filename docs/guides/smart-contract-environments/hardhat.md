@@ -25,7 +25,6 @@ const APP_ID = "<APP_ID>";
 const MAINNET_PRIVATE_KEY = "YOUR MAINNET PRIVATE KEY";
 const GOERLI_PRIVATE_KEY = "YOUR GOERLI PRIVATE KEY";
 const POLY_PRIVATE_KEY = "YOUR MAINNET PRIVATE KEY";
-const MUMBAI_PRIVATE_KEY = "YOUR MAINNET PRIVATE KEY";
 
 module.exports = {
   solidity: "0.8.9",
@@ -41,10 +40,6 @@ module.exports = {
     polygon: {
       url: `https://poly-mainnet.rpc.grove.city/v1/${APP_ID}`,
       accounts: [POLYGON_PRIVATE_KEY]
-    },
-    mumbai: {
-      url: `https://poly-mumbai.rpc.grove.city/v1/${APP_ID}`,
-      accounts: [MUMBAI_PRIVATE_KEY]
     }
   }
 };

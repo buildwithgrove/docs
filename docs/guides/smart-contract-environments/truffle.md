@@ -32,17 +32,8 @@ module.exports = {
       port: 80,
       network_id: "137",
     },
-    mumbai: {
-      host: `https://poly-mumbai.rpc.grove.city/v1/${APP_ID}`,
-      port: 80,
-      network_id: "80001",
-    },
   },
-<<<<<<< HEAD
 }
-=======
-};
->>>>>>> main
 ```
 
 Note, the chainId is not related to the Pocket Relay Chain ID, but rather, the value returned by `eth_chainId`.
