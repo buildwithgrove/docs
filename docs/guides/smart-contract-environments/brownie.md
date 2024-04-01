@@ -12,10 +12,10 @@ Brownie is a Python-based development and testing framework for EVM compiled sma
 
 Brownie handles all of its network management via the CLI, meaning that you’ll have to specify networks individually as commands.
 
-For example, this is how you would add Goerli.
+For example, this is how you would add Sepolia.
 
 ```yarn
-brownie networks add Ethereum goerli host=https://eth-goerli.rpc.grove.city/v1/<APP_ID> chainId=5
+brownie networks add Ethereum Sepolia host=https://sepolia.rpc.grove.city/v1/<APP_ID> chainId=5
 ```
 
 Note, the chainId is not related to the Pocket Relay Chain ID, but rather, the value returned by `eth_chainId`.
@@ -23,5 +23,5 @@ Note, the chainId is not related to the Pocket Relay Chain ID, but rather, the v
 From here, you’d be able to connect your brownie console to this network by running:
 
 ```yarn
-brownie --network goerli
+brownie --network sepolia
 ```
