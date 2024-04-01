@@ -25,7 +25,6 @@ Grove's integration with Polygon enhances access to its Layer 2 scaling capabili
 | --------------------------------------------- | -------------------- | ------------ | ------------------- |
 | [Polygon Mainnet](./endpoints/poly-mainnet)   | `poly-mainnet`       | 0009         | Latest - 127 blocks |
 | [Polygon Archival](./endpoints/poly-archival) | `poly-archival`      | 000B         | All block heights   |
-| [Polygon Mumbai](./endpoints/poly-mumbai)     | `poly-mumbai`        | 000F         | All block heights   |
 | [Polygon zkEVM](./endpoints/poly-zkevm)       | `poly-zkevm-mainnet` | 0074         | Latest - 127 blocks |
 
 ---
