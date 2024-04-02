@@ -277,12 +277,6 @@ export const supportedTestnetRelayChains = [
     evmChainID: "17000",
   },
   {
-    name: "Polygon Mumbai",
-    portalApiPrefix: "polygon-mumbai",
-    relayChainID: "000F",
-    evmChainID: "80001",
-  },
-  {
     name: "Pocket Network Testnet",
     portalApiPrefix: "",
     relayChainID: "0002",

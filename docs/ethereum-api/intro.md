@@ -21,18 +21,17 @@ Grove offers a robust and developer-centric interface to the Ethereum blockchain
 
 ## Supported Chain Endpoints
 
-| Blockchain                                    | Chain Prefix               | RelayChainID | Blockheight         |
-| --------------------------------------------- | -------------------------- | ------------ | ------------------- |
-| [Ethereum Mainnet](./endpoints/eth-mainnet)   | `eth-mainnet`              | 0021         | Latest - 127 blocks |
-| [Ethereum Archival](./endpoints/eth-archival) | `eth-archival`             | 0022         | All block heights   |
-| [Ethereum Trace](./endpoints/eth-trace)       | `eth-trace`                | 0028         | All block heights   |
-| [Ethereum Goerli](./endpoints/eth-goerli)     | `eth-goerli`               | 0026         | Latest - 127 blocks |
-| [Ethereum Rinkeby](./endpoints/eth-rinkeby)   | `rinkeby`                  | 0022         | Latest - 127 blocks |
-| [Ethereum Holesky](./endpoints/eth-holesky)   | `holesky-fullnode-testnet` | 0081         | All block heights   |
-| [Ethereum Sepolia](./endpoints/sepolia)   | `sepolia` | 0077         | Latest - 127 blocks   |
-| [Ethereum Sepolia Archival](./endpoints/sepolia-archival)   | `sepolia-archival` | 0078         | All block heights   |
-| [Ethereum Beacon](./endpoints/eth-beacon)     | `eth-beacon`               | B021         | Full chain support* |
-| [Ethereum Beacon Holesky](./endpoints/holesky-beacon)     | `holesky-beacon`               | B081         | Full chain support* |
+| Blockchain                                                | Chain Prefix               | RelayChainID | Blockheight          |
+| --------------------------------------------------------- | -------------------------- | ------------ | -------------------- |
+| [Ethereum Mainnet](./endpoints/eth-mainnet)               | `eth-mainnet`              | 0021         | Latest - 127 blocks  |
+| [Ethereum Archival](./endpoints/eth-archival)             | `eth-archival`             | 0022         | All block heights    |
+| [Ethereum Trace](./endpoints/eth-trace)                   | `eth-trace`                | 0028         | All block heights    |
+| [Ethereum Rinkeby](./endpoints/eth-rinkeby)               | `rinkeby`                  | 0022         | Latest - 127 blocks  |
+| [Ethereum Holesky](./endpoints/eth-holesky)               | `holesky-fullnode-testnet` | 0081         | All block heights    |
+| [Ethereum Sepolia](./endpoints/sepolia)                   | `sepolia`                  | 0077         | Latest - 127 blocks  |
+| [Ethereum Sepolia Archival](./endpoints/sepolia-archival) | `sepolia-archival`         | 0078         | All block heights    |
+| [Ethereum Beacon](./endpoints/eth-beacon)                 | `eth-beacon`               | B021         | Full chain support\* |
+| [Ethereum Beacon Holesky](./endpoints/holesky-beacon)     | `holesky-beacon`           | B081         | Full chain support\* |
 
 \* For the Beacon and Beacon Holesky networks, we offer support for full chains across all block heights. However, please note that while this includes Archival data, we cannot guarantee its consistent functionality.
 
