@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-sidebar_label: arbitrum-one-mainnet
+sidebar_label: arbitrum-sepolia-archival
 ---
 
 # Arbitrum Sepolia Archival
