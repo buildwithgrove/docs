@@ -5,29 +5,24 @@ sidebar_label: Application Keys
 
 # Application Keys
 
-Application keys serve as unique identifiers and tokens for your Grove application, enabling secure interaction with the Grove RPC infrastructure.
-
----
+Application keys are the cornerstone of security and identification for your Grove application, enabling authenticated and secure interactions within the Grove RPC infrastructure. This guide details the purpose and management of the Application ID and Secret Key, ensuring you can confidently secure your application's communications.
 
 ## App ID
 
-- **Description**: The App ID is a unique identifier for your application, included as part of the URL for each endpoint.
-- **Usage**: Use the App ID in your application configuration to ensure proper routing of requests through the Grove infrastructure.
+The App ID acts as a unique identifier for your application, integral to the URLs for your endpoints.
 
----
+**Usage**: Incorporate the App ID into your application's configuration to direct requests accurately through the Grove infrastructure, ensuring they reach their intended destination without misrouting.
 
 ## Secret Key
 
-- **Description**: The Secret Key is a security feature for your applications. If “Private Secret Key Required” is selected in the security settings, the secret key will need to be included with requests.
-- **Usage**: Transmit the Secret Key using HTTP Basic Authentication for secure communication between your application and Grove endpoints.
+A crucial security measure, the Secret Key is required for your applications when the "Private Secret Key Required" option is activated in the security settings. This key must accompany requests to verify their authenticity.
 
----
+**Usage**: The Secret Key should be transmitted using HTTP Basic Authentication to establish a secure communication channel between your application and Grove endpoints. This ensures that only authorized requests are processed, safeguarding your application against unauthorized access.
 
-## Management
+## Managing Your Keys
 
-- **Viewing Keys**: Your Secret Key is hidden by default for security. Click the eye icon to view and confirm your key.
-- **Copying Keys**: Use the copy icon next to the App ID and Secret Key fields to easily copy these values to your clipboard.
+By default, your Secret Key is concealed to protect its confidentiality. To view your Secret Key, click the eye icon, allowing you to verify or use the key when necessary.
 
----
+**Copying Keys**: For convenience, a copy icon is placed next to both the App ID and Secret Key fields. Clicking this icon copies the respective value to your clipboard, simplifying the process of integrating these keys into your application or authentication setup.
 
-Remember to keep your Secret Key confidential to prevent unauthorized access to your application. Regularly review and manage your keys to maintain the security of your Grove applications.
+**Security Reminder**: The security of your application hinges on the confidentiality of your Secret Key. It's imperative to keep this key private and only share it with trusted parties involved in your application's development and maintenance. Regular audits and updates of your keys are recommended to uphold the security integrity of your Grove applications.

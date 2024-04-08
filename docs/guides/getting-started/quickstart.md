@@ -1,36 +1,42 @@
 ---
 sidebar_position: 2
-sidebar_label: Quickstart Guide
+sidebar_label: Get an Endpoint
 ---
 
-# Quickstart guide
+# Quickstart: Get an endpoint.
 
-Welcome to Grove - your entry point into seamless blockchain interaction. Follow these simple steps to get started:
+We streamline the process of connecting to the decentralized web, offering you seamless blockchain interaction right from the start. This quickstart guide is your roadmap to acquiring an endpoint, enabling your projects to communicate with blockchain networks effortlessly. Let’s dive into the steps:
 
----
+#
 
 ## Step 1: Sign Up
+[Sign up](https://portal.grove.city/api/auth/auth0?signup=true) for a Grove account to embark on your journey within the decentralized world.
 
-[Create your Grove account](https://portal.grove.city/api/auth/auth0?signup=true) to begin your journey in the decentralized world.
+#
 
----
+
 
 ## Step 2: Account Customization
 
-Personalize your account with an unique account name for a better experience.
+Give your account a unique name to enhance your experience and make your workspace unmistakably yours.
 
----
+#
+
+
 
 ## Step 3: Create Your First Application
+Creating an application is your first step towards active blockchain interaction.
 
-Set up your application to start interacting with blockchains.
+1. **Navigate:** Click on the 'Create Application' button within the Grove portal.  
+2. **Name Your Application:** Assign a name to uniquely identify your application in your account.  
+3. **Select an Appmoji:** Choose an Appmoji for a fun, visual representation of your application.  
+4. **Describe Your Application:** Provide a concise description to outline your application’s functionality and purpose. 
 
-- Click on the 'Create Application' button.
-- Name your application to distinguish it within your account.
-- Select an Appmoji for a visual representation of your application.
-- Provide a brief description to outline the application's functionality.
+![Alt text](https://i.ibb.co/8ryT1dD/Untitled-design.gif "Optional title")
 
----
+# 
+
+
 
 ## Step 4: Access Endpoints
 
@@ -40,7 +46,8 @@ Utilize endpoints to make RPC calls and interact with various blockchains.
 - Choose the endpoint corresponding to the blockchain you wish to interact with.
 - Copy the endpoint URL for use in your RPC calls.
 
----
+![Alt text](https://i.ibb.co/Dbm3ZS0/Untitled-design-copy.gif "Optional title")
+
 
 ## Step 5: Make Your First RPC Call
 

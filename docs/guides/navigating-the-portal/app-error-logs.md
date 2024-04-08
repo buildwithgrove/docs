@@ -5,52 +5,38 @@ sidebar_label: Application Error Logs
 
 # Application Error Logs
 
-In-depth error tracking is essential for the smooth operation of your applications. Grove's error logs provide detailed information about each incident, helping you pinpoint and address issues efficiently.
-
----
+Effective error management is pivotal for maintaining the reliability and performance of your applications. Grove's error logs equip you with detailed insights into each issue, streamlining the process of identification and resolution.
 
 ## Understanding Error Logs
 
-Error logs in Grove offer a comprehensive view of issues encountered during application operation. Each log entry includes:
+Grove's error logs serve as a diagnostic tool, offering a granular look at operational issues within your application. Here's what each entry reveals:
 
-- **Timestamp**: The exact date and time when the error was recorded.
-- **Method**: The RPC method that triggered the error.
-- **Chain ID**: The identifier for the blockchain on which the error occurred.
-- **Error Type**: The classification of the error.
-- **Error Name**: A descriptive name assigned to the error.
-
----
+- **Timestamp**: Records the exact moment an error occurred, providing a precise timeline.
+- **Method**: Identifies the RPC method involved when the error was triggered.
+- **Chain ID**: Specifies the blockchain network on which the error took place.
+- **Error Type**: Categorizes the nature of the error for easier analysis.
+- **Error Name**: Gives a descriptive label to the error for quick reference.
 
 ## Expanded Error Details
 
-Clicking on an error message within the logs opens an expanded view, providing additional context and details:
+For deeper investigation, clicking on an error log entry expands to reveal more context:
 
-- **Date**: The date of the error event.
-- **Time**: The specific time when the error was logged.
-- **Application ID**: The unique identifier for the application involved.
-- **Chain ID**: Confirmation of the blockchain network where the error took place.
-- **Supported Method**: The particular blockchain method that was in use.
-- **Error Type**: A broader category of the error for classification purposes.
-- **Error Name**: The specific name given to the error for identification.
-- **Error Message**: A detailed message explaining the error.
-
----
+- **Date and Time**: Confirm the date and the specific time the error was logged.
+- **Application ID**: Displays the unique identifier of the implicated application.
+- **Chain ID**: Reiterates the specific blockchain network involved.
+- **Supported Method**: Highlights the blockchain method being executed at the time of error.
+- **Error Type and Name**: Offer a detailed classification and identification of the error.
+- **Error Message**: Provides a comprehensive explanation of the error.
 
 ## Accessing Expanded Error Information
 
-To review expanded details of an error:
+To delve into the specifics of an error:
 
-1. Navigate to the 'Error Logs' tab on your application dashboard.
-2. Click on any error entry to open the detailed view on the side page model.
+1. Go to the 'Error Logs' tab within your application's dashboard.
+2. Select any error entry to view its expanded details in a sidebar or pop-up modal.
 
----
+## Tips for Effective Error Analysis
 
-## Tips for Error Analysis
-
-- **Regular Checks**: Frequently examine your error logs to prevent minor issues from escalating.
-- **Detail Orientation**: Use the expanded details to gain full understanding of each error.
-- **Proactive Correction**: Address errors by using the detailed information provided to prevent future occurrences.
-
----
-
-By utilizing the detailed error logs provided by Grove, developers can ensure their applications run as intended and rapidly resolve any issues that arise.
+- **Regular Checks**: Routinely review your error logs to catch and address issues before they escalate.
+- **Detail Orientation**: Leverage the detailed information provided in each log to understand the full scope of errors.
+- **Proactive Correction**: Utilize the insights gained from error logs to implement fixes, preventing recurrence and enhancing application stability.
