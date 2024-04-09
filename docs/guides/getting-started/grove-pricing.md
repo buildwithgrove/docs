@@ -2,7 +2,7 @@
 sidebar_position: 3
 sidebar_label: Grove Pricing
 ---
-# Pricing that scale without the complexity.
+# Pricing that scale without the complexity
 Whether you're just starting out or scaling up, we've structured our pricing plans to be as inclusive and flexible as possible, making decentralized infrastructure accessible and sustainable for everyone. Our pricing is simple because we know the work you're doing isn't. Whether you're exploring new ideas or expanding a developed project, we have a plan that fits:
 
 

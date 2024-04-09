@@ -3,7 +3,7 @@ sidebar_position: 2
 sidebar_label: Get an Endpoint
 ---
 
-# Quickstart: Get an endpoint.
+# Quickstart: Get an endpoint
 
 We streamline the process of connecting to the decentralized web, offering you seamless blockchain interaction right from the start. This quickstart guide is your roadmap to acquiring an endpoint, enabling your projects to communicate with blockchain networks effortlessly. Let’s dive into the steps:
 
