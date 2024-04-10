@@ -13,8 +13,8 @@ Base is an open-source optimistic rollup built on the Ethereum blockchain. Rollu
 
 | Blockchain                               | Portal API Prefix | RelayChainID | Blockheight         |
 | ---------------------------------------- | ----------------- | ------------ | ------------------- |
-| [Base Mainnet](./endpoints/base-mainnet) | base-mainnet      | 0079         | Latest - 127 blocks |
-| [Base Testnet](./endpoints/base-testnet) | base-testnet      | 0080         | All block heights   |
+| [Base Mainnet](./endpoints/base-mainnet) | base-fullnode-mainnet      | 0079         | All block heights |
+| [Base Testnet](./endpoints/base-testnet) | base-fullnode-testnet      | 0080         | All block heights   |
 
 ---
 

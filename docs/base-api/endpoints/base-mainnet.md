@@ -1,11 +1,11 @@
 ---
 sidebar_position: 1
-sidebar_label: base-mainnet
+sidebar_label: base-fullnode-mainnet
 ---
 
 # Base Mainnet
 
-`base-mainnet`
+`base-fullnode-mainnet`
 
 ## Supported APIs
 

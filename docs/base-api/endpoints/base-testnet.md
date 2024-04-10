@@ -1,11 +1,11 @@
 ---
 sidebar_position: 1
-sidebar_label: base-testnet
+sidebar_label: base-fullnode-testnet
 ---
 
 # Base Testnet
 
-`base-testnet`
+`base-fullnode-testnet`
 
 ## Supported APIs
 
