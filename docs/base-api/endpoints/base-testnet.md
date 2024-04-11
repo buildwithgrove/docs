@@ -1,11 +1,11 @@
 ---
 sidebar_position: 1
-sidebar_label: base-fullnode-testnet
+sidebar_label: base-testnet
 ---
 
 # Base Testnet
 
-`base-fullnode-testnet`
+`base-testnet`
 
 **Note:** Base Fullnodes on both mainnet and testnet are **archival nodes by default**. This means they store the entire history of the blockchain, providing access to historical states and data.
 
