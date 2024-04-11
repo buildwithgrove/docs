@@ -7,6 +7,8 @@ sidebar_label: base-fullnode-mainnet
 
 `base-fullnode-mainnet`
 
+**Note:** Base Fullnodes on both mainnet and testnet are **archival nodes by default**. This means they store the entire history of the blockchain, providing access to historical states and data.
+
 ## Supported APIs
 
 | API Spec | Description                                               | Documentation                  |
