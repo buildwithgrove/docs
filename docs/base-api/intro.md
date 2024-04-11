@@ -9,7 +9,7 @@ Base is an open-source optimistic rollup built on the Ethereum blockchain. Rollu
 
 **Note:** Base Fullnodes on both mainnet and testnet are **archival nodes by default**. This means they store the entire history of the blockchain, providing access to historical states and data.
 
-Additionally, `base-mainnet-archival` and `base-testnet-archival` are simply alternative aliases in our database. Both these aliases act as subdomain aliases for `base-fullnode-mainnet` and `base-fullnode-testnet`.
+Additionally, `base-mainnet-archival` and `base-testnet-archival` are simply alternative aliases in our database. Both these aliases act as subdomain aliases for `base-mainnet` and `base-testnet`.
 
 
 
@@ -19,8 +19,8 @@ Additionally, `base-mainnet-archival` and `base-testnet-archival` are simply alt
 
 | Blockchain                               | Portal API Prefix | RelayChainID | Blockheight         |
 | ---------------------------------------- | ----------------- | ------------ | ------------------- |
-| [Base Mainnet](./endpoints/base-mainnet) | base-fullnode-mainnet      | 0079         | All block heights |
-| [Base Testnet](./endpoints/base-testnet) | base-fullnode-testnet      | 0080         | All block heights   |
+| [Base Mainnet](./endpoints/base-mainnet) | base-mainnet      | 0079         | All block heights |
+| [Base Testnet](./endpoints/base-testnet) | base-testnet      | 0080         | All block heights   |
 
 ---
 
