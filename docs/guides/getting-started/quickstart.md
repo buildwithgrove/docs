@@ -32,7 +32,6 @@ Creating an application is your first step towards active blockchain interaction
 3. **Select an Appmoji:** Choose an Appmoji for a fun, visual representation of your application.  
 4. **Describe Your Application:** Provide a concise description to outline your application’s functionality and purpose. 
 
-![Alt text](https://i.ibb.co/8ryT1dD/Untitled-design.gif "Optional title")
 
 # 
 
@@ -46,7 +45,6 @@ Utilize endpoints to make RPC calls and interact with various blockchains.
 - Choose the endpoint corresponding to the blockchain you wish to interact with.
 - Copy the endpoint URL for use in your RPC calls.
 
-![Alt text](https://i.ibb.co/Dbm3ZS0/Untitled-design-copy.gif "Optional title")
 
 
 ## Step 5: Make Your First RPC Call

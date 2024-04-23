@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+sidebar_position: 8
 sidebar_label: Account Settings
 ---
 
@@ -15,7 +15,7 @@ Change your account name by clicking the "Change Name" button. A popup will allo
 ## Account ID
 Your unique organization ID on Grove, for example, `6a01d3c0`. This ID is permanent and unique to your account. It serves as a foundational identifier within Grove, enabling precise coordination and security measures for your organization's activities.
 
-## Members
+## Members 
 
 Enhance collaboration by inviting new members and manage members access and roles within your Grove account. Click "Invite New Member", input their email, select a role, and send the invitation. Detailed roles and permissions ensure effective team collaboration and operational security.
 

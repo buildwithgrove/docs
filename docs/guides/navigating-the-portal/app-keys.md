@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 4
 sidebar_label: Application Keys
 ---
 
@@ -19,7 +19,7 @@ A crucial security measure, the Secret Key is required for your applications whe
 
 **Usage**: The Secret Key should be transmitted using HTTP Basic Authentication to establish a secure communication channel between your application and Grove endpoints. This ensures that only authorized requests are processed, safeguarding your application against unauthorized access.
 
-## Managing Your Keys
+## Managing Your Keys 
 
 By default, your Secret Key is concealed to protect its confidentiality. To view your Secret Key, click the eye icon, allowing you to verify or use the key when necessary.
 

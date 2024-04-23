@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 3
 sidebar_label: Application Security
 ---
 
@@ -25,7 +25,7 @@ Control access based on the HTTP User-Agents, allowing only recognized agents to
 
 - **Add User-Agent**: Input and register the User-Agent strings you trust, creating a customized access list for your application.
 
-## Whitelist Origins
+## Whitelist Origins 
 
 Specify which HTTP Origins are authorized to interact with your application, creating a secure boundary that only permits requests from known sources.
 

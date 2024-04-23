@@ -7,9 +7,6 @@ sidebar_label: Application Endpoints
 
 Grove's Endpoints are pre-configured for immediate use, enabling both data reading and transaction executions directly within your application. These application endpoints serve as URL-based gateways connecting your application to a specific blockchain network, essential for seamless blockchain interactions. This direct access facilitates the exploration and utilization of blockchain technology, allowing you to focus more on developing and enhancing your application.
 
-![Application Endpoints](https://i.ibb.co/Q9BBfyS/Screenshot-2024-04-08-at-15-12-40.png)
-
-
 ## How to Use Endpoints
 
 Utilizing Grove's endpoints is designed to be user-friendly:
@@ -17,7 +14,7 @@ Utilizing Grove's endpoints is designed to be user-friendly:
 - **Copy Endpoint URL**: Find the 'Copy URL' button next to each endpoint to easily copy its URL to your clipboard for integration into your application.
 - **Endpoint Details**: Grove provides detailed information for each endpoint, including the associated blockchain network, connection specifics, and supported RPC methods.
 
-## Navigating the Endpoint List
+## Navigating the Endpoint List 
 
 Select the perfect endpoint from Grove's extensive list, each tailored to a specific blockchain:
 

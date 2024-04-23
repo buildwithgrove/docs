@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 7
 sidebar_label: Team Management
 ---
 
@@ -16,7 +16,7 @@ To oversee your team within the Grove Portal:
 
 ## Inviting a New Member
 
-Expanding your team is straightforward:
+Expanding your team is straightforward: 
 
 1. Click the "Invite New Member" button found within the "Members" section.
 2. In the ensuing pop-up window, input the invitee's email address.

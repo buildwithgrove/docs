@@ -19,9 +19,9 @@ Endpoints are the bridges between your Application and the blockchain networks. 
 
 The Insights tab provides a granular view of how your Application is interacting with the blockchain. Similar to Account Insights but filtered for your specific Application, you can monitor everything from request volumes to performance metrics, enabling data-driven decisions to optimize your project's blockchain interaction. Learn more about [Application Insights](/guides/navigating-the-portal/app-insights.md).
 
-### Error Logs
+### Logs 
 
-Developing on the blockchain is complex, and errors are inevitable. The Error Logs tab within your Application offers a detailed record of any issues encountered during your blockchain interactions. This tool is invaluable for troubleshooting and refining your project, ensuring smoother operations and enhanced reliability. Learn more about [Error Logs](/guides/navigating-the-portal/app-error-logs.md).
+Developing on the blockchain is complex, and errors are inevitable. The Logs tab within your Application offers a detailed record of all relays and any issues encountered during your blockchain interactions. This tool is invaluable for troubleshooting and refining your project, ensuring smoother operations and enhanced reliability. Learn more about [Logs](/guides/navigating-the-portal/app-logs.md).
 
 ### Security
 
