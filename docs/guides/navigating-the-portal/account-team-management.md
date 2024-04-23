@@ -1,53 +1,44 @@
 ---
-sidebar_position: 3
-sidebar_label: Account Team Management
+sidebar_position: 7
+sidebar_label: Team Management
 ---
 
-# Account Team Management
+# Team Management
 
-The settings and members section in the Grove Portal is your centralized location for managing team settings and memberships. This interface simplifies the process of assigning roles and setting permissions.
-
----
+Efficient team management is pivotal for the smooth operation and security of your Grove applications. The "Members" section is designed to facilitate the easy assignment of roles and the setting of permissions for your team. By meticulously managing team roles and permissions, you can maintain a secure and efficient workflow within Grove, ensuring each team member has the access they need to contribute effectively to your projects.
 
 ## Navigating to Team Members
 
-To manage your team members:
+To oversee your team within the Grove Portal:
 
-1. Select **Settings and Members** from the left navigation in the Grove Portal.
-2. Click on the **Members** tab.
-
-If no members have been invited, you will be the only user listed as the owner.
-
----
+1. Select "Settings" from the left-hand navigation menu.
+2. Click on the "Members" tab to view all team members. By default, if no members have been invited yet, you'll be listed as the sole owner.
 
 ## Inviting a New Member
 
-To invite a new member to your team:
+Expanding your team is straightforward: 
 
-1. Click the **Invite New Member** button in the "Members" section.
-2. In the pop-up window, provide the invitee's email address.
-3. Select the role for the new member from the dropdown: **Admin** or **Member**.
-4. Click **Invite** to send out the invitation.
+1. Click the "Invite New Member" button found within the "Members" section.
+2. In the ensuing pop-up window, input the invitee's email address.
+3. Choose an appropriate role (Admin or Member) from the dropdown menu for the new member.
+4. Hit "Invite" to dispatch the invitation email, which prompts them to join your team on the Grove.
 
-The new member will receive an email with the invitation to join the team.
+## Roles and Permissions
 
----
+Grove delineates clear roles with specific access levels and permissions to ensure operational security and efficiency:
 
-### Roles and Permissions
+| Permitted Action       | Owner | Admin | Member |
+|------------------------|:-----:|:-----:|:------:|
+| Security features      |  ✅   |  ✅   |   ✅   |
+| View team members      |  ✅   |  ✅   |   ✅   |
+| Remove team member     |  ✅   |  ✅   |        |
+| Invite new member      |  ✅   |  ✅   |        |
+| Update Billing         |  ✅   |  ✅   |        |
+| Manage user role       |  ✅   |  ✅   |        |
+| Delete applications    |  ✅   |       |        |
+| Leave the team         |       |  ✅   |   ✅   |
 
-Different roles within your team have different levels of access and permissions:
+*Note: Admins possess the capability to modify user roles for members and other admins, but cannot alter the owner's role.
 
-| Permitted Action    | Owner | Admin | Member |
-| ------------------- | :---: | :---: | :----: |
-| Security features   |  ✅   |  ✅   |   ✅   |
-| View team members   |  ✅   |  ✅   |   ✅   |
-| Remove team member  |  ✅   |  ✅   |        |
-| Invite new member   |  ✅   |  ✅   |        |
-| Update Billing      |  ✅   |  ✅   |        |
-| Manage user role    |  ✅   |  ✅   |        |
-| Delete applications |  ✅   |       |        |
-| Leave the team      |       |  ✅   |   ✅   |
 
-\* Admins can change user roles for members and other admins, but not for owners.
 
----

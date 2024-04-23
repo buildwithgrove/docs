@@ -1,39 +1,29 @@
 ---
-sidebar_position: 4
+sidebar_position: 2
 sidebar_label: Application Endpoints
 ---
 
 # Application Endpoints
 
-Endpoints in Grove act as gateways to blockchain networks, allowing your applications to communicate with various chains. Pre-configured and ready to use, these endpoints enable immediate interaction with the blockchain for reading and writing data.
+Grove's Endpoints are pre-configured for immediate use, enabling both data reading and transaction executions directly within your application. These application endpoints serve as URL-based gateways connecting your application to a specific blockchain network, essential for seamless blockchain interactions. This direct access facilitates the exploration and utilization of blockchain technology, allowing you to focus more on developing and enhancing your application.
 
----
+## How to Use Endpoints
 
-## Using Endpoints
+Utilizing Grove's endpoints is designed to be user-friendly:
 
-Grove's endpoints are designed for ease of use. Simply copy the endpoint URL and integrate it into your application to start interacting with the blockchain.
+- **Copy Endpoint URL**: Find the 'Copy URL' button next to each endpoint to easily copy its URL to your clipboard for integration into your application.
+- **Endpoint Details**: Grove provides detailed information for each endpoint, including the associated blockchain network, connection specifics, and supported RPC methods.
 
-- **Copy Endpoint**: Each endpoint has a 'Copy URL' button for quick access. Click to copy the endpoint to your clipboard.
-- **Endpoint Details**: Information about the blockchain network, connection details, and supported methods are provided for each endpoint.
+## Navigating the Endpoint List 
 
----
+Select the perfect endpoint from Grove's extensive list, each tailored to a specific blockchain:
 
-## Endpoint List
+- **Favorite Endpoints**: Streamline your workflow by marking your most-used endpoints as favorites for quicker access.
+- **Access to Documentation**: Direct links to comprehensive documentation for each endpoint are available, offering insights into the supported blockchain methods and more.
 
-Browse through a comprehensive list of available endpoints. Each one is tailored to a specific blockchain, ensuring you can connect to your desired network with no additional configuration.
+## Best Practices
 
-- **Favorite Endpoints**: Mark the endpoints you use most often as favorites to streamline your workflow.
-- **Endpoint Documentation**: Direct links to documentation are provided, offering detailed information on the supported methods for each blockchain.
+Ensure optimal use of endpoints with these practices:
 
----
-
-## Best Practices for Endpoint Usage
-
-Maximize the reliability and efficiency of your blockchain interactions with these best practices:
-
-- **Secure Connections**: While endpoints are ready to use, ensure secure communication by following best security practices for your application.
-- **Performance Monitoring**: Regularly check the performance and health of the endpoints you're using to maintain optimal connectivity.
-
----
-
-Leverage Grove's endpoints for a seamless and efficient blockchain experience, allowing you to focus on building and scaling your application.
+- **Ensure Secure Connections**: Adhere to best security practices to protect your application's communications.
+- **Monitor Performance**: Regularly assess the performance and reliability of your chosen endpoints to maintain stable and efficient blockchain connectivity.
