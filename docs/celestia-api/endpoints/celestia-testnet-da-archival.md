@@ -1,11 +1,11 @@
 ---
 sidebar_position: 1
-sidebar_label: celestia-archival
+sidebar_label: celestia-testnet-da-archival
 ---
 
-# Celestia Archival
+# Celestia Testnet Da Archival
 
-`celestia-archival`
+`celestia-testnet-da-archival`
 
  - [Celestia Documentation](https://docs.celestia.org/).
  

@@ -1,14 +1,14 @@
 ---
 sidebar_position: 1
-sidebar_label: celestia-archival
+sidebar_label: celestia-consensus-archival
 ---
 
-# Celestia Archival
+# Celestia Consensus Archival
 
-`celestia-archival`
+`celestia-consensus-archival`
 
  - [Celestia Documentation](https://docs.celestia.org/).
- 
+
 ## Supported APIs
 
 | API Spec | Description                                               | Documentation                  |

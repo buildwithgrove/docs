@@ -25,6 +25,10 @@ Grove extends its robust blockchain interface to support Celestia, providing dev
 | Blockchain                                         | Chain Prefix        | RelayChainID | Blockheight       |
 | -------------------------------------------------- | ------------------- | ------------ | ----------------- |
 | [Celestia Archival](./endpoints/celestia-archival) | `celestia-archival` | A0CA         | All block heights |
+| [Celestia Consensus Archival](./endpoints/celestia-archival) | `celestia-consensus-archival` | A0CB         | All block heights |
+| [Celestia Testnet Da Archival](./endpoints/celestia-testnet-da-archival) | `celestia-testnet-da-archival` | A0CC         | All block heights |
+| [Celestia Testnet Consensus Archival](./endpoints/celestia-testnet-consensus-archival) | `celestia-testnet-consensus-archival` | A0CD         | All block heights |
+
 
 ---
 
