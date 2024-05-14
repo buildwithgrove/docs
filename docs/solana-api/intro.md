@@ -22,7 +22,7 @@ Solana is a high-performance blockchain supporting builders around the world cre
 | Blockchain                                   | Portal API Prefix | RelayChainID | Blockheight        |
 | -------------------------------------------- | ----------------- | ------------ | ------------------ |
 | [Solana Mainnet](./endpoints/solana-mainnet) | solana-mainnet    | 0006         | Latest - < 1 epoch |
-| [Solana Custom](./endpoints/solana-custom)   | solana-custom     | C006         | Latest - 6 epochs  |
+| [Solana Custom](./endpoints/solana-custom)   | solana-mainnet-custom     | C006         | Latest - 6 epochs  |
 
 ---
 

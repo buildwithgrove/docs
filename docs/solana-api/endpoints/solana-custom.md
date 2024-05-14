@@ -5,7 +5,7 @@ sidebar_label: solana-custom
 
 # Solana Custom
 
-`solana-custom`
+`solana-mainnet-custom`
 
 Solana is a high-performance blockchain supporting builders around the world creating crypto apps that scale. Solana's unique architecture allows for fast transaction processing and high throughput. The Solana supported methods provide developers with functionalities to integrate Solana's features into their applications, such as querying balances, executing transactions, and interacting with SOL-based smart contracts.
 
