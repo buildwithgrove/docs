@@ -26,7 +26,6 @@ Grove offers a robust and developer-centric interface to the Ethereum blockchain
 | [Ethereum Mainnet](./endpoints/eth-mainnet)               | `eth-mainnet`              | 0021         | Latest - 127 blocks  |
 | [Ethereum Archival](./endpoints/eth-archival)             | `eth-archival`             | 0022         | All block heights    |
 | [Ethereum Trace](./endpoints/eth-trace)                   | `eth-trace`                | 0028         | All block heights    |
-| [Ethereum Rinkeby](./endpoints/eth-rinkeby)               | `rinkeby`                  | 0022         | Latest - 127 blocks  |
 | [Ethereum Holesky](./endpoints/eth-holesky)               | `holesky-fullnode-testnet` | 0081         | All block heights    |
 | [Ethereum Sepolia](./endpoints/sepolia)                   | `sepolia`                  | 0077         | Latest - 127 blocks  |
 | [Ethereum Sepolia Archival](./endpoints/sepolia-archival) | `sepolia-archival`         | 0078         | All block heights    |
