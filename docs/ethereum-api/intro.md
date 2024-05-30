@@ -29,10 +29,8 @@ Grove offers a robust and developer-centric interface to the Ethereum blockchain
 | [Ethereum Holesky](./endpoints/eth-holesky)               | `holesky-fullnode-testnet` | 0081         | All block heights    |
 | [Ethereum Sepolia](./endpoints/sepolia)                   | `sepolia`                  | 0077         | Latest - 127 blocks  |
 | [Ethereum Sepolia Archival](./endpoints/sepolia-archival) | `sepolia-archival`         | 0078         | All block heights    |
-| [Ethereum Beacon](./endpoints/eth-beacon)                 | `eth-beacon`               | B021         | Full chain support\* |
-| [Ethereum Beacon Holesky](./endpoints/holesky-beacon)     | `holesky-beacon`           | B081         | Full chain support\* |
 
-\* For the Beacon and Beacon Holesky networks, we offer support for full chains across all block heights. However, please note that while this includes Archival data, we cannot guarantee its consistent functionality.
+
 
 ---
 
