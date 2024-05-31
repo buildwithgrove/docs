@@ -7,8 +7,8 @@ sidebar_label: celestia-archival
 
 `celestia-archival`
 
-Celestia Archival offers the full blockchain history of [Celestia's Data Availability (DA) Node](https://docs.celestia.org/nodes/full-storage-node).
-
+ - [Celestia Documentation](https://docs.celestia.org/).
+ 
 ## Supported APIs
 
 | API Spec | Description                                               | Documentation                  |
