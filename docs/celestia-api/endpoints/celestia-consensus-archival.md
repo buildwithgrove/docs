@@ -1,11 +1,11 @@
 ---
 sidebar_position: 1
-sidebar_label: celestia-testnet-consensus-archival
+sidebar_label: celestia-consensus-archival
 ---
 
-# Celestia Testnet Consensus Archival
+# Celestia Consensus Archival
 
-`celestia-testnet-consensus-archival`
+`celestia-consensus-archival`
 
 - [Celestia Documentation](https://docs.celestia.org/).
 
