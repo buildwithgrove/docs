@@ -11,7 +11,7 @@ export default async function groveChains(context, options) {
           },
           body: JSON.stringify({
             query:
-              "query blockchains { blockchains(active: true) { id ticker blockchain blockchainAliases active description enforceResult chainIDCheck logLimitBlocks path } }",
+              "query blockchains { blockchains(active: true) { id ticker blockchain blockchainAliases active description enforceResult chainIDCheck logLimitBlocks path scheme } }",
           }),
         })
 
@@ -19,7 +19,10 @@ export default async function groveChains(context, options) {
           throw new Error("failed blockchain request")
         }
         const body = await res.json()
-        return body.data.blockchains
+
+        return body.data.blockchains.filter(
+            (chain) => chain.id !== "BE2A" && chain.scheme !== "wss"
+        )
       } catch (error) {
         console.log(error)
         return []
