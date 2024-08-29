@@ -1,11 +1,11 @@
 ---
 sidebar_position: 1
-sidebar_label: klaytn-mainnet
+sidebar_label: kaia-mainnet
 ---
 
-# Klaytn Mainnet
+# Kaia Mainnet
 
-`klaytn-mainnet`
+`kaia-mainnet`
 
 ## Supported APIs
 

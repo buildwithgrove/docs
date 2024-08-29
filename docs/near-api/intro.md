@@ -11,9 +11,9 @@ NEAR is a decentralized application platform designed to make apps usable on the
 
 ## Supported Chain Endpoints
 
-| Blockchain                               | Portal API Prefix | RelayChainID | Blockheight |
-| ---------------------------------------- | ----------------- | ------------ | ----------- |
-| [Near Mainnet](./endpoints/near-mainnet) | near-mainnet      | 0052         |             |
+| Blockchain                               | Portal API Prefix | RelayChainID | Blockheight         |
+| ---------------------------------------- | ----------------- | ------------ | ------------------- |
+| [Near Mainnet](./endpoints/near-mainnet) | near-mainnet      | 0052         | Latest - 127 blocks |
 
 ---
 

@@ -47,7 +47,7 @@ export default function Pricing() {
   }
   const plans: Plan[] = [
     {
-      type: "Starter",
+      type: "Free",
       description: "Free",
       action: {
         label: "Get started",
@@ -67,8 +67,8 @@ export default function Pricing() {
       },
     },
     {
-      type: "Auto-Scale",
-      description: "Pay as you go",
+      type: "Unlimited",
+      description: "Unlimited",
       style: {
         light: {
           backgroundColor: "--mantine-color-gray-2",
@@ -84,35 +84,15 @@ export default function Pricing() {
       },
       fields: {
         freeDailyRequest: "100,000",
-        baseRelayRate: "$7.456 / million",
+        baseRelayRate: "$2 / million",
         overageRelayRate: "--",
         throughputLimit: "No throughput limit",
         support: "Community Discord",
         blockchains: "All supported chains",
         regionSupport: "Global",
-        applications: "2",
-      },
-    },
-    {
-      type: "Enterprise",
-      description: "Custom",
-      action: {
-        label: "Talk to Sales",
-        href: "https://portal.grove.city/",
-        color: "blue",
-        variant: "outline",
-      },
-      fields: {
-        freeDailyRequest: "Custom",
-        baseRelayRate: "Custom volume plans",
-        overageRelayRate: "--",
-        throughputLimit: "No throughput limit",
-        support: "Dedicated support",
-        blockchains: "All supported chains",
-        regionSupport: "Global",
         applications: "Unlimited",
       },
-    },
+    }
   ]
 
   return (

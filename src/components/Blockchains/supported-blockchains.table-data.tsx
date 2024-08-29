@@ -123,6 +123,12 @@ export const supportedBlockchains = [
     evmChainID: "4689",
   },
   {
+    name: "Kaia Mainnet",
+    portalApiPrefix: "kaia-mainnet",
+    relayChainID: "0056",
+    evmChainID: "8217",
+  },
+  {
     name: "Kava Mainnet",
     portalApiPrefix: "kava-mainnet",
     relayChainID: "0071",
@@ -133,12 +139,6 @@ export const supportedBlockchains = [
     portalApiPrefix: "kava-mainnet-archival",
     relayChainID: "0072",
     evmChainID: "2222",
-  },
-  {
-    name: "Klaytn Mainnet",
-    portalApiPrefix: "klaytn-mainnet",
-    relayChainID: "0056",
-    evmChainID: "8217",
   },
   {
     name: "Meter Mainnet",
