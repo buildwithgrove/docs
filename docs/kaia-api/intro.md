@@ -5,7 +5,7 @@ sidebar_label: Introduction
 
 # Kaia
 
-Klaytn is a public blockchain platform developed by Ground X, a subsidiary of the South Korean messaging giant Kakao. Offering a user-friendly blockchain experience, Klaytn supported methods allow developers to easily engage with the network, performing functions like querying account balances, executing transactions, and interacting with smart contracts.
+Kaia is a blazing fast, seamless and interoperable blockchain formed through the merger of the Klaytn and Finschia blockchains initially developed by Kakao and LINE respectively. Kaia brings Web3 to the fingertips of hundreds of millions across Asia and the globe.
 
 ---
 
