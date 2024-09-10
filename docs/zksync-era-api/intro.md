@@ -17,6 +17,6 @@ zkSync is a layer 2 scaling solution for Ethereum, offering fast, secure, and lo
 
 ---
 
-## Ready to Get Started?
+## Ready to Get Started?   
 
 Create a [Grove Portal account](https://portal.grove.city) or check out our [Quickstart Guide](/guides/getting-started/quickstart).
