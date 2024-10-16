@@ -13,7 +13,7 @@ zkLink Nova is the industry’s first aggregated Layer 3 zkEVM Rollup network bu
 
 | Blockchain                               | Portal API Prefix | RelayChainID | Blockheight         |
 | ---------------------------------------- | ----------------- | ------------ | ------------------- |
-| [zkLink Nova](./endpoints/zklink-nova-archival) | zklink-nova-archival     | A091         | All block heights |
+| [zkLink Nova](./endpoints/zklink-nova) | zklink-nova     | F02A         | All block heights |
 
 ---
 

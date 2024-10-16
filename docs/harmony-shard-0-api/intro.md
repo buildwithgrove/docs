@@ -13,7 +13,7 @@ Harmony is a fast and secure blockchain for decentralized applications. Its high
 
 | Blockchain                                     | Portal API Prefix | RelayChainID | Blockheight         |
 | ---------------------------------------------- | ----------------- | ------------ | ------------------- |
-| [Harmony Shard 0](./endpoints/harmony-shard-0) | harmony-0         | 0040         | Latest - 127 blocks |
+| [Harmony Shard 0](./endpoints/harmony) | harmony         | F014         | All block heights |
 
 ---
 

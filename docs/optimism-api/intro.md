@@ -13,9 +13,8 @@ Optimism is a Layer 2 scaling solution for Ethereum, aiming to enable high-speed
 
 | Blockchain                                         | Portal API Prefix | RelayChainID | Blockheight         |
 | -------------------------------------------------- | ----------------- | ------------ | ------------------- |
-| [Optimism Mainnet](./endpoints/optimism-mainnet)   | optimism-mainnet  | 0053         | Latest - 127 blocks |
-| [Optimism Archival](./endpoints/optimism-archival) | optimism-archival | A053         | All block heights   |
-| [Optimism Sepolia Archival](./endpoints/optimism-sepolia-archival) | optimism-sepolia-archival | A087         | All block heights   |
+| [Optimism](./endpoints/optimism)   | optimism  | F01D         | All block heights |
+| [Optimism Sepolia Testnet](./endpoints/optimism-sepolia-testnet) | optimism-sepolia-testnet | F01E         | All block heights   |
 
 ---
 
