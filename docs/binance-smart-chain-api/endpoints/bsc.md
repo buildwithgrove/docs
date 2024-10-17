@@ -3,11 +3,11 @@ sidebar_position: 1
 sidebar_label: bsc
 ---
 
-# Binance Smart Chain (BSC) Mainnet
+# Binance Smart Chain (BSC)
 
 `bsc`
 
-As the primary network of Binance Smart Chain, the BSC Mainnet hosts real-world transactions and decentralized applications (DApps). 
+As the primary network of Binance Smart Chain, BSC hosts real-world transactions and decentralized applications (DApps). 
 
 ## Supported APIs
 

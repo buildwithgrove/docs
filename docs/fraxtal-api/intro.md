@@ -13,7 +13,7 @@ Fraxtal is a cutting-edge, modular rollup blockchain (Layer 2) with a vision for
 
 | Blockchain                                 | Portal API Prefix | RelayChainID | Blockheight         |
 | ------------------------------------------ | ----------------- | ------------ | ------------------- |
-| [Fraxtal Archival](./endpoints/fraxtal) | fraxtal     | F011         | All block heights |
+| [Fraxtal](./endpoints/fraxtal) | fraxtal     | F011         | All block heights |
 
 ---
 

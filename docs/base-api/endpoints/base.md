@@ -3,7 +3,7 @@ sidebar_position: 1
 sidebar_label: base
 ---
 
-# Base Mainnet
+# Base
 
 `base`
 

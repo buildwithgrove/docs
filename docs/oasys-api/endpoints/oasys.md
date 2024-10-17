@@ -3,7 +3,7 @@ sidebar_position: 1
 sidebar_label: oasys
 ---
 
-# Oasys Mainnet
+# Oasys
 
 `oasys`
 
