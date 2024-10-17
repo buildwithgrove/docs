@@ -763,47 +763,47 @@
         {
           "name": "from",
           "required": true,
-          "description": "Address the transaction is sent from.",
+          "description": "Address the transaction is sent from."
         },
         {
           "name": "to",
           "required": true,
-          "description": "Address the transaction is sent to.",
+          "description": "Address the transaction is sent to."
         },
         {
           "name": "gas",
           "required": false,
-          "description": "The gas provided for the transaction (hex).",
+          "description": "The gas provided for the transaction (hex)."
         },
         {
           "name": "gasPrice",
           "required": false,
-          "description": "The gas price used for each paid gas (hex).",
+          "description": "The gas price used for each paid gas (hex)."
         },
         {
           "name": "value",
           "required": false,
-          "description": "The value of the transaction (hex).",
+          "description": "The value of the transaction (hex)."
         },
         {
           "name": "data",
           "required": false,
-          "description": "Hash of the encoded signature and parameters.",
+          "description": "Hash of the encoded signature and parameters."
         },
         {
           "name": "string",
           "required": false,
-          "description": "The block number (hex) or the block hash.",
+          "description": "The block number (hex) or the block hash."
         },
         {
           "name": "object",
           "required": true,
-          "description": "The tracer object.",
+          "description": "The tracer object."
         }
       ],
       "result": {
         "name": "object",
-        "description": "The trace object.",
+        "description": "The trace object."
       }
     },
     {
@@ -813,17 +813,17 @@
         {
           "name": "transactionHash",
           "required": true,
-          "description": "Transaction hash of the transaction to be traced.",
+          "description": "Transaction hash of the transaction to be traced."
         },
         {
           "name": "object",
           "required": true,
-          "description": "The options for the call. Includes the tracer, timeout and tracerConfig",
+          "description": "The options for the call. Includes the tracer, timeout and tracerConfig"
         }
       ],
       "result": {
         "name": "object",
-        "description": "The trace object.",
+        "description": "The trace object."
       }
     }
   ],
