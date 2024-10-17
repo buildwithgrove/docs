@@ -11,4 +11,4 @@ sidebar_label: bitcoin
 
 | API Spec | Description                                               | Documentation                  |
 | -------- | --------------------------------------------------------- | ------------------------------ |
-| The Bitcoin RPC API |  | [Bitcoin RPC API Reference](https://developer.bitcoin.org/reference/rpc/) |
+| Bitcoin RPC API | The Bitcoin RPC API | [Bitcoin RPC API Reference](https://developer.bitcoin.org/reference/rpc/) |

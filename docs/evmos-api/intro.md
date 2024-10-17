@@ -13,7 +13,7 @@ Evmos is an EVM-compatible, Proof-of-Stake blockchain built using the Cosmos SDK
 
 | Blockchain                                 | Portal API Prefix | RelayChainID | Blockheight         |
 | ------------------------------------------ | ----------------- | ------------ | ------------------- |
-| [Evmos](./endpoints/evmos-mainnet) | evmos-mainnet     | F00F         | All block heights |
+| [Evmos](./endpoints/evmos) | evmos-mainnet     | F00F         | All block heights |
 
 ---
 

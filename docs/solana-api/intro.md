@@ -13,7 +13,7 @@ Solana is a high-performance blockchain supporting builders around the world cre
 
 ### Solana Custom
 
-Grove and Pocket Network offer a **custom configuration of the Solana Blockchain** that provides enhanced historical and indexing capabilities for users while limiting the hardware and infrastructure requirements of Node Suppliers. See [Additional Capabilities](./endpoints/solana-custom#additional-capabilities) for more information.
+Grove and Pocket Network offer a **custom configuration of the Solana Blockchain** that provides enhanced historical and indexing capabilities for users while limiting the hardware and infrastructure requirements of Node Suppliers. See [Additional Capabilities](./endpoints/solana#additional-capabilities) for more information.
 
 ---
 

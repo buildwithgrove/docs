@@ -11,4 +11,4 @@ sidebar_label: kaia-mainnet
 
 | API Spec | Description                                               | Documentation                  |
 | -------- | --------------------------------------------------------- | ------------------------------ |
-| Core API | The core set of methods supported by all ethereum clients **Less Trace capabilities** | [view spec](../specs/core-api) |
+| Core API | The core set of methods supported by all ethereum clients | [view spec](../specs/core-api) |
