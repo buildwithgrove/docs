@@ -3,9 +3,9 @@ sidebar_position: 1
 sidebar_label: optimism-sepolia-testnet
 ---
 
-# Optimism Archival
+# Optimism Sepolia Testnet
 
-`optimism-sepolia-archival`
+`optimism-sepolia-testnet`
 
 ## Supported APIs
 
