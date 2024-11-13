@@ -15,7 +15,7 @@ For a deeper understanding of the specific methods for the Radix full-stack, ref
 
 | Blockchain                                 | Portal API Prefix | RelayChainID | Blockheight         |
 | ------------------------------------------ | ----------------- | ------------ | ------------------- |
-| [Radix Mainnet](./endpoints/radix-mainnet) | radix-mainnet     | 0083         | Latest - 127 blocks |
+| [Radix](./endpoints/radix) | radix    | F023         | All block heights |
 
 ---
 

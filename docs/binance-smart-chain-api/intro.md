@@ -3,9 +3,9 @@ sidebar_position: 1
 sidebar_label: Introduction
 ---
 
-# Binance Smart Chain (BSC)
+# BNB Smart Chain
 
-Binance Smart Chain (BSC), formerly known as Binance Chain, is an open-source, decentralized, and highly scalable blockchain platform designed for decentralized applications (DApps) and enterprise blockchain deployments. It is a fork of the Ethereum Virtual Machine (EVM), making it compatible with Ethereum-based DApps. Launched in 2020 by Binance, the world's largest cryptocurrency exchange, BSC quickly gained popularity due to its fast transaction speeds and low fees.
+BNB Smart Chain (BSC), formerly known as Binance Chain, is an open-source, decentralized, and highly scalable blockchain platform designed for decentralized applications (DApps) and enterprise blockchain deployments. It is a fork of the Ethereum Virtual Machine (EVM), making it compatible with Ethereum-based DApps. Launched in 2020 by Binance, the world's largest cryptocurrency exchange, BSC quickly gained popularity due to its fast transaction speeds and low fees.
 
 BSC's rapid growth can be attributed to its address of Ethereum's limitations, such as high transaction fees and congestion. By leveraging a Proof of Staked Authority (PoSA) consensus mechanism, BSC can process up to 2,000 transactions per second at significantly lower fees compared to Ethereum. This scalability and cost-effectiveness have attracted numerous DApp developers and users, making BSC one of the most active blockchain platforms in the world.
 
@@ -25,8 +25,7 @@ Grove extends robust support to Binance Smart Chain, offering developers a suite
 
 | Blockchain                               | Chain Prefix   | RelayChainID | Blockheight         |
 | ---------------------------------------- | -------------- | ------------ | ------------------- |
-| [BSC Mainnet](./endpoints/bsc-mainnet)   | `bsc-mainnet`  | 0004         | Latest - 127 blocks |
-| [BSC Archival](./endpoints/bsc-archival) | `bsc-archival` | 0010         | All block heights   |
+| [BSC](./endpoints/bsc)   | `bsc`  | F009         | All block heights |
 
 ---
 

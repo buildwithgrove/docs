@@ -23,10 +23,9 @@ Grove's integration with Polygon enhances access to its Layer 2 scaling capabili
 
 | Blockchain                                    | Chain Prefix         | RelayChainID | Blockheight         |
 | --------------------------------------------- | -------------------- | ------------ | ------------------- |
-| [Polygon Mainnet](./endpoints/poly-mainnet)   | `poly-mainnet`       | 0009         | Latest - 127 blocks |
-| [Polygon Archival](./endpoints/poly-archival) | `poly-archival`      | 000B         | All block heights   |
-| [Polygon zkEVM](./endpoints/poly-zkevm)       | `poly-zkevm-mainnet` | 0074         | Latest - 127 blocks |
-| [Polygon Amoy](./endpoints/amoy-testnet-archival)       | `amoy-testnet-archival` | A085         | All block heights |
+| [Polygon](./endpoints/polygon)   | `polygon`       | F021         | All block heights |
+| [Polygon zkEVM](./endpoints/polygon-zkevm)       | `polygon-zkevm` | F022         | All block heights |
+| [Polygon Amoy](./endpoints/polygon-amoy-testnet)       | `polygon-amoy-testnet` | F029         | All block heights |
 
 ---
 

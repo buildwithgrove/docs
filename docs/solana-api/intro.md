@@ -13,7 +13,7 @@ Solana is a high-performance blockchain supporting builders around the world cre
 
 ### Solana Custom
 
-**Solana Custom** is Grove and Pocket Network's custom flavor of the Solana Blockchain that provides enhanced historical and indexing capabilities for users while limiting the hardware and infrastructure requirements of Node Suppliers. See [Additional Capabilities](./endpoints/solana-custom#additional-capabilities) for more information.
+Grove and Pocket Network offer a **custom configuration of the Solana Blockchain** that provides enhanced historical and indexing capabilities for users while limiting the hardware and infrastructure requirements of Node Suppliers. See [Additional Capabilities](./endpoints/solana#additional-capabilities) for more information.
 
 ---
 
@@ -21,8 +21,7 @@ Solana is a high-performance blockchain supporting builders around the world cre
 
 | Blockchain                                   | Portal API Prefix | RelayChainID | Blockheight        |
 | -------------------------------------------- | ----------------- | ------------ | ------------------ |
-| [Solana Mainnet](./endpoints/solana-mainnet) | solana-mainnet    | 0006         | Latest - < 1 epoch |
-| [Solana Custom](./endpoints/solana-custom)   | solana-custom     | C006         | Latest - 6 epochs  |
+| [Solana](./endpoints/solana)   | solana    | F025         | Latest - 7 epochs  |
 
 ---
 

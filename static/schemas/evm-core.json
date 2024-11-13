@@ -30,7 +30,9 @@
           "params": [],
           "result": {
             "name": "addressesExample",
-            "value": ["0x407d73d8a49eeb85d32cf465507dd71d507100c1"]
+            "value": [
+              "0x407d73d8a49eeb85d32cf465507dd71d507100c1"
+            ]
           }
         }
       ]
@@ -753,6 +755,76 @@
           ]
         }
       }
+    },
+    {
+      "name": "debug_traceCall",
+      "summary": "The `debug_traceCall` method lets you run an `eth_call` within the context of the given block execution using the final state of parent block as the base.",
+      "params": [
+        {
+          "name": "from",
+          "required": true,
+          "description": "Address the transaction is sent from."
+        },
+        {
+          "name": "to",
+          "required": true,
+          "description": "Address the transaction is sent to."
+        },
+        {
+          "name": "gas",
+          "required": false,
+          "description": "The gas provided for the transaction (hex)."
+        },
+        {
+          "name": "gasPrice",
+          "required": false,
+          "description": "The gas price used for each paid gas (hex)."
+        },
+        {
+          "name": "value",
+          "required": false,
+          "description": "The value of the transaction (hex)."
+        },
+        {
+          "name": "data",
+          "required": false,
+          "description": "Hash of the encoded signature and parameters."
+        },
+        {
+          "name": "string",
+          "required": false,
+          "description": "The block number (hex) or the block hash."
+        },
+        {
+          "name": "object",
+          "required": true,
+          "description": "The tracer object."
+        }
+      ],
+      "result": {
+        "name": "object",
+        "description": "The trace object."
+      }
+    },
+    {
+      "name": "debug_traceTransaction",
+      "summary": "Attempts to replay a transaction as it was executed on the network. It will replay any transaction that occurred prior and will then attempt to execute the transaction that corresponds to the given hash.",
+      "params": [
+        {
+          "name": "transactionHash",
+          "required": true,
+          "description": "Transaction hash of the transaction to be traced."
+        },
+        {
+          "name": "object",
+          "required": true,
+          "description": "The options for the call. Includes the tracer, timeout and tracerConfig"
+        }
+      ],
+      "result": {
+        "name": "object",
+        "description": "The trace object."
+      }
     }
   ],
   "components": {
@@ -839,7 +911,11 @@
         "title": "blockNumberTag",
         "type": "string",
         "description": "The optional block height description",
-        "enum": ["earliest", "latest", "pending"]
+        "enum": [
+          "earliest",
+          "latest",
+          "pending"
+        ]
       },
       "BlockOrNull": {
         "title": "blockOrNull",
@@ -1171,7 +1247,11 @@
       "Transaction": {
         "title": "transaction",
         "type": "object",
-        "required": ["gas", "gasPrice", "nonce"],
+        "required": [
+          "gas",
+          "gasPrice",
+          "nonce"
+        ],
         "properties": {
           "blockHash": {
             "$ref": "#/components/schemas/BlockHashOrNull"
