@@ -26,17 +26,14 @@ export default function Footer() {
           </Grid.Col>
           <Grid.Col span={{ base: 12, xs: 6, sm: 4 }}>
             <Group className={styles.linksGroup}>
-              <Anchor href="https://status.grove.city" target="_blank">
-                Status
-              </Anchor>
               <Anchor href="https://grove.city/privacy" target="_blank">
                 Privacy
               </Anchor>
               <Anchor href="https://grove.city/terms" target="_blank">
                 Terms
               </Anchor>
-              <Anchor href="https://grove.city/enterprise" target="_blank">
-                Enterprise
+              <Anchor href="https://grove.city/sla" target="_blank">
+                SLA
               </Anchor>
             </Group>
           </Grid.Col>
