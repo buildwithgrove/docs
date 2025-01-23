@@ -1,4 +1,7 @@
 ---
+title: "Arbitrum One RPC API: Comprehensive Developer Guide"
+description: "Comprehensive documentation for Arbitrum One RPC API, covering endpoint details, request methods, and integration strategies for blockchain developers."
+keywords: [arbitrum, rpc, api, blockchain, ethereum, layer2, web3, smart contracts, node, jsonrpc]
 sidebar_position: 1
 sidebar_label: arbitrum-one
 ---
