@@ -1,11 +1,11 @@
 ---
 sidebar_position: 1
-sidebar_label: metis
+sidebar_label: mantle
 ---
 
-# Metis
+# Mantle
 
-`metis`
+`mantle`
 
 ## Supported APIs
 

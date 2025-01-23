@@ -1,11 +1,11 @@
 ---
 sidebar_position: 1
-sidebar_label: metis
+sidebar_label: xrpl-evm-devnet
 ---
 
-# Metis
+# XRPL EVM Sidechain
 
-`metis`
+`xrpl-evm-devnet`
 
 ## Supported APIs
 

@@ -3,9 +3,9 @@ sidebar_position: 1
 sidebar_label: Introduction
 ---
 
-# Metis
+# Mantle
 
-Metis is a Layer 2 Ethereum scaling solution aiming to make building Decentralized Autonomous Companies (DACs) easy and cheap. By leveraging the Metis supported methods, developers can harness this scalable infrastructure with actions such as querying balances, executing transactions, and interacting with smart contracts on the Metis network.
+Mantle Network is an EVM-compatible scaling solution for Ethereum. It is designed such that all contracts and tools running on Ethereum can operate on the Mantle Network with minimal modifications. Mantle is built as a rollup with modular architecture and modular data availability.
 
 ---
 
@@ -13,7 +13,7 @@ Metis is a Layer 2 Ethereum scaling solution aiming to make building Decentraliz
 
 | Blockchain                                 | Portal API Prefix | RelayChainID | Blockheight         |
 | ------------------------------------------ | ----------------- | ------------ | ------------------- |
-| [Metis](./endpoints/metis-mainnet) | metis-mainnet     | 0058         | All block heights |
+| [Mantle](./endpoints/mantle) | mantle    | F033         | All block heights |
 
 ---
 

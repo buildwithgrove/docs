@@ -1,11 +1,11 @@
 ---
 sidebar_position: 1
-sidebar_label: metis
+sidebar_label: sonic
 ---
 
-# Metis
+# Sonic
 
-`metis`
+`sonic`
 
 ## Supported APIs
 

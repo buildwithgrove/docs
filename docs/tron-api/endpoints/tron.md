@@ -1,11 +1,11 @@
 ---
 sidebar_position: 1
-sidebar_label: metis
+sidebar_label: tron
 ---
 
-# Metis
+# Tron
 
-`metis`
+`tron`
 
 ## Supported APIs
 

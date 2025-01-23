@@ -1,14 +1,14 @@
 ---
 sidebar_position: 1
-sidebar_label: bitcoin
+sidebar_label: ink
 ---
 
-# Bitcoin
+# Ink
 
-`bitcoin`
+`ink`
 
 ## Supported APIs
 
 | API Spec | Description                                               | Documentation                  |
 | -------- | --------------------------------------------------------- | ------------------------------ |
-| Bitcoin RPC API | The Bitcoin RPC API | [Bitcoin RPC API Reference](https://developer.bitcoin.org/reference/rpc/) |
+| Core API | The core set of methods supported by all ethereum clients | [view spec](../specs/core-api) |

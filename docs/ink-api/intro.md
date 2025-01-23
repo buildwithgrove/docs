@@ -3,9 +3,9 @@ sidebar_position: 1
 sidebar_label: Introduction
 ---
 
-# Metis
+# Ink
 
-Metis is a Layer 2 Ethereum scaling solution aiming to make building Decentralized Autonomous Companies (DACs) easy and cheap. By leveraging the Metis supported methods, developers can harness this scalable infrastructure with actions such as querying balances, executing transactions, and interacting with smart contracts on the Metis network.
+Ink is an Ethereum OP Stack layer 2 blockchain designed to be the house of DeFi for the Superchain; a powerful baselayer for deploying innovative DeFi protocols.
 
 ---
 
@@ -13,7 +13,7 @@ Metis is a Layer 2 Ethereum scaling solution aiming to make building Decentraliz
 
 | Blockchain                                 | Portal API Prefix | RelayChainID | Blockheight         |
 | ------------------------------------------ | ----------------- | ------------ | ------------------- |
-| [Metis](./endpoints/metis-mainnet) | metis-mainnet     | 0058         | All block heights |
+| [Ink](./endpoints/ink) | ink | F032         | All block heights |
 
 ---
 
