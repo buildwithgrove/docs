@@ -1,4 +1,7 @@
 ---
+title: "Grove - Celestia Consensus RPC API Documentation"
+description: "Comprehensive documentation for Grove's Celestia Consensus RPC API, covering endpoint details and integration strategies for blockchain developers."
+keywords: [celestia, rpc, api, blockchain, modular, web3, grove, pocket, pokt]
 sidebar_position: 1
 sidebar_label: celestia-consensus-archival
 ---

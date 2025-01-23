@@ -1,4 +1,7 @@
 ---
+title: "Grove - Ethereum Sepolia Testnet RPC API Documentation"
+description: "Comprehensive documentation for Grove's Ethereum Sepolia Testnet RPC API, covering endpoint details and integration strategies for blockchain developers."
+keywords: [ethereum, sepolia, eth rpc, api, blockchain, web3, smart contracts, grove, pocket, pokt]
 sidebar_position: 7
 sidebar_label: eth-sepolia-testnet
 ---

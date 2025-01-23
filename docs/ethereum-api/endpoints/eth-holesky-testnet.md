@@ -1,4 +1,7 @@
 ---
+title: "Grove - Ethereum Holesky Testnet RPC API Documentation"
+description: "Comprehensive documentation for Grove's Ethereum Holesky Testnet RPC API, covering endpoint details and integration strategies for blockchain developers."
+keywords: [ethereum, eth, rpc, api, blockchain, web3, smart contracts, grove, pocket, pokt]
 sidebar_position: 4
 sidebar_label: eth-holesky-testnet
 ---

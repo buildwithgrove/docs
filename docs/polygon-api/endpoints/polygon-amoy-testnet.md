@@ -1,4 +1,7 @@
 ---
+title: "Grove - Polygon Amoy Testnet RPC API Documentation"
+description: "Comprehensive documentation for Grove's Polygon Amoy Testnet RPC API, covering endpoint details and integration strategies for blockchain developers."
+keywords: [polygon, amoy, rpc, api, blockchain, web3, smart contracts, grove, pocket, pokt]
 sidebar_position: 4
 sidebar_label: polygon-amoy-testnet
 ---

@@ -1,4 +1,7 @@
 ---
+title: "Grove - Pocket Network RPC API Documentation"
+description: "Comprehensive documentation for Grove's Pocket Network RPC API, covering endpoint details and integration strategies for blockchain developers."
+keywords: [pocket, pokt, rpc, api, blockchain, decentralized, web3, grove]
 sidebar_position: 1
 sidebar_label: Introduction
 ---

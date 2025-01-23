@@ -1,4 +1,7 @@
 ---
+title: "Grove - Boba RPC API Documentation"
+description: "Comprehensive documentation for Grove's Boba RPC API, covering endpoint details and integration strategies for blockchain developers."
+keywords: [boba, rpc, api, blockchain, ethereum, layer2, web3, grove, pocket, pokt]
 sidebar_position: 1
 sidebar_label: Introduction
 ---
