@@ -3,7 +3,7 @@ sidebar_position: 1
 sidebar_label: Introduction
 ---
 
-# Tron
+# TRON
 
 TRON is an ambitious project dedicated to the establishment of a truly decentralized Internet and its
 infrastructure. The TRON Protocol, one of the largest blockchain-based operating systems in the
@@ -15,7 +15,7 @@ world, offers public blockchain support of high throughput, high scalability, an
 
 | Blockchain                                   | Portal API Prefix | RelayChainID | Blockheight         |
 | -------------------------------------------- | ----------------- | ------------ | ------------------- |
-| [Tron](./endpoints/tron) | tron   | F02E         | All block heights |
+| [TRON](./endpoints/tron) | tron   | F02E         | All block heights |
 
 ---
 

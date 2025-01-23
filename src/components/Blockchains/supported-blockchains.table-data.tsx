@@ -331,7 +331,7 @@ export const supportedBlockchains = [
     link: "/taiko-api/intro",
   },
   {
-    name: "Tron",
+    name: "TRON",
     portalApiPrefix: "tron",
     relayChainID: "F02E",
     evmChainID: "728126428",
@@ -378,4 +378,5 @@ export const columns = [
     Header: "RelayChainID",
     accessor: "relayChainID",
     className: "pokt-data-table header left"
+  }
 ]
