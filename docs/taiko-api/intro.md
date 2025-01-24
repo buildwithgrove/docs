@@ -1,4 +1,7 @@
 ---
+title: "Grove - Taiko RPC API Documentation"
+description: "Comprehensive documentation for Grove's Taiko RPC API, covering endpoint details and integration strategies for blockchain developers."
+keywords: [taiko, rpc, api, blockchain, ethereum, zk, web3, grove, pocket, pokt]
 sidebar_position: 1
 sidebar_label: Introduction
 ---

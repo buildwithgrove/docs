@@ -1,4 +1,7 @@
 ---
+title: "Grove - Solana RPC API Documentation"
+description: "Comprehensive documentation for Grove's Solana RPC API, covering endpoint details and integration strategies for blockchain developers."
+keywords: [solana, rpc, api, blockchain, web3, smart contracts, grove, pocket, pokt]
 sidebar_position: 1
 sidebar_label: Introduction
 ---
