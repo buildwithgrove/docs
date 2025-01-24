@@ -2,7 +2,6 @@
 title: "Grove - Arbitrum One RPC API Documentation"
 description: "Comprehensive documentation for Grove's Arbitrum One RPC API, covering endpoint details and integration strategies for blockchain developers."
 keywords: [arbitrum, rpc, api, blockchain, ethereum, layer2, web3, smart contracts, grove, pocket, pokt]
-keywords: [arbitrum, rpc, api, blockchain, ethereum, layer2, web3, smart contracts, node, jsonrpc]
 sidebar_position: 1
 sidebar_label: Introduction
 ---

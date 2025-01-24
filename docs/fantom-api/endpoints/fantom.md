@@ -3,12 +3,12 @@ title: "Grove - Fantom RPC API Documentation"
 description: "Comprehensive documentation for Grove's Fantom RPC API, covering endpoint details and integration strategies for blockchain developers."
 keywords: [fantom, rpc, api, blockchain, web3, smart contracts, grove, pocket, pokt]
 sidebar_position: 1
-sidebar_label: fantom-mainnet
+sidebar_label: fantom
 ---
 
-# Fantom Mainnet
+# Fantom
 
-`fantom-mainnet`
+`fantom`
 
 ## Supported APIs
 

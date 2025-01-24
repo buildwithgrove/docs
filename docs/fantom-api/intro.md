@@ -16,7 +16,7 @@ Fantom is a high-performance, scalable, and secure smart-contract platform. It i
 
 | Blockchain                                   | Portal API Prefix | RelayChainID | Blockheight         |
 | -------------------------------------------- | ----------------- | ------------ | ------------------- |
-| [Fantom Mainnet](./endpoints/fantom-mainnet) | fantom-mainnet    | 0049         | Latest - 127 blocks |
+| [Fantom](./endpoints/fantom) | fantom    | F010         | Latest - 127 blocks |
 
 ---
 
