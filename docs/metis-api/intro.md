@@ -1,4 +1,7 @@
 ---
+title: "Grove - Metis RPC API Documentation"
+description: "Comprehensive documentation for Grove's Metis RPC API, covering endpoint details and integration strategies for blockchain developers."
+keywords: [metis, rpc, api, blockchain, ethereum, layer2, web3, grove, pocket, pokt, L2]
 sidebar_position: 1
 sidebar_label: Introduction
 ---
@@ -13,7 +16,7 @@ Metis is a Layer 2 Ethereum scaling solution aiming to make building Decentraliz
 
 | Blockchain                                 | Portal API Prefix | RelayChainID | Blockheight         |
 | ------------------------------------------ | ----------------- | ------------ | ------------------- |
-| [Metis Mainnet](./endpoints/metis-mainnet) | metis-mainnet     | 0058         | Latest - 127 blocks |
+| [Metis](./endpoints/metis-mainnet) | metis-mainnet     | 0058         | All block heights |
 
 ---
 

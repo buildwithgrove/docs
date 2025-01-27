@@ -51,11 +51,11 @@ export const supportedBlockchains = [
     link: "/base-api/intro",
   },
   {
-    name: "Bitcoin",
-    portalApiPrefix: "bitcoin",
-    relayChainID: "F007",
-    evmChainID: "56",
-    link: "/bitcoin-api/intro",
+    name: "Berachain",
+    portalApiPrefix: "berachain",
+    relayChainID: "F031",
+    evmChainID: "80084",
+    link: "/berachain-api/intro",
   },
   {
     name: "Blast",
@@ -149,6 +149,13 @@ export const supportedBlockchains = [
     link: "/harmony-shard-0-api/intro",
   },
   {
+    name: "Ink",
+    portalApiPrefix: "ink",
+    relayChainID: "F032",
+    evmChainID: "57073",
+    link: "/ink-api/intro",
+  },
+  {
     name: "IoTeX",
     portalApiPrefix: "iotex",
     relayChainID: "F015",
@@ -168,6 +175,20 @@ export const supportedBlockchains = [
     relayChainID: "F017",
     evmChainID: "2222",
     link: "/kava-api/intro",
+  },
+  {
+    name: "Linea",
+    portalApiPrefix: "linea",
+    relayChainID: "F030",
+    evmChainID: "59144",
+    link: "/linea-api/intro",
+  },
+  {
+    name: "Mantle",
+    portalApiPrefix: "mantle",
+    relayChainID: "F033",
+    evmChainID: "5000",
+    link: "/mantle-api/intro",
   },
   {
     name: "Metis",
@@ -268,6 +289,20 @@ export const supportedBlockchains = [
     link: "/scroll-api/intro",
   },
   {
+    name: "Sei",
+    portalApiPrefix: "sei",
+    relayChainID: "F034",
+    evmChainID: "1329",
+    link: "/sei-api/intro",
+  },
+  {
+    name: "Sonic",
+    portalApiPrefix: "sonic",
+    relayChainID: "F02D",
+    evmChainID: "146",
+    link: "/sonic-api/intro",
+  },
+  {
     name: "Solana",
     portalApiPrefix: "solana",
     relayChainID: "F025",
@@ -296,6 +331,20 @@ export const supportedBlockchains = [
     link: "/taiko-api/intro",
   },
   {
+    name: "TRON",
+    portalApiPrefix: "tron",
+    relayChainID: "F02E",
+    evmChainID: "728126428",
+    link: "/tron-api/intro",
+  },
+  {
+    name: "XRPL EVM Sidechain",
+    portalApiPrefix: "xrpl-evm-devnet",
+    relayChainID: "F02C",
+    evmChainID: "1440002",
+    link: "/xrpl-api/intro",
+  },
+  {
     name: "zkLink",
     portalApiPrefix: "zklink-nova",
     relayChainID: "F02A",
@@ -308,51 +357,6 @@ export const supportedBlockchains = [
     relayChainID: "F02B",
     evmChainID: "324",
     link: "/zksync-era-api/intro",
-  },
-]
-
-export const supportedTestnetRelayChains = [
-  {
-    name: "Base Testnet",
-    portalApiPrefix: "base-testnet",
-    relayChainID: "0080",
-    evmChainID: "84531",
-  },
-  {
-    name: "Ethereum Goerli",
-    portalApiPrefix: "eth-goerli",
-    relayChainID: "0026",
-    evmChainID: "005",
-  },
-  {
-    name: "Ethereum Archival",
-    portalApiPrefix: "goerli-archival",
-    relayChainID: "0063",
-    evmChainID: "005",
-  },
-  {
-    name: "Ethereum Rinkeby",
-    portalApiPrefix: "rinkeby",
-    relayChainID: "0022",
-    evmChainID: "004",
-  },
-  {
-    name: "Ethereum Holešky",
-    portalApiPrefix: "holesky-fullnode-testnet",
-    relayChainID: "0081",
-    evmChainID: "17000",
-  },
-  {
-    name: "Pocket Network Testnet",
-    portalApiPrefix: "",
-    relayChainID: "0002",
-    evmChainID: "",
-  },
-  {
-    name: "Scroll Testnet",
-    portalApiPrefix: "scroll-testnet-alpha",
-    relayChainID: "0075",
-    evmChainID: "534353",
   },
 ]
 
@@ -373,13 +377,6 @@ export const columns = [
   {
     Header: "RelayChainID",
     accessor: "relayChainID",
-    className: "pokt-data-table header left",
-    // disableSortBy: true,
-    // Filter: ""
-  },
-  // {
-  //   Header: "EVM Chain ID",
-  //   accessor: "evmChainID",
-  //   className: "pokt-data-table header left",
-  // },
+    className: "pokt-data-table header left"
+  }
 ]

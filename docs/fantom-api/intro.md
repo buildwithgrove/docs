@@ -1,4 +1,7 @@
 ---
+title: "Grove - Fantom RPC API Documentation"
+description: "Comprehensive documentation for Grove's Fantom RPC API, covering endpoint details and integration strategies for blockchain developers."
+keywords: [fantom, rpc, api, blockchain, web3, smart contracts, grove, pocket, pokt]
 sidebar_position: 1
 sidebar_label: Introduction
 ---
@@ -13,7 +16,7 @@ Fantom is a high-performance, scalable, and secure smart-contract platform. It i
 
 | Blockchain                                   | Portal API Prefix | RelayChainID | Blockheight         |
 | -------------------------------------------- | ----------------- | ------------ | ------------------- |
-| [Fantom Mainnet](./endpoints/fantom-mainnet) | fantom-mainnet    | 0049         | Latest - 127 blocks |
+| [Fantom](./endpoints/fantom) | fantom    | F010         | Latest - 127 blocks |
 
 ---
 
