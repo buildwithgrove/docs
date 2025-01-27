@@ -1,7 +1,7 @@
 ---
 title: "Grove - DeFi Kingdoms RPC API Documentation"
 description: "Comprehensive documentation for Grove's DeFi Kingdoms RPC API, covering endpoint details and integration strategies for blockchain developers."
-keywords: [avalanche, dfk, defi, rpc, api, blockchain, web3, smart contracts, grove, pocket, pokt]
+keywords: [avalanche, dfk, defi, rpc, api, blockchain, web3, smart contracts, grove, pocket, pokt, avax, game, gamefi]
 sidebar_position: 2
 sidebar_label: avax-dfk
 ---

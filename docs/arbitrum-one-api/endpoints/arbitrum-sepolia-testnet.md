@@ -1,7 +1,7 @@
 ---
 title: "Grove - Arbitrum Sepolia Testnet RPC API Documentation"
 description: "Comprehensive documentation for Grove's Arbitrum Sepolia Testnet RPC API, covering endpoint details and integration strategies for blockchain developers."
-keywords: [arbitrum, rpc, api, blockchain, ethereum, layer2, web3, smart contracts, grove, pocket, pokt]
+keywords: [arbitrum, rpc, api, blockchain, ethereum, layer2, web3, smart contracts, grove, pocket, pokt, L2]
 sidebar_position: 1
 sidebar_label: arbitrum-sepolia-testnet
 ---
