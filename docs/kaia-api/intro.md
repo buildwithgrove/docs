@@ -16,7 +16,7 @@ Kaia is a blazing fast, seamless and interoperable blockchain formed through the
 
 | Blockchain                               | Portal API Prefix | RelayChainID | Blockheight         |
 | ---------------------------------------- | ----------------- | ------------ | ------------------- |
-| [Kaia](./endpoints/kaia) | kaia | F016 | All block heights |
+| [Kaia](./endpoints/kaia) | `kaia` | `F016` | All block heights |
 
 ---
 

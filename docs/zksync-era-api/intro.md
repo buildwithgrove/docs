@@ -16,7 +16,7 @@ zkSync is a layer 2 scaling solution for Ethereum, offering fast, secure, and lo
 
 | Blockchain                               | Portal API Prefix | RelayChainID | Blockheight         |
 | ---------------------------------------- | ----------------- | ------------ | ------------------- |
-| [zkSync Era](./endpoints/zksync-era) | zksync-era      | F02B         | All block heights |
+| [zkSync Era](./endpoints/zksync-era) | `zksync-era` | `F02B` | All block heights |
 
 ---
 

@@ -24,7 +24,7 @@ Grove and Pocket Network offer a **custom configuration of the Solana Blockchain
 
 | Blockchain                                   | Portal API Prefix | RelayChainID | Blockheight        |
 | -------------------------------------------- | ----------------- | ------------ | ------------------ |
-| [Solana](./endpoints/solana)   | solana    | F025         | Latest - 7 epochs  |
+| [Solana](./endpoints/solana)   | `solana`    | `F025`         | Latest - 7 epochs  |
 
 ---
 

@@ -16,7 +16,7 @@ sidebar_label: Introduction
 
 | Blockchain                                   | Portal API Prefix | RelayChainID | Blockheight         |
 | -------------------------------------------- | ----------------- | ------------ | ------------------- |
-| [Sei](./endpoints/sei) | sei    | F034         | All block heights |
+| [Sei](./endpoints/sei) | `sei`    | `F034`         | All block heights |
 
 ---
 

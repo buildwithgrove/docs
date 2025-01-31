@@ -16,7 +16,7 @@ The opBNB network is the Layer 2 scaling solution for the BNB Smart Chain powere
 
 | Blockchain                                         | Portal API Prefix | RelayChainID | Blockheight         |
 | -------------------------------------------------- | ----------------- | ------------ | ------------------- |
-| [opBNB](./endpoints/opbnb)   | opbnb  | F01D         | All block heights |
+| [opBNB](./endpoints/opbnb)   | `opbnb`  | `F01D`         | All block heights |
 ---
 
 ## Ready to Get Started?

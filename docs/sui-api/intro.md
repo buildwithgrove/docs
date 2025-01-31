@@ -16,7 +16,7 @@ SUI is a robust blockchain designed to support complex financial applications. I
 
 | Blockchain                             | Portal API Prefix | RelayChainID | Blockheight |
 | -------------------------------------- | ----------------- | ------------ | ----------- |
-| [Sui](./endpoints/sui) | sui      | F026         |             |
+| [Sui](./endpoints/sui) | `sui`      | `F026`         | All block heights |
 
 ---
 

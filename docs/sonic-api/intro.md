@@ -18,7 +18,7 @@ The S token is Sonic's native token, used for paying transaction fees, staking, 
 
 | Blockchain                                   | Portal API Prefix | RelayChainID | Blockheight         |
 | -------------------------------------------- | ----------------- | ------------ | ------------------- |
-| [Sonic](./endpoints/sonic) | sonic    | F02D         | All block heights |
+| [Sonic](./endpoints/sonic) | `sonic`    | `F02D`         | All block heights |
 
 ---
 

@@ -16,7 +16,7 @@ The XRP Ledger (XRPL) is The Blockchain Built for Business. The XRPL is a decent
 
 | Blockchain                                   | Portal API Prefix | RelayChainID | Blockheight         |
 | -------------------------------------------- | ----------------- | ------------ | ------------------- |
-| [XRPL EVM Sidechain Devnet](./endpoints/xrpl-evm-devnet) | xrpl-evm    | F02C         | All block heights |
+| [XRPL EVM Sidechain Devnet](./endpoints/xrpl-evm-devnet) | `xrpl-evm-devnet`    | `F02C`         | All block heights |
 
 ---
 
