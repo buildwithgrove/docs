@@ -16,8 +16,8 @@ Taiko is a blockchain that aims to reduce transaction fees and improve scalabili
 
 | Blockchain                                   | Portal API Prefix | RelayChainID | Blockheight         |
 | -------------------------------------------- | ----------------- | ------------ | ------------------- |
-| [Taiko](./endpoints/taiko) | taiko    | F027         | All block heights |
-| [Taiko Hekla Testnet](./endpoints/taiko-hekla-testnet) | taiko-hekla-testnet    | F028         | All block heights |
+| [Taiko](./endpoints/taiko) | `taiko`    | `F027`         | All block heights |
+| [Taiko Hekla Testnet](./endpoints/taiko-hekla-testnet) | `taiko-hekla-testnet`    | `F028`         | All block heights |
 
 ---
 

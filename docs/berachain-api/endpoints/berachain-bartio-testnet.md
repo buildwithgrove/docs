@@ -6,9 +6,9 @@ sidebar_position: 1
 sidebar_label: berachain
 ---
 
-# Berachain
+# Berachain bArtio Testnet
 
-`berachain`
+`berachain-bartio-testnet`
 
 ## Supported APIs
 

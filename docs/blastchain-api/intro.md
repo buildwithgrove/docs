@@ -16,7 +16,7 @@ Blast is a blockchain built on the Optimism rollup, inheriting the powerful OP S
 
 | Blockchain                               | Portal API Prefix | RelayChainID | Blockheight         |
 | ---------------------------------------- | ----------------- | ------------ | ------------------- |
-| [Blast](./endpoints/blast) | blast      | F008         | All blockheights |
+| [Blast](./endpoints/blast) | `blast`      | `F008`         | All blockheights |
 
 ---
 

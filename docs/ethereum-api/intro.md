@@ -26,9 +26,9 @@ Grove offers a robust and developer-centric interface to the Ethereum blockchain
 
 | Blockchain                                                | Chain Prefix               | RelayChainID | Blockheight          |
 | --------------------------------------------------------- | -------------------------- | ------------ | -------------------- |
-| [Ethereum](./endpoints/eth)               | `eth`              | F00C         | All block heights  |
-| [Ethereum Holesky Testnet](./endpoints/eth-holesky-testnet)               | `eth-holesky-testnet` | F00D         | All block heights    |
-| [Ethereum Sepolia Testnet](./endpoints/eth-sepolia-testnet)                   | `eth-sepolia-testnet`                  | F00E         | All block heights  |
+| [Ethereum](./endpoints/eth)               | `eth`              | `F00C`         | All block heights  |
+| [Ethereum Holesky Testnet](./endpoints/eth-holesky-testnet)               | `eth-holesky-testnet` | `F00D`         | All block heights    |
+| [Ethereum Sepolia Testnet](./endpoints/eth-sepolia-testnet)                   | `eth-sepolia-testnet`                  | `F00E`         | All block heights  |
 
 
 

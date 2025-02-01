@@ -16,7 +16,7 @@ Scroll is an innovative blockchain platform designed to offer scalable, fast, an
 
 | Blockchain                                   | Portal API Prefix | RelayChainID | Blockheight         |
 | -------------------------------------------- | ----------------- | ------------ | ------------------- |
-| [Scroll](./endpoints/scroll) | scroll    | F024         | All block heights |
+| [Scroll](./endpoints/scroll) | `scroll`    | `F024`         | All block heights |
 
 ---
 

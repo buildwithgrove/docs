@@ -16,7 +16,7 @@ IoTeX is a decentralized network designed to empower the Internet of Things (IoT
 
 | Blockchain                                 | Portal API Prefix | RelayChainID | Blockheight         |
 | ------------------------------------------ | ----------------- | ------------ | ------------------- |
-| [IoTeX](./endpoints/iotex) | iotex | F015         | All block heights |
+| [IoTeX](./endpoints/iotex) | `iotex` | `F015`         | All block heights |
 
 ---
 

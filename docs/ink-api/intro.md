@@ -16,7 +16,7 @@ Ink is an Ethereum OP Stack layer 2 blockchain designed to be the house of DeFi 
 
 | Blockchain                                 | Portal API Prefix | RelayChainID | Blockheight         |
 | ------------------------------------------ | ----------------- | ------------ | ------------------- |
-| [Ink](./endpoints/ink) | ink | F032         | All block heights |
+| [Ink](./endpoints/ink) | `ink` | `F032`         | All block heights |
 
 ---
 
