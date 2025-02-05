@@ -1,14 +1,14 @@
 ---
 title: "Grove - Berachain RPC API Documentation"
 description: "Comprehensive documentation for Grove's Berachain RPC API, covering endpoint details and integration strategies for blockchain developers."
-keywords: [berachain, rpc, api, blockchain, web3, smart contracts, grove, pocket, pokt, testnet]
+keywords: [berachain, rpc, api, blockchain, web3, smart contracts, grove, pocket, pokt]
 sidebar_position: 1
-sidebar_label: berachain-bartio-testnet
+sidebar_label: berachain
 ---
 
-# Berachain bArtio Testnet
+# Berachain
 
-`berachain-bartio-testnet`
+`berachain`
 
 ## Supported APIs
 
