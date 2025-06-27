@@ -38,38 +38,8 @@ export default function ContactForm() {
   const handleSubmit = async (values: typeof form.values) => {
     console.log(values)
 
-    // todo: send email
+    // TODO: Implement email sending functionality
     try {
-      // const res = await fetch("https://api.mailjet.com/v3.1/send", {
-      //   method: "POST",
-      //   mode: "no-cors",
-      //   headers: {
-      //     "Content-Type": "application/json",
-      //     Authorization: `Basic ${customFields.mailjetKey}`,
-      //   },
-      //   body: JSON.stringify({
-      //     Messages: [
-      //       {
-      //         From: {
-      //           Email: "portal@grove.city",
-      //           Name: "Grove Portal",
-      //         },
-      //         To: [
-      //           {
-      //             Email: "kevin.utoft@grove.city",
-      //             Name: "Kevin Utoft",
-      //           },
-      //         ],
-      //         TemplateID: 5296188,
-      //         TemplateLanguage: true,
-      //         Subject: "New Enterprise Contact",
-      //         Variables: values,
-      //       },
-      //     ],
-      //   }),
-      // })
-      // if (res.ok) {
-      // }
       setFormSubmitted(true)
     } catch (error) {
       console.log(error)
