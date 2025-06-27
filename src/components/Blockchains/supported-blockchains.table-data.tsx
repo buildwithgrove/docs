@@ -2,7 +2,7 @@ import React from "react"
 
 export const supportedBlockchains = [
   {
-    name: "Pocket Network Mainnet",
+    name: "Pocket Network",
     portalApiPrefix: "pocket",
     relayChainID: "F000",
     evmChainID: "",
@@ -10,49 +10,49 @@ export const supportedBlockchains = [
   },
   {
     name: "Arbitrum One",
-    portalApiPrefix: "arbitrum-one",
+    portalApiPrefix: "arb-one",
     relayChainID: "F001",
     evmChainID: "42161",
     link: "/arbitrum-one-api/intro",
   },
   {
     name: "Arbitrum Sepolia Testnet",
-    portalApiPrefix: "arbitrum-sepolia-testnet",
+    portalApiPrefix: "arb-sepolia-testnet",
     relayChainID: "F002",
     evmChainID: "421614",
-    link: "/arbitrum-one/intro",
+    link: "/arbitrum-one-api/intro",
   },
   {
-    name: "AVAX",
+    name: "Avalanche",
     portalApiPrefix: "avax",
     relayChainID: "F003",
     evmChainID: "43114",
     link: "/avalanche-api/intro",
   },
   {
-    name: "AVAX DFK Subnet",
+    name: "DeFi Kingdoms",
     portalApiPrefix: "avax-dfk",
     relayChainID: "F004",
     evmChainID: "53935",
     link: "/avalanche-api/intro",
   },
   {
-    name: "Base Mainnet",
+    name: "Base",
     portalApiPrefix: "base",
     relayChainID: "F005",
     evmChainID: "8453",
     link: "/base-api/intro",
   },
   {
-    name: "Base Testnet",
-    portalApiPrefix: "base-testnet",
+    name: "Base Sepolia Testnet",
+    portalApiPrefix: "base-sepolia-testnet",
     relayChainID: "F006",
     evmChainID: "84532",
     link: "/base-api/intro",
   },
   {
     name: "Berachain",
-    portalApiPrefix: "berachain",
+    portalApiPrefix: "bera",
     relayChainID: "F031",
     evmChainID: "80084",
     link: "/berachain-api/intro",
@@ -61,7 +61,7 @@ export const supportedBlockchains = [
     name: "Blast",
     portalApiPrefix: "blast",
     relayChainID: "F008",
-    evmChainID: "56",
+    evmChainID: "238",
     link: "/blast-api/intro",
   },
   {
@@ -72,7 +72,7 @@ export const supportedBlockchains = [
     link: "/binance-smart-chain-api/intro",
   },
   {
-    name: "BOBA",
+    name: "Boba",
     portalApiPrefix: "boba",
     relayChainID: "F00A",
     evmChainID: "288",
@@ -94,14 +94,14 @@ export const supportedBlockchains = [
   },
   {
     name: "Ethereum Holesky Testnet",
-    portalApiPrefix: "ethereum-holesky-testnet",
+    portalApiPrefix: "eth-holesky-testnet",
     relayChainID: "F00D",
     evmChainID: "17000",
     link: "/ethereum-api/intro",
   },
   {
     name: "Ethereum Sepolia Testnet",
-    portalApiPrefix: "ethereum-holesky-testnet",
+    portalApiPrefix: "eth-sepolia-testnet",
     relayChainID: "F00E",
     evmChainID: "11155111",
     link: "/ethereum-api/intro",
@@ -227,14 +227,14 @@ export const supportedBlockchains = [
   },
   {
     name: "Optimism",
-    portalApiPrefix: "optimism",
+    portalApiPrefix: "op",
     relayChainID: "F01D",
     evmChainID: "10",
     link: "/optimism-api/intro",
   },
   {
     name: "Optimism Sepolia Testnet",
-    portalApiPrefix: "optimism-sepolia-testnet",
+    portalApiPrefix: "op-sepolia-testnet",
     relayChainID: "F01E",
     evmChainID: "11155420",
     link: "/optimism-api/intro",
@@ -262,14 +262,14 @@ export const supportedBlockchains = [
   },
   {
     name: "Polygon Amoy Testnet",
-    portalApiPrefix: "polygon-amoy-testnet",
+    portalApiPrefix: "poly-amoy-testnet",
     relayChainID: "F022",
     evmChainID: "80002",
     link: "/polygon-api/intro",
   },
   {
     name: "Polygon zkEVM",
-    portalApiPrefix: "polygon-zkevm",
+    portalApiPrefix: "poly-zkevm",
     relayChainID: "F029",
     evmChainID: "1101",
     link: "/polygon-api/intro",
@@ -314,7 +314,7 @@ export const supportedBlockchains = [
     portalApiPrefix: "sui",
     relayChainID: "F026",
     evmChainID: "",
-    link: "/solana-api/intro",
+    link: "/sui-api/intro",
   },
   {
     name: "Taiko",
@@ -338,21 +338,14 @@ export const supportedBlockchains = [
     link: "/tron-api/intro",
   },
   {
-    name: "XRPL EVM Sidechain",
-    portalApiPrefix: "xrpl-evm-devnet",
-    relayChainID: "F02C",
-    evmChainID: "1440002",
-    link: "/xrpl-api/intro",
-  },
-  {
-    name: "zkLink",
+    name: "zkLink Nova",
     portalApiPrefix: "zklink-nova",
     relayChainID: "F02A",
     evmChainID: "810180",
     link: "/zklink-nova-api/intro",
   },
   {
-    name: "zkSync",
+    name: "zkSync Era",
     portalApiPrefix: "zksync-era",
     relayChainID: "F02B",
     evmChainID: "324",
@@ -365,17 +358,17 @@ export const supportedBlockchains = [
 // ----------------------------------------------------------------------------
 export const columns = [
   {
-    Header: "Name",
+    Header: "Service Name",
     accessor: "name",
     className: "pokt-data-table header left",
   },
   {
-    Header: "Chain Prefix",
+    Header: "Service ID",
     accessor: "portalApiPrefix",
     className: "pokt-data-table header left",
   },
   {
-    Header: "RelayChainID",
+    Header: "Service ID",
     accessor: "relayChainID",
     className: "pokt-data-table header left"
   }

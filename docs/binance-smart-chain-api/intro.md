@@ -26,9 +26,9 @@ Grove extends robust support to Binance Smart Chain, offering developers a suite
 
 ## Supported Chain Endpoints
 
-| Blockchain                               | Chain Prefix   | RelayChainID | Blockheight         |
-| ---------------------------------------- | -------------- | ------------ | ------------------- |
-| [BSC](./endpoints/bsc)   | `bsc`  | `F009`         | All block heights |
+| Service Name                             | Service ID     | Blockheight         |
+| ---------------------------------------- | -------------- | ------------------- |
+| [BSC](./endpoints/bsc)   | `bsc`  | All block heights |
 
 ---
 

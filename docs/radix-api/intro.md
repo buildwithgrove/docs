@@ -16,9 +16,9 @@ For a deeper understanding of the specific methods for the Radix full-stack, ref
 
 ## Supported Chain Endpoints
 
-| Blockchain                                 | Portal API Prefix | RelayChainID | Blockheight         |
-| ------------------------------------------ | ----------------- | ------------ | ------------------- |
-| [Radix](./endpoints/radix) | `radix`    | `F023`         | All block heights |
+| Service Name                             | Service ID        | Blockheight         |
+| ------------------------------------------ | ----------------- | ------------------- |
+| [Radix](./endpoints/radix) | `radix`    | All block heights |
 
 ---
 

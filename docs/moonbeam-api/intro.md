@@ -14,9 +14,9 @@ Moonbeam provides a developer-friendly, Ethereum-compatible smart contract platf
 
 ## Supported Chain Endpoints
 
-| Blockchain                                       | Portal API Prefix | RelayChainID | Blockheight         |
-| ------------------------------------------------ | ----------------- | ------------ | ------------------- |
-| [Moonbeam](./endpoints/moonbeam) | `moonbeam`  | `F019`         | All block heights |
+| Service Name                             | Service ID        | Blockheight         |
+| ------------------------------------------------ | ----------------- | ------------------- |
+| [Moonbeam](./endpoints/moonbeam) | `moonbeam`  | All block heights |
 
 ---
 

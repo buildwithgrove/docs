@@ -46,13 +46,13 @@ export default function Footer() {
                 <Image src="/social/discord.png" loading="lazy" alt="Discord logo" />
               </Anchor>
               <Anchor
-                href="https://github.com/pokt-foundation/portal-platform"
+                href="https://github.com/buildwithgrove/docs"
                 target="_blank"
               >
                 <Image src="/social/github.png" loading="lazy" alt="GitHub logo" />
               </Anchor>
               <Anchor
-                href="https://www.linkedin.com/company/pocket-network/"
+                href="https://www.linkedin.com/company/build-with-grove"
                 target="_blank"
               >
                 <Image src="/social/linkedin.png" loading="lazy" alt="LinkedIn logo" />

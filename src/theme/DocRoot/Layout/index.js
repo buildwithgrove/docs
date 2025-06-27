@@ -43,6 +43,33 @@ export default function LayoutWrapper(props) {
             </Anchor>
           ))}
           <ChainSelect activePath={path} />
+          <Anchor
+            px="xs"
+            href="https://path.grove.city"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={clsx(styles.link, styles.externalLink)}
+          >
+            PATH
+          </Anchor>
+          <Anchor
+            px="xs"
+            href="https://docs.pokt.network"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={clsx(styles.link, styles.externalLink)}
+          >
+            Pocket Network
+          </Anchor>
+          <Anchor
+            px="xs"
+            href="https://dev.poktroll.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={clsx(styles.link, styles.externalLink)}
+          >
+            pocketd
+          </Anchor>
         </Group>
       </Box>
 

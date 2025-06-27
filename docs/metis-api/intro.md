@@ -14,9 +14,9 @@ Metis is a Layer 2 Ethereum scaling solution aiming to make building Decentraliz
 
 ## Supported Chain Endpoints
 
-| Blockchain                                 | Portal API Prefix | RelayChainID | Blockheight         |
-| ------------------------------------------ | ----------------- | ------------ | ------------------- |
-| [Metis](./endpoints/metis-mainnet) | `metis`     | `F018`         | All block heights |
+| Service Name                             | Service ID        | Blockheight         |
+| ------------------------------------------ | ----------------- | ------------------- |
+| [Metis](./endpoints/metis-mainnet) | `metis`     | All block heights |
 
 ---
 

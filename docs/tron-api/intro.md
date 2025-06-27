@@ -16,9 +16,9 @@ world, offers public blockchain support of high throughput, high scalability, an
 
 ## Supported Chain Endpoints
 
-| Blockchain                                   | Portal API Prefix | RelayChainID | Blockheight         |
-| -------------------------------------------- | ----------------- | ------------ | ------------------- |
-| [TRON](./endpoints/tron) | `tron`   | `F02E`         | All block heights |
+| Service Name                             | Service ID        | Blockheight         |
+| -------------------------------------------- | ----------------- | ------------------- |
+| [TRON](./endpoints/tron) | `tron`   | All block heights |
 
 ---
 

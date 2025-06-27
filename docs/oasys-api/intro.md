@@ -14,9 +14,9 @@ Oasys is a blockchain-based platform that allows developers to build and run dec
 
 ## Supported Chain Endpoints
 
-| Blockchain                                   | Portal API Prefix      | RelayChainID | Blockheight         |
-| -------------------------------------------- | ---------------------- | ------------ | ------------------- |
-| [Oasys](./endpoints/oasys)   | `oasys` | `F01C` | All block heights |
+| Service Name                             | Service ID        | Blockheight         |
+| -------------------------------------------- | ---------------------- | ------------------- |
+| [Oasys](./endpoints/oasys)   | `oasys` | All block heights |
 
 ---
 

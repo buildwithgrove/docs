@@ -14,9 +14,9 @@ Boba Network is an Optimistic Rollup scaling solution for Ethereum, designed to 
 
 ## Supported Chain Endpoints
 
-| Blockchain                               | Portal API Prefix | RelayChainID | Blockheight         |
-| ---------------------------------------- | ----------------- | ------------ | ------------------- |
-| [Boba](./endpoints/boba) | `boba`      | `F00A`         | All block heights |
+| Service Name                             | Service ID        | Blockheight         |
+| ---------------------------------------- | ----------------- | ------------------- |
+| [Boba](./endpoints/boba) | `boba`      | All block heights |
 
 ---
 

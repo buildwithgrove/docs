@@ -14,9 +14,9 @@ Gnosis Chain is a fast, Ethereum-compatible network designed for secure and low-
 
 ## Supported Chain Endpoints
 
-| Blockchain                     | Portal API Prefix | RelayChainID | Blockheight |
-| ------------------------------ | ----------------- | ------------ | ----------- |
-| [Gnosis](./endpoints/gnosis)   | `gnosis`  | `0027`         | All block heights |
+| Service Name                             | Service ID        | Blockheight         |
+| ------------------------------ | ----------------- | ----------- |
+| [Gnosis](./endpoints/gnosis)   | `gnosis`  | All block heights |
 
 ---
 
