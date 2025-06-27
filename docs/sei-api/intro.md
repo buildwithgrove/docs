@@ -14,9 +14,9 @@ sidebar_label: Introduction
 
 ## Supported Chain Endpoints
 
-| Blockchain                                   | Portal API Prefix | RelayChainID | Blockheight         |
-| -------------------------------------------- | ----------------- | ------------ | ------------------- |
-| [Sei](./endpoints/sei) | `sei`    | `F034`         | All block heights |
+| Service Name                             | Service ID        | Blockheight         |
+| -------------------------------------------- | ----------------- | ------------------- |
+| [Sei](./endpoints/sei) | `sei`    | All block heights |
 
 ---
 

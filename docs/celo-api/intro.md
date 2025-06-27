@@ -14,9 +14,9 @@ Celo is an open platform that makes financial tools accessible to anyone with a 
 
 ## Supported Chain Endpoints
 
-| Blockchain                               | Portal API Prefix | RelayChainID | Blockheight         |
-| ---------------------------------------- | ----------------- | ------------ | ------------------- |
-| [Celo](./endpoints/celo) | `celo`    | `F00B`        | All block heights |
+| Service Name                             | Service ID        | Blockheight         |
+| ---------------------------------------- | ----------------- | ------------------- |
+| [Celo](./endpoints/celo) | `celo`    | All block heights |
 
 ---
 

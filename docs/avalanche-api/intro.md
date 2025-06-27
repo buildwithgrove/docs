@@ -24,10 +24,10 @@ Grove offers a robust and developer-centric interface to the Avalanche blockchai
 
 ## Supported Chain Endpoints
 
-| Blockchain                                      | Chain Prefix    | RelayChainID | Blockheight         |
-| ----------------------------------------------- | --------------- | ------------ | ------------------- |
-| [Avalanche](./endpoints/avax)   | `avax`  | `F003`         | All block heights |
-| [Avalanche DFK](./endpoints/avax-dfk)           | `avax-dfk`      | `F004`         | All block heights |
+| Service Name                                    | Service ID      | Blockheight         |
+| ----------------------------------------------- | --------------- | ------------------- |
+| [Avalanche](./endpoints/avax)   | `avax`  | All block heights |
+| [Avalanche DFK](./endpoints/avax-dfk)           | `avax-dfk`      | All block heights |
 
 ---
 

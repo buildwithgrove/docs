@@ -14,9 +14,9 @@ Moonriver is a companion network to Moonbeam and provides a permanently incentiv
 
 ## Supported Chain Endpoints
 
-| Blockchain                                         | Portal API Prefix | RelayChainID | Blockheight         |
-| -------------------------------------------------- | ----------------- | ------------ | ------------------- |
-| [Moonriver](./endpoints/moonriver) | `moonriver` | `F01A`        | All block heights |
+| Service Name                             | Service ID        | Blockheight         |
+| -------------------------------------------------- | ----------------- | ------------------- |
+| [Moonriver](./endpoints/moonriver) | `moonriver` | All block heights |
 
 ---
 

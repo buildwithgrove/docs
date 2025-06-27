@@ -87,8 +87,6 @@ const config = {
           alt: "Grove Portal Logo",
           src: "img/logo.svg",
           srcDark: "img/logo_dark.svg",
-          // src: "img/grove-logo-icon-light.svg",
-          // srcDark: "img/grove-logo-icon-dark.svg",
         },
         items: [
           {

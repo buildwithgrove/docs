@@ -14,9 +14,9 @@ Fuse is a blockchain ecosystem designed to be a platform for the easy creation a
 
 ## Supported Chain Endpoints
 
-| Blockchain                               | Portal API Prefix | RelayChainID | Blockheight         |
-| ---------------------------------------- | ----------------- | ------------ | ------------------- |
-| [Fuse](./endpoints/fuse) | `fuse`      | `F012`         | All block heights |
+| Service Name                             | Service ID        | Blockheight         |
+| ---------------------------------------- | ----------------- | ------------------- |
+| [Fuse](./endpoints/fuse) | `fuse`      | All block heights |
 
 ---
 

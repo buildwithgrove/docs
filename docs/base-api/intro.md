@@ -14,10 +14,10 @@ Base is an open-source optimistic rollup built on the Ethereum blockchain. Rollu
 
 ## Supported Chain Endpoints
 
-| Blockchain                               | Portal API Prefix | RelayChainID | Blockheight         |
-| ---------------------------------------- | ----------------- | ------------ | ------------------- |
-| [Base](./endpoints/base) | `base`      | `F005`         | All block heights |
-| [Base Testnet](./endpoints/base-testnet) | `base-testnet`      | `F006`         | All block heights   |
+| Service Name                             | Service ID        | Blockheight         |
+| ---------------------------------------- | ----------------- | ------------------- |
+| [Base](./endpoints/base) | `base`      | All block heights |
+| [Base Sepolia Testnet](./endpoints/base-testnet) | `base-sepolia-testnet`      | All block heights   |
 
 ---
 

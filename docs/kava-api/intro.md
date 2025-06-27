@@ -12,9 +12,9 @@ Kava is a DeFi platform which offers its users the ability to mint stablecoins, 
 
 ## Supported Chain Endpoints
 
-| Blockchain                 | Portal API Prefix     | RelayChainID | Blockheight       |
-| -------------------------- | --------------------- | ------------ | ----------------- |
-| [Kava](./endpoints/kava)   | `kava` | `F017` | All block heights |
+| Service Name                             | Service ID        | Blockheight         |
+| -------------------------- | --------------------- | ----------------- |
+| [Kava](./endpoints/kava)   | `kava` | All block heights |
 
 ---
 

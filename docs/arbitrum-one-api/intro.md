@@ -25,10 +25,10 @@ Grove extends its robust blockchain interface to support Arbitrum One, providing
 
 ## Supported Chain Endpoints
 
-| Blockchain                                               | Chain Prefix   | RelayChainID | Blockheight         |
-| -------------------------------------------------------- | -------------- | ------------ | ------------------- |
-| [Arbitrum One](./endpoints/arbitrum-one) | `arbitrum-one` | `F001`         | All block heights |
-| [Arbitrum Sepolia Testnet](./endpoints/arbitrum-sepolia-testnet) | `arbitrum-sepolia-testnet` | `F002`         | All block heights |
+| Service Name                                             | Service ID     | Blockheight         |
+| -------------------------------------------------------- | -------------- | ------------------- |
+| [Arbitrum One](./endpoints/arbitrum-one) | `arb-one` | All block heights |
+| [Arbitrum Sepolia Testnet](./endpoints/arbitrum-sepolia-testnet) | `arb-sepolia-testnet` | All block heights |
 
 ---
 

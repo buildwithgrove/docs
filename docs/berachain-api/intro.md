@@ -14,10 +14,9 @@ Berachain is a high-performance EVM-Identical Layer 1 blockchain utilizing Proof
 
 ## Supported Chain Endpoints
 
-| Blockchain                               | Portal API Prefix | RelayChainID | Blockheight         |
-| ---------------------------------------- | ----------------- | ------------ | ------------------- |
-| [Berachain](./endpoints/berachain) | `berachain`      | `F035`         | All block heights |
-| [Berachain bArtio Testnet](./endpoints/berachain-bartio-testnet) | `berachain-bartio-testnet`      | `F031`         | All block heights |
+| Service Name                             | Service ID        | Blockheight         |
+| ---------------------------------------- | ----------------- | ------------------- |
+| [Berachain](./endpoints/berachain) | `bera`      | All block heights |
 
 ---
 

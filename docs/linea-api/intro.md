@@ -12,9 +12,9 @@ Linea is "The Home Network for the World". Linea is a Layer 2 blockchain that ai
 
 ## Supported Chain Endpoints
 
-| Blockchain                 | Portal API Prefix     | RelayChainID | Blockheight       |
-| -------------------------- | --------------------- | ------------ | ----------------- |
-| [Linea](./endpoints/linea)   | `linea`                 | `F030`         | All block heights |
+| Service Name                             | Service ID        | Blockheight         |
+| -------------------------- | --------------------- | ----------------- |
+| [Linea](./endpoints/linea)   | `linea`                 | All block heights |
 
 ---
 

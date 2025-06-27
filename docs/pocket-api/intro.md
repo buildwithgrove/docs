@@ -14,9 +14,9 @@ Pocket Network is a decentralized infrastructure protocol dedicated to empowerin
 
 ## Supported Chain Endpoints
 
-| Blockchain                                 | Portal API Prefix | RelayChainID | Blockheight         |
-| ------------------------------------------ | ----------------- | ------------ | ------------------- |
-| [Pocket Network](./endpoints/pocket) | `pocket`     | `F000`         | All block heights |
+| Service Name                             | Service ID        | Blockheight         |
+| ------------------------------------------ | ----------------- | ------------------- |
+| [Pocket Network](./endpoints/pocket) | `pocket`     | All block heights |
 
 ---
 

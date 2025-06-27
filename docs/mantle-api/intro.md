@@ -14,9 +14,9 @@ Mantle Network is an EVM-compatible scaling solution for Ethereum. It is designe
 
 ## Supported Chain Endpoints
 
-| Blockchain                                 | Portal API Prefix | RelayChainID | Blockheight         |
-| ------------------------------------------ | ----------------- | ------------ | ------------------- |
-| [Mantle](./endpoints/mantle) | `mantle`    | `F033`         | All block heights |
+| Service Name                             | Service ID        | Blockheight         |
+| ------------------------------------------ | ----------------- | ------------------- |
+| [Mantle](./endpoints/mantle) | `mantle`    | All block heights |
 
 ---
 

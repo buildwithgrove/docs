@@ -14,9 +14,9 @@ Osmosis is a self-evolving, customizable, and interoperable DeFi hub built on th
 
 ## Supported Chain Endpoints
 
-| Blockchain                                     | Portal API Prefix | RelayChainID | Blockheight             |
-| ---------------------------------------------- | ----------------- | ------------ | ----------------------- |
-| [Osmosis](./endpoints/osmosis) | `osmosis`   | `F020`        | All block heights     |
+| Service Name                             | Service ID        | Blockheight         |
+| ---------------------------------------------- | ----------------- | ----------------------- |
+| [Osmosis](./endpoints/osmosis) | `osmosis`   | All block heights     |
 
 ---
 

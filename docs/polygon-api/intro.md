@@ -24,11 +24,11 @@ Grove's integration with Polygon enhances access to its Layer 2 scaling capabili
 
 ## Supported Chain Endpoints
 
-| Blockchain                                    | Chain Prefix         | RelayChainID | Blockheight         |
-| --------------------------------------------- | -------------------- | ------------ | ------------------- |
-| [Polygon](./endpoints/polygon)   | `polygon`       | `F021`         | All block heights |
-| [Polygon zkEVM](./endpoints/polygon-zkevm)       | `polygon-zkevm` | `F022`         | All block heights |
-| [Polygon Amoy](./endpoints/polygon-amoy-testnet)       | `polygon-amoy-testnet` | `F029`         | All block heights |
+| Service Name                                  | Service ID           | Blockheight         |
+| --------------------------------------------- | -------------------- | ------------------- |
+| [Polygon](./endpoints/polygon)   | `poly`       | All block heights |
+| [Polygon zkEVM](./endpoints/polygon-zkevm)       | `poly-zkevm` | All block heights |
+| [Polygon Amoy](./endpoints/polygon-amoy-testnet)       | `poly-amoy-testnet` | All block heights |
 
 ---
 
