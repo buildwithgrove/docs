@@ -16,7 +16,8 @@ The XRP Ledger (XRPL) is The Blockchain Built for Business. The XRPL is a decent
 
 | Service Name                                 | Service ID        | Blockheight         |
 | -------------------------------------------- | ----------------- | ------------------- |
-| [XRPL EVM Sidechain Testnet](./endpoints/xrpl-evm-testnet) | `xrpl-evm-testnet`    | All block heights |
+| [XRPLEVM](./endpoints/xrplevm) | `xrplevm`    | All block heights |
+| [XRPLEVM Testnet](./endpoints/xrplevm-testnet) | `xrplevm-testnet`    | All block heights |
 
 ---
 
