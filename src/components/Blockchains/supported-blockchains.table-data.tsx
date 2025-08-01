@@ -107,13 +107,6 @@ export const supportedBlockchains = [
     link: "/ethereum-api/intro",
   },
   {
-    name: "Evmos",
-    portalApiPrefix: "evmos",
-    relayChainID: "F00F",
-    evmChainID: "9001",
-    link: "/evmos-api/intro",
-  },
-  {
     name: "Fantom",
     portalApiPrefix: "fantom",
     relayChainID: "F010",

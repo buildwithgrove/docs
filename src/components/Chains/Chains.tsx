@@ -53,11 +53,6 @@ export const chains: { id: string; light: string; dark: string }[] = [
     dark: "/chains/polygon.png",
   },
   {
-    id: "evmos",
-    light: "/chains/evmos.png",
-    dark: "/chains/evmos.png",
-  },
-  {
     id: "starknet",
     light: "/chains/starknet.png",
     dark: "/chains/starknet.png",
