@@ -63,3 +63,102 @@
 .header-portal-link svg {
     display: none;
 }
+
+/* Button Link styling for both Launch Portal and other buttons */
+.buttonLink {
+    padding: 8px 16px !important;
+    background-color: var(--ifm-link-color) !important;
+    color: white !important;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 6px !important;
+    margin-left: 12px !important;
+    margin-right: 12px !important;
+}
+
+.buttonLink::after {
+    content: '';
+    width: 14px;
+    height: 14px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M7 17l9.2-9.2M17 17V7H7'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    flex-shrink: 0;
+}
+
+.buttonLink:hover {
+    color: white !important;
+    background-color: var(--ifm-link-color) !important;
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+/* Custom styling for Public Endpoints button */
+.public-endpoints-btn {
+    margin-right: 0 !important;
+}
+
+.public-endpoints-btn {
+    padding: 8px 16px !important;
+    background-color: transparent !important;
+    color: #389F58 !important;
+    border: 1px solid #389F58 !important;
+    border-radius: 20px !important;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 6px !important;
+}
+
+.public-endpoints-btn::after {
+    content: '';
+    width: 14px;
+    height: 14px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23389F58' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M7 17l9.2-9.2M17 17V7H7'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    flex-shrink: 0;
+}
+
+.public-endpoints-btn:hover {
+    background-color: rgba(56, 159, 88, 0.1) !important;
+    color: #389F58 !important;
+    text-decoration: none;
+    opacity: 0.9;
+}
+
+/* Dark theme styling for Public Endpoints button */
+[data-theme='dark'] .public-endpoints-btn {
+    background-color: transparent !important;
+    color: #389F58 !important;
+    border: 1px solid #389F58 !important;
+    border-radius: 20px !important;
+    font-size: 14px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 6px !important;
+}
+
+[data-theme='dark'] .public-endpoints-btn::after {
+    content: '';
+    width: 14px;
+    height: 14px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23389F58' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M7 17l9.2-9.2M17 17V7H7'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    flex-shrink: 0;
+}
+
+[data-theme='dark'] .public-endpoints-btn:hover {
+    background-color: rgba(56, 159, 88, 0.1) !important;
+    color: #389F58 !important;
+}
