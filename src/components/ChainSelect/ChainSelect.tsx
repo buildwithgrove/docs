@@ -24,7 +24,7 @@ export default function ChainSelect({ activePath }: ChainsSelectProps) {
   })
 
   const chainLinks = Object.entries(sidebars).filter(
-    ([key]) => key !== "guides" && key !== "groveApi",
+    ([key]) => key !== "guides" && key !== "groveApi" && key !== "externalResources" && key !== "exploreGrove",
   )
 
   const chains = chainLinks.map(([, sidebar]) => ({

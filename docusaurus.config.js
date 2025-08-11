@@ -90,6 +90,13 @@ const config = {
         },
         items: [
           {
+            href: "https://grove.city/public-endpoints",
+            position: "right",
+            className: "public-endpoints-btn",
+            label: "Public Endpoints",
+            "aria-label": "Grove Public Endpoints",
+          },
+          {
             href: "https://www.portal.grove.city/api/auth/auth0",
             position: "right",
             // custom theme extension based on className = "buttonLink"
