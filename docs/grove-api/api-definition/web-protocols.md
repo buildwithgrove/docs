@@ -7,10 +7,8 @@ sidebar_label: Web Protocols
 
 - [JSON-RPC](#json-rpc)
 - [WebSockets](#websockets)
-- [CometBFT \& Cosmos SDK](#cometbft--cosmos-sdk)
-  - [CometBFT - REST](#cometbft---rest)
-  - [CometBFT - JSON-RPC](#cometbft---json-rpc)
-  - [CosmosSDK - REST](#cosmossdk---rest)
+- [REST](#rest)
+  - [Cosmos \& CometBFT](#cosmos--cometbft)
 - [gRPC](#grpc)
 
 ## JSON-RPC
@@ -78,14 +76,18 @@ And subscribe to `newHeads` like so:
 
 </details>
 
-## CometBFT & Cosmos SDK
+## REST
+
+Grove API is able to support any RESTful API configuration.
+
+Services that utilize a RESTful API will be provided in accordance with their individual specifications.
+
+### Cosmos & CometBFT
 
 The Grove API has support for the [CometBFT](https://docs.cometbft.com/main/spec/rpc/) and [Cosmos SDK](https://docs.cosmos.network/main/learn/advanced/grpc_rest) APIs.
 
-### CometBFT - REST
-
 <details>
-<summary>Example `CometBFT` request to `v1/status`:</summary>
+<summary>Example RESTful `CometBFT` request to `v1/status`:</summary>
 
 ```bash
 curl -X GET https://xrplevm.rpc.grove.city/v1/status \
@@ -96,17 +98,8 @@ curl -X GET https://xrplevm.rpc.grove.city/v1/status \
 
 </details>
 
-### CometBFT - JSON-RPC
-
-```bash
-curl -X GET https://xrplevm.rpc.grove.city/v1/status \
-  -H "Authorization: $GROVE_PORTAL_API_KEY" \
-  -H "Content-Type: application/json" \
-  -H "Portal-Application-Id: $GROVE_PORTAL_APP_ID" \
-  -d '{"jsonrpc":"2.0","id":1,"method":"status"}'
-```
-
-### CosmosSDK - REST
+<details>
+<summary>Example RESTful `Cosmos SDK` request to `v1/cosmos/bank/v1beta1/supply`:</summary>
 
 ```bash
 curl -X GET https://xrplevm.rpc.grove.city/v1/cosmos/bank/v1beta1/supply \
@@ -114,6 +107,8 @@ curl -X GET https://xrplevm.rpc.grove.city/v1/cosmos/bank/v1beta1/supply \
   -H "Content-Type: application/json" \
   -H "Portal-Application-Id: $GROVE_PORTAL_APP_ID"
 ```
+
+</details>
 
 ## gRPC
 
