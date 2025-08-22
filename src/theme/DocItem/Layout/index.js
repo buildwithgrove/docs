@@ -8,7 +8,6 @@ import DocVersionBanner from "@theme/DocVersionBanner"
 import React from "react"
 import { TypographyStylesProvider } from "@mantine/core"
 // import DocBreadcrumbs from "@theme/DocBreadcrumbs"
-import Unlisted from "@theme/Unlisted"
 import clsx from "clsx"
 import styles from "./styles.module.css"
 import { useDoc } from "@docusaurus/plugin-content-docs/client"
@@ -35,13 +34,9 @@ function useDocTOC() {
 }
 export default function DocItemLayout({ children }) {
   const docTOC = useDocTOC()
-  const {
-    metadata: { unlisted },
-  } = useDoc()
   return (
     <div className="row">
       <div className={clsx("col", !docTOC.hidden && styles.docItemCol)}>
-        {unlisted && <Unlisted />}
         <DocVersionBanner />
         <div className={styles.docItemContainer}>
           <article>
