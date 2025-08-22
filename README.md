@@ -3,6 +3,7 @@
 This website is built using [Docusaurus 2](https://docusaurus.io/) and deployed to [docs.grove.city](https://docs.grove.city/guides/getting-started/welcome-to-grove).
 
 - [Quick Start](#quick-start)
+- [Deployment](#deployment)
 - [Installation \& Development](#installation--development)
   - [Installation](#installation)
   - [Local Development](#local-development)
@@ -13,6 +14,12 @@ This website is built using [Docusaurus 2](https://docusaurus.io/) and deployed 
 ```bash
 make docusaurus_start
 ```
+
+## Deployment
+
+The docs are automatically deployed via Vercel.
+
+Configurations can be found at [vercel.com/grove-city/docs](https://vercel.com/grove-city/docs).
 
 ## Installation & Development
 

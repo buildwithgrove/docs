@@ -6,16 +6,19 @@ sidebar_label: Web Protocols
 # Web Protocols <!-- omit in toc -->
 
 - [JSON-RPC](#json-rpc)
-  - [JSON-RPC to HTTP Status Code Mapping](#json-rpc-to-http-status-code-mapping)
-- [REST](#rest)
 - [WebSockets](#websockets)
-- [Comet \& Cosmos](#comet--cosmos)
+- [CometBFT \& Cosmos SDK](#cometbft--cosmos-sdk)
+  - [CometBFT - REST](#cometbft---rest)
+  - [CometBFT - JSON-RPC](#cometbft---json-rpc)
+  - [CosmosSDK - REST](#cosmossdk---rest)
+- [gRPC](#grpc)
 
 ## JSON-RPC
 
-Grove API supports all blockchains that use the [JSON-RPC 2.0 Specification](https://www.jsonrpc.org/specification).
+The Grove API supports all blockchains that use the [JSON-RPC 2.0 Specification](https://www.jsonrpc.org/specification).
 
-Give it a shot using `curl`:
+<details>
+<summary>Example request using `curl`:</summary>
 
 ```bash
 curl https://xrplevm.rpc.grove.city/v1/$GROVE_PORTAL_APP_ID \
@@ -25,9 +28,11 @@ curl https://xrplevm.rpc.grove.city/v1/$GROVE_PORTAL_APP_ID \
  -d '{ "method": "eth_blockNumber", "params": [], "id": 1, "jsonrpc": "2.0" }'
 ```
 
-### JSON-RPC to HTTP Status Code Mapping
+</details>
 
-With the implementation of [PATH](https://path.grove.city/learn/qos/http_status_code), Grove has implemented an opinionated implementation of HTTP Status codes on JSON-RPC.
+### JSON-RPC to HTTP Status Code Mapping <!-- omit in toc -->
+
+Grove takes an opinionated approach to mapping JSON-RPC errors to HTTP status codes. For more information, see [PATH](https://path.grove.city/learn/qos/http_status_code) documentation or the table below.
 
 <details>
 <summary>JSON-RPC to HTTP Status Code Mapping</summary>
@@ -54,32 +59,62 @@ PATH follows this practice and maps JSON-RPC errors to HTTP status codes as foll
 
 </details>
 
-## REST
-
-Grove API is able to support any RESTful API configuration.
-
-Services that utilize a RESTful API will be provided in accordance with their individual specifications.
-
-```yaml
-curl https://xrplevm.rpc.grove.city/v1/$GROVE_PORTAL_APP_ID \
- -X POST \
- -H 'Authorization: $GROVE_PORTAL_API_KEY' \
- -H 'Content-Type: application/json' \
- -d '{ "method": "eth_blockNumber", "params": [], "id": 1, "jsonrpc": "2.0" }'
-```
-
 ## WebSockets
 
 Grove supports WebSocket subscription for a subset of its services.
 
-Give it a shot using `wscat`:
+<details>
+<summary>Example request using `wscat`:</summary>
 
 ```bash
 wscat -c wss://xrplevm.rpc.grove.city/v1/$GROVE_PORTAL_APP_ID -H "Authorization: $GROVE_PORTAL_API_KEY"
 ```
 
-And subscribing like so:
+And subscribe to `newHeads` like so:
 
-> {"jsonrpc":"2.0", "id": 1, "method": "eth_subscribe", "params": ["newHeads"]}
+```json
+{ "jsonrpc": "2.0", "id": 1, "method": "eth_subscribe", "params": ["newHeads"] }
+```
 
-## Comet & Cosmos
+</details>
+
+## CometBFT & Cosmos SDK
+
+The Grove API has support for the [CometBFT](https://docs.cometbft.com/main/spec/rpc/) and [Cosmos SDK](https://docs.cosmos.network/main/learn/advanced/grpc_rest) APIs.
+
+### CometBFT - REST
+
+<details>
+<summary>Example `CometBFT` request to `v1/status`:</summary>
+
+```bash
+curl -X GET https://xrplevm.rpc.grove.city/v1/status \
+  -H "Authorization: $GROVE_PORTAL_API_KEY" \
+  -H "Content-Type: application/json" \
+  -H "Portal-Application-Id: $GROVE_PORTAL_APP_ID"
+```
+
+</details>
+
+### CometBFT - JSON-RPC
+
+```bash
+curl -X GET https://xrplevm.rpc.grove.city/v1/status \
+  -H "Authorization: $GROVE_PORTAL_API_KEY" \
+  -H "Content-Type: application/json" \
+  -H "Portal-Application-Id: $GROVE_PORTAL_APP_ID" \
+  -d '{"jsonrpc":"2.0","id":1,"method":"status"}'
+```
+
+### CosmosSDK - REST
+
+```bash
+curl -X GET https://xrplevm.rpc.grove.city/v1/cosmos/bank/v1beta1/supply \
+  -H "Authorization: $GROVE_PORTAL_API_KEY" \
+  -H "Content-Type: application/json" \
+  -H "Portal-Application-Id: $GROVE_PORTAL_APP_ID"
+```
+
+## gRPC
+
+Coming soon!

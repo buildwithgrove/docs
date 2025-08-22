@@ -9,11 +9,13 @@ help: ## Prints all the targets in all the Makefiles
 	@grep -h -E '^[a-zA-Z0-9_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-60s\033[0m %s\n", $$1, $$2}'
 
 .PHONY: check_npm
-check_npm: ## Check if npm is installed
+## Internal helper to check if npm is installed
+check_npm:
 	@which npm > /dev/null || (echo "npm is not installed. Please install npm first." && exit 1)
 
 .PHONY: check_node
-check_node: ## Check if node is installed
+## Internal helper to check if node is installed
+check_node:
 	@which node > /dev/null || (echo "node is not installed. Please install node first." && exit 1)
 
 .PHONY: docusaurus_start
