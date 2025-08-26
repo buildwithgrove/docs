@@ -8,10 +8,10 @@ sidebar_label: moonriver
 
 # Moonriver
 
-`moonriver`
+Moonriver is a companion network to Moonbeam and provides a permanently incentivized canary network. The Moonriver supported methods allow developers to interact with this Ethereum-compatible smart contract platform with functionalities such as querying balances, executing transactions, and interacting with smart contracts.
 
 ## Supported APIs
 
-| API Spec | Description                                               | Documentation                  |
-| -------- | --------------------------------------------------------- | ------------------------------ |
-| Core API | The core set of methods supported by all ethereum clients | [view spec](../specs/core-api) |
+| API      | Documentation                      |
+| -------- | ---------------------------------- |
+| JSON-RPC | [view spec](../grove-api/api-definition/definition#json-rpc-supported-methods) |

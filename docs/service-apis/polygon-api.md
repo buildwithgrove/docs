@@ -8,12 +8,14 @@ sidebar_label: polygon
 
 # Polygon
 
-`polygon`
+Polygon is an Ethereum Layer 2 scaling solution that offers a framework for creating and connecting Ethereum-compatible blockchain networks. Polygon's supported methods provide developers with essential tools for network interaction, enabling activities like balance queries, transaction executions, and smart contract operations, thus streamlining decentralized application development.
 
-The primary Polygon network offering high-speed and low-cost transactions.
+- [Polygon Developer Documentation](https://docs.polygon.technology/)
+- [Polygon Community Forum](https://forum.polygon.technology/)
+- [Polygon Github Repository](https://github.com/maticnetwork/polygon-sdk)
 
 ## Supported APIs
 
-| API Spec | Description                                               | Documentation                  |
-| -------- | --------------------------------------------------------- | ------------------------------ |
-| Core API | The core set of methods supported by all ethereum clients | [view spec](../specs/core-api) |
+| API      | Documentation                      |
+| -------- | ---------------------------------- |
+| JSON-RPC | [view spec](../grove-api/api-definition/definition#json-rpc-supported-methods) |

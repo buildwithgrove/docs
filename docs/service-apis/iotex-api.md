@@ -8,10 +8,10 @@ sidebar_label: iotex
 
 # IoTeX Mainnet
 
-`iotex`
+IoTeX is a decentralized network designed to empower the Internet of Things (IoT), aiming to provide scalability and privacy for device communication. The IoTeX supported methods empower developers to interact with the IoTeX chain, providing functions such as querying account balances, executing transactions, estimating gas costs, and interacting with smart contracts.
 
 ## Supported APIs
 
-| API Spec | Description                                               | Documentation                  |
-| -------- | --------------------------------------------------------- | ------------------------------ |
-| Core API | The core set of methods supported by all ethereum clients | [view spec](../specs/core-api) |
+| API      | Documentation                      |
+| -------- | ---------------------------------- |
+| JSON-RPC | [view spec](../grove-api/api-definition/definition#json-rpc-supported-methods) |

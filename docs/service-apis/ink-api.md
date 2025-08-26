@@ -8,10 +8,10 @@ sidebar_label: ink
 
 # Ink
 
-`ink`
+Ink is an Ethereum OP Stack layer 2 blockchain designed to be the house of DeFi for the Superchain; a powerful baselayer for deploying innovative DeFi protocols.
 
 ## Supported APIs
 
-| API Spec | Description                                               | Documentation                  |
-| -------- | --------------------------------------------------------- | ------------------------------ |
-| Core API | The core set of methods supported by all ethereum clients | [view spec](../specs/core-api) |
+| API      | Documentation                      |
+| -------- | ---------------------------------- |
+| JSON-RPC | [view spec](../grove-api/api-definition/definition#json-rpc-supported-methods) |

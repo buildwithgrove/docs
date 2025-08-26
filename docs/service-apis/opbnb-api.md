@@ -8,10 +8,10 @@ sidebar_label: opBNB
 
 # opBNB
 
-`opbnb`
+The opBNB network is the Layer 2 scaling solution for the BNB Smart Chain powered by bedrock version of Optimism OP Stack. It works by offloading transaction processing and resource usage from the BNB Smart Chain, while still posting data to the underlying mainnet.
 
 ## Supported APIs
 
-| API Spec | Description                                               | Documentation                  |
-| -------- | --------------------------------------------------------- | ------------------------------ |
-| Core API | The core set of methods supported by all ethereum clients | [view spec](../specs/core-api) |
+| API      | Documentation                      |
+| -------- | ---------------------------------- |
+| JSON-RPC | [view spec](../grove-api/api-definition/definition#json-rpc-supported-methods) |

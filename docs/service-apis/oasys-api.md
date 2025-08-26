@@ -8,10 +8,10 @@ sidebar_label: oasys
 
 # Oasys
 
-`oasys`
+Oasys is a blockchain-based platform that allows developers to build and run decentralized applications. The Oasys supported methods offer developers the opportunity to engage with the Oasys network, performing functions like querying account balances, executing transactions, estimating gas costs, and interacting with smart contracts.
 
 ## Supported APIs
 
-| API Spec | Description                                               | Documentation                  |
-| -------- | --------------------------------------------------------- | ------------------------------ |
-| Core API | The core set of methods supported by all ethereum clients | [view spec](../specs/core-api) |
+| API      | Documentation                      |
+| -------- | ---------------------------------- |
+| JSON-RPC | [view spec](../grove-api/api-definition/definition#json-rpc-supported-methods) |

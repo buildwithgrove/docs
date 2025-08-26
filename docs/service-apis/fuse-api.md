@@ -7,11 +7,10 @@ sidebar_label: fuse
 ---
 
 # Fuse
-
-`fuse`
+Fuse is a blockchain ecosystem designed to be a platform for the easy creation and operation of community-driven currencies and payment systems. With the Fuse supported methods, developers can perform actions like querying balances, executing transactions, and interacting with smart contracts on the Fuse network.
 
 ## Supported APIs
 
-| API Spec | Description                                               | Documentation                  |
-| -------- | --------------------------------------------------------- | ------------------------------ |
-| Core API | The core set of methods supported by all ethereum clients | [view spec](../specs/core-api) |
+| API      | Documentation                      |
+| -------- | ---------------------------------- |
+| JSON-RPC | [view spec](../grove-api/api-definition/definition#json-rpc-supported-methods) |

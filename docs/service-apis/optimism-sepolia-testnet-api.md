@@ -8,10 +8,10 @@ sidebar_label: optimism-sepolia-testnet
 
 # Optimism Sepolia Testnet
 
-`optimism-sepolia-testnet`
+Optimism is a Layer 2 scaling solution for Ethereum, aiming to enable high-speed, low-cost transactions while maintaining a strong connection with the Ethereum network. The Optimism Sepolia Testnet gives developers the opportunity to build and test their scalable applications without worrying about tokenomics.
 
 ## Supported APIs
 
-| API Spec | Description                                               | Documentation                  |
-| -------- | --------------------------------------------------------- | ------------------------------ |
-| Core API | The core set of methods supported by all ethereum clients | [view spec](../specs/core-api) |
+| API      | Documentation                      |
+| -------- | ---------------------------------- |
+| JSON-RPC | [view spec](../grove-api/api-definition/definition#json-rpc-supported-methods) |

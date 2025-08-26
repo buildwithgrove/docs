@@ -8,10 +8,10 @@ sidebar_label: kava
 
 # Kava
 
-`kava`
+Kava is a DeFi platform which offers its users the ability to mint stablecoins, earn interest on deposits, and access synthetic assets. By using Kava's supported methods, developers can engage with this multi-chain DeFi platform in several ways including querying balances, executing transactions, and interacting with smart contracts.
 
 ## Supported APIs
 
-| API Spec | Description                                               | Documentation                  |
-| -------- | --------------------------------------------------------- | ------------------------------ |
-| Core API | The core set of methods supported by all ethereum clients | [view spec](../specs/core-api) |
+| API      | Documentation                      |
+| -------- | ---------------------------------- |
+| JSON-RPC | [view spec](../grove-api/api-definition/definition#json-rpc-supported-methods) |

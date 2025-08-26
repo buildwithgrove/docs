@@ -8,10 +8,10 @@ sidebar_label: harmony
 
 # Harmony Shard 0
 
-`harmony`
+Harmony is a fast and secure blockchain for decentralized applications. Its high-throughput, low-latency, and low-fee consensus platform is designed to power the decentralized economy of the future. With Harmony's Supported Methods, developers can easily interact with the Harmony network, executing transactions, querying balances, estimating gas costs, and more.
 
 ## Supported APIs
 
-| API Spec | Description                                               | Documentation                  |
-| -------- | --------------------------------------------------------- | ------------------------------ |
-| Core API | The core set of methods supported by all ethereum clients | [view spec](../specs/core-api) |
+| API      | Documentation                      |
+| -------- | ---------------------------------- |
+| JSON-RPC | [view spec](../grove-api/api-definition/definition#json-rpc-supported-methods) |

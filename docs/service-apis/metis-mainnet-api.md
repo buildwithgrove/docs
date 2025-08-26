@@ -8,10 +8,10 @@ sidebar_label: metis
 
 # Metis
 
-`metis`
+Metis is a Layer 2 Ethereum scaling solution aiming to make building Decentralized Autonomous Companies (DACs) easy and cheap. By leveraging the Metis supported methods, developers can harness this scalable infrastructure with actions such as querying balances, executing transactions, and interacting with smart contracts on the Metis network.
 
 ## Supported APIs
 
-| API Spec | Description                                               | Documentation                  |
-| -------- | --------------------------------------------------------- | ------------------------------ |
-| Core API | The core set of methods supported by all ethereum clients | [view spec](../specs/core-api) |
+| API      | Documentation                      |
+| -------- | ---------------------------------- |
+| JSON-RPC | [view spec](../grove-api/api-definition/definition#json-rpc-supported-methods) |

@@ -8,10 +8,12 @@ sidebar_label: radix
 
 # Radix
 
-`radix`
+Radix is a full-stack, layer-1 smart contract platform offering a radically better experience for users and developers. With Radix, users can confidently use Web3 and DeFi with the Radix Wallet; and for developers, they can intuitively build secure, production-ready dApps with the asset-oriented Scrypto programming language.
+
+For a deeper understanding of the specific methods for the Radix full-stack, refer to their [official documentation](https://docs.radixdlt.com/docs).
 
 ## Supported APIs
 
-| API Spec | Description                                                                | Documentation                                         |
-| -------- | -------------------------------------------------------------------------- | ----------------------------------------------------- |
-| Core API | Provides clients access to the Radix Engine, Mempool and State in the node | [view spec](https://radix-babylon-core-api.redoc.ly/) |
+| API Spec | Documentation |
+| -------- | ------------- |
+| Radix Core API | [view spec](https://radix-babylon-core-api.redoc.ly/) |

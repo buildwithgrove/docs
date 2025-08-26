@@ -7,11 +7,10 @@ sidebar_label: kaia-mainnet
 ---
 
 # Kaia Mainnet
-
-`kaia-mainnet`
+Kaia is a blazing fast, seamless and interoperable blockchain formed through the merger of the Klaytn and Finschia blockchains initially developed by Kakao and LINE respectively. Kaia brings Web3 to the fingertips of hundreds of millions across Asia and the globe.
 
 ## Supported APIs
 
-| API Spec | Description                                               | Documentation                  |
-| -------- | --------------------------------------------------------- | ------------------------------ |
-| Core API | The core set of methods supported by all ethereum clients | [view spec](../specs/core-api) |
+| API      | Documentation                      |
+| -------- | ---------------------------------- |
+| JSON-RPC | [view spec](../grove-api/api-definition/definition#json-rpc-supported-methods) |

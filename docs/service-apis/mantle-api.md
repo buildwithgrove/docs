@@ -8,10 +8,10 @@ sidebar_label: mantle
 
 # Mantle
 
-`mantle`
+Mantle Network is an EVM-compatible scaling solution for Ethereum. It is designed such that all contracts and tools running on Ethereum can operate on the Mantle Network with minimal modifications. Mantle is built as a rollup with modular architecture and modular data availability.
 
 ## Supported APIs
 
-| API Spec | Description                                               | Documentation                  |
-| -------- | --------------------------------------------------------- | ------------------------------ |
-| Core API | The core set of methods supported by all ethereum clients | [view spec](../specs/core-api) |
+| API      | Documentation                      |
+| -------- | ---------------------------------- |
+| JSON-RPC | [view spec](../grove-api/api-definition/definition#json-rpc-supported-methods) |

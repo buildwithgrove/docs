@@ -8,10 +8,10 @@ sidebar_label: moonbeam
 
 # Moonbeam
 
-`moonbeam`
+Moonbeam provides a developer-friendly, Ethereum-compatible smart contract platform that makes it easy to build natively interoperable blockchain applications. The Moonbeam supported methods offer developers a range of capabilities, from querying account balances and executing transactions, to estimating gas costs and interacting with smart contracts on the Moonbeam network.
 
 ## Supported APIs
 
-| API Spec | Description                                               | Documentation                  |
-| -------- | --------------------------------------------------------- | ------------------------------ |
-| Core API | The core set of methods supported by all ethereum clients | [view spec](../specs/core-api) |
+| API      | Documentation                      |
+| -------- | ---------------------------------- |
+| JSON-RPC | [view spec](../grove-api/api-definition/definition#json-rpc-supported-methods) |

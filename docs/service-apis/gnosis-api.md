@@ -7,11 +7,10 @@ sidebar_label: gnosis
 ---
 
 # Gnosis Chain
-
-`gnosis`
+Gnosis Chain is a fast, Ethereum-compatible network designed for secure and low-cost transactions with a robust Proof-of-Stake consensus mechanism. It serves as an eco-friendly platform tailored for decentralized applications that require fast finality and operates with a strong emphasis on community governance. Utilizing Gnosis Chain supported methods, developers can leverage the platform for a variety of actions such as querying account balances, initiating transactions, and engaging with smart contracts, all while benefiting from reduced gas costs and enhanced transaction speed.
 
 ## Supported APIs
 
-| API Spec | Description                                               | Documentation                  |
-| -------- | --------------------------------------------------------- | ------------------------------ |
-| Core API | The core set of methods supported by all ethereum clients | [view spec](../specs/core-api) |
+| API      | Documentation                      |
+| -------- | ---------------------------------- |
+| JSON-RPC | [view spec](../grove-api/api-definition/definition#json-rpc-supported-methods) |

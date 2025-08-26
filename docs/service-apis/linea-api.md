@@ -8,10 +8,10 @@ sidebar_label: linea
 
 # Linea
 
-`linea`
+Linea is "The Home Network for the World". Linea is a Layer 2 blockchain that aims to provide a scalable and secure platform for decentralized applications (dApps).
 
 ## Supported APIs
 
-| API Spec | Description                                               | Documentation                  |
-| -------- | --------------------------------------------------------- | ------------------------------ |
-| Core API | The core set of methods supported by all ethereum clients | [view spec](../specs/core-api) |
+| API      | Documentation                      |
+| -------- | ---------------------------------- |
+| JSON-RPC | [view spec](../grove-api/api-definition/definition#json-rpc-supported-methods) |
