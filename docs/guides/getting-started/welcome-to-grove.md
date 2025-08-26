@@ -3,7 +3,7 @@ sidebar_position: 1
 sidebar_label: Welcome to Grove
 ---
 
-# Welcome to Grove
+# Welcome to Grove 🌿
 A high‑performance gateway powered by [Pocket Network](https://pocket.network). Grove enables seamless, efficient RPC access to more than 50 networks—empowering apps, agents, and protocols alike. Through our Portal, we deliver a performance layer that elevates Pocket’s reliability, scalability, and service quality.
 
 ## What Makes Grove Unique?
