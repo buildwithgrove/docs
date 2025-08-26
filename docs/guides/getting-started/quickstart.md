@@ -49,4 +49,4 @@ Every app starts here:
 ### Step 5: Make Your First Call 🚀
 That’s it—you’re live. Your app is now powered by Grove’s decentralized infrastructure.
 
-👉 Next stop: Explore the Grove API for advanced queries and integration patterns.
+👉 Next stop: Explore the [Grove API](../../grove-api/overview/grove-api) for advanced queries and integration patterns.

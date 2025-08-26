@@ -23,6 +23,13 @@ curl https://xrplevm.rpc.grove.city/v1/$GROVE_PORTAL_APP_ID \
 
 </details>
 
+#### JSON-RPC Supported Methods
+<details>
+<summary>List of Supported Methods</summary>
+
+  insert table here
+</details>
+
 #### JSON-RPC to HTTP Status Code Mapping
 
 Grove takes an opinionated approach to mapping JSON-RPC errors to HTTP status codes. For more information, see [PATH](https://path.grove.city/learn/qos/http_status_code) documentation or the table below.

@@ -334,7 +334,7 @@ let sidebars = {
       dirName: "grove-api",
       customProps: {
         label: "Grove API",
-        link: "/grove-api/overview/introduction",
+        link: "/grove-api/overview/grove-api",
       },
     },
     {
