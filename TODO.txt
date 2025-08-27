@@ -1,5 +1,6 @@
 - Clean up / AIO all individual chain pages
 - Any style cleanup
+- Get assets for all services (use website)
 - Ensure search works correctly 
 - Populate supported methods with content
 - Clean up all unused / excess files
