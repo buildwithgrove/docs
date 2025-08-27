@@ -17,15 +17,18 @@ export default function Home(): JSX.Element {
 
   return (
     <Layout
-      title="Grove: Web3 Infrastructure - Decentralized RPC Gateway"
-      description="High-performance decentralized RPC gateway powered by Pocket Network. Access 50+ blockchain networks with reliability, scalability, and global distribution."
+      title="Grove Documentation - Enterprise Infrastructure for Public APIs"
+      description="Access high-performance permissionless infrastructure for blockchains, LLMs, and privacy protocols. Serving billions of requests daily for 60+ protocols."
     >
       <SEOOptimizer
-        title="Grove: Web3 Infrastructure - Decentralized RPC Gateway"
-        description="High-performance decentralized RPC gateway powered by Pocket Network. Access 50+ blockchain networks with reliability, scalability, and global distribution."
+        title="Grove Documentation - Enterprise Infrastructure for Public APIs"
+        description="Access high-performance permissionless infrastructure for blockchains, LLMs, and privacy protocols. Serving billions of requests daily for 60+ protocols."
         keywords={[
-          'Web3', 'blockchain', 'RPC', 'API', 'decentralized', 'infrastructure',
-          'Pocket Network', 'Grove', 'cryptocurrency', 'DeFi', 'NFT', 'smart contracts'
+          'blockchain infrastructure', 'decentralized RPC', 'web3 infrastructure', 'blockchain API',
+          'decentralized protocols', 'Pocket Network', 'blockchain scaling', 'web3 development',
+          'RPC provider', 'node infrastructure', 'blockchain gateway', 'DeFi infrastructure',
+          'permissionless network', 'Web3 API', 'blockchain node provider', 'decentralized infrastructure',
+          'LLM infrastructure', 'AI model access', 'privacy protocols', 'open protocols', 'machine learning API'
         ]}
         canonicalUrl="https://docs.grove.city"
         structuredData={structuredData}

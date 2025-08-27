@@ -194,8 +194,8 @@ export function generateHowToData(data: {
 export const groveOrganizationData: OrganizationData = {
   name: 'Grove',
   url: 'https://grove.city',
-  logo: 'https://docs.grove.city/img/logo.svg',
-  description: 'High-performance decentralized RPC gateway powered by Pocket Network',
+  logo: 'https://grove.city/images/logo.svg',
+  description: 'Enterprise Infrastructure for Public APIs - Access high-performance permissionless infrastructure for blockchains, LLMs, and privacy protocols',
   sameAs: [
     'https://twitter.com/grove_city',
     'https://github.com/pokt-foundation',
@@ -207,7 +207,7 @@ export const groveOrganizationData: OrganizationData = {
 export const groveWebSiteData: WebSiteData = {
   name: 'Grove Documentation',
   url: 'https://docs.grove.city',
-  description: 'Complete documentation for Grove Web3 infrastructure and API services',
+  description: 'Complete documentation for Grove enterprise infrastructure and API services',
   potentialAction: {
     '@type': 'SearchAction',
     target: 'https://docs.grove.city/search?q={search_term_string}',

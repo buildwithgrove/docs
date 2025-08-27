@@ -8,7 +8,7 @@ const darkTheme = themes.dracula
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Grove: Web3 Infrastructure - Decentralized RPC Gateway",
+  title: "Grove Documentation - Enterprise Infrastructure for Public APIs",
   favicon: "img/favicon.ico",
   // Enable mermaid diagrams support
   markdown: {
@@ -17,36 +17,37 @@ const config = {
   // Custom fields for SEO
   customFields: {
     metadata: [
-      {name: 'keywords', content: 'Web3, blockchain, RPC, API, decentralized, infrastructure, Pocket Network, Grove, cryptocurrency, DeFi, NFT, smart contracts'},
-      {name: 'author', content: 'Grove Team'},
-      {name: 'robots', content: 'index, follow'},
-      {name: 'googlebot', content: 'index, follow'},
-      {name: 'viewport', content: 'width=device-width, initial-scale=1.0'},
-      {name: 'theme-color', content: '#000000'},
-      {name: 'msapplication-TileColor', content: '#000000'},
-      {name: 'apple-mobile-web-app-capable', content: 'yes'},
-      {name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent'},
+      { name: 'keywords', content: 'blockchain infrastructure, decentralized RPC, web3 infrastructure, blockchain API, decentralized protocols, Pocket Network, blockchain scaling, web3 development, RPC provider, node infrastructure, blockchain gateway, DeFi infrastructure, permissionless network, Web3 API, blockchain node provider, decentralized infrastructure, LLM infrastructure, AI model access, privacy protocols, open protocols, machine learning API' },
+      { name: 'author', content: 'Grove' },
+      { name: 'robots', content: 'index, follow' },
+      { name: 'googlebot', content: 'index, follow' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1.0' },
+      { name: 'theme-color', content: '#000000' },
+      { name: 'msapplication-TileColor', content: '#000000' },
+      { name: 'apple-mobile-web-app-capable', content: 'yes' },
+      { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' },
     ],
     openGraph: {
       type: 'website',
       locale: 'en_US',
       url: 'https://docs.grove.city',
-      siteName: 'Grove Documentation',
-      title: 'Grove: Web3 Infrastructure - Decentralized RPC Gateway',
-      description: 'High-performance decentralized RPC gateway powered by Pocket Network. Access 50+ blockchain networks with reliability, scalability, and global distribution.',
+      siteName: 'Grove',
+      title: 'Grove Documentation - Enterprise Infrastructure for Public APIs',
+      description: 'Access high-performance permissionless infrastructure for blockchains, LLMs, and privacy protocols. Serving billions of requests daily for 60+ protocols.',
       images: [
         {
-          url: 'https://docs.grove.city/img/og-image.png',
+          url: 'https://grove.city/images/logo.svg',
           width: 1200,
           height: 630,
-          alt: 'Grove Web3 Infrastructure',
+          alt: 'Grove Documentation',
         },
       ],
     },
     twitter: {
       cardType: 'summary_large_image',
-      site: '@grove_city',
-      creator: '@grove_city',
+      title: 'Grove Documentation - Enterprise Infrastructure for Public APIs',
+      description: 'Access high-performance permissionless infrastructure for blockchains, LLMs, and privacy protocols. Serving billions of requests daily for 60+ protocols.',
+      image: 'https://grove.city/images/logo.svg',
     },
   },
   stylesheets: ["https://fonts.googleapis.com/css?family=Inter:regular,500,600,700"],
