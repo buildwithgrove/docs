@@ -17,7 +17,7 @@ Keys identify and secure your Application.
 - Secret Keys are hidden by default — click the eye icon to reveal.
 - Treat your Secret Key like a password: keep it private, rotate periodically, and never commit it to public repos.
 
-## 🛡 Access Controls
+## 🛡️ Access Controls
 Tailor how your Application can be used:
 - **Secret Key Required** — Enforce authentication for every request. Only clients with your Secret Key will be allowed.
 - **Approved Chains** — Restrict access to specific blockchain networks.

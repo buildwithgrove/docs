@@ -9,11 +9,11 @@ Connecting to the decentralized web shouldn’t feel complicated. Grove makes it
 
 ## Public Endpoints (Fastest Start)
 Want to test right away? Use our public endpoints—no signup, no setup:
-- Instant access — start making requests now
-- Free to use — great for testing & prototyping
-- Shared infrastructure — performance may vary
-- Rate limited — designed for dev work, not production
-- Community support only — no SLA or guarantees
+- **Instant access** — start making requests now
+- **Free to use** — great for testing & prototyping
+- **Shared infrastructure** — performance may vary
+- **Rate limited** — designed for dev work, not production
+- **Community support only** — no SLA or guarantees
 
 :::warning Public Endpoint Limits
 Public endpoints are shared across all users and rate-limited. For production workloads, higher throughput, and guaranteed performance, create a private endpoint in Grove Portal.
@@ -23,9 +23,9 @@ Public endpoints are shared across all users and rate-limited. For production wo
 When you’re ready to go live, private endpoints give you the power, reliability, and insights you need.
 
 ### Why private endpoints?
-- No rate limits — handle infinite scale
-- Advanced analytics — track usage, performance & trends
-- Priority support + SLAs — enterprise-grade reliability
+- **No rate limits** — handle infinite scale
+- **Advanced analytics** — track usage, performance & trends
+- **Priority support + SLAs** — enterprise-grade reliability
 
 ### Step 1: Sign Up
 Create your [Grove account](https://portal.grove.city) in seconds and unlock your own private endpoint.
@@ -47,6 +47,6 @@ Every app starts here:
 - Copy the endpoint URL into your app.
 
 ### Step 5: Make Your First Call 🚀
-That’s it—you’re live. Your app is now powered by Grove’s decentralized infrastructure.
+That’s it—**you’re live**. Your app is now powered by Grove’s decentralized infrastructure.
 
 👉 Next stop: Explore the [Grove API](../../grove-api/overview/grove-api) for advanced queries and integration patterns.

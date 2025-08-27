@@ -11,7 +11,7 @@ A high‑performance gateway powered by [Pocket Network](https://pocket.network)
 ### 🌎 **Decentralized by Design**
 Grove runs on a global network of thousands of nodes—no single point of failure, no centralized choke points. Diversity in clients and operators ensures resilience, neutrality, and unstoppable access.
 
-### ⛓ **Built for Any Service**
+### ⛓️ **Built for Any Service**
 From blockchains to large language models to canonical data APIs—Grove is service-agnostic. One gateway, endless integrations.
 
 ### 🎯 **Reliability and Redundancy**
@@ -24,7 +24,7 @@ Billions of requests daily. Grove is engineered to absorb surges and sustain thr
 Globally distributed gateways slash round-trip latency. Every request is routed for the fastest possible response.
 
 ### 🪄 **Cost That Scales with You**
-No hidden fees. No locked-in pricing. With Grove’s decentralized model, you pay only for what you use—fair, efficient, and predictable.
+No hidden fees. No locked-in pricing. With Grove’s model, you pay only for what you use—fair, efficient, and predictable.
 
 ## Ready to Get Started?
 Spin up in minutes. Create your [Grove Portal account](https://portal.grove.city) account or jump into the [Quickstart Guide](/guides/getting-started/quickstart).

@@ -21,7 +21,7 @@ Stay on top of performance with Insights (requests, usage, latency, reliability)
 
 👉 [Learn more about Insights and Logs](./insights)
 
-### 🛡 Access Controls
+### 🛡️ Access Controls
 Grove gives you fine-grained tools to protect your app:
 - **Secret Key Required** — enforce authentication on every request.
 - **Approved Chains** — lock Application access to specific networks.
