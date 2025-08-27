@@ -205,7 +205,7 @@ export const groveOrganizationData: OrganizationData = {
 
 // Generate default Grove website data
 export const groveWebSiteData: WebSiteData = {
-  name: 'Build with Grove Docs',
+  name: 'Build with Grove - Docs',
   url: 'https://docs.grove.city',
   description: 'Complete documentation for Grove enterprise infrastructure and API services',
   potentialAction: {

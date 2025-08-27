@@ -39,7 +39,7 @@ const config = {
           url: 'https://grove.city/images/logo.svg',
           width: 1200,
           height: 630,
-          alt: 'Build with Grove Docs',
+          alt: 'Grove Docs',
         },
       ],
     },
