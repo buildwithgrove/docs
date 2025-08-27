@@ -8,8 +8,6 @@ sidebar_label: arbitrum-sepolia-testnet
 
 # Arbitrum Sepolia Testnet
 
-`arbitrum-sepolia-testnet`
-
 Arbitrum Sepolia is a testnet chain that replicates the features of the Arbitrum One mainnet. It is tethered to the Sepolia testnet of Ethereum, providing a secure testing ground for developers to experiment with. Utilizing optimistic rollup technology, Arbitrum Sepolia offers a testing landscape where developers can fine-tune their decentralized applications prior to mainnet deployment, guaranteeing both compatibility and efficient performance within a Layer 2 framework.
 
 ## Supported APIs

@@ -5,7 +5,6 @@ import Layout from "@theme-original/DocRoot/Layout"
 import { Anchor, Box, Container, Group } from "@mantine/core"
 import styles from "./DocRootLayout.module.css"
 import sidebars from "@site/sidebars"
-import ChainSelect from "@site/src/components/ChainSelect/ChainSelect"
 
 export default function LayoutWrapper(props) {
   const isBrowser = useIsBrowser()
@@ -51,7 +50,16 @@ export default function LayoutWrapper(props) {
               {sidebar[0].customProps.label}
             </Anchor>
           ))}
-          <ChainSelect activePath={path} />
+          <Anchor
+            px="xs"
+            href="/service-catalogue"
+            className={clsx(
+              styles.link,
+              path === "service-catalogue" && styles.linkActive,
+            )}
+          >
+            Service Catalogue
+          </Anchor>
           {exploreGroveLink && (
             <Anchor
               key={exploreGroveLink[1][0].dirName}
