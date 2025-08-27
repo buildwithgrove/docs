@@ -32,7 +32,7 @@ const config = {
       locale: 'en_US',
       url: 'https://docs.grove.city',
       siteName: 'Grove',
-      title: 'Build with Grove Docs - Enterprise Infrastructure for Public APIs',
+      title: 'Build with Grove - Docs for Enterprise Infrastructure for Public APIs',
       description: 'Access high-performance permissionless infrastructure for blockchains, LLMs, and privacy protocols. Serving billions of requests daily for 60+ protocols.',
       images: [
         {
@@ -45,7 +45,7 @@ const config = {
     },
     twitter: {
       cardType: 'summary_large_image',
-      title: 'Build with Grove Docs - Enterprise Infrastructure for Public APIs',
+      title: 'Build with Grove - Docs for Enterprise Infrastructure for Public APIs',
       description: 'Access high-performance permissionless infrastructure for blockchains, LLMs, and privacy protocols. Serving billions of requests daily for 60+ protocols.',
       image: 'https://grove.city/images/logo.svg',
     },
