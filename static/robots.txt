@@ -18,8 +18,7 @@ Allow: /grove-api/
 Allow: /service-apis/
 Allow: /service-catalogue
 
-# Allow .well-known directory for security and verification
-Allow: /.well-known/
+
 
 # Specific rules for search engines
 User-agent: Googlebot
