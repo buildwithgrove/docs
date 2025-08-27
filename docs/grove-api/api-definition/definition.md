@@ -28,10 +28,13 @@ curl https://xrplevm.rpc.grove.city/v1/$GROVE_PORTAL_APP_ID \
 <summary>List of Supported Methods</summary>
 
   The following methods are supported on the Grove API:
+  - <a href="https://geth.ethereum.org/docs/interacting-with-geth/rpc/ns-debug#debugtracecall">debug_traceCall</a>
+  - <a href="https://geth.ethereum.org/docs/interacting-with-geth/rpc/ns-debug#debugtracetransaction">debug_traceTransaction</a>
   - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_accounts">eth_accounts</a>
   - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_blocknumber">eth_blockNumber</a>
   - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_call">eth_call</a>
   - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_chainid">eth_chainId</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_coinbase">eth_coinbase</a>
   - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_estimategas">eth_estimateGas</a>
   - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_gasprice">eth_gasPrice</a>
   - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_getbalance">eth_getBalance</a>
@@ -40,6 +43,8 @@ curl https://xrplevm.rpc.grove.city/v1/$GROVE_PORTAL_APP_ID \
   - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_getblocktransactioncountbyhash">eth_getBlockTransactionCountByHash</a>
   - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_getblocktransactioncountbynumber">eth_getBlockTransactionCountByNumber</a>
   - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_getcode">eth_getCode</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_getfilterchanges">eth_getFilterChanges</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_getfilterlogs">eth_getFilterLogs</a>
   - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_getlogs">eth_getLogs</a>
   - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_getstorageat">eth_getStorageAt</a>
   - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_gettransactionbyblockhashandindex">eth_getTransactionByBlockHashAndIndex</a>
@@ -51,21 +56,24 @@ curl https://xrplevm.rpc.grove.city/v1/$GROVE_PORTAL_APP_ID \
   - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_getunclebyblocknumberandindex">eth_getUncleByBlockNumberAndIndex</a>
   - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_getunclecountbyblockhash">eth_getUncleCountByBlockHash</a>
   - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_getunclecountbyblocknumber">eth_getUncleCountByBlockNumber</a>
-  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_getproof">eth_getProof</a>
   - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_getwork">eth_getWork</a>
   - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_hashrate">eth_hashrate</a>
   - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_mining">eth_mining</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_newblockfilter">eth_newBlockFilter</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_newfilter">eth_newFilter</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_newpendingtransactionfilter">eth_newPendingTransactionFilter</a>
   - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_protocolversion">eth_protocolVersion</a>
   - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_sendrawtransaction">eth_sendRawTransaction</a>
-  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_submitwork">eth_submitWork</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_sendtransaction">eth_sendTransaction</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_sign">eth_sign</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_signtransaction">eth_signTransaction</a>
   - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_syncing">eth_syncing</a>
-  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#web3_clientversion">web3_clientVersion</a>
-  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#web3_sha3">web3_sha3</a>
-  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#net_version">net_version</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_uninstallfilter">eth_uninstallFilter</a>
   - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#net_listening">net_listening</a>
   - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#net_peercount">net_peerCount</a>
-  - <a href="https://geth.ethereum.org/docs/interacting-with-geth/rpc/ns-debug#debugtracecall">debug_traceCall</a>
-  - <a href="https://geth.ethereum.org/docs/interacting-with-geth/rpc/ns-debug#debugtracetransaction">debug_traceTransaction</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#net_version">net_version</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#web3_clientversion">web3_clientVersion</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#web3_sha3">web3_sha3</a>
 </details>
 
 #### JSON-RPC to HTTP Status Code Mapping
