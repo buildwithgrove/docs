@@ -7,6 +7,9 @@
 /* Import service catalogue specific styles */
 @import './service-catalogue.css';
 
+/* Import AI SEO optimizations */
+@import './seo-optimizations.css';
+
 :root {
   --ifm-color-primary: #1f2327;
   --ifm-color-primary-dark: #1c2023;

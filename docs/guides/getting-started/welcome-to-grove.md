@@ -1,6 +1,10 @@
 ---
 sidebar_position: 1
 sidebar_label: Welcome to Grove
+title: Welcome to Grove - Web3 Infrastructure & Decentralized RPC Gateway
+description: Discover Grove's high-performance decentralized RPC gateway powered by Pocket Network. Access 50+ blockchain networks with reliability, scalability, and global distribution.
+keywords: [Web3, blockchain, RPC, API, decentralized, infrastructure, Pocket Network, Grove, cryptocurrency, DeFi, NFT, smart contracts]
+image: /img/og-image.png
 ---
 
 # Welcome to Grove 🌿
