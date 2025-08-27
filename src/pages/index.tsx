@@ -17,11 +17,11 @@ export default function Home(): JSX.Element {
 
   return (
     <Layout
-      title="Grove Documentation - Enterprise Infrastructure for Public APIs"
+      title="Build with Grove Docs - Enterprise Infrastructure for Public APIs"
       description="Access high-performance permissionless infrastructure for blockchains, LLMs, and privacy protocols. Serving billions of requests daily for 60+ protocols."
     >
       <SEOOptimizer
-        title="Grove Documentation - Enterprise Infrastructure for Public APIs"
+        title="Build with Grove Docs - Enterprise Infrastructure for Public APIs"
         description="Access high-performance permissionless infrastructure for blockchains, LLMs, and privacy protocols. Serving billions of requests daily for 60+ protocols."
         keywords={[
           'blockchain infrastructure', 'decentralized RPC', 'web3 infrastructure', 'blockchain API',
@@ -34,7 +34,7 @@ export default function Home(): JSX.Element {
         structuredData={structuredData}
       >
         <div style={{ padding: '2rem', textAlign: 'center' }}>
-          <h1>Welcome to Grove Documentation</h1>
+          <h1>Welcome to Build with Grove Docs</h1>
           <p>Redirecting to the getting started guide...</p>
         </div>
       </SEOOptimizer>

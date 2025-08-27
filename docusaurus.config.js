@@ -32,20 +32,20 @@ const config = {
       locale: 'en_US',
       url: 'https://docs.grove.city',
       siteName: 'Grove',
-      title: 'Grove Documentation - Enterprise Infrastructure for Public APIs',
+      title: 'Build with Grove Docs - Enterprise Infrastructure for Public APIs',
       description: 'Access high-performance permissionless infrastructure for blockchains, LLMs, and privacy protocols. Serving billions of requests daily for 60+ protocols.',
       images: [
         {
           url: 'https://grove.city/images/logo.svg',
           width: 1200,
           height: 630,
-          alt: 'Grove Documentation',
+          alt: 'Build with Grove Docs',
         },
       ],
     },
     twitter: {
       cardType: 'summary_large_image',
-      title: 'Grove Documentation - Enterprise Infrastructure for Public APIs',
+      title: 'Build with Grove Docs - Enterprise Infrastructure for Public APIs',
       description: 'Access high-performance permissionless infrastructure for blockchains, LLMs, and privacy protocols. Serving billions of requests daily for 60+ protocols.',
       image: 'https://grove.city/images/logo.svg',
     },
