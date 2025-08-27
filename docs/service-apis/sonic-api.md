@@ -7,11 +7,12 @@ sidebar_label: sonic
 ---
 
 # Sonic
+Sonic is the highest-performing EVM L1, combining speed, incentives, and world-class infrastructure, powering the next generation of DeFi applications. The chain provides 10,000 TPS and sub-second finality.
 
-`sonic`
+The S token is Sonic's native token, used for paying transaction fees, staking, running validators, and participating in governance.
 
 ## Supported APIs
 
-| API Spec | Description                                               | Documentation                  |
-| -------- | --------------------------------------------------------- | ------------------------------ |
-| Core API | The core set of methods supported by all ethereum clients | [view spec](../specs/core-api) |
+| API      | Documentation                      |
+| -------- | ---------------------------------- |
+| JSON-RPC | [view spec](../grove-api/api-definition/definition#json-rpc-supported-methods) |

@@ -8,10 +8,10 @@ sidebar_label: taiko-hekla-testnet
 
 # Taiko Hekla Testnet
 
-`taiko-hekla-testnet`
+Taiko is a blockchain that aims to reduce transaction fees and improve scalability on the Ethereum network. It is a fully open-source, permissionless ZK-Rollup that integrates with Ethereum's infrastructure. 
 
 ## Supported APIs
 
-| API Spec | Description                                               | Documentation                  |
-| -------- | --------------------------------------------------------- | ------------------------------ |
-| Core API | The core set of methods supported by all ethereum clients | [view spec](../specs/core-api) |
+| API      | Documentation                      |
+| -------- | ---------------------------------- |
+| JSON-RPC | [view spec](../grove-api/api-definition/definition#json-rpc-supported-methods) |
