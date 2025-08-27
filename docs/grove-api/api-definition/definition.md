@@ -27,7 +27,45 @@ curl https://xrplevm.rpc.grove.city/v1/$GROVE_PORTAL_APP_ID \
 <details>
 <summary>List of Supported Methods</summary>
 
-  insert table here
+  The following methods are supported on the Grove API:
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_accounts">eth_accounts</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_blocknumber">eth_blockNumber</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_call">eth_call</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_chainid">eth_chainId</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_estimategas">eth_estimateGas</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_gasprice">eth_gasPrice</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_getbalance">eth_getBalance</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_getblockbyhash">eth_getBlockByHash</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_getblockbynumber">eth_getBlockByNumber</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_getblocktransactioncountbyhash">eth_getBlockTransactionCountByHash</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_getblocktransactioncountbynumber">eth_getBlockTransactionCountByNumber</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_getcode">eth_getCode</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_getlogs">eth_getLogs</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_getstorageat">eth_getStorageAt</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_gettransactionbyblockhashandindex">eth_getTransactionByBlockHashAndIndex</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_gettransactionbyblocknumberandindex">eth_getTransactionByBlockNumberAndIndex</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_gettransactionbyhash">eth_getTransactionByHash</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_gettransactioncount">eth_getTransactionCount</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_gettransactionreceipt">eth_getTransactionReceipt</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_getunclebyblockhashandindex">eth_getUncleByBlockHashAndIndex</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_getunclebyblocknumberandindex">eth_getUncleByBlockNumberAndIndex</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_getunclecountbyblockhash">eth_getUncleCountByBlockHash</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_getunclecountbyblocknumber">eth_getUncleCountByBlockNumber</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_getproof">eth_getProof</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_getwork">eth_getWork</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_hashrate">eth_hashrate</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_mining">eth_mining</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_protocolversion">eth_protocolVersion</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_sendrawtransaction">eth_sendRawTransaction</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_submitwork">eth_submitWork</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_syncing">eth_syncing</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#web3_clientversion">web3_clientVersion</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#web3_sha3">web3_sha3</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#net_version">net_version</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#net_listening">net_listening</a>
+  - <a href="https://ethereum.org/en/developers/docs/apis/json-rpc/#net_peercount">net_peerCount</a>
+  - <a href="https://geth.ethereum.org/docs/interacting-with-geth/rpc/ns-debug#debugtracecall">debug_traceCall</a>
+  - <a href="https://geth.ethereum.org/docs/interacting-with-geth/rpc/ns-debug#debugtracetransaction">debug_traceTransaction</a>
 </details>
 
 #### JSON-RPC to HTTP Status Code Mapping

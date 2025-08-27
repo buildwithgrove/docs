@@ -1,17 +1,103 @@
 ---
-title: "Grove - Fraxtal RPC API Documentation"
-description: "Comprehensive documentation for Grove's Fraxtal RPC API, covering endpoint details and integration strategies for blockchain developers."
-keywords: [fraxtal, rpc, api, blockchain, ethereum, layer2, web3, grove, pocket, pokt, L2]
+title: "Fraxtal API Integration | Grove Web3 Infrastructure"
+description: "Complete Fraxtal RPC API documentation for developers. Fast, reliable Fraxtal blockchain access with Grove's enterprise infrastructure. Get started in minutes."
+keywords: [fraxtal, frxeth, rpc, api, blockchain, web3, grove, infrastructure, developers, integration]
 sidebar_position: 1
 sidebar_label: fraxtal
+slug: /service-apis/fraxtal-api
+canonical_url: https://docs.grove.city/service-apis/fraxtal-api
 ---
 
-# Fraxtal
+# Fraxtal API Integration
 
-Fraxtal is a cutting-edge, modular rollup blockchain (Layer 2) with a vision for "fractal scaling" to enhance blockchain scalability. It operates as an EVM-equivalent, utilizing the OP stack for fast, secure, and cost-effective application deployment, much like other leading Ethereum rollups such as Optimism and Base. Unique to Fraxtal is its modular design, which supports the development of additional Layer 3 solutions and the integration of diverse chains and networks. Fraxtal also introduces an innovative incentive mechanism called Flox, rewarding users and developers with FXTL points—convertible into tokens—for using and interacting with the network. The native gas token, Frax Ether (frxETH), is issued by Frax Finance, completing its robust ecosystem designed to streamline user experience and developer engagement.
+<div style={{background: "linear-gradient(135deg, #000000 0%, #434343 100%)", color: "white", padding: "1.5rem", borderRadius: "8px", margin: "1rem 0"}}>
+  <h2 style={{color: "white", marginTop: 0}}>🚀 Quick Start</h2>
+  <p style={{marginBottom: 0, fontSize: "1.1rem"}}>Connect to Fraxtal in under 5 minutes with Grove's enterprise-grade infrastructure.</p>
+</div>
 
-## Supported APIs
+## Overview
 
-| API      | Documentation                      |
-| -------- | ---------------------------------- |
-| JSON-RPC | [view spec](../grove-api/api-definition/definition#json-rpc-supported-methods) |
+Fraxtal provides a robust blockchain platform for decentralized applications. Grove delivers enterprise-grade Fraxtal RPC access with guaranteed uptime, global edge network, and developer-first tooling.
+
+### Why Choose Grove for Fraxtal?
+
+- ⚡ **Ultra-fast response times** - Sub-300ms latency globally
+- 📈 **Unlimited RPS and Unlimited relays** - From Prototype to Production seamlessly
+- 🌍 **Global edge network** - 99.9% uptime guarantee
+- 💡 **Developer-first** - Comprehensive docs and support
+
+## Network Information
+
+| Property | Value |
+|----------|-------|
+| **Chain ID** | `252` |
+| **Network Name** | Fraxtal |
+| **Native Token** | frxETH |
+| **Block Explorer** | [FraxScan](https://fraxscan.com) |
+| **Official Documentation** | [Fraxtal Docs](https://docs.frax.finance/) |
+
+## Supported API Methods
+
+### 🔌 JSON-RPC API
+Access the complete Fraxtal RPC specification with full method support.
+
+| Method Category | Description | Documentation |
+|-----------------|-------------|---------------|
+| **Standard RPC** | Core blockchain methods | [View Methods](../grove-api/api-definition/definition#json-rpc-supported-methods) |
+
+## Integration Examples
+
+### Quick Setup
+
+```javascript
+// Using ethers.js (for EVM-compatible chains)
+import { JsonRpcProvider } from 'ethers';
+
+const provider = new JsonRpcProvider('YOUR_GROVE_FRAXTAL_ENDPOINT');
+
+// Get latest block
+const blockNumber = await provider.getBlockNumber();
+console.log('Latest block:', blockNumber);
+
+// Get account balance
+const balance = await provider.getBalance('WALLET_ADDRESS');
+console.log('Balance:', balance.toString());
+```
+
+## Performance & Reliability
+
+Grove's Fraxtal infrastructure delivers:
+
+- **Response Time**: < 100ms average globally
+- **Uptime**: 99.9% SLA guarantee  
+- **Rate Limits**: Unlimited requests/second on all plans
+- **Global Coverage**: Backed by the Unstoppable Pocket Network
+
+## Developer Resources
+
+### 📚 Essential Links
+- [Grove API Documentation](../grove-api/overview/grove-api)
+- [Fraxtal Official Docs](https://docs.frax.finance/)
+- [Network Status](https://status.grove.city)
+- [Developer Discord](https://discord.gg/build-with-grove)
+
+### 🛠️ Tools & SDKs
+- [Ethers.js](https://docs.ethers.io/)
+- [Web3.js](https://web3js.readthedocs.io/)
+
+### 💬 Community & Support
+- [GitHub Issues](https://github.com/buildwithgrove/path)  
+- [Technical Support](https://discord.com/channels/824324475256438814/1150805396085293106)
+
+## Getting Started
+
+1. **Sign up** for a Grove account at [portal.grove.city](https://portal.grove.city)
+2. **Create** a new application and get your API key
+3. **Configure** your endpoints with Fraxtal
+4. **Start building** with our comprehensive documentation
+
+---
+
+<div style={{background: "#f8f9fa", padding: "1rem", borderLeft: "4px solid #007bff", margin: "1rem 0"}}>
+  <strong>Need help?</strong> Our developer success team is here to help you integrate Fraxtal quickly and efficiently. <a href="mailto:portal@grove.city">Contact us</a> or join our <a href="https://discord.gg/build-with-grove">Discord community</a>.
+</div>

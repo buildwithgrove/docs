@@ -1,16 +1,103 @@
 ---
-title: "Grove - Base Sepolia Testnet RPC API Documentation"
-description: "Comprehensive documentation for Grove's Base Sepolia Testnet RPC API, covering endpoint details and integration strategies for blockchain developers."
-keywords: [base, rpc, api, blockchain, ethereum, layer2, web3, grove, pocket, pokt, L2]
+title: "Base Sepolia Testnet API Integration | Grove Web3 Infrastructure"
+description: "Complete Base Sepolia Testnet RPC API documentation for developers. Fast, reliable Base Sepolia Testnet blockchain access with Grove's enterprise infrastructure. Get started in minutes."
+keywords: [base-testnet, eth, rpc, api, blockchain, web3, grove, infrastructure, developers, integration]
 sidebar_position: 1
 sidebar_label: base-testnet
+slug: /service-apis/base-testnet-api
+canonical_url: https://docs.grove.city/service-apis/base-testnet-api
 ---
 
-# Base Testnet
-Base is an open-source optimistic rollup built on the Ethereum blockchain. Rollups are L2 blockchains designed to enhance the scalability of layer one (L1) blockchains by bundling hundreds of transactions and submitting them to L1 as a single transaction. Base was pioneered by Coinbase using Optimism’s OP stack, marking it as the second L2 deployed on the OP Stack after the Optimism Mainnet. Its EVM compatibility ensures that developers can effortlessly deploy their EVM codebase from Ethereum and other compatible chains directly to Base. For a deeper understanding of the specific methods for Base, refer to their [official documentation](https://docs.base.org/).
+# Base Sepolia Testnet API Integration
 
-## Supported APIs
+<div style={{background: "linear-gradient(135deg, #0052ff 0%, #1652f0 100%)", color: "white", padding: "1.5rem", borderRadius: "8px", margin: "1rem 0"}}>
+  <h2 style={{color: "white", marginTop: 0}}>🚀 Quick Start</h2>
+  <p style={{marginBottom: 0, fontSize: "1.1rem"}}>Connect to Base Sepolia Testnet in under 5 minutes with Grove's enterprise-grade infrastructure.</p>
+</div>
 
-| API      | Documentation                      |
-| -------- | ---------------------------------- |
-| JSON-RPC | [view spec](../grove-api/api-definition/definition#json-rpc-supported-methods) |
+## Overview
+
+Base Sepolia Testnet provides a robust blockchain platform for decentralized applications. Grove delivers enterprise-grade Base Sepolia Testnet RPC access with guaranteed uptime, global edge network, and developer-first tooling.
+
+### Why Choose Grove for Base Sepolia Testnet?
+
+- ⚡ **Ultra-fast response times** - Sub-300ms latency globally
+- 📈 **Unlimited RPS and Unlimited relays** - From Prototype to Production seamlessly
+- 🌍 **Global edge network** - 99.9% uptime guarantee
+- 💡 **Developer-first** - Comprehensive docs and support
+
+## Network Information
+
+| Property | Value |
+|----------|-------|
+| **Chain ID** | `84532` |
+| **Network Name** | Base Sepolia Testnet |
+| **Native Token** | ETH |
+| **Block Explorer** | [BaseScan Sepolia](https://sepolia.basescan.org) |
+| **Official Documentation** | [Base Sepolia Testnet Docs](https://docs.base.org/) |
+
+## Supported API Methods
+
+### 🔌 JSON-RPC API
+Access the complete Base Sepolia Testnet RPC specification with full method support.
+
+| Method Category | Description | Documentation |
+|-----------------|-------------|---------------|
+| **Standard RPC** | Core blockchain methods | [View Methods](../grove-api/api-definition/definition#json-rpc-supported-methods) |
+
+## Integration Examples
+
+### Quick Setup
+
+```javascript
+// Using ethers.js (for EVM-compatible chains)
+import { JsonRpcProvider } from 'ethers';
+
+const provider = new JsonRpcProvider('YOUR_GROVE_BASE-TESTNET_ENDPOINT');
+
+// Get latest block
+const blockNumber = await provider.getBlockNumber();
+console.log('Latest block:', blockNumber);
+
+// Get account balance
+const balance = await provider.getBalance('WALLET_ADDRESS');
+console.log('Balance:', balance.toString());
+```
+
+## Performance & Reliability
+
+Grove's Base Sepolia Testnet infrastructure delivers:
+
+- **Response Time**: < 100ms average globally
+- **Uptime**: 99.9% SLA guarantee  
+- **Rate Limits**: Unlimited requests/second on all plans
+- **Global Coverage**: Backed by the Unstoppable Pocket Network
+
+## Developer Resources
+
+### 📚 Essential Links
+- [Grove API Documentation](../grove-api/overview/grove-api)
+- [Base Sepolia Testnet Official Docs](https://docs.base.org/)
+- [Network Status](https://status.grove.city)
+- [Developer Discord](https://discord.gg/build-with-grove)
+
+### 🛠️ Tools & SDKs
+- [Ethers.js](https://docs.ethers.io/)
+- [Web3.js](https://web3js.readthedocs.io/)
+
+### 💬 Community & Support
+- [GitHub Issues](https://github.com/buildwithgrove/path)  
+- [Technical Support](https://discord.com/channels/824324475256438814/1150805396085293106)
+
+## Getting Started
+
+1. **Sign up** for a Grove account at [portal.grove.city](https://portal.grove.city)
+2. **Create** a new application and get your API key
+3. **Configure** your endpoints with Base Sepolia Testnet
+4. **Start building** with our comprehensive documentation
+
+---
+
+<div style={{background: "#f8f9fa", padding: "1rem", borderLeft: "4px solid #007bff", margin: "1rem 0"}}>
+  <strong>Need help?</strong> Our developer success team is here to help you integrate Base Sepolia Testnet quickly and efficiently. <a href="mailto:portal@grove.city">Contact us</a> or join our <a href="https://discord.gg/build-with-grove">Discord community</a>.
+</div>
