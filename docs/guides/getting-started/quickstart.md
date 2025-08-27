@@ -8,7 +8,7 @@ sidebar_label: Get an Endpoint
 Connecting to the decentralized web shouldn’t feel complicated. Grove makes it effortless—spin up an endpoint in minutes and start streaming data with enterprise-grade speed, scale, and reliability.
 
 ## Public Endpoints (Fastest Start)
-Want to test right away? Use our public endpoints—no signup, no setup:
+Want to test right away? Use our [public endpoints](https://www.grove.city/public-endpoints)—no signup, no setup:
 - **Instant access** — start making requests now
 - **Free to use** — great for testing & prototyping
 - **Shared infrastructure** — performance may vary

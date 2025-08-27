@@ -10,7 +10,7 @@ Your Portal account is the command center of Grove. From here, you manage your o
 Your account name is your organization’s identity in the Portal. Keep it clear and recognizable—so teammates can quickly align their work with the right org. Change it anytime by hitting “Change Name.” A strong name builds clarity, trust, and belonging across your team.
 
 ## Account ID
-Every organization has a unique, permanent ID (e.g., `6a01d3c0`). This ID is the backbone of your Grove identity—used for coordination, billing, and security across the platform.
+Every organization has a unique, permanent ID (e.g. `a1b2c3d4`). This ID is the backbone of your Grove identity—used for coordination, billing, and security across the platform.
 
 ## Team Management 
 

@@ -32,7 +32,7 @@ Kaia provides a robust blockchain platform for decentralized applications. Grove
 |----------|-------|
 | **Chain ID** | `8217` |
 | **Network Name** | Kaia |
-| **Native Token** | KLAY |
+| **Native Token** | KAIA |
 | **Block Explorer** | [KaiaScan](https://kaiascan.io) |
 | **Official Documentation** | [Kaia Docs](https://docs.kaia.io/) |
 
