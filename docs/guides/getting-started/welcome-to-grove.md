@@ -3,36 +3,28 @@ sidebar_position: 1
 sidebar_label: Welcome to Grove
 ---
 
-# Welcome to Grove
-
-Welcome to Grove – your gateway to high-performance decentralized web3 infrastructure. At its core, Grove is a RPC (Remote Procedure Call) service that enables users to read and write data to over 50 services. Grove is built on top of Pocket Network, a global, decentralized network of nodes. Through the Portal, Grove provides a performance layer that enhances the reliability and scalability of Pocket while also ensuring the high quality service users demand.
+# Welcome to Grove 🌿
+A high‑performance gateway powered by [Pocket Network](https://pocket.network). Grove enables seamless, efficient RPC access to more than 50 networks—empowering apps, agents, and protocols alike. Through our Portal, we deliver a performance layer that elevates Pocket’s reliability, scalability, and service quality.
 
 ## What Makes Grove Unique?
 
-### 🌎 **Decentralization**
+### 🌎 **Decentralized by Design**
+Grove runs on a global network of thousands of nodes—no single point of failure, no centralized choke points. Diversity in clients and operators ensures resilience, neutrality, and unstoppable access.
 
-Grove connects to a network of thousands of nodes, ensuring your data remains free from the control of a single entity. The decentralized nature of the network also encourages node client diversity - widening the scope of the requests that can be served through Grove.
-
-### ⛓ **Multi-Service Support**
-
-Whether you’re building on an EVM Blockchain, an LLM or a canonical data API, Grove has you covered. Our ecosystem agnostic approach ensures that you have the tools to build flexible, multi-source apps.
+### ⛓️ **Built for Any Service**
+From blockchains to large language models to canonical data APIs—Grove is service-agnostic. One gateway, endless integrations.
 
 ### 🎯 **Reliability and Redundancy**
+Powered by [PATH](https://path.grove.city) and Pocket’s decentralized network, Grove routes every request through high-performance nodes—delivering consistent uptime, anywhere in the world.
 
-Grove’s performance layer, PATH + Pocket’s decentralized network ensures that your requests will be served by high performing nodes, anytime, anywhere in the world.
+### 📈 **Scale Without Limits**
+Billions of requests daily. Grove is engineered to absorb surges and sustain throughput—so your apps never skip a beat.
 
-### 📈 **Scalability**
+### 🚀 **Optimized for Speed**
+Globally distributed gateways slash round-trip latency. Every request is routed for the fastest possible response.
 
-Scaling your application isn’t an issue with Grove. We can manage substantial request volumes, guaranteeing uninterrupted performance, even under significant load.
-
-### 🚀 **Speed**
-
-Grove is optimized for performance. We support gateways around the globe, minimizing the roundtrip latency for a request.
-
-### 🪄 **Cost-Effective**
-
-The decentralized network model minimizes infrastructure expenses by distributing costs across participants. Grove promotes a fair distribution of value and cost - pay only for your actual usage with no overage charges or hidden fees.
+### 🪄 **Cost That Scales with You**
+No hidden fees. No locked-in pricing. With Grove’s model, you pay only for what you use—fair, efficient, and predictable.
 
 ## Ready to Get Started?
-
-Create a [Grove Portal account](https://portal.grove.city) or check out our [Quickstart Guide](/guides/getting-started/quickstart).
+Spin up in minutes. Create your [Grove Portal account](https://portal.grove.city) account or jump into the [Quickstart Guide](/guides/getting-started/quickstart).

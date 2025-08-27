@@ -3,58 +3,50 @@ sidebar_position: 2
 sidebar_label: Get an Endpoint
 ---
 
-# Quickstart: Get an endpoint
+# Quickstart: Get an Endpoint
 
-We streamline the process of connecting to the decentralized web, offering you seamless API interaction right from the start. This quickstart guide is your roadmap to acquiring an endpoint, enabling your projects to communicate with Grove's services effortlessly.
+Connecting to the decentralized web shouldn’t feel complicated. Grove makes it effortless—spin up an endpoint in minutes and start streaming data with enterprise-grade speed, scale, and reliability.
 
-## Public Endpoints (Quick Start)
+## Public Endpoints (Fastest Start)
+Want to test right away? Use our [public endpoints](https://www.grove.city/public-endpoints)—no signup, no setup:
+- **Instant access** — start making requests now
+- **Free to use** — great for testing & prototyping
+- **Shared infrastructure** — performance may vary
+- **Rate limited** — designed for dev work, not production
+- **Community support only** — no SLA or guarantees
 
-For immediate testing and development, you can use our **[public endpoints](https://grove.city/public-endpoints)** without any registration:
-
-- **No signup required** - Start making requests immediately
-- **Free to use** - Perfect for testing and prototyping
-- **Rate limited** - Suitable for development but not production use
-- **Shared infrastructure** - Performance may vary based on usage
-- **Low priority support** - Support for public endpoints is deprioritized and has no guarantee on service. 
-
-:::warning Rate Limits on Public Endpoints
-Public endpoints have rate limits and are shared among all users. For production applications or higher throughput needs, we recommend getting a private endpoint through Grove Portal for guaranteed performance, higher rate limits, and dedicated resources.
+:::warning Public Endpoint Limits
+Public endpoints are shared across all users and rate-limited. For production workloads, higher throughput, and guaranteed performance, create a private endpoint in Grove Portal.
 :::
 
-If public endpoints meet your needs, you can start making RPC calls immediately. For production applications or when you need higher performance, continue with the steps below to get a dedicated private endpoint.
+## Private Endpoints (Production-Ready)
+When you’re ready to go live, private endpoints give you the power, reliability, and insights you need.
 
-## Private Endpoint
+### Why private endpoints?
+- **No rate limits** — handle infinite scale
+- **Advanced analytics** — track usage, performance & trends
+- **Priority support + SLAs** — enterprise-grade reliability
 
-### Benefits of Private Endpoints:
-- **Rate limits** - Make more requests per second
-- **Advanced analytics** - Track usage and performance metrics
-- **Priority support** - Backed by [Grove SLAs](https://grove.city/sla), Get help when you need it!
+### Step 1: Sign Up
+Create your [Grove account](https://portal.grove.city) in seconds and unlock your own private endpoint.
 
-### Step 1: Sign Up for Private Endpoints
-[Sign up](https://portal.grove.city/api/auth/auth0?signup=true) for a Grove account to create an account.
-
-### Step 2: Account Customization
-
-Give your account a unique name and customize your experience.
+### Step 2: Personalize Your Account
+Claim your namespace, customize your workspace, and get ready to build.
 
 ### Step 3: Create Your First Application
-Creating an application is your first step towards active blockchain interaction.
+Every app starts here:
 
-1. **Navigate:** Click on the 'Create Application' button within the Grove portal.  
-2. **Name Your Application:** Assign a name to uniquely identify your application in your account.  
-3. **Select an Appmoji:** Choose an Appmoji for a fun, visual representation of your application.  
-4. **Describe Your Application:** Provide a concise description to outline your application’s functionality and purpose. 
+1. Hit “Create Application” in the Portal.
+2. Name it — make it yours.
+3. Pick an Appmoji — your app’s visual identity.
+4. Add a short description — optional but useful.
 
-### Step 4: Access Private Endpoints
+### Step 4: Access Your Private Endpoint
+- Head to the Endpoints section of your app.
+- Select the service you want (EVM, LLM, data API, etc.).
+- Copy the endpoint URL into your app.
 
-Utilize your dedicated private endpoints to make RPC calls and interact with various services with higher performance and rate limits.
+### Step 5: Make Your First Call 🚀
+That’s it—**you’re live**. Your app is now powered by Grove’s decentralized infrastructure.
 
-- Locate the 'Endpoints' section in your application.
-- Choose the endpoint corresponding to the service you wish to interact with.
-- Copy the endpoint URL for use in your RPC calls.
-
-### Step 5: Make Your First RPC Call
-
-Congratulations! You've successfully set up your Grove account and application.
-
-- Explore the [Grove API](/grove-api/getting-started/introduction.md) for detailed documentation on making specific RPC calls.
+👉 Next stop: Explore the [Grove API](../../grove-api/overview/grove-api) for advanced queries and integration patterns.

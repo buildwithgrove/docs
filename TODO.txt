@@ -1,0 +1,2 @@
+- Get assets for all services (use website)
+- Clean up all unused / excess files

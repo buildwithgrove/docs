@@ -2,6 +2,9 @@
 
 Grove offers a vulnerability disclosure program, colloquially known as a Bug Bounty Program. We treat Security as a first-class citizen. In addition to our own measures, we are more than happy to accept and reimburse for security suggestions and improvements to our Products.
 
+# TL;DR
+We have a bug bounty program that pays up to $2,500 in USDC. The bounty will be valid for all projects owned by Grove. 
+
 # How It Works
 Current industry standards utilize the Common Vulnerability Scoring System (CVSS) v3.1 to calculate the severity of a software vulnerability across multiple dimensions, including impact, exploitability, remediation, etc. We’ve opted to do the same with our bug bounty program. 
 
@@ -24,6 +27,3 @@ These payouts represent the maximum amount for a confirmed vulnerability. To rec
 * A well documented proof of concept that allows for easy reproduction of the issue.
 * Clear and actionable steps that can be taken to resolve the issue.
 * Amounts will be paid in USDC (Ethereum) to a wallet of the Reporter's choosing.
-
-# TL;DR
-We have a bug bounty program that pays up to $2,500 in USDC. The bounty will be valid for all projects owned by Grove. 
