@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react';
 import Head from '@docusaurus/Head';
+import { useDoc } from '@docusaurus/plugin-content-docs/client';
+import { generatePageSpecificStructuredData } from '@site/src/utils/structuredData';
 
 interface SEOOptimizerProps {
   title?: string;
@@ -22,9 +24,33 @@ const SEOOptimizer: React.FC<SEOOptimizerProps> = ({
   noindex = false,
   children
 }) => {
+  // Try to get front-matter from the current doc page
+  let frontMatter = null;
+  let pagePath = '';
+  try {
+    const doc = useDoc();
+    frontMatter = doc?.frontMatter;
+    pagePath = doc?.metadata?.source || '';
+  } catch (error) {
+    // Not on a doc page, continue with props
+  }
+
   // Check if this is a preview deployment
   const isPreview = typeof process !== 'undefined' && process.env.VERCEL_ENV && process.env.VERCEL_ENV !== 'production';
   const shouldNoIndex = noindex || isPreview;
+
+  // Priority: front-matter > props > defaults
+  const finalTitle = frontMatter?.title || title;
+  const finalDescription = frontMatter?.description || description;
+  const finalKeywords = frontMatter?.keywords || keywords;
+  const finalImage = frontMatter?.image || ogImage;
+  const finalCanonical = frontMatter?.canonical || canonicalUrl;
+
+  // Generate page-specific structured data if not provided
+  const finalStructuredData = structuredData || (frontMatter && pagePath ? 
+    generatePageSpecificStructuredData(frontMatter, pagePath, finalTitle, finalDescription) : 
+    undefined);
+
   // Performance monitoring
   useEffect(() => {
     // Track page load performance
@@ -53,16 +79,16 @@ const SEOOptimizer: React.FC<SEOOptimizerProps> = ({
     'LLM infrastructure', 'AI model access', 'privacy protocols', 'open protocols', 'machine learning API'
   ];
 
-  const allKeywords = [...new Set([...defaultKeywords, ...keywords])].join(', ');
+  const allKeywords = [...new Set([...defaultKeywords, ...finalKeywords])].join(', ');
 
   return (
     <>
       <Head>
         {/* Basic Meta Tags */}
-        {title && <title>{title}</title>}
-        {description && <meta name="description" content={description} />}
+        {finalTitle && <title>{finalTitle}</title>}
+        {finalDescription && <meta name="description" content={finalDescription} />}
         <meta name="keywords" content={allKeywords} />
-        {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
+        {finalCanonical && <link rel="canonical" href={finalCanonical} />}
 
         {/* Robots Meta */}
         {shouldNoIndex ? (
@@ -72,20 +98,20 @@ const SEOOptimizer: React.FC<SEOOptimizerProps> = ({
         )}
 
         {/* Open Graph Meta Tags */}
-        {title && <meta property="og:title" content={title} />}
-        {description && <meta property="og:description" content={description} />}
+        {finalTitle && <meta property="og:title" content={finalTitle} />}
+        {finalDescription && <meta property="og:description" content={finalDescription} />}
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Grove - Docs" />
-        <meta property="og:image" content={ogImage} />
+        <meta property="og:image" content={finalImage} />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:locale" content="en_US" />
 
         {/* Twitter Card Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        {title && <meta name="twitter:title" content={title} />}
-        {description && <meta name="twitter:description" content={description} />}
-        <meta name="twitter:image" content={ogImage} />
+        {finalTitle && <meta name="twitter:title" content={finalTitle} />}
+        {finalDescription && <meta name="twitter:description" content={finalDescription} />}
+        <meta name="twitter:image" content={finalImage} />
         <meta name="twitter:site" content="@grove_city" />
         <meta name="twitter:creator" content="@grove_city" />
 
@@ -95,25 +121,19 @@ const SEOOptimizer: React.FC<SEOOptimizerProps> = ({
         <meta name="msapplication-TileColor" content="#000000" />
 
         {/* Structured Data */}
-        {structuredData && (
+        {finalStructuredData && (
           <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{
-              __html: JSON.stringify(structuredData),
+              __html: JSON.stringify(finalStructuredData),
             }}
           />
         )}
 
-        {/* Preconnect to external domains for performance */}
+        {/* Performance optimization links */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link rel="preconnect" href="https://portal.grove.city" />
-        <link rel="preconnect" href="https://grove.city" />
-
-        {/* DNS Prefetch for performance */}
-        <link rel="dns-prefetch" href="//fonts.googleapis.com" />
-        <link rel="dns-prefetch" href="//portal.grove.city" />
-        <link rel="dns-prefetch" href="//grove.city" />
+        <link rel="dns-prefetch" href="//www.google-analytics.com" />
       </Head>
       {children}
     </>

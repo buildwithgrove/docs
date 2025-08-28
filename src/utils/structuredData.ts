@@ -282,3 +282,88 @@ export const groveWebSiteData: WebSiteData = {
     'query-input': 'required name=search_term_string',
   },
 };
+
+// Auto-generate structured data based on page type and front-matter
+export function generatePageSpecificStructuredData(
+  frontMatter: any,
+  pagePath: string,
+  pageTitle?: string,
+  pageDescription?: string
+) {
+  const structuredData = [];
+
+  // Always include Organization data (only once per page)
+  structuredData.push(generateOrganizationData(groveOrganizationData));
+
+  // Determine page type and generate appropriate structured data
+  const path = pagePath.toLowerCase();
+  const title = pageTitle || frontMatter?.title || 'Grove Documentation';
+  const description = pageDescription || frontMatter?.description || 'Grove enterprise infrastructure documentation';
+
+  // API/Service pages
+  if (path.includes('/service-apis/') || path.includes('-api')) {
+    const serviceName = title.replace(' API Integration', '').replace(' | Grove Web3 Infrastructure', '');
+    structuredData.push(
+      generateWebAPIData({
+        name: `${serviceName} API`,
+        description: description,
+        url: `https://docs.grove.city${pagePath}`,
+        provider: 'Grove',
+        category: 'Web3 Infrastructure',
+        offers: {
+          price: '0',
+          priceCurrency: 'USD',
+          availability: 'https://schema.org/InStock',
+        },
+      })
+    );
+  }
+
+  // Guide/How-to pages
+  else if (path.includes('/guides/') || path.includes('quickstart') || path.includes('getting-started')) {
+    structuredData.push(
+      generateHowToData({
+        name: title,
+        description: description,
+        steps: [
+          { name: 'Get Started', text: 'Follow the guide to get started with Grove infrastructure' },
+          { name: 'Configure', text: 'Configure your application with Grove services' },
+          { name: 'Deploy', text: 'Deploy your application with Grove infrastructure' },
+        ],
+        totalTime: 'PT10M',
+        difficulty: 'Beginner',
+      })
+    );
+  }
+
+  // FAQ pages
+  else if (path.includes('faq') || title.toLowerCase().includes('faq')) {
+    structuredData.push(
+      generateFAQData([
+        {
+          question: 'What is Grove?',
+          answer: 'Grove is enterprise infrastructure for public APIs, providing high-performance access to blockchains, LLMs, and privacy protocols.',
+        },
+        {
+          question: 'How do I get started with Grove?',
+          answer: 'Visit our getting started guide to learn how to integrate Grove infrastructure into your application.',
+        },
+      ])
+    );
+  }
+
+  // Default WebPage data for all pages
+  structuredData.push(
+    generateWebPageData({
+      name: title,
+      description: description,
+      url: `https://docs.grove.city${pagePath}`,
+      isPartOf: {
+        '@type': 'WebSite',
+        '@id': 'https://docs.grove.city',
+      },
+    })
+  );
+
+  return structuredData;
+}
