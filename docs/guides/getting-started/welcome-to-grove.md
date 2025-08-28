@@ -1,6 +1,8 @@
 ---
 sidebar_position: 1
 sidebar_label: Welcome to Grove
+# Make this the root doc so the left sidebar/menu shows
+slug: /
 title: Welcome to Grove - Enterprise Infrastructure for Public APIs
 description: Access high-performance permissionless infrastructure for blockchains, LLMs, and privacy protocols. Serving billions of requests daily for 60+ protocols.
 keywords: [blockchain infrastructure, decentralized RPC, web3 infrastructure, blockchain API, decentralized protocols, Pocket Network, blockchain scaling, web3 development, RPC provider, node infrastructure, blockchain gateway, DeFi infrastructure, permissionless network, Web3 API, blockchain node provider, decentralized infrastructure, LLM infrastructure, AI model access, privacy protocols, open protocols, machine learning API]
