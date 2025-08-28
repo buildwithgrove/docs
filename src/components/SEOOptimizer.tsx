@@ -1,7 +1,5 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Head from '@docusaurus/Head';
-import { useDoc } from '@docusaurus/plugin-content-docs/client';
-import { generatePageSpecificStructuredData } from '@site/src/utils/structuredData';
 
 interface SEOOptimizerProps {
   title?: string;
@@ -24,32 +22,17 @@ const SEOOptimizer: React.FC<SEOOptimizerProps> = ({
   noindex = false,
   children
 }) => {
-  // Try to get front-matter from the current doc page
-  let frontMatter = null;
-  let pagePath = '';
-  try {
-    const doc = useDoc();
-    frontMatter = doc?.frontMatter;
-    pagePath = doc?.metadata?.source || '';
-  } catch (error) {
-    // Not on a doc page, continue with props
-  }
-
   // Check if this is a preview deployment
   const isPreview = typeof process !== 'undefined' && process.env.VERCEL_ENV && process.env.VERCEL_ENV !== 'production';
   const shouldNoIndex = noindex || isPreview;
 
-  // Priority: front-matter > props > defaults
-  const finalTitle = frontMatter?.title || title;
-  const finalDescription = frontMatter?.description || description;
-  const finalKeywords = frontMatter?.keywords || keywords;
-  const finalImage = frontMatter?.image || ogImage;
-  const finalCanonical = frontMatter?.canonical || canonicalUrl;
-
-  // Generate page-specific structured data if not provided
-  const finalStructuredData = structuredData || (frontMatter && pagePath ?
-    generatePageSpecificStructuredData(frontMatter, pagePath, finalTitle, finalDescription) :
-    undefined);
+  // Use props directly
+  const finalTitle = title;
+  const finalDescription = description;
+  const finalKeywords = keywords;
+  const finalImage = ogImage;
+  const finalCanonical = canonicalUrl;
+  const finalStructuredData = structuredData;
 
 
 
