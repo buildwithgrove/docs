@@ -1,10 +1,18 @@
-import React, { useEffect } from "react"
+import React from "react"
 
 export default function Home(): JSX.Element {
-  useEffect(() => {
-    // window.location.href = '/category/introduction';
-    window.location.href = "guides/getting-started/welcome-to-grove"
-  }, [])
-
-  return <></>
+  return (
+    <div style={{
+      padding: '2rem',
+      textAlign: 'center',
+      minHeight: '50vh',
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'center',
+      alignItems: 'center'
+    }}>
+      <h1>Welcome to Grove Documentation</h1>
+      <p>Get started with Grove's documentation to build with enterprise infrastructure for public APIs.</p>
+    </div>
+  )
 }
