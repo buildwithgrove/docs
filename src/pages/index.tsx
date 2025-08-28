@@ -35,22 +35,6 @@ export default function Home(): JSX.Element {
         }}>
           <h1>Welcome to Grove Documentation</h1>
           <p>Get started with Grove's documentation to build with enterprise infrastructure for public APIs.</p>
-          <div style={{ marginTop: '2rem' }}>
-            <a 
-              href="guides/getting-started/welcome-to-grove"
-              style={{
-                display: 'inline-block',
-                padding: '12px 24px',
-                backgroundColor: '#389F58',
-                color: 'white',
-                textDecoration: 'none',
-                borderRadius: '6px',
-                fontWeight: '600'
-              }}
-            >
-              Get Started
-            </a>
-          </div>
         </div>
       </SEOOptimizer>
     </Layout>
