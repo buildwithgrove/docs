@@ -149,6 +149,74 @@ export function generateServiceData(data: ServiceData) {
   };
 }
 
+// Generate WebAPI structured data for RPC services
+export function generateWebAPIData(data: {
+  name: string;
+  description: string;
+  url: string;
+  provider: string;
+  category: string;
+  offers: {
+    price: string;
+    priceCurrency: string;
+    availability: string;
+  };
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebAPI',
+    name: data.name,
+    description: data.description,
+    url: data.url,
+    provider: {
+      '@type': 'Organization',
+      name: data.provider,
+    },
+    applicationCategory: data.category,
+    offers: {
+      '@type': 'Offer',
+      price: data.offers.price,
+      priceCurrency: data.offers.priceCurrency,
+      availability: data.offers.availability,
+    },
+  };
+}
+
+// Generate SoftwareApplication structured data
+export function generateSoftwareApplicationData(data: {
+  name: string;
+  description: string;
+  url: string;
+  provider: string;
+  applicationCategory: string;
+  operatingSystem: string;
+  offers: {
+    price: string;
+    priceCurrency: string;
+    availability: string;
+  };
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'SoftwareApplication',
+    name: data.name,
+    description: data.description,
+    url: data.url,
+    provider: {
+      '@type': 'Organization',
+      name: data.provider,
+    },
+    applicationCategory: data.applicationCategory,
+    operatingSystem: data.operatingSystem,
+    offers: {
+      '@type': 'Offer',
+      price: data.offers.price,
+      priceCurrency: data.offers.priceCurrency,
+      availability: data.offers.availability,
+    },
+  };
+}
+
 // Generate FAQ structured data
 export function generateFAQData(faqs: Array<{ question: string; answer: string }>) {
   return {

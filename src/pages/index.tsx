@@ -30,7 +30,7 @@ export default function Home(): JSX.Element {
           'permissionless network', 'Web3 API', 'blockchain node provider', 'decentralized infrastructure',
           'LLM infrastructure', 'AI model access', 'privacy protocols', 'open protocols', 'machine learning API'
         ]}
-        canonicalUrl="https://docs.grove.city"
+        canonicalUrl="https://docs.grove.city/"
         structuredData={structuredData}
       >
         <div style={{ padding: '2rem', textAlign: 'center' }}>

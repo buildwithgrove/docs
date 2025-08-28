@@ -17,11 +17,14 @@ const SEOOptimizer: React.FC<SEOOptimizerProps> = ({
   description,
   keywords = [],
   canonicalUrl,
-  ogImage = '/img/og-image.png',
+  ogImage = 'https://docs.grove.city/img/og-image.png',
   structuredData,
   noindex = false,
   children
 }) => {
+  // Check if this is a preview deployment
+  const isPreview = typeof process !== 'undefined' && process.env.VERCEL_ENV && process.env.VERCEL_ENV !== 'production';
+  const shouldNoIndex = noindex || isPreview;
   // Performance monitoring
   useEffect(() => {
     // Track page load performance
@@ -43,8 +46,11 @@ const SEOOptimizer: React.FC<SEOOptimizerProps> = ({
 
   // Generate meta keywords
   const defaultKeywords = [
-    'Web3', 'blockchain', 'RPC', 'API', 'decentralized', 'infrastructure',
-    'Pocket Network', 'Grove', 'cryptocurrency', 'DeFi', 'NFT', 'smart contracts'
+    'blockchain infrastructure', 'decentralized RPC', 'web3 infrastructure', 'blockchain API',
+    'decentralized protocols', 'Pocket Network', 'blockchain scaling', 'web3 development',
+    'RPC provider', 'node infrastructure', 'blockchain gateway', 'DeFi infrastructure',
+    'permissionless network', 'Web3 API', 'blockchain node provider', 'decentralized infrastructure',
+    'LLM infrastructure', 'AI model access', 'privacy protocols', 'open protocols', 'machine learning API'
   ];
   
   const allKeywords = [...new Set([...defaultKeywords, ...keywords])].join(', ');
@@ -59,7 +65,7 @@ const SEOOptimizer: React.FC<SEOOptimizerProps> = ({
         {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
         
         {/* Robots Meta */}
-        {noindex ? (
+        {shouldNoIndex ? (
           <meta name="robots" content="noindex, nofollow" />
         ) : (
           <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
@@ -69,7 +75,7 @@ const SEOOptimizer: React.FC<SEOOptimizerProps> = ({
         {title && <meta property="og:title" content={title} />}
         {description && <meta property="og:description" content={description} />}
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Grove Documentation" />
+        <meta property="og:site_name" content="Grove - Docs" />
         <meta property="og:image" content={ogImage} />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
@@ -84,7 +90,7 @@ const SEOOptimizer: React.FC<SEOOptimizerProps> = ({
         <meta name="twitter:creator" content="@grove_city" />
         
         {/* Additional SEO Meta Tags */}
-        <meta name="author" content="Grove Team" />
+        <meta name="author" content="Grove" />
         <meta name="theme-color" content="#000000" />
         <meta name="msapplication-TileColor" content="#000000" />
         

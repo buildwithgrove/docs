@@ -12,6 +12,11 @@ Disallow: /admin/
 Disallow: /private/
 Disallow: /api/
 
+# Block search result pages and tag indexes
+Disallow: /search
+Disallow: /tags/
+Disallow: /tag/
+
 # Allow all documentation pages
 Allow: /guides/
 Allow: /grove-api/

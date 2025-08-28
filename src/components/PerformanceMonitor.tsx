@@ -21,6 +21,13 @@ const PerformanceMonitor: React.FC<PerformanceMonitorProps> = ({
   onMetricsCollected,
   showMetrics = false
 }) => {
+  // Only load in production and client-side
+  const isProduction = typeof process !== 'undefined' && process.env.NODE_ENV === 'production';
+  const isClient = typeof window !== 'undefined';
+  
+  if (!isProduction || !isClient) {
+    return null;
+  }
   const [metrics, setMetrics] = useState<PerformanceMetrics | null>(null);
   const [isCollecting, setIsCollecting] = useState(true);
 
