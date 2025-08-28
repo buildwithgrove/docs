@@ -36,10 +36,10 @@ const config = {
       description: 'Access high-performance permissionless infrastructure for blockchains, LLMs, and privacy protocols. Serving billions of requests daily for 60+ protocols.',
       images: [
         {
-          url: 'https://grove.city/images/logo.svg',
+          url: 'https://docs.grove.city/img/logo.svg',
           width: 1200,
           height: 630,
-          alt: 'Grove Docs',
+          alt: 'Grove - Docs',
         },
       ],
     },
@@ -47,7 +47,7 @@ const config = {
       cardType: 'summary_large_image',
       title: 'Build with Grove - Docs for Enterprise Infrastructure for Public APIs',
       description: 'Access high-performance permissionless infrastructure for blockchains, LLMs, and privacy protocols. Serving billions of requests daily for 60+ protocols.',
-      image: 'https://grove.city/images/logo.svg',
+      image: 'https://docs.grove.city/img/logo.svg',
     },
   },
   stylesheets: ["https://fonts.googleapis.com/css?family=Inter:regular,500,600,700"],

@@ -17,7 +17,7 @@ const SEOOptimizer: React.FC<SEOOptimizerProps> = ({
   description,
   keywords = [],
   canonicalUrl,
-  ogImage = 'https://docs.grove.city/img/og-image.png',
+  ogImage = 'https://docs.grove.city/img/logo.svg',
   structuredData,
   noindex = false,
   children
@@ -37,9 +37,9 @@ const SEOOptimizer: React.FC<SEOOptimizerProps> = ({
           }
         }
       });
-      
+
       observer.observe({ entryTypes: ['navigation'] });
-      
+
       return () => observer.disconnect();
     }
   }, []);
@@ -52,7 +52,7 @@ const SEOOptimizer: React.FC<SEOOptimizerProps> = ({
     'permissionless network', 'Web3 API', 'blockchain node provider', 'decentralized infrastructure',
     'LLM infrastructure', 'AI model access', 'privacy protocols', 'open protocols', 'machine learning API'
   ];
-  
+
   const allKeywords = [...new Set([...defaultKeywords, ...keywords])].join(', ');
 
   return (
@@ -63,14 +63,14 @@ const SEOOptimizer: React.FC<SEOOptimizerProps> = ({
         {description && <meta name="description" content={description} />}
         <meta name="keywords" content={allKeywords} />
         {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
-        
+
         {/* Robots Meta */}
         {shouldNoIndex ? (
           <meta name="robots" content="noindex, nofollow" />
         ) : (
           <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
         )}
-        
+
         {/* Open Graph Meta Tags */}
         {title && <meta property="og:title" content={title} />}
         {description && <meta property="og:description" content={description} />}
@@ -80,7 +80,7 @@ const SEOOptimizer: React.FC<SEOOptimizerProps> = ({
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:locale" content="en_US" />
-        
+
         {/* Twitter Card Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
         {title && <meta name="twitter:title" content={title} />}
@@ -88,12 +88,12 @@ const SEOOptimizer: React.FC<SEOOptimizerProps> = ({
         <meta name="twitter:image" content={ogImage} />
         <meta name="twitter:site" content="@grove_city" />
         <meta name="twitter:creator" content="@grove_city" />
-        
+
         {/* Additional SEO Meta Tags */}
         <meta name="author" content="Grove" />
         <meta name="theme-color" content="#000000" />
         <meta name="msapplication-TileColor" content="#000000" />
-        
+
         {/* Structured Data */}
         {structuredData && (
           <script
@@ -103,13 +103,13 @@ const SEOOptimizer: React.FC<SEOOptimizerProps> = ({
             }}
           />
         )}
-        
+
         {/* Preconnect to external domains for performance */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://portal.grove.city" />
         <link rel="preconnect" href="https://grove.city" />
-        
+
         {/* DNS Prefetch for performance */}
         <link rel="dns-prefetch" href="//fonts.googleapis.com" />
         <link rel="dns-prefetch" href="//portal.grove.city" />
