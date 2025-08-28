@@ -2,9 +2,10 @@ import clsx from "clsx"
 import React, { useMemo } from "react"
 import useIsBrowser from "@docusaurus/useIsBrowser"
 import Layout from "@theme-original/DocRoot/Layout"
-import { Anchor, Box, Container, Group } from "@mantine/core"
+import { Box, Group } from "@mantine/core"
 import styles from "./DocRootLayout.module.css"
 import sidebars from "@site/sidebars"
+import Link from "@docusaurus/Link"
 
 export default function LayoutWrapper(props) {
   const isBrowser = useIsBrowser()
@@ -38,40 +39,37 @@ export default function LayoutWrapper(props) {
       <Box className={styles.subnav} px="md">
         <Group justify="flex-start">
           {mainLinks.map(([sidebarKey, sidebar]) => (
-            <Anchor
+            <Link
               key={sidebar[0].dirName}
-              px="xs"
-              href={sidebar[0].customProps.link}
               className={clsx(
                 styles.link,
                 path === sidebar[0].dirName && styles.linkActive,
               )}
+              to={sidebar[0].customProps.link}
             >
               {sidebar[0].customProps.label}
-            </Anchor>
+            </Link>
           ))}
-          <Anchor
-            px="xs"
-            href="/service-catalogue"
+          <Link
             className={clsx(
               styles.link,
               path === "service-catalogue" && styles.linkActive,
             )}
+            to="/service-catalogue"
           >
             Service Catalogue
-          </Anchor>
+          </Link>
           {exploreGroveLink && (
-            <Anchor
+            <Link
               key={exploreGroveLink[1][0].dirName}
-              px="xs"
-              href={exploreGroveLink[1][0].customProps.link}
               className={clsx(
                 styles.link,
                 path === exploreGroveLink[1][0].dirName && styles.linkActive,
               )}
+              to={exploreGroveLink[1][0].customProps.link}
             >
               {exploreGroveLink[1][0].customProps.label}
-            </Anchor>
+            </Link>
           )}
         </Group>
       </Box>
