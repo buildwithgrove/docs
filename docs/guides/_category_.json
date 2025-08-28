@@ -1,9 +1,0 @@
-{
-    "label": "Guides",
-    "position": 2,
-    "link": {
-        "type": "generated-index",
-        "slug": "/guides",
-        "description": "Guides for getting started with Grove and navigating the portal."
-    }
-}

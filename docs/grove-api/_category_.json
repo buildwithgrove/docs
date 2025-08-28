@@ -1,9 +1,0 @@
-{
-  "label": "Grove API",
-  "position": 3,
-  "link": {
-    "type": "generated-index",
-    "slug": "/grove-api",
-    "description": "Overview and API definitions for Grove."
-  }
-}

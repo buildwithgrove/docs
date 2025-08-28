@@ -12,7 +12,7 @@ let sidebars = {
       dirName: "guides",
       customProps: {
         label: "Guides",
-        link: "/guides/getting-started/welcome-to-grove",
+        link: "/", // root renders the Welcome doc
       },
     },
   ],
