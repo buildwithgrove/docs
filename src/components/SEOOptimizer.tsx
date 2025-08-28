@@ -47,8 +47,8 @@ const SEOOptimizer: React.FC<SEOOptimizerProps> = ({
   const finalCanonical = frontMatter?.canonical || canonicalUrl;
 
   // Generate page-specific structured data if not provided
-  const finalStructuredData = structuredData || (frontMatter && pagePath ? 
-    generatePageSpecificStructuredData(frontMatter, pagePath, finalTitle, finalDescription) : 
+  const finalStructuredData = structuredData || (frontMatter && pagePath ?
+    generatePageSpecificStructuredData(frontMatter, pagePath, finalTitle, finalDescription) :
     undefined);
 
   // Performance monitoring
