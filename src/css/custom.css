@@ -7,8 +7,7 @@
 /* Import service catalogue specific styles */
 @import './service-catalogue.css';
 
-/* Import AI SEO optimizations */
-@import './seo-optimizations.css';
+
 
 :root {
   --ifm-color-primary: #1f2327;
@@ -101,12 +100,15 @@ a.mantine-Button-root:hover {
   padding: 1rem;
   height: auto;
 }
+
 .navbar__item {
   position: relative;
 }
+
 .navbar__item:hover {
   color: var(--mantine-primary-color-filled);
 }
+
 .navbar__item.navbar__link--active:before,
 .navbar__item .navbar__link.active:before {
   content: "";
@@ -116,6 +118,7 @@ a.mantine-Button-root:hover {
   left: 0;
   bottom: -8px;
 }
+
 .navbar__items.navbar__items--right {
   flex-direction: row-reverse;
 }
@@ -160,24 +163,26 @@ nav.menu .menu__list {
   padding-left: 0;
 }
 
-nav.menu li > .menu__link {
+nav.menu li>.menu__link {
   font-size: 14px;
 }
 
-nav.menu li > .menu__link:not(.menu__link--active) {
+nav.menu li>.menu__link:not(.menu__link--active) {
   font-weight: 400;
 }
-nav.menu li > .menu__link.menu__link--active {
+
+nav.menu li>.menu__link.menu__link--active {
   font-weight: 600;
 }
 
-nav.menu li > .menu__list-item-collapsible {
+nav.menu li>.menu__list-item-collapsible {
   font-size: 12px;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-nav.menu li > .menu__list-item-collapsible .menu__link {
+
+nav.menu li>.menu__list-item-collapsible .menu__link {
   color: var(--mantine-color-gray-filled);
 }
 

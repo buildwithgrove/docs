@@ -51,24 +51,7 @@ const SEOOptimizer: React.FC<SEOOptimizerProps> = ({
     generatePageSpecificStructuredData(frontMatter, pagePath, finalTitle, finalDescription) :
     undefined);
 
-  // Performance monitoring
-  useEffect(() => {
-    // Track page load performance
-    if (typeof window !== 'undefined' && 'performance' in window) {
-      const observer = new PerformanceObserver((list) => {
-        for (const entry of list.getEntries()) {
-          if (entry.entryType === 'navigation') {
-            const navEntry = entry as PerformanceNavigationTiming;
-            console.log('Page Load Time:', navEntry.loadEventEnd - navEntry.loadEventStart);
-          }
-        }
-      });
 
-      observer.observe({ entryTypes: ['navigation'] });
-
-      return () => observer.disconnect();
-    }
-  }, []);
 
   // Generate meta keywords
   const defaultKeywords = [
@@ -130,10 +113,7 @@ const SEOOptimizer: React.FC<SEOOptimizerProps> = ({
           />
         )}
 
-        {/* Performance optimization links */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link rel="dns-prefetch" href="//www.google-analytics.com" />
+
       </Head>
       {children}
     </>
