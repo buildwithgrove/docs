@@ -8,11 +8,47 @@ const darkTheme = themes.dracula
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Grove: Web3 Infrastructure",
+  title: "Grove Documentation - Enterprise Infrastructure for Public APIs",
   favicon: "img/favicon.ico",
   // Enable mermaid diagrams support
   markdown: {
     mermaid: true,
+  },
+  // Custom fields for SEO
+  customFields: {
+    metadata: [
+      { name: 'keywords', content: 'blockchain infrastructure, decentralized RPC, web3 infrastructure, blockchain API, decentralized protocols, Pocket Network, blockchain scaling, web3 development, RPC provider, node infrastructure, blockchain gateway, DeFi infrastructure, permissionless network, Web3 API, blockchain node provider, decentralized infrastructure, LLM infrastructure, AI model access, privacy protocols, open protocols, machine learning API' },
+      { name: 'author', content: 'Grove' },
+      { name: 'robots', content: 'index, follow' },
+      { name: 'googlebot', content: 'index, follow' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1.0' },
+      { name: 'theme-color', content: '#000000' },
+      { name: 'msapplication-TileColor', content: '#000000' },
+      { name: 'apple-mobile-web-app-capable', content: 'yes' },
+      { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' },
+    ],
+    openGraph: {
+      type: 'website',
+      locale: 'en_US',
+      url: 'https://docs.grove.city',
+      siteName: 'Grove',
+      title: 'Build with Grove - Docs for Enterprise Infrastructure for Public APIs',
+      description: 'Access high-performance permissionless infrastructure for blockchains, LLMs, and privacy protocols. Serving billions of requests daily for 60+ protocols.',
+      images: [
+        {
+          url: 'https://docs.grove.city/img/logo.svg',
+          width: 1200,
+          height: 630,
+          alt: 'Grove - Docs',
+        },
+      ],
+    },
+    twitter: {
+      cardType: 'summary_large_image',
+      title: 'Build with Grove - Docs for Enterprise Infrastructure for Public APIs',
+      description: 'Access high-performance permissionless infrastructure for blockchains, LLMs, and privacy protocols. Serving billions of requests daily for 60+ protocols.',
+      image: 'https://docs.grove.city/img/logo.svg',
+    },
   },
   stylesheets: ["https://fonts.googleapis.com/css?family=Inter:regular,500,600,700"],
   themes: [
@@ -33,13 +69,15 @@ const config = {
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
+  // Trailing slash policy to prevent duplicate content
+  trailingSlash: false,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "pokt-foundation", // Usually your GitHub org/user name.
   projectName: "portal-platform-docs", // Usually your repo name.
 
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -49,7 +87,9 @@ const config = {
     defaultLocale: "en",
     locales: ["en"],
   },
-  plugins: ["./plugins/chain-endpoints"],
+  plugins: [
+    "./plugins/chain-endpoints",
+  ],
   presets: [
     [
       "classic",
