@@ -30,11 +30,12 @@ Mantle provides a robust blockchain platform for decentralized applications. Gro
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `5000` |
 | **Network Name** | Mantle |
 | **Native Token** | MNT |
+| **EVM Chain ID** | `5000` |
+| **Pocket Service ID** | `mantle` |
 | **Block Explorer** | [MantleScan](https://mantlescan.xyz) |
-| **Official Documentation** | [Mantle Docs](https://docs.mantle.xyz/) |
+| **Official Documentation** | [Mantle Docs](https://docs.mantle.xyz/network) |
 
 ## Supported API Methods
 

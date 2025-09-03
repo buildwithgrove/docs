@@ -30,10 +30,11 @@ Fantom provides a robust blockchain platform for decentralized applications. Gro
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `250` |
 | **Network Name** | Fantom |
 | **Native Token** | FTM |
-| **Block Explorer** | [FTMScan](https://ftmscan.com) |
+| **EVM Chain ID** | `250` |
+| **Pocket Service ID** | `fantom` |
+| **Block Explorer** | [Fantom Explorer](https://explorer.fantom.network/) |
 | **Official Documentation** | [Fantom Docs](https://docs.fantom.foundation/) |
 
 ## Supported API Methods

@@ -30,9 +30,10 @@ Oasys provides a robust blockchain platform for decentralized applications. Grov
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `248` |
 | **Network Name** | Oasys |
 | **Native Token** | OAS |
+| **EVM Chain ID** | `248` |
+| **Pocket Service ID** | `oasys` |
 | **Block Explorer** | [OasysExplorer](https://explorer.oasys.games) |
 | **Official Documentation** | [Oasys Docs](https://docs.oasys.games/) |
 

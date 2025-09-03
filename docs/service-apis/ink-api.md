@@ -30,11 +30,12 @@ Ink provides a robust blockchain platform for decentralized applications. Grove 
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `57073` |
 | **Network Name** | Ink |
 | **Native Token** | ETH |
-| **Block Explorer** | [Ink Explorer](https://explorer.ink.one) |
-| **Official Documentation** | [Ink Docs](https://docs.ink.one/) |
+| **EVM Chain ID** | `57073` |
+| **Pocket Service ID** | `ink` |
+| **Block Explorer** | [Ink Explorer](https://explorer.inkonchain.com/) |
+| **Official Documentation** | [Ink Docs](https://docs.inkonchain.com/) |
 
 ## Supported API Methods
 

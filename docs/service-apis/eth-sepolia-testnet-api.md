@@ -30,11 +30,12 @@ Eth-sepolia-testnet provides a robust blockchain platform for decentralized appl
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `TBD` |
-| **Network Name** | Eth-sepolia-testnet |
-| **Native Token** | TOKEN |
-| **Block Explorer** | [Explorer](#) |
-| **Official Documentation** | [Eth-sepolia-testnet Docs](#) |
+| **Network Name** | Ethereum Sepolia Testnet |
+| **Native Token** | ETH |
+| **EVM Chain ID** | `11155111` |
+| **Pocket Service ID** | `eth-sepolia-testnet` |
+| **Block Explorer** | [Sepolia Etherscan](https://sepolia.etherscan.io/) |
+| **Official Documentation** | [Ethereum Docs](https://ethereum.org/en/developers/docs/) |
 
 ## Supported API Methods
 

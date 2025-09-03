@@ -30,9 +30,9 @@ Radix is a full-stack, layer-1 smart contract platform offering a radically bett
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `mainnet` |
 | **Network Name** | Radix |
 | **Native Token** | XRD |
+| **Pocket Service ID** | `radix` |
 | **Block Explorer** | [Radix Explorer](https://dashboard.radixdlt.com) |
 | **Official Documentation** | [Radix Docs](https://docs.radixdlt.com/) |
 

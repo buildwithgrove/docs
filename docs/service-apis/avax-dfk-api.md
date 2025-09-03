@@ -30,11 +30,12 @@ Avalanche DFK Subnet provides a robust blockchain platform for decentralized app
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `53935` |
 | **Network Name** | Avalanche DFK Subnet |
 | **Native Token** | JEWEL |
-| **Block Explorer** | [DFK Subnet Explorer](https://subnets.avax.network/defi-kingdoms) |
-| **Official Documentation** | [Avalanche DFK Subnet Docs](https://docs.avax.network/) |
+| **EVM Chain ID** | `53935` |
+| **Pocket Service ID** | `avax-dfk` |
+| **Block Explorer** | [DFK Subnet Explorer](https://avascan.info/blockchain/dfk/home) |
+| **Official Documentation** | [Avalanche DFK Subnet Docs](https://docs.defikingdoms.com/) |
 
 ## Supported API Methods
 

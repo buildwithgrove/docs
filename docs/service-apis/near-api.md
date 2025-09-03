@@ -30,10 +30,10 @@ NEAR is a decentralized application platform designed to make apps usable on the
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `near` |
 | **Network Name** | NEAR Protocol |
 | **Native Token** | NEAR |
-| **Block Explorer** | [NEAR Explorer](https://nearblocks.io) |
+| **Pocket Service ID** | `near` |
+| **Block Explorer** | [NEAR Explorer (PIKESPEAK)](https://pikespeak.ai/) |
 | **Official Documentation** | [NEAR Protocol Docs](https://docs.near.org/) |
 
 ## Supported APIs

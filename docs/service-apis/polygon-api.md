@@ -30,9 +30,10 @@ Polygon provides a robust blockchain platform for decentralized applications. Gr
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `137` |
 | **Network Name** | Polygon |
-| **Native Token** | MATIC |
+| **Native Token** | POL |
+| **EVM Chain ID** | `137` |
+| **Pocket Service ID** | `poly` |
 | **Block Explorer** | [PolygonScan](https://polygonscan.com) |
 | **Official Documentation** | [Polygon Docs](https://docs.polygon.technology/) |
 

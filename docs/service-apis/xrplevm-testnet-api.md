@@ -30,11 +30,12 @@ The XRP Ledger (XRPL) is The Blockchain Built for Business. The XRPL is a decent
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `1440001` |
 | **Network Name** | XRPL EVM Testnet |
 | **Native Token** | XRP |
-| **Block Explorer** | [XRPL EVM Testnet Explorer](https://test.bithomp.com) |
-| **Official Documentation** | [XRPL EVM Testnet Docs](https://xrpl.org/evm-sidechain.html) |
+| **Cosmos Chain ID** | `xrplevm_1449000-1` |
+| **Pocket Service ID** | `xrplevm-testnet` |
+| **Block Explorer** | [XRPL EVM Testnet Explorer](https://explorer.testnet.xrplevm.org/) |
+| **Official Documentation** | [XRPL EVM Testnet Docs](https://docs.xrplevm.org) |
 
 ## Supported APIs
 

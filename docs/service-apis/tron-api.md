@@ -30,9 +30,10 @@ TRON is an ambitious project dedicated to the establishment of a truly decentral
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `mainnet` |
 | **Network Name** | TRON |
 | **Native Token** | TRX |
+| **EVM Chain ID** | `728126428` |
+| **Pocket Service ID** | `tron` |
 | **Block Explorer** | [TRONSCAN](https://tronscan.org) |
 | **Official Documentation** | [TRON Docs](https://developers.tron.network/) |
 

@@ -30,9 +30,10 @@ Moonbeam provides a robust blockchain platform for decentralized applications. G
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `1284` |
 | **Network Name** | Moonbeam |
 | **Native Token** | GLMR |
+| **EVM Chain ID** | `1284` |
+| **Pocket Service ID** | `moonbeam` |
 | **Block Explorer** | [Moonscan](https://moonscan.io) |
 | **Official Documentation** | [Moonbeam Docs](https://docs.moonbeam.network/) |
 

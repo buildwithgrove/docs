@@ -30,9 +30,10 @@ Taiko Hekla Testnet provides a robust blockchain platform for decentralized appl
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `167009` |
 | **Network Name** | Taiko Hekla Testnet |
-| **Native Token** | ETH |
+| **Native Token** | TAIKO |
+| **EVM Chain ID** | `167009` |
+| **Pocket Service ID** | `taiko-hekla-testnet` |
 | **Block Explorer** | [Taiko Hekla Explorer](https://hekla.taikoscan.io) |
 | **Official Documentation** | [Taiko Hekla Testnet Docs](https://docs.taiko.xyz/) |
 

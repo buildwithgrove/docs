@@ -30,9 +30,10 @@ Sei Network provides a robust blockchain platform for decentralized applications
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `1329` |
 | **Network Name** | Sei Network |
 | **Native Token** | SEI |
+| **EVM Chain ID** | `1329` |
+| **Pocket Service ID** | `sei` |
 | **Block Explorer** | [Sei Explorer](https://seitrace.com) |
 | **Official Documentation** | [Sei Network Docs](https://docs.sei.io/) |
 

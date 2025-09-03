@@ -30,9 +30,10 @@ Osmosis provides a robust blockchain platform for decentralized applications. Gr
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `osmosis-1` |
 | **Network Name** | Osmosis |
 | **Native Token** | OSMO |
+| **Cosmos Chain ID** | `osmosis-1` |
+| **Pocket Service ID** | `osmosis` |
 | **Block Explorer** | [Mintscan](https://www.mintscan.io/osmosis) |
 | **Official Documentation** | [Osmosis Docs](https://docs.osmosis.zone/) |
 

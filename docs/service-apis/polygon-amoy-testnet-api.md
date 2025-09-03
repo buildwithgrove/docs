@@ -30,10 +30,11 @@ Polygon Amoy Testnet provides a robust blockchain platform for decentralized app
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `80002` |
 | **Network Name** | Polygon Amoy Testnet |
-| **Native Token** | MATIC |
-| **Block Explorer** | [Polygon Amoy Explorer](https://amoy.polygonscan.com) |
+| **Native Token** | POL |
+| **EVM Chain ID** | `80002` |
+| **Pocket Service ID** | `poly-amoy-testnet` |
+| **Block Explorer** | [Polygon Amoy Explorer](https://amoy.polygonscan.com/) |
 | **Official Documentation** | [Polygon Amoy Testnet Docs](https://docs.polygon.technology/) |
 
 ## Supported API Methods

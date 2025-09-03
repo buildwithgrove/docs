@@ -30,9 +30,10 @@ Kaia provides a robust blockchain platform for decentralized applications. Grove
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `8217` |
 | **Network Name** | Kaia |
 | **Native Token** | KAIA |
+| **EVM Chain ID** | `8217` |
+| **Pocket Service ID** | `kaia` |
 | **Block Explorer** | [KaiaScan](https://kaiascan.io) |
 | **Official Documentation** | [Kaia Docs](https://docs.kaia.io/) |
 

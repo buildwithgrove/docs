@@ -30,9 +30,10 @@ Harmony provides a robust blockchain platform for decentralized applications. Gr
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `1666600000` |
 | **Network Name** | Harmony |
 | **Native Token** | ONE |
+| **EVM Chain ID** | `1666600000` |
+| **Pocket Service ID** | `harmony` |
 | **Block Explorer** | [Harmony Explorer](https://explorer.harmony.one) |
 | **Official Documentation** | [Harmony Docs](https://docs.harmony.one/) |
 

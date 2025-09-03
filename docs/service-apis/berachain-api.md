@@ -30,10 +30,11 @@ Berachain provides a robust blockchain platform for decentralized applications. 
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `80085` |
 | **Network Name** | Berachain |
 | **Native Token** | BERA |
-| **Block Explorer** | [BerachainScan](https://artio.beratrail.io) |
+| **EVM Chain ID** | `80085` |
+| **Pocket Service ID** | `bera` |
+| **Block Explorer** | [Beratrail](https://beratrail.io) |
 | **Official Documentation** | [Berachain Docs](https://docs.berachain.com/) |
 
 ## Supported API Methods

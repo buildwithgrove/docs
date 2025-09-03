@@ -30,9 +30,10 @@ Gnosis Chain provides a robust blockchain platform for decentralized application
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `100` |
 | **Network Name** | Gnosis Chain |
 | **Native Token** | xDAI |
+| **EVM Chain ID** | `100` |
+| **Pocket Service ID** | `gnosis` |
 | **Block Explorer** | [GnosisScan](https://gnosisscan.io) |
 | **Official Documentation** | [Gnosis Chain Docs](https://docs.gnosischain.com/) |
 

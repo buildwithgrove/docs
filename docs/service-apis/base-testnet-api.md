@@ -30,9 +30,10 @@ Base Sepolia Testnet provides a robust blockchain platform for decentralized app
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `84532` |
 | **Network Name** | Base Sepolia Testnet |
 | **Native Token** | ETH |
+| **Chain ID** | `84532` |
+| **Pocket Service ID** | `base-sepolia-testnet` |
 | **Block Explorer** | [BaseScan Sepolia](https://sepolia.basescan.org) |
 | **Official Documentation** | [Base Sepolia Testnet Docs](https://docs.base.org/) |
 

@@ -30,11 +30,12 @@ opBNB provides a robust blockchain platform for decentralized applications. Grov
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `204` |
 | **Network Name** | opBNB |
 | **Native Token** | BNB |
+| **EVM Chain ID** | `204` |
+| **Pocket Service ID** | `opbnb` |
 | **Block Explorer** | [opBNBScan](https://opbnbscan.com) |
-| **Official Documentation** | [opBNB Docs](https://docs.bnbchain.org/opbnb/) |
+| **Official Documentation** | [opBNB Docs](https://docs.bnbchain.org/opbnb/overview) |
 
 ## Supported API Methods
 

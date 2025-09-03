@@ -30,9 +30,10 @@ BNB Smart Chain provides a robust blockchain platform for decentralized applicat
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `56` |
 | **Network Name** | BNB Smart Chain |
 | **Native Token** | BNB |
+| **EVM Chain ID** | `56` |
+| **Pocket Service ID** | `bsc` |
 | **Block Explorer** | [BscScan](https://bscscan.com) |
 | **Official Documentation** | [BNB Smart Chain Docs](https://docs.bnbchain.org/) |
 

@@ -30,9 +30,10 @@ Base provides a robust blockchain platform for decentralized applications. Grove
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `8453` |
 | **Network Name** | Base |
 | **Native Token** | ETH |
+| **EVM Chain ID** | `8453` |
+| **Pocket Service ID** | `base` |
 | **Block Explorer** | [BaseScan](https://basescan.org) |
 | **Official Documentation** | [Base Docs](https://docs.base.org/) |
 

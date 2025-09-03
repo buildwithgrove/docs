@@ -30,11 +30,12 @@ Sonic provides a robust blockchain platform for decentralized applications. Grov
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `146` |
 | **Network Name** | Sonic |
 | **Native Token** | S |
+| **EVM Chain ID** | `146` |
+| **Pocket Service ID** | `sonic` |
 | **Block Explorer** | [Sonic Explorer](https://sonicscan.org) |
-| **Official Documentation** | [Sonic Docs](https://docs.sonic.game/) |
+| **Official Documentation** | [Sonic Docs](https://docs.soniclabs.com/) |
 
 ## Supported API Methods
 

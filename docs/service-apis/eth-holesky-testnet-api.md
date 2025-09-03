@@ -30,11 +30,12 @@ Eth-holesky-testnet provides a robust blockchain platform for decentralized appl
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `TBD` |
-| **Network Name** | Eth-holesky-testnet |
-| **Native Token** | TOKEN |
-| **Block Explorer** | [Explorer](#) |
-| **Official Documentation** | [Eth-holesky-testnet Docs](#) |
+| **Network Name** | Ethereum Holesky Testnet |
+| **Native Token** | ETH |
+| **EVM Chain ID** | `17000` |
+| **Pocket Service ID** | `eth-holesky-testnet` |
+| **Block Explorer** | [Holesky Etherscan](https://holesky.etherscan.io/) |
+| **Official Documentation** | [Ethereum Docs](https://ethereum.org/en/developers/docs/) |
 
 ## Supported API Methods
 
