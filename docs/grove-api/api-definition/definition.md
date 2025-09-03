@@ -177,6 +177,6 @@ The Portal has a **10 second** timeout limit, so large or excessive data pulls m
 The Grove Portal limits user requests to **100,000 log lines** in a request. If you encounter issues when requesting log lines, please reduce the amount of data requested and try again.
 
 ### Other Considerations
-The Grove Portal is built on the decentralized Pocket Network and does not require any level of client specificity or client configuration. The [PATH]() toolkit ensures that you are given the best and fastest response provided by the Pocket Network. This evaluation is made in real-time for your requests.
+The Grove Portal is built on the decentralized Pocket Network and does not require any level of client specificity or client configuration. The [PATH](https://path.grove.city/) toolkit ensures that you are given the best and fastest response provided by the Pocket Network. This evaluation is made in real-time for your requests.
 
 If a specific request fails, often times retrying the request can yield an improved result.
