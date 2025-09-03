@@ -30,9 +30,10 @@ Kava EVM provides a robust blockchain platform for decentralized applications. G
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `2222` |
 | **Network Name** | Kava EVM |
 | **Native Token** | KAVA |
+| **EVM Chain ID** | `2222` |
+| **Pocket Service ID** | `kava` |
 | **Block Explorer** | [Kava Explorer](https://kavascan.com) |
 | **Official Documentation** | [Kava EVM Docs](https://docs.kava.io/) |
 

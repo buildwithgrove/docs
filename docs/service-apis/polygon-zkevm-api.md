@@ -30,9 +30,10 @@ Polygon zkEVM provides a robust blockchain platform for decentralized applicatio
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `1101` |
 | **Network Name** | Polygon zkEVM |
-| **Native Token** | ETH |
+| **Native Token** | POL |
+| **EVM Chain ID** | `1101` |
+| **Pocket Service ID** | `poly-zkevm` |
 | **Block Explorer** | [Polygon zkEVM Explorer](https://zkevm.polygonscan.com) |
 | **Official Documentation** | [Polygon zkEVM Docs](https://docs.polygon.technology/zkEVM/) |
 

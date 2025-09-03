@@ -30,11 +30,12 @@ Fraxtal provides a robust blockchain platform for decentralized applications. Gr
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `252` |
 | **Network Name** | Fraxtal |
-| **Native Token** | frxETH |
+| **Native Token** | FRAX |
+| **EVM Chain ID** | `252` |
+| **Pocket Service ID** | `fraxtal` |
 | **Block Explorer** | [FraxScan](https://fraxscan.com) |
-| **Official Documentation** | [Fraxtal Docs](https://docs.frax.finance/) |
+| **Official Documentation** | [Fraxtal Docs](https://docs.frax.com/fraxtal) |
 
 ## Supported API Methods
 

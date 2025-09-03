@@ -30,9 +30,10 @@ Taiko provides a robust blockchain platform for decentralized applications. Grov
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `167000` |
 | **Network Name** | Taiko |
-| **Native Token** | ETH |
+| **Native Token** | TAIKO |
+| **EVM Chain ID** | `167000` |
+| **Pocket Service ID** | `taiko` |
 | **Block Explorer** | [TaikoScan](https://taikoscan.io) |
 | **Official Documentation** | [Taiko Docs](https://docs.taiko.xyz/) |
 

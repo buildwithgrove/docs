@@ -30,9 +30,10 @@ zkLink Nova provides a robust blockchain platform for decentralized applications
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `810180` |
 | **Network Name** | zkLink Nova |
-| **Native Token** | ETH |
+| **Native Token** | ZKL |
+| **EVM Chain ID** | `810180` |
+| **Pocket Service ID** | `zklink-nova` |
 | **Block Explorer** | [zkLink Nova Explorer](https://explorer.zklink.io) |
 | **Official Documentation** | [zkLink Nova Docs](https://docs.zklink.io/) |
 

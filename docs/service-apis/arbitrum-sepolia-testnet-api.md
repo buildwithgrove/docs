@@ -30,9 +30,10 @@ Arbitrum Sepolia Testnet provides a robust blockchain platform for decentralized
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `421614` |
 | **Network Name** | Arbitrum Sepolia Testnet |
-| **Native Token** | ETH |
+| **Native Token** | ARB |
+| **EVM Chain ID** | `421614` |
+| **Pocket Service ID** | `arb-sepolia-testnet` |
 | **Block Explorer** | [Arbiscan Sepolia](https://sepolia.arbiscan.io) |
 | **Official Documentation** | [Arbitrum Sepolia Testnet Docs](https://docs.arbitrum.io/) |
 

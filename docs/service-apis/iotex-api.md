@@ -30,9 +30,10 @@ IoTeX provides a robust blockchain platform for decentralized applications. Grov
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `4689` |
 | **Network Name** | IoTeX |
 | **Native Token** | IOTX |
+| **EVM Chain ID** | `4689` |
+| **Pocket Service ID** | `iotex` |
 | **Block Explorer** | [IoTeXScan](https://iotexscan.io) |
 | **Official Documentation** | [IoTeX Docs](https://docs.iotex.io/) |
 

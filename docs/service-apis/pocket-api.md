@@ -30,9 +30,10 @@ Pocket Network is a decentralized infrastructure protocol dedicated to empowerin
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `mainnet` |
 | **Network Name** | Pocket Network |
 | **Native Token** | POKT |
+| **Cosmos Chain ID** | `pocket` |
+| **Pocket Service ID** | `pocket` |
 | **Block Explorer** | [POKTScan](https://poktscan.com) |
 | **Official Documentation** | [Pocket Network Docs](https://docs.pokt.network/) |
 

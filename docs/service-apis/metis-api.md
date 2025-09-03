@@ -30,11 +30,12 @@ Metis provides a robust blockchain platform for decentralized applications. Grov
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `TBD` |
 | **Network Name** | Metis |
-| **Native Token** | TOKEN |
-| **Block Explorer** | [Explorer](#) |
-| **Official Documentation** | [Metis Docs](#) |
+| **Native Token** | METIS |
+| **EVM Chain ID** | `1088` |
+| **Pocket Service ID** | `metis` |
+| **Block Explorer** | [Metis Explorer](https://metisscan.info/) |
+| **Official Documentation** | [Metis Docs](https://docs.metis.io/hyperion) |
 
 ## Supported API Methods
 

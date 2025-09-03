@@ -30,9 +30,10 @@ Celo provides a robust blockchain platform for decentralized applications. Grove
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `42220` |
 | **Network Name** | Celo |
 | **Native Token** | CELO |
+| **EVM Chain ID** | `42220` |
+| **Pocket Service ID** | `celo` |
 | **Block Explorer** | [CeloScan](https://celoscan.io) |
 | **Official Documentation** | [Celo Docs](https://docs.celo.org/) |
 

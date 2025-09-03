@@ -30,9 +30,10 @@ Linea provides a robust blockchain platform for decentralized applications. Grov
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `59144` |
 | **Network Name** | Linea |
 | **Native Token** | ETH |
+| **EVM Chain ID** | `59144` |
+| **Pocket Service ID** | `linea` |
 | **Block Explorer** | [LineaScan](https://lineascan.build) |
 | **Official Documentation** | [Linea Docs](https://docs.linea.build/) |
 

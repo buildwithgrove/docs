@@ -30,9 +30,10 @@ Scroll provides a robust blockchain platform for decentralized applications. Gro
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `534352` |
 | **Network Name** | Scroll |
 | **Native Token** | ETH |
+| **EVM Chain ID** | `534352` |
+| **Pocket Service ID** | `scroll` |
 | **Block Explorer** | [ScrollScan](https://scrollscan.com) |
 | **Official Documentation** | [Scroll Docs](https://docs.scroll.io/) |
 

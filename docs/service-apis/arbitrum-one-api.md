@@ -30,9 +30,10 @@ Arbitrum One provides a robust blockchain platform for decentralized application
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `42161` |
 | **Network Name** | Arbitrum One |
-| **Native Token** | ETH |
+| **Native Token** | ARB |
+| **EVM Chain ID** | `42161` |
+| **Pocket Service ID** | `arb-one` |
 | **Block Explorer** | [Arbiscan](https://arbiscan.io) |
 | **Official Documentation** | [Arbitrum One Docs](https://docs.arbitrum.io/) |
 

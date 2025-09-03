@@ -30,9 +30,10 @@ zkSync Era provides a robust blockchain platform for decentralized applications.
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `324` |
 | **Network Name** | zkSync Era |
 | **Native Token** | ETH |
+| **EVM Chain ID** | `324` |
+| **Pocket Service ID** | `zksync-era` |
 | **Block Explorer** | [zkSync Era Explorer](https://explorer.zksync.io) |
 | **Official Documentation** | [zkSync Era Docs](https://docs.zksync.io/) |
 

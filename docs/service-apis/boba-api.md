@@ -30,9 +30,10 @@ Boba Network provides a robust blockchain platform for decentralized application
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `288` |
 | **Network Name** | Boba Network |
-| **Native Token** | ETH |
+| **Native Token** | BOBA |
+| **EVM Chain ID** | `288` |
+| **Pocket Service ID** | `boba` |
 | **Block Explorer** | [Bobascan](https://bobascan.com) |
 | **Official Documentation** | [Boba Network Docs](https://docs.boba.network/) |
 

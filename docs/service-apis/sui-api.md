@@ -30,9 +30,9 @@ Sui is a next-generation smart contract platform with high throughput, low laten
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `mainnet` |
 | **Network Name** | Sui Network |
 | **Native Token** | SUI |
+| **Pocket Service ID** | `sui` |
 | **Block Explorer** | [SuiScan](https://suiscan.xyz) |
 | **Official Documentation** | [Sui Network Docs](https://docs.sui.io/) |
 

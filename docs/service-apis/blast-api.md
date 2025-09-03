@@ -30,9 +30,10 @@ Blast provides a robust blockchain platform for decentralized applications. Grov
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `81457` |
 | **Network Name** | Blast |
 | **Native Token** | ETH |
+| **EVM Chain ID** | `81457` |
+| **Pocket Service ID** | `blast` |
 | **Block Explorer** | [BlastScan](https://blastscan.io) |
 | **Official Documentation** | [Blast Docs](https://docs.blast.io/) |
 

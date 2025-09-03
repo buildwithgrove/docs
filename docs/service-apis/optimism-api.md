@@ -30,9 +30,10 @@ Optimism provides a robust blockchain platform for decentralized applications. G
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `10` |
 | **Network Name** | Optimism |
-| **Native Token** | ETH |
+| **Native Token** | OP |
+| **EVM Chain ID** | `10` |
+| **Pocket Service ID** | `op` |
 | **Block Explorer** | [Optimistic Etherscan](https://optimistic.etherscan.io) |
 | **Official Documentation** | [Optimism Docs](https://docs.optimism.io/) |
 

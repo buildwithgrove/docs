@@ -30,9 +30,10 @@ Ethereum is the world's leading smart contract platform, enabling decentralized 
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `1` |
 | **Network Name** | Ethereum Mainnet |
 | **Native Token** | ETH |
+| **EVM Chain ID** | `1` |
+| **Pocket Service ID** | `eth` |
 | **Block Explorer** | [Etherscan](https://etherscan.io) |
 | **Official Documentation** | [Ethereum Developer Docs](https://ethereum.org/en/developers/docs/) |
 

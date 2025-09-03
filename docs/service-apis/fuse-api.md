@@ -30,9 +30,10 @@ Fuse Network provides a robust blockchain platform for decentralized application
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `122` |
 | **Network Name** | Fuse Network |
 | **Native Token** | FUSE |
+| **EVM Chain ID** | `122` |
+| **Pocket Service ID** | `fuse` |
 | **Block Explorer** | [Fuse Explorer](https://explorer.fuse.io) |
 | **Official Documentation** | [Fuse Network Docs](https://docs.fuse.io/) |
 

@@ -31,9 +31,9 @@ Solana is a high-performance blockchain supporting builders creating crypto apps
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `101` (Mainnet) |
-| **Network Name** | Solana Mainnet |
+| **Network Name** | Solana |
 | **Native Token** | SOL |
+| **Pocket Service ID** | `solana` |
 | **Block Explorer** | [Solscan](https://solscan.io) |
 | **Official Documentation** | [Solana Developer Docs](https://docs.solana.com/) |
 

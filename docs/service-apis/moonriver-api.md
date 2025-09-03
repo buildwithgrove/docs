@@ -30,9 +30,10 @@ Moonriver provides a robust blockchain platform for decentralized applications. 
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `1285` |
 | **Network Name** | Moonriver |
 | **Native Token** | MOVR |
+| **EVM Chain ID** | `1285` |
+| **Pocket Service ID** | `moonriver` |
 | **Block Explorer** | [Moonriver Moonscan](https://moonriver.moonscan.io) |
 | **Official Documentation** | [Moonriver Docs](https://docs.moonbeam.network/) |
 

@@ -30,9 +30,10 @@ Optimism Sepolia Testnet provides a robust blockchain platform for decentralized
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `11155420` |
 | **Network Name** | Optimism Sepolia Testnet |
-| **Native Token** | ETH |
+| **Native Token** | OP |
+| **EVM Chain ID** | `11155420` |
+| **Pocket Service ID** | `op-sepolia-testnet` |
 | **Block Explorer** | [Optimism Sepolia Explorer](https://sepolia-optimism.etherscan.io) |
 | **Official Documentation** | [Optimism Sepolia Testnet Docs](https://docs.optimism.io/) |
 

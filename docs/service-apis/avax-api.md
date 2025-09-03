@@ -30,11 +30,12 @@ Avalanche provides a robust blockchain platform for decentralized applications. 
 
 | Property | Value |
 |----------|-------|
-| **Chain ID** | `43114` |
 | **Network Name** | Avalanche |
 | **Native Token** | AVAX |
+| **EVM Chain ID** | `43114` |
+| **Pocket Service ID** | `avax` |
 | **Block Explorer** | [Snowtrace](https://snowtrace.io) |
-| **Official Documentation** | [Avalanche Docs](https://docs.avax.network/) |
+| **Official Documentation** | [Avalanche Docs](https://build.avax.network/docs) |
 
 ## Supported API Methods
 
