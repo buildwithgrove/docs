@@ -168,8 +168,8 @@ Coming soon!
 
 ## Recommendations and Considerations
 
-### Data Size
-The Grove Portal does not have any hard caps on data size, however, optimization can help to ensure successful responses. 
+### Data Size and Timeouts
+The Grove Portal caps request and response size at **100MB**, however, optimization can help to ensure successful responses. 
 
 The Portal has a **10 second** timeout limit, so large or excessive data pulls may fail to return. If you encounter this issue, we recommend reducing the amount of data requested wherever possible and retrying the request.
 
