@@ -1,14 +1,14 @@
 ---
 title: "Fetch.ai Network API Integration | Grove Web3 Infrastructure"
 description: "Complete Fetch.ai Network RPC API documentation for developers. Fast, reliable Fetch.ai Network blockchain access with Grove's enterprise infrastructure. Get started in minutes."
-keywords: [fetch, fet, rpc, api, blockchain, web3, grove, infrastructure, developers, integration, cosmos, ai]
+keywords: [fetch, fet, asi, artifical superintelligence, asi alliance, rpc, api, blockchain, web3, grove, infrastructure, developers, integration, cosmos, ai]
 sidebar_position: 1
 sidebar_label: fetch
 slug: /service-apis/fetch-api
 canonical_url: https://docs.grove.city/service-apis/fetch-api
 ---
 
-# Fetch.ai Network API Integration
+# Fetch.ai Network (ASI Alliance) API Integration
 
 <div style={{background: "linear-gradient(135deg, #4c51bf 0%, #805ad5 100%)", color: "white", padding: "1.5rem", borderRadius: "8px", margin: "1rem 0"}}>
   <h2 style={{color: "white", marginTop: 0}}>🚀 Quick Start</h2>
