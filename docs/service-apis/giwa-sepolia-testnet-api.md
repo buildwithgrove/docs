@@ -1,25 +1,30 @@
 ---
-title: "Giwa Sepolia Testnet API Integration | Grove Web3 Infrastructure"
-description: "Complete Giwa Sepolia Testnet RPC API documentation for developers. Fast, reliable Giwa-sepolia-testnet blockchain access with Grove's enterprise infrastructure. Get started in minutes."
-keywords: [giwa-sepolia-testnet, token, rpc, api, blockchain, web3, grove, infrastructure, developers, integration, layer2, ethereum, sepolia]
+title: "GIWA Sepolia Testnet API Integration | Grove Web3 Infrastructure"
+description: "Complete GIWA Sepolia Testnet RPC API documentation for developers. Fast, reliable GIWA Sepolia Testnet blockchain access with Grove's enterprise infrastructure. Get started in minutes."
+keywords: [giwa-sepolia-testnet, token, rpc, api, blockchain, web3, grove, infrastructure, developers, integration, layer2, ethereum, sepolia, GIWA]
 sidebar_position: 1
 sidebar_label: giwa-sepolia-testnet
 slug: /service-apis/giwa-sepolia-testnet-api
 canonical_url: https://docs.grove.city/service-apis/giwa-sepolia-testnet-api
 ---
 
-# Giwa Sepolia Testnet API Integration
+# GIWA Sepolia Testnet API Integration
 
 <div style={{background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)", color: "white", padding: "1.5rem", borderRadius: "8px", margin: "1rem 0"}}>
   <h2 style={{color: "white", marginTop: 0}}>🚀 Quick Start</h2>
-  <p style={{marginBottom: 0, fontSize: "1.1rem"}}>Connect to Giwa Sepolia Testnet in under 5 minutes with Grove's enterprise-grade infrastructure.</p>
+  <p style={{marginBottom: 0, fontSize: "1.1rem"}}>Connect to GIWA Sepolia Testnet in under 5 minutes with Grove's enterprise-grade infrastructure.</p>
 </div>
 
 ## Overview
+In Korean traditional architecture, a GIWA (roof tile) may seem small on its own — but when combined with many others, it creates a structure that is strong, scalable, and enduring. In the same way, GIWA aims to become a foundation where countless builders and ideas come together to form a resilient and thriving Web3 ecosystem.
 
-Giwa Sepolia Testnet is a Layer 2 network connected to Ethereum Sepolia, designed for safely testing smart contracts, transactions, and wallet integrations. Grove delivers enterprise-grade Giwa Sepolia Testnet RPC access with guaranteed uptime, global edge network, and developer-first tooling.
+The GIWA chain is an open Layer 2 that belongs to no single entity and is accessible to everyone.
 
-### Why Choose Grove for Giwa Sepolia Testnet?
+This vision goes beyond technical implementation — it’s about creating a foundation where more builders and users can scale together. For developers in Korea, GIWA aims to open up broader opportunities, and for the global ecosystem, it strives to be a Layer 2 where everyone can grow together.
+
+Grove delivers enterprise-grade GIWA Sepolia Testnet RPC access with guaranteed uptime, global edge network, and developer-first tooling.
+
+### Why Choose Grove for GIWA Sepolia Testnet?
 
 - ⚡ **Ultra-fast response times** - Sub-300ms latency globally
 - 📈 **Unlimited RPS and Unlimited relays** - From Prototype to Production seamlessly
@@ -81,7 +86,7 @@ const network = {
 
 ## Performance & Reliability
 
-Grove's Giwa Sepolia Testnet infrastructure delivers:
+Grove's GIWA Sepolia Testnet infrastructure delivers:
 
 - **Response Time**: < 100ms average globally
 - **Uptime**: 99.9% SLA guarantee  
@@ -92,7 +97,7 @@ Grove's Giwa Sepolia Testnet infrastructure delivers:
 
 ### 📚 Essential Links
 - [Grove API Documentation](../grove-api/overview/grove-api)
-- [Giwa Official Docs](https://docs.giwa.io)
+- [GIWA Official Docs](https://docs.giwa.io)
 - [Network Status](https://status.grove.city)
 - [Developer Discord](https://discord.gg/build-with-grove)
 
@@ -108,12 +113,12 @@ Grove's Giwa Sepolia Testnet infrastructure delivers:
 
 1. **Sign up** for a Grove account at [portal.grove.city](https://portal.grove.city)
 2. **Create** a new application and get your API key
-3. **Configure** your endpoints with Giwa Sepolia Testnet
+3. **Configure** your endpoints with GIWA Sepolia Testnet
 4. **Start building** with our comprehensive documentation
 
 ## Testing & Development
 
-Giwa Sepolia Testnet is perfect for:
+GIWA Sepolia Testnet is perfect for:
 - 🧪 **Smart Contract Testing** - Deploy and test contracts safely
 - 🔄 **Transaction Testing** - Test wallet integrations and transactions
 - 🌐 **dApp Development** - Build and iterate on decentralized applications
@@ -124,5 +129,5 @@ Free test ETH is available for development purposes through the network's faucet
 ---
 
 <div style={{background: "#f8f9fa", padding: "1rem", borderLeft: "4px solid #007bff", margin: "1rem 0"}}>
-  <strong>Need help?</strong> Our developer success team is here to help you integrate Giwa Sepolia Testnet quickly and efficiently. <a href="mailto:portal@grove.city">Contact us</a> or join our <a href="https://discord.gg/build-with-grove">Discord community</a>.
+  <strong>Need help?</strong> Our developer success team is here to help you integrate GIWA Sepolia Testnet quickly and efficiently. <a href="mailto:portal@grove.city">Contact us</a> or join our <a href="https://discord.gg/build-with-grove">Discord community</a>.
 </div>
