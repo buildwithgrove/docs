@@ -32,6 +32,7 @@ const chains: ChainRow[] = [
   { name: 'Fetch.ai Network', blockchain: 'fetch', category: 'non-EVM' },
   { name: 'Fraxtal', blockchain: 'fraxtal', category: 'EVM' },
   { name: 'Fuse Network', blockchain: 'fuse', category: 'EVM' },
+  { name: 'Giwa Sepolia Testnet', blockchain: 'giwa-sepolia-testnet', category: 'EVM' },
   { name: 'Gnosis Chain', blockchain: 'gnosis', category: 'EVM' },
   { name: 'Harmony', blockchain: 'harmony', category: 'EVM' },
   { name: 'Ink', blockchain: 'ink', category: 'EVM' },
