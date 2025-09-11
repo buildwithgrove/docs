@@ -39,12 +39,10 @@ Base Sepolia Testnet provides a robust blockchain platform for decentralized app
 
 ## Supported API Methods
 
-### 🔌 JSON-RPC API
-Access the complete Base Sepolia Testnet RPC specification with full method support.
-
-| Method Category | Description | Documentation |
-|-----------------|-------------|---------------|
-| **Standard RPC** | Core blockchain methods | [View Methods](../grove-api/api-definition/definition#json-rpc-supported-methods) |
+| API | Documentation |
+| --- | ------------- |
+| **JSON-RPC** | [view spec](../grove-api/api-definition/definition#json-rpc-supported-methods) |
+| **Websockets** | [view spec](../grove-api/api-definition/definition#websockets) |
 
 ## Integration Examples
 

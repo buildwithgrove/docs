@@ -37,14 +37,12 @@ BNB Smart Chain provides a robust blockchain platform for decentralized applicat
 | **Block Explorer** | [BscScan](https://bscscan.com) |
 | **Official Documentation** | [BNB Smart Chain Docs](https://docs.bnbchain.org/) |
 
-## Supported API Methods
+## Supported APIs
 
-### 🔌 JSON-RPC API
-Access the complete BNB Smart Chain RPC specification with full method support.
-
-| Method Category | Description | Documentation |
-|-----------------|-------------|---------------|
-| **Standard RPC** | Core blockchain methods | [View Methods](../grove-api/api-definition/definition#json-rpc-supported-methods) |
+| API | Documentation |
+| --- | ------------- |
+| **JSON-RPC** | [view spec](../grove-api/api-definition/definition#json-rpc-supported-methods) |
+| **Websockets** | [view spec](../grove-api/api-definition/definition#websockets) |
 
 ## Integration Examples
 

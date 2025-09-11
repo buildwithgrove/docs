@@ -37,14 +37,12 @@ Base provides a robust blockchain platform for decentralized applications. Grove
 | **Block Explorer** | [BaseScan](https://basescan.org) |
 | **Official Documentation** | [Base Docs](https://docs.base.org/) |
 
-## Supported API Methods
+## Supported APIs
 
-### 🔌 JSON-RPC API
-Access the complete Base RPC specification with full method support.
-
-| Method Category | Description | Documentation |
-|-----------------|-------------|---------------|
-| **Standard RPC** | Core blockchain methods | [View Methods](../grove-api/api-definition/definition#json-rpc-supported-methods) |
+| API | Documentation |
+| --- | ------------- |
+| **JSON-RPC** | [view spec](../grove-api/api-definition/definition#json-rpc-supported-methods) |
+| **Websockets** | [view spec](../grove-api/api-definition/definition#websockets) |
 
 ## Integration Examples
 
