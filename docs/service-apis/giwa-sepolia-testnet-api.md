@@ -39,8 +39,8 @@ Grove delivers enterprise-grade GIWA Sepolia Testnet RPC access with guaranteed 
 | **Native Token** | ETH |
 | **EVM Chain ID** | `91342` |
 | **Pocket Service ID** | `giwa-sepolia-testnet` |
-| **Block Explorer** | [Giwa Sepolia Explorer](https://sepolia-explorer.giwa.io) |
-| **Official Documentation** | [Giwa Documentation](https://docs.giwa.io) |
+| **Block Explorer** | [GIWA Sepolia Explorer](https://sepolia-explorer.giwa.io) |
+| **Official Documentation** | [GIWA Documentation](https://docs.giwa.io) |
 
 ## Supported APIs
 
