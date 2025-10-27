@@ -1,4 +1,6 @@
-# ⚠️⚠️⚠️ As of **2025-10-27** this repository is archived and the documentation for the Grove Portal has been moved into [https://github.com/buildwithgrove/website](https://github.com/buildwithgrove/website) ⚠️⚠️⚠️ 
+# ⚠️⚠️⚠️ ARCHIVED REPOSITORY ⚠️⚠️⚠️ 
+As of **2025-10-27** this repository is archived and the documentation for the Grove Portal has been moved into [`https://github.com/buildwithgrove/website`](https://github.com/buildwithgrove/website)
+You can visit the new docs site at [`https://grove.city/docs`](https://grove.city/docs)
 
 # Grove Documentation <!-- omit in toc -->
 
