@@ -1,3 +1,5 @@
+# ⚠️⚠️⚠️ As of **2025-10-27** this repository is archived and the documentation for the Grove Portal has been moved into [https://github.com/buildwithgrove/website](https://github.com/buildwithgrove/website) ⚠️⚠️⚠️ 
+
 # Grove Documentation <!-- omit in toc -->
 
 This website is built using [Docusaurus 2](https://docusaurus.io/) and deployed to [docs.grove.city](https://docs.grove.city/guides/getting-started/welcome-to-grove).
